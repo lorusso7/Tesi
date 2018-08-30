@@ -1,0 +1,6 @@
+<script type="text/javascript" src="https://root.cern.ch/js/latest/scripts/JSRootCore.js?gui"></script>
+<div id="simpleGUI" path="./" files="
+c_hwwhm_13TeV_sfVBF_ee_mTi.root;
+cratio_hwwhm_13TeV_sfVBF_ee_mTi.root;
+cdifference_hwwhm_13TeV_sfVBF_ee_mTi.root;
+ "></div>                                 "

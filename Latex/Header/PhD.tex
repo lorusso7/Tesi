@@ -1,0 +1,135 @@
+% !TeX encoding = UTF-8
+% !TeX program = pdflatex
+% !TeX spellcheck = en_US
+
+\documentclass[PhD,binding=0.6cm]{../sapthesis}
+
+\usepackage{microtype}
+% if you write in italian:
+%\usepackage[italian]{babel}
+\usepackage[utf8]{inputenx}
+
+\usepackage{hyperref}
+\hypersetup{pdftitle={High mass Higgs boson particle seraching },pdfauthor={Lorenzo Russo}}
+
+% Remove in a normal thesis
+\usepackage{lipsum}
+\usepackage{curve2e}
+\definecolor{gray}{gray}{0.4}
+
+\usepackage{subfigure}
+\usepackage{xspace}
+\usepackage{new_command}
+
+
+% Commands for the titlepage
+\title{High mass Higgs boson particle seraching}
+
+
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+%\dedication{ \textsc{Memento Avdere Semper \\}   \vspace*{2mm} -G. D'Annunzio}
+\dedication{ dedica a ...}
+
+\begin{abstract}
+
+\lipsum[1-2]
+
+\end{abstract}
+
+\begin{acknowledgments}[Ringraziamenti]
+
+\lipsum[1-2]
+
+\end{acknowledgments}
+
+\tableofcontents
+
+% Do not use the starred version of the chapter command!
+\chapter{Introduction}
+
+\lipsum[1-2]
+
+
+\mainmatter
+
+
+{\input{../Cap1/cap1.tex}} 
+
+{\input{../Cap2/cap2.tex}} 
+
+{\input{../Cap3/cap3.tex}} 
+
+{\input{../Cap4/cap4.tex}} 
+
+{\input{../Cap5/cap5.tex}} 
+{\input{../Cap5/AnalysisStrategy.tex}}
+{\input{../Cap5/AnalysisOF.tex}}
+{\input{../Cap5/AnalysisSF.tex}}
+
+
+{\input{../Cap6/cap6.tex}} 
+
+
+\appendix
+\chapter{Special commands }
+
+
+%396\, cm\\
+%In Fig.~\ref{fig:layout}\\
+%\textsf{sapthesis} page layout is shown.\\
+%etc\ldots\\
+% 
+%\begin{equation}
+%x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+%\end{equation}
+% 
+%\lipsum[1-2]
+% 
+%\texttt{\bs maketitle}
+% 
+% Tab.~\ref{tab:letters}
+% 
+% 
+% 
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.7\textwidth]{LOGO_UNISI}\\[3ex]
+%\includegraphics[width=0.7\textwidth]{LOGO_UNISI}
+%\caption{Logo.}
+%\label{fig:layout}
+%\end{figure}
+% 
+% 
+%\begin{table}
+%\caption{This is a simple table.}
+%\label{tab:letters}
+%\centering
+%\begin{tabular}{lcc}
+%\toprule
+%Letter & Test & Test \\
+%\midrule
+%A & C & E \\
+%B & D & F \\
+%\bottomrule
+%\end{tabular}
+%\end{table}
+% 
+%In the following dummy text you can observe the usage of \texttt{\bs mnote} command which typesets fancy margin notes.
+%\textcolor{gray}{\lipsum}
+%\marginpar{This is a fancy margin note!}
+%\textcolor{gray}{\lipsum}
+
+%\backmatter
+% bibliography
+%\cleardoublepage
+%\phantomsection
+\bibliographystyle{unsrt} % BibTeX style
+\bibliography{AN-17-243} % BibTeX database without .bib extension
+
+\end{document}

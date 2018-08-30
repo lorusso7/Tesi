@@ -1,0 +1,177 @@
+\documentclass[a4paper,12pt,openright,twoside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{epsfig}
+\usepackage{textcomp}
+\usepackage{epstopdf}
+\usepackage{emptypage}
+\usepackage{rotating}
+\usepackage{fancyhdr}
+\usepackage[italian]{babel}
+
+\usepackage{multirow}
+\usepackage{multicol}
+
+%\hyphenation{casa}
+\usepackage[font=small,labelfont={rm,bf}, textfont=rm]{caption}
+\newcommand{\un}[1]{\ensuremath{\mathrm{\,#1}}} %per lo spazio tra valori e le unità di misura, esempio di utilizzo: $100\un{km/h}$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Do not change these:
+%\textwidth=6.0in  \textheight=9.00in
+
+%%  Adjust these for your printer:
+%\leftmargin=-0.3in   \topmargin=-0.20in
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  personal abbreviations and macros
+%    the following package contains macros used in this document:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  To include an item in the INDEX of the conference volume,
+%           flag it with    \index{<item name>}
+%  The use of this macro is illtustrated in the text.
+
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{ amsfonts}
+\usepackage{amsmath}
+\usepackage[italian]{babel}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{esdiff}
+\usepackage{comment}
+\usepackage{textcomp}
+%\usepackage{stmaryrd}
+\usepackage{cancel}
+\usepackage{subfigure}
+
+
+
+
+
+
+
+
+\begin{document}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[RE]{\bfseries\footnotesize\nouppercase{\leftmark}}
+\fancyhead[LO]{\bfseries\footnotesize\nouppercase{\rightmark}}
+\addtolength{\headheight}{15pt}
+
+\thispagestyle{empty}
+
+\begin{titlepage}
+  %\vspace*{0.5cm}
+  \begin{center}
+    \begin{minipage}{\textwidth}
+      \noindent\begin{minipage}{0.4\textwidth}%
+      \includegraphics[width=1.\textwidth]{logo}%
+    \end{minipage}%
+    \hfill
+    \noindent\begin{minipage}{0.4\textwidth}
+      \begin{flushright}
+      {\bf
+        Scuola di \\
+        Scienze Matematiche \\ 
+        Fisiche e Naturali \\
+      }
+      Corso di Laurea Magistrale Scienze Fisiche e Astrofisiche\\
+      
+      \end{flushright}
+    \end{minipage}
+  \end{minipage}
+  \vspace*{1.5cm}
+  \vfill
+  \begin{minipage}{0.7\textwidth}
+  \begin{flushleft}
+      {\large {\bf Prospettive di misura}} \\
+    \vspace*{0.2cm}
+    {\large {\bf del decadimento $H\rightarrow WW\rightarrow2l+2\nu$}} \\
+    \vspace*{0.2cm}
+    {\large {\bf  a 13 TeV con il rivelatore CMS}} \\
+    \vspace*{1cm}
+    {\large {\bf Expected performance }} \\
+    \vspace*{0.2cm}
+   {\large {\bf for $H\rightarrow WW\rightarrow2l+2\nu$ decay }} \\
+   \vspace*{0.2cm}
+    {\large {\bf at 13 TeV with the CMS detector}} \\
+    %\vspace*{0.5cm}
+    \vspace*{2cm}
+    \begin{tabular}{l l}
+      {\large \bf{Relatore}}: & {\large {\bf }}\\
+      {\large Prof. Vitaliano Ciulli } & {\large {\bf }}\\
+      \\
+      \\
+%      {\large \bf{Correlatore}}: & {\large{\bf }}\\
+%      {\large Dott. Piergiulio Lenzi} & {\large {\bf }}\\
+      \\
+      \\
+      {\large \bf{Candidato}}: & {\large{\bf }}\\
+      {\large Lorenzo Russo} & {\large {\bf }}\\
+\\
+\\
+{\large \bf{Anno Accademico}}: & {\large 2014/2015{\bf }}\\
+      {\large } & {\large {\bf }}\\
+    \end{tabular}
+    \vfill
+  \end{flushleft} 
+ 
+  \end{minipage}
+  \end{center}
+\end{titlepage}
+
+
+
+%----------------------------------------------------------------------------------------
+
+%\tableofcontents
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+\thispagestyle{empty}
+\phantom{a}
+%\newpage
+%\thispagestyle{empty}
+\linespread{1.28}
+
+\fontsize{4mm}{5mm}\selectfont
+%\thispagestyle{empty}
+\phantom{a}
+%\thispagestyle{empty}
+
+
+
+
+\newcommand{\aMC}{Madgraph\_aMC@NLO }
+
+\tableofcontents
+\addcontentsline{toc}{chapter}{Introduzione}
+\markboth{Introduzione}{Introduzione}
+
+{\input{intro.tex}}
+{\input{LHCBis.tex}}
+{\input{MC2Bis.tex}}
+{\input{HbosonBis.tex}}
+{\input{ricostruzioneBis.tex}}
+{\input{analisiBis.tex}}
+{\input{conclusioni.tex}}
+\addcontentsline{toc}{chapter}{Conclusioni}
+\markboth{Conclusioni}{Conclusioni}
+\appendix
+%{\input{appendiceA}}
+\include{appendiceA}
+%\appendix
+
+\bibliographystyle{unsrt}
+%\bibliography{bibliographi}
+\renewcommand{\thepage}{}
+
+\bibliography{bibliography}
+
+
+{\input{ringraziamenti.tex}}
+\end{document}

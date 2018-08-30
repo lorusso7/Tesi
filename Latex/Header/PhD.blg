@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: PhD.aux
+The style file: unsrt.bst
+Database file #1: AN-17-243.bib
+Unbalanced braces---line 48 of file AN-17-243.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Illegal end of database file---line 1130 of file AN-17-243.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty author in CMS-PAS-HIG-16-023
+Warning--empty journal in AN-17-082
+Warning--empty year in AN-17-082
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            458 strings with 3942 characters,
+and the built_in function-call counts, 355 in all, are:
+= -- 27
+> -- 6
+< -- 1
++ -- 4
+- -- 1
+* -- 16
+:= -- 55
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 20
+empty$ -- 45
+format.name$ -- 1
+if$ -- 78
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 1
+newline$ -- 15
+num.names$ -- 1
+pop$ -- 14
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 11
+stack$ -- 0
+substring$ -- 0
+swap$ -- 2
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 1
+width$ -- 4
+write$ -- 26
+(There were 2 error messages)

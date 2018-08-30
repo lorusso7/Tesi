@@ -1,0 +1,198 @@
+% !TeX encoding = UTF-8
+% !TeX program = pdflatex
+% !TeX spellcheck = en_US
+
+\documentclass[PhD,binding=0.6cm]{../sapthesis}
+
+\usepackage{microtype}
+% if you write in italian:
+%\usepackage[italian]{babel}
+\usepackage[utf8]{inputenx}
+
+\usepackage{hyperref}
+\hypersetup{pdftitle={High mass Higgs boson particle seraching },pdfauthor={Lorenzo Russo}}
+
+% Remove in a normal thesis
+\usepackage{lipsum}
+\usepackage{curve2e}
+\definecolor{gray}{gray}{0.4}
+
+\usepackage{xspace}
+
+
+\newcommand{\bs}{\textbackslash}
+
+\newcommand{\mth}{\ensuremath{m_\mathrm{T}^\mathrm{H}}~}
+\newcommand{\mt}{\ensuremath{m_\mathrm{T}}~}
+\newcommand{\usedlumi}{\ensuremath{2.3\ifb}}
+\newcommand{\fb}{\ensuremath{\mathrm{fb}}}
+\newcommand{\pb}{\ensuremath{\mathrm{pb}}}
+\newcommand{\ifb}{\ensuremath{\mathrm{fb^{-1}}}}
+\newcommand{\ipb}{\ensuremath{\mathrm{pb^{-1}}}}
+\newcommand{\WW}{\ensuremath{\mathrm{WW~}}}
+\newcommand{\W}{\ensuremath{\mathrm{W~}}}
+\newcommand{\F}{\ensuremath{\cmsSymbolFace{F}}}
+\newcommand{\V}{\ensuremath{\cmsSymbolFace{V}}\xspace}
+\newcommand{\VVV}{\cmsSymbolFace{VVV}\xspace}
+\newcommand{\Wjets}{\ensuremath{\PW\text{+jets}}\xspace}
+\newcommand{\X}{\ensuremath{\cmsSymbolFace{X}}\xspace}
+\newcommand{\delphill}{\ensuremath{\Delta\phi_{\ell\ell}}}
+\newcommand{\delphillmet}{\ensuremath{\Delta\phi(\ell\ell,\VEtmiss)}}
+\newcommand{\dyll}{\ensuremath{\cPZ/\gamma^*\to \ell^+\ell^-}\xspace}
+\newcommand{\dymm}{\ensuremath{\cPZ/\gamma^*\to\Pgmp\Pgmm}}
+\newcommand{\dytt}{\ensuremath{\cPZ/\gamma^* \to\tau^+\tau^-}}
+\newcommand{\jp}{\ensuremath{J^{P}}\xspace}
+\newcommand{\mll}{\ensuremath{m_{\ell\ell}}\xspace}
+\providecommand{\mt}{\ensuremath{m_\mathrm{T}}\xspace}
+\newcommand{\psvectorKD}{\ensuremath{\mathcal{D}_{1^-}}\xspace}
+\newcommand{\ptl}{\ensuremath{p_\perp^{\ell}}\xspace}
+\newcommand{\ptll}{\ensuremath{\pt^{\ell\ell}}\xspace}
+\newcommand{\qq}{\ensuremath{\Pq\Pq}\xspace}
+\newcommand{\superKD}{\ensuremath{\mathcal{D}_\text{bkg}} }
+\newcommand{\tw}{\ensuremath{\cPqt\PW}\xspace}
+\newcommand{\vectorKD}{\ensuremath{\mathcal{D}_{1^+}} }
+\newcommand{\wgamma}{\ensuremath{\PW\gamma}\xspace}
+\newcommand{\mjj}{\ensuremath{m_{jj}}\xspace}
+
+\newcommand{\pt}{\ensuremath{p_{T}} \xspace}
+
+% Commands for the titlepage
+\title{High mass Higgs boson particle seraching}
+
+
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+%\dedication{ \textsc{Memento Avdere Semper \\}   \vspace*{2mm} -G. D'Annunzio}
+\dedication{ dedica a ...}
+
+\begin{abstract}
+
+\lipsum[1-2]
+
+\end{abstract}
+
+\begin{acknowledgments}[Ringraziamenti]
+
+\lipsum[1-2]
+
+\end{acknowledgments}
+
+\tableofcontents
+
+% Do not use the starred version of the chapter command!
+\chapter{Introduction}
+AAA, \bs, BB, \mjj CCC, \pt DD,
+\lipsum[1-2]
+
+
+\mainmatter
+
+
+{\input{../Cap1/cap1.tex}} \clearpage
+
+{\input{../Cap2/cap2.tex}} \clearpage
+
+{\input{../Cap3/cap3.tex}} \clearpage
+
+{\input{../Cap4/cap4.tex}} \clearpage
+
+{\input{../Cap5/cap5.tex}} \clearpage
+{\input{../Cap5/AnalysisStrategy.tex}}
+
+{\input{../Cap6/cap6.tex}} \clearpage
+
+
+\appendix
+\chapter{Special commands }
+
+
+396\, cm\\
+In Fig.~\ref{fig:layout}\\
+\textsf{sapthesis} page layout is shown.\\
+etc\ldots\\
+
+\begin{equation}
+x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+\end{equation}
+
+\lipsum[1-2]
+
+\texttt{\bs maketitle}
+
+ Tab.~\ref{tab:letters}
+
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{LOGO_UNISI}\\[3ex]
+\includegraphics[width=0.7\textwidth]{LOGO_UNISI}
+\caption{Logo.}
+\label{fig:layout}
+\end{figure}
+
+
+\begin{table}
+\caption{This is a simple table.}
+\label{tab:letters}
+\centering
+\begin{tabular}{lcc}
+\toprule
+Letter & Test & Test \\
+\midrule
+A & C & E \\
+B & D & F \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+
+\textsf{Sapthesis} provides some special commands, particularly useful for scientific works. You can use for example the roman shape, instead of the italic, for the imaginary unit (\texttt{\bs iu}) and Napier's number (\texttt{\bs eu}):
+\begin{equation}
+\eu^{\iu\pi}+1=0
+\end{equation}
+
+There are also two commands to speed up the writing of derivatives. In the following example we have used the commands \texttt{\bs der} and \texttt{\bs pder}):
+\begin{equation}
+\der{f}{x} \qquad \pder{f}{*{2}{y}}
+\end{equation}
+
+
+\textsf{Sapthesis} provides also 4 commands to improve the writing of subscripts, \texttt{\bs rb} and \texttt{\bs tb}, and superscripts, \texttt{\bs rp} and \texttt{\bs tp}. Two of these commands, \texttt{\bs rb} and \texttt{\bs rp}, can be used both in text and in math mode and compose their argument in roman. The other two, \texttt{\bs tb} and \texttt{\bs tp}, can be used only in text mode and compose their argument as are. Here it is an usage example of \texttt{\bs rb} and \texttt{\bs rp}:
+\[
+a_b \neq a\rb{b}\qquad a^b \neq a\rp{b}
+\]
+And here it is an usage example of \texttt{\bs tb}: \emph{Cu\tb{It} indicates copper bought in Italy}. And a usage example of \texttt{\bs ts}: \emph{Cher G\tp{le} Napol\'eon}.
+
+
+Then several commands for the correct typesetting of unit of measurements are provided. For example the command \texttt{\bs un} typesets its argument in roman and leaves a thin space between the number and the unit: $25\un{m}$, $3.5\un{m/s}$. Other commands are: (\texttt{\bs g}) 45\g, (\texttt{\bs C}) 30\,\C, (\texttt{\bs A}) 12\,\A, (\texttt{\bs micro}) 40\,\micro m, (\texttt{\bs ohm}) 27\,\ohm. 
+
+We have also \texttt{\bs x} as abbreviation of \texttt{\bs times}: \texttt{\$7 \bs x 10\^{}5\$} gives $7 \x 10^5$. Then \texttt{\bs di} is the differential symbol which automatically insert the correct spacing.
+\[
+\int x \di x
+\]
+
+Finally we have defined the color \textsf{sapred} which is the official color
+of Sapienza -- University of Rome. It is defined as RGB(130,36,51). \textcolor{sapred}{This text is written with the color \textsf{sapred}.}
+
+In the following dummy text you can observe the usage of \texttt{\bs mnote} command which typesets fancy margin notes.
+
+\textcolor{gray}{\lipsum}
+\marginpar{This is a fancy margin note!}
+\textcolor{gray}{\lipsum}
+
+\backmatter
+% bibliography
+%\cleardoublepage
+%\phantomsection
+%\bibliographystyle{sapthesis} % BibTeX style
+%\bibliography{bibliography} % BibTeX database without .bib extension
+
+\end{document}
