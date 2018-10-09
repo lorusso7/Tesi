@@ -1,60 +1,93 @@
 This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: PhD.aux
+White space in argument---line 46 of file PhD.aux
+ : \citation{Sjostrand:
+ :                      2006su}
+I'm skipping whatever remains of this command
+White space in argument---line 54 of file PhD.aux
+ : \citation{Altarelli:
+ :                      1977zs}
+I'm skipping whatever remains of this command
+White space in argument---line 58 of file PhD.aux
+ : \citation{bib:
+ :                lenzi}
+I'm skipping whatever remains of this command
+White space in argument---line 65 of file PhD.aux
+ : \citation{Sjostrand:
+ :                      2006su}
+I'm skipping whatever remains of this command
+White space in argument---line 72 of file PhD.aux
+ : \citation{bib:
+ :                pdg}
+I'm skipping whatever remains of this command
+White space in argument---line 76 of file PhD.aux
+ : \citation{Cacciari:
+ :                     2008gp}
+I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
-Unbalanced braces---line 48 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 59 of file AN-17-243.bib
+ : 
+ : @techreport{CMS-PAS-HIG-16-023,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 76 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1130 of file AN-17-243.bib
+Illegal end of database file---line 1158 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--empty author in CMS-PAS-HIG-16-023
-Warning--empty journal in AN-17-082
-Warning--empty year in AN-17-082
-You've used 3 entries,
+Warning--I didn't find a database entry for "bib:Markov"
+Warning--I didn't find a database entry for "bib:madgraph"
+Warning--I didn't find a database entry for "ripesamento"
+Warning--I didn't find a database entry for "ripesamento2"
+Warning--I didn't find a database entry for "ckkw"
+Warning--I didn't find a database entry for "ckkw2"
+Warning--empty journal in Sjostrand:2006su
+You've used 2 entries,
             1791 wiz_defined-function locations,
-            458 strings with 3942 characters,
-and the built_in function-call counts, 355 in all, are:
-= -- 27
-> -- 6
-< -- 1
-+ -- 4
-- -- 1
-* -- 16
-:= -- 55
+            465 strings with 3775 characters,
+and the built_in function-call counts, 372 in all, are:
+= -- 31
+> -- 12
+< -- 0
++ -- 5
+- -- 3
+* -- 19
+:= -- 68
 add.period$ -- 6
-call.type$ -- 3
-change.case$ -- 3
+call.type$ -- 2
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 20
-empty$ -- 45
-format.name$ -- 1
-if$ -- 78
+cite$ -- 3
+duplicate$ -- 17
+empty$ -- 38
+format.name$ -- 3
+if$ -- 79
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 1
-newline$ -- 15
-num.names$ -- 1
-pop$ -- 14
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 2
+pop$ -- 6
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 11
+skip$ -- 7
 stack$ -- 0
-substring$ -- 0
-swap$ -- 2
-text.length$ -- 1
+substring$ -- 21
+swap$ -- 1
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 1
-width$ -- 4
-write$ -- 26
-(There were 2 error messages)
+warning$ -- 1
+while$ -- 3
+width$ -- 3
+write$ -- 22
+(There were 9 error messages)

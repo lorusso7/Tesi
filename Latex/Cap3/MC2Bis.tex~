@@ -1,52 +1,50 @@
-
-\chapter{Generatori Monte Carlo}
+\chapter{Monte Carlo Generators}
 \thispagestyle{empty}
 
-Come abbiamo visto nelle collisioni fra protoni di alta energia,  sono generalmente presenti, nello stato finale, centinaia di particelle. 
-Data la complessità degli eventi è necessario l'uso di generatori Monte Carlo, ovvero di  programmi che permettono di simulare il risultato realistico delle collisioni assumendo un certo modello per i processi coinvolti e che sono oggetto dello  studio.
-L'uso dei generatori Monte Carlo si rende necessario perché è impossibile predire  \textit{a priori} che cosa accade evento-per-evento: infatti, come noto, in meccanica quantistica   si può calcolare solo la probabilità di avere un certo risultato.
-La  simulazione di un evento viene effettuata a passi successivi \cite{Sjostrand:2006su, Buckley:2011ms}, come schematizzato in Fig. \ref{general}, suddividendo in tal modo il problema in più parti di complessità inferiore.
+
+As we have seen in the collisions between high energy protons, hundreds of particles are generally present in the final state.
+Given the complexity of the events it is necessary to use Monte Carlo generators, i.e. programs that allow to simulate the realistic result of the collisions assuming a certain model for the processes involved and which are the object of the study.
+The use of Monte Carlo generators is necessary because it is impossible to predict \textit{a priori} what happens event-by-event: in fact, as we know, in quantum mechanics we can only calculate the probability of having a certain result.
+The simulation of an event is carried out in successive steps \cite{Sjostrand: 2006su, Buckley: 2011ms}, as schematized in Fig. \Ref{general}, thus subdividing the problem into several parts of lower complexity.
+
+
 \begin{figure}
 \centering
-\includegraphics[scale= 1]{generalMC}
-\caption{\textit{Rappresentazione schematica di un evento generato all'interno di un generatore di eventi. I partoni provenienti dai protoni indicenti partecipano sia all'hard process sia alle interazioni multiple. Successivamente si ha l'adronizzazione.}}
+\includegraphics[scale= 1]{../Cap3/Fig_MC/generalMC}
+\caption{Schematic representation of an event generated within an event generator. The partons coming from the protons indicative participate in both the hard process and multiple interactions. Subsequently there is an hadronization.}
 \label{general}
 \end{figure}
-I vari passaggi sono qui riassunti:
+The various steps are summarized here:
 \begin{itemize}
-\item \textit{Hard process}: i protoni incidenti sono costituiti da partoni (\textit{quark} e gluoni) e l'\textit{hard process} consiste in una  collisione fra due partoni, provenienti da adroni differenti.
-%, come nel caso di produzione del bosone di Higgs prodotto dalla fusione di due gluoni: $gg \rightarrow h^0$. 
-L'elemento di matrice del processo è  calcolabile in modo perturbativo e spesso  viene calcolato solo l'ordine perturbativo più basso detto \textit{leading order }(LO).
-\item \textit{Parton shower}: i partoni, entranti o uscenti, che partecipano all'\textit{hard process} possono emettere gluoni:  infatti in analogia con l'interazione elettromagnetica,  una particella con carica di colore accelerata   può irradiare per \textit{bremsstrahlung}.
-I gluoni a loro volta possono produrre coppie \textit{quark-antiquark} generando così  sciami di partoni o \textit{parton shower}. 
-%Nell'evoluzione del \textit{parton shower} si ha dunque l'emissione di partoni aggiuntivi che possono essere emessi sia i modo collineare, rispetto al partone uscente, sia in modo \textit{soft}. 
-L'emissione di partoni aggiuntivi avviene principalmente in modo collineare rispetto al partone iniziale e ad energie progressivamente minori.
-Nello stato finale si avrà  un insieme di partoni, detto \textit{jet}, localizzato in zona collineare al partone iniziale.
-%, che trasporta la gran parte dell'energia del    \textit{parton shower}. 
-Questo processo probabilistico può essere simulato  come  un processo di Markov \cite{Markov1907eot} ed è implementato negli algoritmi di  \textit{parton shower} dei quali parleremo in seguito. 
-\item Interazioni multiple: i protoni incidenti sono stati legati di partoni fortemente interagenti fra loro. In una singola collisione, può dunque capitare di avere più coppie di partoni che interagiscono fra loro. Si dice in questo caso che si hanno  interazioni multiple in aggiunta all'\textit{hard process}.
-\item Adronizzazione: Nell'evoluzione dell'evento i partoni sono via via  generati con impulsi relativi sempre più bassi. Per valori dell'impulso dell'ordine di 1 GeV le forze di confinamento prevalgono. A queste scale di energia, come abbiamo spiegato nella sezione 1.1, la teoria perturbativa fallisce nella descrizione, quindi si ricorre a modelli non-perturbativi
-che descrivono la formazione degli adroni reali. Questo processo di \textit{adronizzazione}  preserva la struttura del \textit{jet} che può perciò essere osservato sperimentalmente.
- \item Decadimento delle particelle instabili: molte delle particelle prodotte nel processo primario o nell'adronizzazione sono  instabili  e vengono fatte decadere a meno che non possano interagire direttamente con il rivelatore.
+
+\item Hard process: the incident protons are made up of partons (quarks and gluons) and the hard process consists of a collision between two partons, coming from different hadrons. The process matrix element can be calculated perturbatively and often only the lowest perturbative order called leading order (LO) is calculated.
+\item Parton shower: the incoming or outgoing partons participating in the hard process can emit gluons: in fact, in analogy with the electromagnetic interaction, a particle with an accelerated color charge can radiate for bremsstrahlung.
+The gluons in turn can produce quark-antiquark pairs thus generating swarms of partons or parton showers.
+The emission of additional partons takes place mainly in a collinear manner with respect to the initial parton and to progressively lesser energies.
+In the final state there will be a set of partons, called jet, located in the collinear zone at the initial parton.
+This probabilistic process can be simulated as a Markov \cite{Markov1907eot} process and is implemented in the parton shower algorithms we will discuss later.
+\item Multiple interactions: the incident protons have been bound to strongly interacting parties. In a single collision, it may therefore happen to have more pairs of partons interacting with each other. In this case it is said that there are multiple interactions in addition to the hard process.
+\item Horizing: In the evolution of the event the partons are gradually generated with ever lower relative impulses. For impulse values ​​of the order of 1 \GeV the confinement forces prevail. At these energy scales, perturbation theory fails in the description, so we resort to non-perturbative models
+which describe the formation of real hadrons. This process of atomization preserves the jet structure which can therefore be observed experimentally.
+\item Decaying of unstable particles: many of the particles produced in the primary process or in the array are unstable and are decayed unless they can interact directly with the detector.
+
 \end{itemize}
-I metodi di simulazione Monte Carlo permettono di considerare questi passi in modo sequenziale:  il risultato di ogni passo è il punto di partenza del passo successivo.
-%definendo  un insieme di regole ben definite e che sono utilizzate in modo iterativo, per costruire differenti stati finali. 
-Alla fine in un singolo evento sono presenti centinaia di particelle ognuna delle quali ha una decina di gradi di libertà (massa, sapore, impulso, vita media, spin, vertice di produzione, ecc.), dunque si intuisce l'elevato numero di parametri che entrano in gioco e che devono essere simulati per ogni  evento.
-Lo scopo finale è fornire una descrizione  realistica di quello che accade nelle collisioni ad alta energia, per poter così confrontare il modello implementato   Monte Carlo con i dati sperimentali e vedere se siamo  di fronte a eventi inaspettati, che potrebbero indicare nuova fisica.
-Schematicamente la sezione d'urto dello stato finale è data da
+
+The Monte Carlo simulation methods allow these steps to be considered sequentially: the result of each step is the starting point of the next step.
+At the end in a single event there are hundreds of particles each of which has a dozen degrees of freedom (mass, flavor, impulse, average life, spin, peak production, etc.), so you can guess the high number of parameters that come into play and must be simulated for each event.
+The final aim is to provide a realistic description of what happens in high-energy collisions, in order to compare the Monte Carlo model with the experimental data and see if we are facing unexpected events, which could indicate new physics.
+Schematically, the impact section of the final state is given by,
 \begin{equation}
  \sigma_{final \: state}=\sigma_{hard \: process} \: \mathcal{P}_{tot, \:hard \: process \rightarrow final \:state} \: \mbox{,}\end{equation}
-integrata su tutto lo spazio delle fasi e sommata su tutti i possibili stati finali (si pensi per esempio alla produzione di due o più \textit{jet}). Questa è la quantità misurabile associata all'{\textit{hard process}}. \\
-Lo spettro dei generatori Monte Carlo è molto ampio: si va dai generatori \textit{general-purpose} come P{\footnotesize YTHIA} \cite{bib:pythia}, Herwig++ \cite{bib:herwig} e S{\footnotesize HERPA} \cite{bib:sherpa}
-a quelli specializzati  nel calcolo dell'elemento di matrice, come Madgraph\_aM{\footnotesize C@NLO} \cite{bib:madgraph} e  P{\footnotesize OWHEG} \cite{Oleari:2010nx}.
+integrated over the entire phase space and added to all possible final states (for example, the production of two or more jets). This is the measurable quantity associated with the hard process. \\
 
 
 
 
 \section{\textit{Hard process}}
 
-In molti processi di interesse a LHC entrano in gioco alti impulsi, per produrre particelle con elevata massa o \textit{jet} molto energetici.  La simulazione di questi eventi è la parte centrale dei generatori Monte Carlo.
-La sezione d'urto per un processo di \textit{scattering} $ab \rightarrow n$ è data \cite{Buckley:2011ms} da,
+In many processes of interest to LHC high pulses come into play, to produce particles with high mass or very energetic \ textit {jet}. The simulation of these events is the central part of the Monte Carlo generators.
+The cross section for a \ textit {scattering} $ ab \ rightarrow n $ process is given \ cite {Buckley: 2011ms} by,
 
 \begin{eqnarray}
  \sigma & = & \sum_{a,b}  \int_{0}^{1} \, dx_{a} dx_b \int f_{a}^{h_1} (x_a , \mu_F) f_{b}^{h_2} (x_b , \mu_F) \: d \hat{\sigma}_{ab \rightarrow n}(\mu_F , \mu_R)  \nonumber \\
@@ -54,47 +52,54 @@ La sezione d'urto per un processo di \textit{scattering} $ab \rightarrow n$ è d
  & \times& \frac{1}{2\hat{s}} 
  | \mathcal{M}_{ab \rightarrow n} 
 (\Phi_n , \mu_F , \mu_R)|^2  \: \mbox{,} \end{eqnarray}
-dove
+where
 
 
 
 
 \begin{itemize}
-\item $f_{a}^{h} (x , \mu)$ sono le funzioni di distribuzione dei partoni (PDF) che dipendono dalla frazione $x$ dell'energia del partone $a$ (variabile di Bjorken)  rispetto all'adrone $h$, e dalla scala di fattorizzazione $\mu_F$, che avevamo introdotto già nella Eq. 1.5.
-\item  $\hat{\sigma}_{ab \rightarrow n}$ è la sezione d'urto partonica del processo $ab \rightarrow n$. 
-La sezione d'urto differenziale totale è data dal prodotto del corrispondente elemento di matrice al quadrato, $| \mathcal{M}_{ab \rightarrow n} |^2 $, e dal flusso di partoni incidenti $1/(2 \hat{s})= 1/(2 x_a x_b s)$, dove $\sqrt{s}$ è l'energia del centro di massa del sistema.
-\item L'elemento di matrice $| \mathcal{M}_{ab \rightarrow n}  (\Phi_n , \mu_F , \mu_R) |^2 $ può essere scritto come la somma su tutti i diagrammi di  Feynman,
+\item $f_{a}^{h} (x , \mu)$ are the partitioning functions (PDF) that depend on the $x$ fraction of the energy of the parton $a$ (Bjorken variable) with respect to the $h$, and on the $\mu_F $ factorization scale, which we had introduced already in the Eq. XX.
+\item $\hat {\sigma}_ {ab\rightarrow n} $ is the partonic cross section of the process $ ab \rightarrow n $.
+The total differential cross section is given by the product of the corresponding square matrix element, $ | \mathcal {M}_{ab \rightarrow n} |^2 $, and from the flow of incident plots $ 1 / (2 \hat{s}) = 1 / (2 x_a x_b s) $, where $ \ sqrt{s } $ is the energy of the system's center of mass.
+\item The array element $ | \mathcal{M}_{ab \rightarrow n} (\Phi_n, \mu_F, \mu_R) |^2 $ can be written as the sum on all Feynman diagrams,
+are the partitioning functions (PDF) that depend on the $ x $ fraction of the energy of the parton $ a $ (Bjorken variable) with respect to the $ h $, and on the $\mu_F $ factorization scale, which we had introduced already in the Eq. XX.
+
+\item  $\hat{\sigma}_{ab \rightarrow n}$ it is the partonic cross section of the process $ab \rightarrow n$. 
+The total differential cross section is given by the product of the corresponding square matrix element, $| \mathcal{M}_{ab \rightarrow n} |^2 $,and from the flow of incident parts $1/(2 \hat{s})= 1/(2 x_a x_b s)$, where $\sqrt{s}$ it is the energy of the mass center of the system.
+\item Matrix element $| \mathcal{M}_{ab \rightarrow n}  (\Phi_n , \mu_F , \mu_R) |^2 $ it can be written as the sum on all Feynman diagrams,
 
 \begin{equation}
 \mathcal{M}_{ab \rightarrow n}= \sum_{i} \mathcal{F}_{ab \rightarrow n}^{(i)} \: \mbox{.} \end{equation}
 
-\item $d\Phi_n$ è il differenziale dello spazio delle fasi per  $n$ particelle nello stato finale.
+\item $d\Phi_n$ it is the phase space differential for $ n $ particles in the final state.
 \end{itemize}
- Lo spazio delle fasi non sarà tutto lo spazio fisico possibile ma conterrà dei tagli per due motivi: da una parte i tagli  rifletteranno la geometria e  l'accettanza del rivelatore; dall'altra parte è quasi sempre necessario un taglio sull'impulso trasverso delle particelle prodotte nel processo  per evitare divergenze nel calcolo della sezione d'urto\footnote{Si può immaginare di avere una singolarità analoga a quella che si ha nello \textit{scattering} coulombiano classico.}.
-In generale il calcolo dell'elemento di matrice richiederebbe il calcolo di tutti i diagrammi di Feynamn che infatti  crescono in modo fattoriale (Fig. \ref{fatt})  con il numero di particelle nello stato finale.
+
+ The phase space will not be all physical space possible but will contain cuts for two reasons: on the one hand the cuts will reflect the geometry and acceptance of the detector; on the other hand it is almost always necessary a cut on the transverse impulse of the particles produced in the process to avoid divergences in the calculation of the cross section \footnote {You can imagine having a singularity similar to that one has in scattering  classic coulomb.}.
+In general, the calculation of the matrix element would require the calculation of all the Feynamn diagrams which in fact grow in a factorial way (Fig.~\ref{fatt}) with the number of particles in the final state.
+
 \begin{figure}[h]
 \centering
-\includegraphics[scale= 2.5]{fattoriale}
-\caption{ \textit{Andamento del numero di diagrammi di Feynman al crescere del numero $n$ di gluoni nel processo $e^+ e^- \rightarrow q \bar{q} + ng$}.}
+\includegraphics[scale= 2.5]{../Cap3/Fig_MC/fattoriale}
+\caption{ \textit{Trends in the number of Feynman diagrams as the number $ n $ of gluons increases in the process $e^+ e^- \rightarrow q \bar{q} + ng$}.}
 \label{fatt}
 \end{figure}
-La maggior parte dei generatori di eventi è in grado di calcolare il \textit{leading order} dell'elemento di matrice  dei processi noti all'interno del Modello Standard del tipo $2 \rightarrow 1$,  $2 \rightarrow 2$ ed anche  $2 \rightarrow 3$ \cite{bib:madgraph}.  \\
-Tuttavia se ci fermassimo al primo ordine perturbativo, si avrebbe una descrizione solo approssimativa del processo: infatti gli ordini successivi comportano delle correzioni importanti sia alla forma delle distribuzioni che alla sezione d’urto totale. Il LO risulta  utile per un primo studio ma, dove è possibile, è importante   valutare il \textit{next-to-leading-order} (NLO)\footnote{Per alcuni processi particolarmente importanti, ad esempio $gg \rightarrow H$, sono  addirittura disponibili i calcoli al  \textit{next-next-to-leading-order} (NNLO).}.\\
-La sezione d'urto calcolata al NLO  è composta da tre parti: dal LO o parte di Born, e dalle correzioni reali e virtuali all'emissione (Fig. \ref{nlofig}),
+Most event generators can compute the leading order of the known process matrix element within the Standard Model of the type $2 \rightarrow 1$,  $2 \rightarrow 2$
+and also  $2 \rightarrow 3$ \cite{bib:madgraph}.  \\
+However, if we stopped at the first perturbative order, we would have only a rough description of the process: in fact, subsequent orders involve important corrections both to the shape of the distributions and to the total cross section. LO is useful for a first study but, where possible, it is important to evaluate next-to-leading-order (NLO) \footnote{For some particularly important processes, for example $ gg \rightarrow H $, the next-next-to-leading-order (NNLO) calculations are even available.}. \\
+The cross section calculated at the NLO is composed of three parts: from the LO or part of Born, and from the real and virtual corrections to the emission (Fig. \ref{nlofig}),
 
 \begin{equation}
  \label{xsecNLO}
  d\sigma^{NLO} =  d \tilde{\Phi}_n [\mathcal{B} (  \tilde{\Phi}_n  ) + \alpha_s \mathcal{V}(  \tilde{\Phi}_n  ) ] +  d \tilde{\Phi}_{n+1} \alpha_s \mathcal{R}(\tilde{\Phi}_{n+1}  ) \: \mbox{,}   \end{equation}
- dove i termini $\mathcal{B}$, $\mathcal{R}$ e $\mathcal{V}$ denotano rispettivamente la parte di Born, la parte reale e quella  virtuale. L'integrale dovrà essere effettuato su tutte le $n$ o $n+1$  particelle dello stato finale e sulle variabili di Bjorken relative ai partoni incidenti.
-%Le difficoltà in questo caso sono dovute alle divergenze ``ultraviolette'' e ``infrarosse''. 
-Supponiamo che nell'approssimazione di  Born  il processo sia  del tipo $2 \rightarrow 2$. Se si volesse andare all'ordine successivo, NLO, si deve tenere del grafico con un partone aggiuntivo nello stato finale, processo $2 \rightarrow 3$, e della correzione virtuale con un  \textit{loop} nel processo $2 \rightarrow 2$ .
-E' da notare che la sezione d'urto per processi del tipo $2 \rightarrow 3$ è divergente quando l'energia di uno dei  partoni tende a zero (divergenza \textit{soft}) oppure quando due  partoni sono collineari (divergenza collineare). 
+ where $\mathcal{B}$, $\mathcal{R}$ and $\mathcal{V}$ they denote the part of Born, the real part and the virtual part respectively. The integral must be made on all the $ n $ or $ n + 1 $ final state particles and on the Bjorken variables related to the incident parts.
+Suppose that in the Born approximation the process is of the type $ 2 \rightarrow 2 $. If you want to go to the next order, NLO, you have to keep the chart with an additional part in the final state, $ 2 \rightarrow 3 $ process, and virtual correction with a loop in the $ 2 \rightarrow 2 $ process.
+It should be noted that the cross-section for processes of the type $ 2 \rightarrow 3 $ is divergent when the energy of one of the partons tends to zero (divergence  soft) or when two parts are collinear (collinear divergence).
 
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.22]{nlo2}
-\caption{ \textit{Esempi di diagrammi di Feynman (a) di Born, (b) reale, (c) virtuale. }}
+\includegraphics[scale=0.22]{../Cap3/Fig_MC/nlo2}
+\caption{ \textit{Examples of Feynman diagrams (a)  Born, (b) real, (c) virtual. }}
 \label{nlofig}
 \end{figure}
 
@@ -116,11 +121,6 @@ Di contro $c$ non parteciperà all'\textit{hard process} e  avrà $p^2>0$ e quin
 
 Nell'approccio col \textit{parton shower}  lo stato di radiazione finale è modellizzato attraverso una serie di processi divisionali  del tipo $a \rightarrow bc$.   
 Ciò è evidente dal processo   $q \bar{q}g$, Fig. \ref{nlofig} (b), dove le correzioni reali dell'elemento di matrice al primo ordine corrispondono all'emissione di un gluone. L'evoluzione dello sciame è descritta da due parametri: la frazione di energia portata da uno dei due partoni uscenti, $z=E_b/E_a$, e la variabile di ordine $t$. Come abbiamo detto una  possibile scelta per $t$ è la virtualità $Q_a^2$ del partone incidente.
-%Per il processo con stato finale   $q \bar{q}g$, si ha:
-%\begin{equation}
-%1-x_{\bar{q}}= \frac{ m_{qg}^2}{s}= \frac{ Q^2}{s}  \: \mbox{,}   \end{equation}
-%dove $x_i=2E_i/ \sqrt{s}$ ($i=q$, $\bar{q}$, $g$) e $ m_{qg}$ la massa invariante della coppia $qg$. Dunque per $x_{\bar{q}} \rightarrow 1$ (ovvero $E_{\bar{q}}\rightarrow %\sqrt{s}/2$), la virtualità del \textit{quark} intermedio $Q^2\rightarrow 0$, ciò corrisponde alla regione collineare dove la separazione fra $q$ e $g$ si annulla.
-%In questo limite $x_q$ corrisponde a $z\approx \frac{E_q}{E_{qg}}$.\\
 Nel limite collineare la probabilità di divisione $d \mathcal{P}_{a \rightarrow bc}$, espressa in termini di $z$ e $t=\ln(Q^2/\Lambda^2)$ è data da:
 \begin{equation}
  d \mathcal{P}_{a \rightarrow bc}= \sum_{bc} \frac{\alpha_{abc}}{2 \pi}\: {P}_{a \rightarrow bc} \:dt dz  \: \mbox{,} \label{prob}  \end{equation}
@@ -151,7 +151,7 @@ Consideriamo, come nel caso FSR, il processo di tipo $a \rightarrow bc$ e valuti
 
 \begin{figure}
 \centering
-\includegraphics[scale= 0.8]{isr}
+\includegraphics[scale= 0.8]{../Cap3/Fig_MC/isr}
 \caption{ \textit{Evoluzione dello stato iniziale. La linea in grassetto corrisponde al partone che subirà l'hard process (rappresentato da una croce). Le linee sottili rappresentano i partoni che non possono ricombinarsi, mentre quelle tratteggiate sono fluttuazioni che possono o non possono ricombinarsi.   }}
 \label{isr}
 \end{figure}
@@ -198,7 +198,7 @@ Le sfere che  descrivono l'evento con 4 \textit{jet}, combinando il ME con il PS
 La difficoltà sorge perché il ME descrive esattamente tutte le sfere segnate con il ``4'': quindi se semplicemente  sommassimo i due approcci avremmo doppi conteggi delle sfere verdi denominate ``4''.    
 \begin{figure}
 \centering
-\includegraphics[scale= 0.7]{merge}
+\includegraphics[scale= 0.7]{../Cap3/Fig_MC/merge}
 \caption{ \textit{Rappresentazione schematica della combinazione fra ME e PS.   }}
 \label{merge}
 \end{figure}
@@ -226,7 +226,7 @@ Il più completo ed esauriente ``modello a stringhe'' è quello di Lund: sappiam
 Se il tubo è assunto essere uniforme, il potenziale cresce linearmente, $V(r)=\kappa r$, con $\kappa \approx$ 1 GeV/fm, costante della stringa.
 \begin{figure}
 \centering
-\includegraphics[scale= 0.5]{stringone}
+\includegraphics[scale= 0.5]{../Cap3/Fig_MC/stringone}
 \caption{(a) \textit{Il tubo di flusso presente fra un quark e un antiquark che si allontanano.} (b) \textit{Moto e rottura di una stringa del sistema.}}
 \label{tubo}
 \end{figure}
@@ -236,7 +236,7 @@ Alla fine del processo si avrà una seri di coppie $q_i \bar{q_i}$, ognuna delle
 Per ora  è stato considerato solamente il caso $q \bar{q}$. Tuttavia se più partoni provengono dall'interazione il modello a stringhe diventa più complicato. Per un evento in cui è presente un gluone  aggiuntivo, $q \bar{q} g$, la stringa è tesa fra $q$ e $g$ e fra $g$ e $\bar{q}$, Fig. \ref{tubo3}. 
 \begin{figure}
 \centering%
-{\includegraphics[scale= 0.5]{stringtwo22}}
+{\includegraphics[scale= 0.5]{../Cap3/Fig_MC/stringtwo22}}
 \caption{ \textit{Moto della stringa nel caso $q \bar{q}g$.}}
 \label{tubo3}
 \end{figure}
@@ -244,9 +244,9 @@ Per ora  è stato considerato solamente il caso $q \bar{q}$. Tuttavia se più pa
 \begin{figure}
 \centering%
 \subfigure[]%
-{\includegraphics[scale= 1.5]{split2}}
+{\includegraphics[scale= 1.5]{../Cap3/Fig_MC/split2}}
 \subfigure[]%
-{\includegraphics[scale= 1.4]{split}}
+{\includegraphics[scale= 1.4]{../Cap3/Fig_MC/split}}
 \caption{(a)  \textit{Struttura del parton shower nel modello cluster.} (b) \textit{Distribuzione di massa invariante per singoletti.}}
 \label{tubo2}
 \end{figure}

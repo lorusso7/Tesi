@@ -8,32 +8,34 @@
 \contentsline {section}{\numberline {2.1}The Large Hadorn Collider}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}The Compact Muon Solenoid experient}{3}{section.2.2}
 \contentsline {chapter}{\numberline {3}Monte Carlo Generators}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}\textit {Hard process}}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}\textit {Parton shower}}{9}{section.3.2}
-\contentsline {paragraph}{Radiazione di stato finale}{10}{section*.6}
-\contentsline {paragraph}{Radiazione di stato iniziale}{11}{section*.7}
-\contentsline {paragraph}{Risommazione}{13}{section*.9}
-\contentsline {paragraph}{Combinazione fra ME e PS}{13}{section*.10}
-\contentsline {section}{\numberline {3.3}Interazioni multiple}{15}{section.3.3}
-\contentsline {section}{\numberline {3.4}Adronizzazione}{15}{section.3.4}
-\contentsline {section}{\numberline {3.5}Decadimenti adronici e radiazione elettromagnetica.}{17}{section.3.5}
-\contentsline {section}{\numberline {3.6}Ricostruzione dei \textit {jet}}{18}{section.3.6}
-\contentsline {section}{\numberline {3.7}Validazione Monte Carlo}{18}{section.3.7}
-\contentsline {section}{\numberline {3.8}Generatori principali}{19}{section.3.8}
-\contentsline {paragraph}{Madgraph\_aM{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip C@NLO}}{19}{section*.18}
-\contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip OWHEG}}{19}{section*.20}
-\contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip YTHIA}8 }{20}{section*.21}
-\contentsline {paragraph}{S{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip HERPA}}{20}{section*.22}
-\contentsline {chapter}{\numberline {4}Event Reconstruction}{21}{chapter.4}
-\contentsline {chapter}{\numberline {5}High mass resonances searching}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Discriminating variable}{24}{section.5.2}
-\contentsline {section}{\numberline {5.3}Signal interpretation}{24}{section.5.3}
-\contentsline {section}{\numberline {5.4}Opposite Flavor final state}{29}{section.5.4}
-\contentsline {section}{\numberline {5.5}Same Flavor final state}{42}{section.5.5}
-\contentsline {section}{\numberline {5.6}2HDM and MSSM interpretations}{52}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Introduction to 2HDM and MSSM}{52}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Statistical inference}{52}{subsection.5.6.2}
-\contentsline {section}{\numberline {5.7}Systematic uncertainties}{54}{section.5.7}
-\contentsline {chapter}{\numberline {6}Results and Interpretation}{59}{chapter.6}
-\contentsline {chapter}{\numberline {A}Special commands }{63}{appendix.A}
+\contentsline {section}{\numberline {3.1}Hard process}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Parton shower}{9}{section.3.2}
+\contentsline {paragraph}{Final State Radiation}{10}{section*.6}
+\contentsline {paragraph}{Initial State Radiation}{11}{section*.7}
+\contentsline {paragraph}{Risommation}{12}{section*.9}
+\contentsline {paragraph}{Merging among ME and PS}{12}{section*.10}
+\contentsline {section}{\numberline {3.3}Multiple Interaction}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}Hadronization }{14}{section.3.4}
+\contentsline {section}{\numberline {3.5}Hadronic Decays and Electromagnetic Radiation.}{16}{section.3.5}
+\contentsline {section}{\numberline {3.6}Jets Reconstruction }{17}{section.3.6}
+\contentsline {section}{\numberline {3.7}Generatori principali}{17}{section.3.7}
+\contentsline {paragraph}{Madgraph\_aM{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip C@NLO}}{17}{section*.17}
+\contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip OWHEG}}{18}{section*.19}
+\contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip YTHIA}8 }{18}{section*.20}
+\contentsline {paragraph}{S{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip HERPA}}{18}{section*.21}
+\contentsline {section}{\numberline {3.8}Monte Carlo sample in High Mass Analysis}{18}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}The DY sample}{21}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}The WW sample}{24}{subsection.3.8.2}
+\contentsline {chapter}{\numberline {4}Event Reconstruction}{25}{chapter.4}
+\contentsline {chapter}{\numberline {5}High mass resonances searching}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}Discriminating variable}{28}{section.5.2}
+\contentsline {section}{\numberline {5.3}Signal interpretation}{28}{section.5.3}
+\contentsline {section}{\numberline {5.4}Opposite Flavor final state}{33}{section.5.4}
+\contentsline {section}{\numberline {5.5}Same Flavor final state}{46}{section.5.5}
+\contentsline {section}{\numberline {5.6}2HDM and MSSM interpretations}{56}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Introduction to 2HDM and MSSM}{56}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Statistical inference}{56}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}Systematic uncertainties}{58}{section.5.7}
+\contentsline {chapter}{\numberline {6}Results and Interpretation}{63}{chapter.6}
+\contentsline {chapter}{\numberline {A}Special commands }{67}{appendix.A}

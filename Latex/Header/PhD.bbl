@@ -1,17 +1,13 @@
 \begin{thebibliography}{1}
 
-\bibitem{CMS-PAS-HIG-16-023}
-{Search for high mass Higgs to WW with fully leptonic decays using 2015 data}.
-\newblock Technical Report CMS-PAS-HIG-16-023, CERN, Geneva, 2016.
+\bibitem{Sjostrand:2006su}
+T.~Sjostrand.
+\newblock {Monte Carlo generators}.
+\newblock 2006.
 
-\bibitem{AN-17-082}
-HWW team.
-\newblock {Common analysis object definitions and trigger efficiencies for the
-  H$\rightarrow$WW analysis with 2016 full data}.
-
-\bibitem{temphiggsxsecs}
-{SM Higgs production cross sections at $\sqrt{s}$ = 13-14 \TeV }.
-\newblock
-  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt1314TeV}.
+\bibitem{Buckley:2011ms}
+A.~Buckley et~al.
+\newblock {General-purpose event generators for LHC physics}.
+\newblock {\em Phys. Rept.}, 504:145--233, 2011.
 
 \end{thebibliography}
