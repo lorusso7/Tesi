@@ -17,25 +17,16 @@
 \contentsline {section}{\numberline {3.3}Multiple Interaction}{13}{section.3.3}
 \contentsline {section}{\numberline {3.4}Hadronization }{14}{section.3.4}
 \contentsline {section}{\numberline {3.5}Hadronic Decays and Electromagnetic Radiation.}{16}{section.3.5}
-\contentsline {section}{\numberline {3.6}Jets Reconstruction }{16}{section.3.6}
+\contentsline {section}{\numberline {3.6}Jets Reconstruction}{16}{section.3.6}
 \contentsline {section}{\numberline {3.7}Main Monte Carlo generators }{17}{section.3.7}
 \contentsline {paragraph}{Madgraph\_aM{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip C@NLO}}{17}{section*.17}
 \contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip OWHEG}}{17}{section*.19}
 \contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip YTHIA}8 }{18}{section*.20}
 \contentsline {paragraph}{S{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip HERPA}}{18}{section*.21}
 \contentsline {section}{\numberline {3.8}Monte Carlo sample in High Mass Analysis}{18}{section.3.8}
-\contentsline {subsection}{\numberline {3.8.1}The DY sample}{21}{subsection.3.8.1}
-\contentsline {subsection}{\numberline {3.8.2}The WW sample}{23}{subsection.3.8.2}
-\contentsline {chapter}{\numberline {4}Event Reconstruction}{25}{chapter.4}
-\contentsline {chapter}{\numberline {5}High mass resonances searching}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{27}{section.5.1}
-\contentsline {section}{\numberline {5.2}Discriminating variable}{28}{section.5.2}
-\contentsline {section}{\numberline {5.3}Signal interpretation}{28}{section.5.3}
-\contentsline {section}{\numberline {5.4}Opposite Flavor final state}{33}{section.5.4}
-\contentsline {section}{\numberline {5.5}Same Flavor final state}{46}{section.5.5}
-\contentsline {section}{\numberline {5.6}2HDM and MSSM interpretations}{56}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Introduction to 2HDM and MSSM}{56}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Statistical inference}{56}{subsection.5.6.2}
-\contentsline {section}{\numberline {5.7}Systematic uncertainties}{58}{section.5.7}
-\contentsline {chapter}{\numberline {6}Results and Interpretation}{63}{chapter.6}
-\contentsline {chapter}{\numberline {A}Special commands }{67}{appendix.A}
+\contentsline {paragraph}{Signal}{19}{section*.23}
+\contentsline {paragraph}{The WW sample}{20}{section*.24}
+\contentsline {paragraph}{The Top sample}{20}{section*.26}
+\contentsline {paragraph}{The DY sample}{21}{section*.27}
+\contentsline {paragraph}{Other processes}{23}{section*.32}
+\contentsline {chapter}{\numberline {A}Special commands }{25}{appendix.A}
