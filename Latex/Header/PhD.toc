@@ -12,20 +12,20 @@
 \contentsline {section}{\numberline {3.2}Parton shower}{9}{section.3.2}
 \contentsline {paragraph}{Final State Radiation}{10}{section*.6}
 \contentsline {paragraph}{Initial State Radiation}{11}{section*.7}
-\contentsline {paragraph}{Risommation}{12}{section*.9}
+\contentsline {paragraph}{Resummation}{12}{section*.9}
 \contentsline {paragraph}{Merging among ME and PS}{12}{section*.10}
-\contentsline {section}{\numberline {3.3}Multiple Interaction}{14}{section.3.3}
+\contentsline {section}{\numberline {3.3}Multiple Interaction}{13}{section.3.3}
 \contentsline {section}{\numberline {3.4}Hadronization }{14}{section.3.4}
 \contentsline {section}{\numberline {3.5}Hadronic Decays and Electromagnetic Radiation.}{16}{section.3.5}
-\contentsline {section}{\numberline {3.6}Jets Reconstruction }{17}{section.3.6}
-\contentsline {section}{\numberline {3.7}Generatori principali}{17}{section.3.7}
+\contentsline {section}{\numberline {3.6}Jets Reconstruction }{16}{section.3.6}
+\contentsline {section}{\numberline {3.7}Main Monte Carlo generators }{17}{section.3.7}
 \contentsline {paragraph}{Madgraph\_aM{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip C@NLO}}{17}{section*.17}
-\contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip OWHEG}}{18}{section*.19}
+\contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip OWHEG}}{17}{section*.19}
 \contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip YTHIA}8 }{18}{section*.20}
 \contentsline {paragraph}{S{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip HERPA}}{18}{section*.21}
 \contentsline {section}{\numberline {3.8}Monte Carlo sample in High Mass Analysis}{18}{section.3.8}
 \contentsline {subsection}{\numberline {3.8.1}The DY sample}{21}{subsection.3.8.1}
-\contentsline {subsection}{\numberline {3.8.2}The WW sample}{24}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.2}The WW sample}{23}{subsection.3.8.2}
 \contentsline {chapter}{\numberline {4}Event Reconstruction}{25}{chapter.4}
 \contentsline {chapter}{\numberline {5}High mass resonances searching}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{27}{section.5.1}

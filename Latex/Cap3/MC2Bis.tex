@@ -16,36 +16,36 @@ The simulation of an event is carried out in successive steps \cite{Sjostrand:20
 The various steps are summarized here:
 \begin{itemize}
 
-\item Hard process: the incident protons are composed by  partons (quarks and gluons) and the hard process consists in a collision between two partons, coming from different hadrons. The  matrix element of the process is calculated perturbatively and often only the lowest perturbative order, called leading order (LO), is calculated.
+\item Hard process: the incident protons are composed by  partons (quarks and gluons) and the hard process consists in a collision between two partons, coming from different hadrons. The  matrix element of the process is evaluated perturbatively and often only the lowest perturbative order, called leading order (LO), is calculated.
 \item Parton shower: the incoming or outgoing partons participating in the hard process can emit gluons: in fact, in analogy with the electromagnetic interaction, a particle with an accelerated color charge can radiate for the bremsstrahlung.
 The gluons in turn, can produce quark-antiquark pairs thus generating the parton showers.
-The emission of additional partons takes place mainly in a collinear mode respect to the initial parton and to progressively lesser energies.
+The emission of additional partons takes place mainly in the collinear space respect to the initial parton and  progressively with less energies.
 In the final state there will be a set of partons, called jet, located in the collinear respect to the initial parton.
 This probabilistic process can be simulated as a Markov process and is implemented in the parton shower algorithms we will discuss later.
 
 \item Multiple interactions: in a single collision, it may happen to have more pairs of partons interacting. In this case it is said that there are multiple interactions in addition to the hard process.
 
 \item Hadronization: in the evolution of the event the partons are gradually generated with ever lower relative momenta. 
-For momentum values of 1 GeV the confinement forces prevail. At these energy scales, perturbation theory fails in the description, so we resort to non perturbative models which describe the formation of real hadrons. This hadronization process  preserves the jet structure which can therefore be observed experimentally.
+For momentum values of 1 GeV the confinement forces prevail. At these energy scales, the perturbation theory fails in the description, so we resort to non perturbative models which describe the formation of real hadrons. This hadronization process  preserves the jet structure which can therefore be observed experimentally.
 
 \item Decaying of unstable particles: many of the particles produced in the primary process are unstable and they  decayed unless they interact directly with the detector.
 
 \end{itemize}
 
-The Monte Carlo simulation methods allow these steps to be considered sequentially: the result of each step is the starting point of the next step.
+In the  Monte Carlo simulation  all these steps are considered sequentially: the result of each step is the starting point of the next.
 At the end, in a single event, there are hundreds of particles each of which has a dozen degrees of freedom (mass, flavor, impulse, average life, spin, vertex production, etc.), so there is a  high number of parameters that came into play and must be simulated for each event.
-The final aim is to provide a realistic description of what happens in high-energy collisions, in order to compare the Monte Carlo model with the experimental data and see if we are facing unexpected events, which could indicate new physics.
+The final aim is to provide a realistic description of what happens in high-energy collisions, in order to compare the Monte Carlo model with the experimental data.
 Schematically, the cross section of the final state is given by,
 \begin{equation}
  \sigma_{final \: state}=\sigma_{hard \: process} \: \mathcal{P}_{tot, \:hard \: process \rightarrow final \:state} \: \mbox{,}\end{equation}
-integrated over the entire phase space and summed over all possible final states (for example, the production of two or more jets). This is the measurable quantity associated with the hard process. \\
+integrated over the total phase space and summed over all possible final states (e.g. the production of two or more jets). This is the measurable quantity associated with the hard process. \\
 
 
 
 
 \section{Hard process}
 
-In many processes of interest to LHC high momenta come into play, to produce particles  high mass or very energetic jet. The simulation of these events is the mail goals of the Monte Carlo generators.
+In many processes of interest to LHC high momenta come into play, to produce high mass particles or  energetic jet. The simulation of these events is the main goals of the Monte Carlo generators.
 The cross section for a scattering $ ab \rightarrow n $ process is given \cite{Buckley:2011ms} by,
 
 \begin{eqnarray}
@@ -60,10 +60,11 @@ where
 
 
 \begin{itemize}
-\item $f_{a}^{h} (x , \mu)$ are the parton density functions (PDF) that depend on the $x$ fraction of the energy of the parton $a$ (Bjorken variable) with respect to the $h$, and on the $\mu_F $ factorization scale, which has been  introduced  in the Eq. XX.
+\item $f_{a}^{h} (x , \mu)$ are the parton density functions (PDF) that depend on the $x$ fraction of the parton $a$'s energy (Bjorken variable) respect to the $h$, and on the $\mu_F $ factorization scale, which has been  introduced  in the Eq. XX.
 
 \item $\hat {\sigma}_ {ab\rightarrow n} $ is the partonic cross section of the process $ ab \rightarrow n $.
-The total differential cross section is given by the product of the corresponding square matrix element, $ | \mathcal {M}_{ab \rightarrow n} |^2 $, and from the flow of incident plots $ 1 / (2 \hat{s}) = 1 / (2 x_a x_b s) $, where $ \sqrt{s} $ is the energy of the system's center of mass.
+The total differential cross section is given by the product of the corresponding square matrix element, $ | \mathcal {M}_{ab \rightarrow n} |^2 $, 
+with  the incident particle flow $ 1 / (2 \hat{s}) = 1 / (2 x_a x_b s) $, where $ \sqrt{s} $ is the energy of the system's center of mass.
 
 \item The matrix element $| \mathcal{M}_{ab \rightarrow n}  (\Phi_n , \mu_F , \mu_R) |^2 $  can be written as the sum on all Feynman diagrams,
 \begin{equation}
@@ -72,7 +73,7 @@ The total differential cross section is given by the product of the correspondin
 \item $d\Phi_n$ it is the phase space differential for $ n $ particles in the final state.
 \end{itemize}
 
- The phase space will not be all physical space possible but will contain cuts for two reasons: one is that  the cuts will reflect the geometry and acceptance of the detector; the other   is necessary put a cut on the transverse impulse of the particles produced in the process to avoid divergences in the calculation of the cross section \footnote {You can imagine having a singularity similar to that one has in scattering  classic Coulomb.}.
+ The phase space will not be all physical space  but will contain cuts for two reasons: the first is that  the cuts will reflect the geometry and acceptance of the detector; the second because it is necessary put a cut on the transverse impulse of the particles produced in the process to avoid divergences in the calculation of the cross section \footnote {You can imagine having a singularity similar to that one has in scattering  classic Coulomb.}.
 In general, the calculation of the matrix element would require the calculation of all the Feynamn diagrams which  grow in a factorial way (Fig.~\ref{fatt}) with the number of particles in the final state.
 
 \begin{figure}[h]
@@ -81,15 +82,15 @@ In general, the calculation of the matrix element would require the calculation 
 \caption{ Trends in the number of Feynman diagrams as the number $ n $ of gluons increases in the process $e^+ e^- \rightarrow q \bar{q} + ng$.}
 \label{fatt}
 \end{figure}
-Usually the  Monte Carlo events generators can compute the matrix element leading order for the $2 \rightarrow 1$,  $2 \rightarrow 2$  Standard Model processes.  
-and also  $2 \rightarrow 3$ \cite{bib:madgraph}.  \\
+Usually the  Monte Carlo events generators can compute the matrix element at the leading order for the Standard Model $2 \rightarrow 1$,  $2 \rightarrow 2$  
+and  $2 \rightarrow 3$ \cite{bib:madgraph} processes.  \\
 However, if we stopped at the first perturbative order, we would have only a rough description of the process: in fact, subsequent orders involve important corrections both to the shape of the distributions and to the total cross section. LO is useful for a first study but and it is important to evaluate next-to-leading-order (NLO) \footnote{For some particularly important processes, for example $ gg \rightarrow H $, the next-next-to-leading-order (NNLO) calculations are even available.}. \\
 The cross section calculated at the NLO is composed of three parts: by the LO part or part of Born, by the real and virtual part of the emission corrections (Fig. \ref{nlofig}),
 
 \begin{equation}
  \label{xsecNLO}
  d\sigma^{NLO} =  d \tilde{\Phi}_n [\mathcal{B} (  \tilde{\Phi}_n  ) + \alpha_s \mathcal{V}(  \tilde{\Phi}_n  ) ] +  d \tilde{\Phi}_{n+1} \alpha_s \mathcal{R}(\tilde{\Phi}_{n+1}  ) \: \mbox{,}   \end{equation}
- where $\mathcal{B}$, $\mathcal{R}$ and $\mathcal{V}$ they denote the Born part, the real part and the virtual part respectively. The integral must be made on all the $ n $ or $ n + 1 $ final state particles and on the Bjorken variables related to the incident parts.
+ where $\mathcal{B}$, $\mathcal{R}$ and $\mathcal{V}$  denote the Born, the real  and the virtual part respectively. The integral must be made on the $ n $ or $ n + 1 $ final state particles and on the Bjorken variables related to the incident partons.
 Suppose, in the Born approximation, the process  $ 2 \rightarrow 2 $. If you want to go to the next order, NLO, you have to keep the element with an additional parton in the final state, the $ 2 \rightarrow 3 $ process, and virtual correction with a loop in the $ 2 \rightarrow 2 $ process.
 It should be noted that the cross-section for processes of the type $ 2 \rightarrow 3 $ is divergent when the energy of one of the partons tends to zero (soft divergence) or when two parts are collinear (collinear divergence).
 
@@ -103,26 +104,28 @@ It should be noted that the cross-section for processes of the type $ 2 \rightar
 
  
 \section{Parton shower}
-In a collision between partons a charge of color is accelerated, so there will be bremsstrahlung emission. When studying a process of the type $ 2 \rightarrow n $, where $ n $ represents the number of partons in the final state, the element of the LO matrix (also called tree-level) will have divergences in the collinear  and 
-soft case. In particular, the processes that suffer from this type of divergence are $ q \rightarrow qg $, $ \bar {q} \rightarrow \ bar{q} g $, $ g \rightarrow gg $: the first are similar processes to $ and \rightarrow and \ gamma $ in QED, while the third is due to the fact that QCD is not an Abelian theory. The process $ g \rightarrow q \bar {q} $ does not have this type of divergence.
-The divergences of the tree-level array element can be removed by introducing the virtual corrections into the calculation, but they will be in the next order; these calculations are therefore particularly complex and are only possible for a limited number of processes. The parton shower \cite{Sjostrand: 2006su} algorithms offer an alternative and fairly simple way to eliminate the collinear and soft divergences through:
+In a collision between partons a charge of color is accelerated, so there will be bremsstrahlung emission. When studying a process of the type $ 2 \rightarrow n $, where $ n $ represents the number of partons in the final state, the LO matrix elements (called tree-level) will have divergences in the collinear  and 
+soft case. In particular, the processes that suffer from this type of divergence are $ q \rightarrow qg $, $ \bar {q} \rightarrow \ bar{q} g $, $ g \rightarrow gg $: the first are similar processes to $ e \rightarrow e \gamma $ in QED, while the third is due to the fact that QCD is not an Abelian theory. The process $ g \rightarrow q \bar {q} $ does not have this type of divergence.
+The divergences of the tree-level matrix element can be removed by introducing the virtual corrections into the calculation, but they will be in the next order; these calculations are therefore particularly complex and they are only possible for a limited number of processes. The parton shower \cite{Sjostrand: 2006su} algorithms offer an alternative and simple way to eliminate the collinear and soft divergences through:
 \begin{itemize}
 \item an iterative structure that combines the three states suffering from divergences in a single multi-partonic state,
 \item the introduction of the form factor of Sudakov.
 \end{itemize}
-The incoming or outgoing partons, which are far (temporally) from hard process, are called on-shell because the module of their quadrupulse is equal to the mass at rest.
-However, the closer you get to the interaction, because of the uncertainty principle ($ \Delta E \Delta t \sim \hbar $), the partons can be in a state called off-shell, that is the module of the their quadrimpulso does not correspond to the mass at rest. 
-For this reason they are able to emit other partons and in particular the closer they are to the scattering the greater the energy of the emitted parts can be. If the emission occurs before the scattering, it is called initial state radiation (ISR), while after the interaction it speaks of final state radiation (FSR). \\
-Each partition is characterized by a  ``virtuality scale'' $Q^2$ that corresponds roughly to a swarm's temporal scale.
-It is important to stress that different definitions are available for $Q^2$; however regardless of the chosen convention, the $ Q^2 $ scale increases as it approaches the \ textit {hard process}, then in the ISR, and decreases away, in the FSR. If we take the FSR as an example, the evolution starts at a $ Q^2_ {max} $ scale that is tied to the hard process and ends when a limit scale is reached, $ Q_0 $, which will be on the order of 1 GeV .\\
-The most common choice used is to set  $Q^2=p^2=E^2- |\vec{p}\,|^2$. With this convention in a process of type  $a \rightarrow bc$, in FSR case, $Q^2 >0$, that is of type \ textit {time-like}, and it will decrease until the limit scale $ Q_0 $ is reached.
-Things are more complicated in the ISR case: in this case $ a $ and $ b $, suppose here off-shell, have $ p^2 $ of type space-like, then redefines $ Q_i^2 = -m_i^2 $ in order to guarantee the increasing order of $ Q^2 $, ie $ Q_b^2> Q_a^2 $.
-In contrast, $ c $ will not participate in \ textit {hard process} and will have $ p^2> 0 $ and therefore its swarm will evolve like that of the FSR.
+The incoming or outgoing partons, which are far (temporally) from hard process, are called on-shell indeed the module of their four-momenta   is equal to the mass at rest.
+However, closer you get to the interaction,  the partons can be in a state called off-shell, where the module of the their four-momenta does not correspond to the mass at rest due to the uncertainty principle ($ \Delta E \Delta t \sim \hbar $),. 
+For this reason they are able to emit other partons and  the energy of emitted partons is higher if they are closer to the scattering.
+If the emission occurs before the scattering, it is called initial state radiation (ISR), while after the interaction it is called final state radiation (FSR). \\
+Each partition is characterized by a  ``virtuality scale'' $Q^2$ that corresponds roughly to a shower temporal scale.
+It is important to stress that different definitions are available for $Q^2$; however regardless of the chosen convention, the $ Q^2 $ scale increases as it approaches in the hard process, so then in the ISR, and decreases away, so in the FSR. If we take the FSR,  the evolution starts at a $ Q^2_ {max} $ scale that is related to the hard process and it ends when a limit scale is reached, $ Q_0 $, which will be on the order of 1 GeV .\\
+The most common choice used is to set  $Q^2=p^2=E^2- |\vec{p}\,|^2$. With this convention in a process of type  $a \rightarrow bc$, in FSR case, $Q^2 >0$, that is of type time-like, and it will decrease until the limit scale $ Q_0 $ is reached.
+The ISR case is more complicated: in this case $ a $ and $ b $  (supposed off-shell) have $ p^2 $ of type space-like, then redefines $ Q_i^2 = -m_i^2 $ in order to guarantee the increasing order of $ Q^2 $, i.e. $ Q_b^2> Q_a^2 $.
+In contrast, $ c $ will not participate in hard process and will have $ p^2> 0 $ and therefore its shower will evolve like that of the FSR.
 
 \paragraph{Final State Radiation}
-In the parton shower approach the final radiation state is modeled through a series of divisional processes of the type $ a \rightarrow bc $.   
-This is evident from the process$q \bar{q}g$, Fig. \ref{nlofig} (b), where the real corrections of the array element to the first order correspond to the emission of a gluon. The evolution of the swarm is described by two parameters: the fraction of energy carried by one of the two outgoing partons, $ z = E_b / E_a $, and the order variable $ t $. As we said a possible choice for $ t $ is the $ Q_a^2 $ virtuality of the incident part.
-In the  collinear limit the probability of division $d \mathcal{P}_{a \rightarrow bc}$, in  $z$ e $t=\ln(Q^2/\Lambda^2)$ is:
+In the parton shower approach, the final radiation state is modeled through a series of divisional processes of the type $ a \rightarrow bc $.   
+This is evident from the process $q \bar{q}g$, Fig. \ref{nlofig} (b), where the first order matrix element  corrections  correspond to the emission of a gluon. 
+The evolution of the shower is described by two parameters: the fraction of energy carried by one of the two outgoing partons, $ z = E_b / E_a $, and the order variable $ t $. As we said, a possible choice for $ t $ is the  virtuality $ Q_a^2 $ of the incoming parton.
+In the  collinear limit the probability of division $d \mathcal{P}_{a \rightarrow bc}$, in  $z$ and $t=\ln(Q^2/\Lambda^2)$ is:
 \begin{equation}
  d \mathcal{P}_{a \rightarrow bc}= \sum_{bc} \frac{\alpha_{abc}}{2 \pi}\: {P}_{a \rightarrow bc} \:dt dz  \: \mbox{,} \label{prob}  \end{equation}
 where $dt=\frac{d Q^2}{Q^2}$, $\alpha_{abc}$ it is the coupling constant that regulates the division process and  ${P}_{a \rightarrow bc}$ is the kernel splitting; these are universal functions and are valid in the collinear limit:
@@ -130,77 +133,86 @@ where $dt=\frac{d Q^2}{Q^2}$, $\alpha_{abc}$ it is the coupling constant that re
 P_{q \rightarrow qg    }&=& \frac{4}{3} \frac{1+z^2}{1-z} \mbox{,} \nonumber \\ 
  P_{g \rightarrow gg }&=& 3 \frac{(1-z(1-z))^2}{z(1-z)}    \mbox{,} \\ 
 P_{g \rightarrow q\bar{q} }&=& \frac{n_f}{2} (z^2+ (1-z)^2)   \mbox{,} \nonumber \end{eqnarray}
-here $n_f$ is the quarks flavour number \textit{quark}.
-However the probability thus evaluated is superior to unity because it suffers from the same divergences of the matrix element at the LO. 
-Indeed the expression \ref{prob} is evaluated in the collinear approximation. 
-In particular, there are two types of divergences: collinear, due to the dependency of type $ 1 / Q^2 $, and \ textit {soft} which corresponds to the limit $ z = 1 $. \\
-To remedy this, in the \ textit {parton shower} approach, first we evaluate the probability of dividing $ t $ and $ t + dt $; this is obtained 	with the integration of Eq \ref{prob} over  $z$ in the intervals  $[z_{min}(t), \: z_{max}(t)]$:
+where $n_f$ is the quarks flavour number \textit{quark}.
+However the probability  evaluated is larger than the unity indeed it suffers from the same divergences of the matrix element at the LO. 
+The expression \ref{prob} is evaluated in the collinear approximation. 
+In particular, there are two types of divergences: collinear, due to the dependency of type $ 1 / Q^2 $, and soft which corresponds to the limit $ z = 1 $. \\
+To solve this problem, in the parton shower approach, the probability of dividing $ t $ and $ t + dt $ is evaluated; this is obtained with the integration of Eq \ref{prob} over  $z$ in the intervals  $[z_{min}(t), \: z_{max}(t)]$:
 \begin{equation}
  d \mathcal{P}_{a \rightarrow bc}= \left( \sum_{bc} \int_{z_{min}(t^{'})}^{{z_{max}(t^{'})}}  \frac{\alpha_{abc}}{2 \pi}\: {P}_{a \rightarrow bc} \:dt dz \right) dt  \: \mbox{.}   \end{equation}
-As in other physical situations \footnote{For example radioactive decay.} And more, the probability of something happening at $ t $ is given by the probability that this happens between $ t $ and $ t + dt $, multiplied by the probability that this has not already occurred between the initial instant $ t_0 $ and $ t $.
-In this case then the probability of having a division at $ t $ is:
+As in other physical situations \footnote{For example radioactive decay.} the probability of something happening at $ t $ is given by the probability that this happens between $ t $ and $ t + dt $, multiplied by the probability that this has not already occurred between the initial instant $ t_0 $ and $ t $.
+In this case then the  division probability  at $ t $ is:
 \begin{equation}
  d \mathcal{P}_{a}^{\mbox{\footnotesize{FSR}}}(t)=   d \mathcal{P}_{a} \cdot \mbox{exp} \left(   -\sum_{bc} \int_{t_0}^t dt^{'}  \int_{z_{min}(t^{'})}^{{z_{max}(t^{'})}} \frac{\alpha_{abc}}{2 \pi} P_{a \rightarrow bc}(z) dz \right) \mbox{,}\end{equation}
 where $t_{0}$ is the shower starting scale. 
-The exponential term is called the form factor of Sudakov and represents, as is to be understood, the probability of non-division. 
-If you want to interpret it in terms of Feynman diagrams, this represents the virtual corrections of the array element LO. \\
-This whole process can be combined together to have more emissions at different steps: this will result in a swarm of partons which will be ordered in decreasing $ Q $. Finally, it is important to underline that the description given by parton shower is correct if you have collinear jet and fail in configurations where there are well separated partons.   
+The exponential term is called Sudakov factor and it represents the probability of non-division. 
+If you want to interpret it in terms of Feynman diagrams, this represents the virtual corrections of LO matrix element. \\
+This total process can be combined to have more emissions at different steps: this will result in a partons  shower which will be ordered in decreasing $ Q $. 
+Finally,  the description given by parton shower is correct if you have collinear jet and it fail in configurations where there are well separated partons.   
 
 \paragraph{Initial State Radiation}
-The evolution of the initial state radiation is much more complicated than that of the final state. 
-Infatti \textit{quark} e gluoni sono continuamente emessi e riassorbiti all'interno dei protoni incidenti. Ciò significa che quando avviene l'\textit{hard scattering} la radiazione di stato iniziale è già presente.
-You could simply think of simulating ISRs starting from the \ textit {on-shell} partisans before the interaction and making them evolve to higher and higher $ Q ^ 2 $ scales until you reach a \ textit {hard process}.
-However, this approach is very inefficient because it is particularly rare to simulate the process of interest as it would have the same probability it has in nature. A different approach is then used in the event generators: first the \ textit {hard process} is produced and then we try to rebuild back what may have happened. This procedure is called `` backward evolution '', Fig. \ref{isr} .
-Consider, as in the case of FSR, the process of type $ a \rightarrow bc $ and in this case we evaluate the probability that a part $ b $ may have been produced by the part $ to $. It is necessary to introduce the partonic density function; this evolves according to the DGLAP \cite{Altarelli: 1977zs} equation,
+The   the initial state radiation evolution is much more complicated than the final state. 
+Indeed the quark and the gluons are   emitted  and absorbed continuously, inside the incoming proton. The initial stare radiation is already present during the hard scattering.
+The ISR simulation could start from the on-shell parton before the interaction and after  could evolve to higher and higher $ Q ^ 2 $ scales until the hard process.
+However, this approach is very inefficient because the  interest process  is particularly rare and because  it has the same probability to happen as in nature. 
+In the event generators a different approach is  used: first the hard process is produced and then it we try to rebuild back what may have happened. 
+This procedure is called backward evolution, Fig. \ref{isr}.
+
+It is necessary to evaluate the  probability for the process of type $ a \rightarrow bc $,  that a parton $ b $ has  been produced by the parton $ a $.
+For this reason the  partonic density function is introduced.  This evolves according to the DGLAP \cite{Altarelli: 1977zs} equation,
 
 \begin{figure}
 \centering
 \includegraphics[scale= 0.8]{../Cap3/Fig_MC/isr}
-\caption{ \textit{Evolution of the initial state. The bold line corresponds to the part that will undergo the hard process (represented by a cross). Thin lines represent the partons that can not recombine, while the dashed lines are fluctuations that may or may not recombine.  }}
+\caption{ Evolution of the initial state. The bold line corresponds to the part that will undergo the hard process (represented by a cross). Thin lines represent the partons that can not recombine, while the dashed lines are fluctuations that may or may not recombine.  }
 \label{isr}
 \end{figure}
 
 \begin{equation}
   \frac{d f_b(x, \:t)}{dt}= \sum_{ac} \int_x ^1 \frac{d x^{'}}{x^{'}} \: f_a(x^{'},t) \:\frac{\alpha_{abc}}{2\pi} \:P_{a \rightarrow bc} \:(\frac{x}{x^{'}}) \mbox{,}\end{equation}
-where $f_{a,b}(x, \:t)$ are the parton PDFs  $a$, $b$, that has $ x $ fraction of the incident and scale proton momenta $t=\mbox{ln}(Q^2/ \Lambda^2) $, instead $P_{a \rightarrow bc}$ is the \textit{kernel splitting} function.\\
-In the backward evolution the probability that the part $ b $ has been generated from $ to $ in the interval between $ t $ and $ t-dt $ is given by:
+where $f_{a,b}(x, \:t)$ are the parton PDFs  $a$, $b$, that has $ x $ fraction of the incident and scale proton momenta $t=\mbox{ln}(Q^2/ \Lambda^2) $, instead $P_{a \rightarrow bc}$ is the kernel splitting function.\\
+In the backward evolution the probability that the parton $ b $ has been generated from $ a $ in the interval between $ t $ and $ t-dt $ is given by:
 \begin{equation}
 d\mathcal{P}_{b}(t)=\frac{d f_b(x, \:t) }{ f_b(x, \:t)}= |dt| \sum_{ac}  \int  \frac{d x^{'}}{x^{'}} \frac{d f_a(x^{'}, \:t) }{ f_b(x, \:t)} \frac{\alpha_{abc}}{2\pi}          \:P_{a \rightarrow bc} \:(\frac{x}{x^{'}})      \mbox{,}\end{equation}
 while the probability of non-division between the scale $t_{max}$ and $t<t_{max}$ is:
 \begin{equation}
 S_b (x,t,t_{max})=   \mbox{exp} \left( - \int_t ^{t_{max}} dt^{'} \sum_{ac}  \int  \frac{d x^{'}}{x^{'}} \frac{d f_a(x^{'}, \:t^{'}) }{ f_b(x, \:t^{'})} \frac{\alpha_{abc}}{2\pi}          \:P_{a \rightarrow bc} \:(\frac{x}{x^{'}}) \right)     \mbox{,}\end{equation} 
-Finally then the probability of combining $ b $ in $ to $ is given in the range between $ t $ and $ (t-dt) $ from:
+Finally then the probability of combining $ b $ in $ a $ is given in the range between $ t $ and $ (t-dt) $ from:
 
 \begin{eqnarray}
 d \mathcal{P}_{b}^{\mbox{\footnotesize{ISR}}}(t) &=& - \frac{d S_b (x,t,t_{max})}{dt} dt \nonumber \\
 &=&  \sum_{ac}  \int  \frac{d x^{'}}{x^{'}} \frac{d f_a(x^{'}, \:t) }{ f_b(x, \:t)} \frac{\alpha_{abc}}{2\pi}          \:P_{a \rightarrow bc} \:(\frac{x}{x^{'}})  \cdot S_b (x,t,t_{max}) dt \end{eqnarray}
-In this case the form factor Sudakov is different from that of the FSR as it contains the PDFs.
+In this case the form factor Sudakov is different respect to FSR as it contains the PDFs.
 This means that the parton shower results do not depend only on the algorithm but also on the PDFs used.
 
-\paragraph{Risommation} When calculating an observable of the QCD in a perturbative fashion, the expansion in terms of powers of $ \alpha_S $ contains terms of the type $ \alpha_S ^ n L ^ k $ ($ k <2n $), where $ L = \ ln (q_{cut} / s) $, being $ q_{cut} $ the cut on resolvable issues. When we consider `` small '' values ​​of $ q_{cut} $ the logarithm of the perturbative expansion becomes large and may diverge the perturbative series.
-The order term $ n $ of the perturbative expansion is the most significant only if the successive terms of the series are negligible; however this is not guaranteed if there are high values ​​of $ L $. It is therefore necessary to consider the terms that have a high value of the logarithm. The study of these terms is called resummation and is done by putting the terms together in the perturbation series according to their degree of divergence: $ \alpha_S ^ n L ^ {2n} $ are the terms leading log, LL; $ \alpha_S ^ n L ^ {2n-1} $ are the terms next-to-leading log, NLL, and so on. At the end they are added to all $ \alpha_S $ orders. For many processes calculations are available at the NLL.
+\paragraph{Resummation} When calculating an observable of the QCD in a perturbative way, the expansion in terms of $ \alpha_S $ contains terms of the type $ \alpha_S^n L^k $ ($ k < 2n $), where $ L = \ln (q_{cut} / s) $, being $ q_{cut} $ the cut on resolvable emission. 
+When we consider small values of  $q_{cut}$ the logarithm of the perturbative expansion becomes large and the  perturbative series diverges.
+The main  perturbative order of the expansion is $n$  only if the successive terms of the series are negligible, however this is not guaranteed if there are high value of L. 
+It is therefore necessary to consider the terms that have a high value of the logarithm. The study of these terms is called resummation and is done by putting the terms together in the perturbation series according to their degree of divergence:
+$ \alpha_S ^ n L ^ {2n} $ are the leading log (LL) terms, $ \alpha_S ^ n L ^ {2n-1} $ are the next-to-leading log (NLL) terms, and so on. 
+At the end  all $ \alpha_S $ orders terms are added. For many processes calculations are available at the NLL.
 The parton shower reproduces the effects of resuming approximately at the NLL.
 
 \paragraph{Merging among ME and PS}
-The two different approaches to the calculation of the matrix element and the parton shower have advantages and disadvantages. Regarding the ME we have:
+The two different approaches for the  matrix element calculation  and for the parton shower have advantages and disadvantages. Regarding the ME we have:
 \begin{itemize}
-\item the calculations of the array element at the LO can be performed exactly up to cases where there are many jet (of the order of six) in the final state.
-\item you have a good description of separate partons
-\item the perturbative calculations are correct
+\item the LO matrix element calculations  can be performed exactly in the cases where there are many jet (of the order of six) in the final state,
+\item a good description of separate partons is performed,
+\item the perturbative calculations are correct,
 \item however, the cross section diverges in the collinear and soft case, so an exhaustive description of the internal structure of jet is not possible.
 \end{itemize}
-on the other hand the PS:
+On the other hand the PS:
 \begin{itemize}
-\item it is a universal approach that produces a realistic configuration of the partons
+\item it is a universal approach that produces a realistic configuration of the partons,
 \item the divergences, in the collinear limit, are treated with the introduction of the form factor of Sudakov. So we have an appropriate description of the jet evolution
 \item however, the method fails when describing separate partons, since the collinear approximation in this case can not be valid.
 \end{itemize}
-Clearly the two methods are complementary and their  merging is desirable. There are different approaches that combine ME with PS. The main difficulty is that it is not easy to cover the entire space of the phases without overlaps and holes: we want to describe a process in which there are $ n $ well separated parts in the final state, using both the array element to the LO but wanting also include the resummation of large logarithms (LL, NLL) which is typical of the PS. A schematic description of the combination for four jet is given in Fig \ref{merge} \cite{bib: lenzi}.
-On the horizontal axis are the mating orders in $ \alpha_S $, while on the vertical axis the power of the logarithm.
-The PS describes the LL ($ m = 2n $) and the NLL ($ m = 2n-1 $) or the spheres in green (eg in the case of $ n = 2 $, $ m = $ 4, 3 the two colored spheres in green and marked as `` 4 '').
-The spheres that describe the event with 4 jet, combining the ME with the PS, are all green, the blue one, and the three red ones marked with the `` 4 ''.
-The difficulty arises because the ME describes exactly all the spheres marked with the `` 4 '': so if we simply sum up the two approaches we would have double counts of the green spheres called `` 4 ''.
-
+Clearly the two methods are complementary and their merging is desirable. 
+There are different approaches that combine ME with PS. The main difficulty is to cover the total phase space without overlaps or holes: we want to describe a process in which there are $ n $ well separated partons in the final state, using the LO matrix element LO but  also including the  large logarithms resummation (LL, NLL) which is typical of the PS. A schematic description of the combination for four jet is given in Fig. \ref{merge}.
+On the horizontal axis are the $ \alpha_S $ coupling orders, while on the vertical axis  the logarithm.
+The PS describes the LL ($ m = 2n $) and the NLL ($ m = 2n-1 $) the green balls (e.g. in the case of $ n = 2 $, $ m = $ 4, 3 the two balls  in green and marked as ``4'').
+The balls that describe the event with four jet, combining the ME with the PS, are  green, the blue  and  three red  marked with the `` 4 ''.
+The difficulty arises because the ME describes exactly all the balls marked with the `` 4 '': so if we simply sum up the two approaches we would have double counts of the green spheres called `` 4 ''.
 \begin{figure}
 \centering
 \includegraphics[scale= 0.7]{../Cap3/Fig_MC/merge}
@@ -214,7 +226,7 @@ The main approaches to merge the  ME and PS are:
 \item The MLM prescription, which is also very widespread, is based on the same principle, but is implemented in a different way.
 \end{itemize}
 
-
+%QUIqui
 \section{Multiple Interaction}
 Incident protons participating in the interaction are composed of a large number of partons (quark and gluons) that can interact independently with each other in addition to hard-process.
 The total cross section for the QDC process $ 2 \rightarrow2 $ is dominated by the $ t $ process, so the cross section diverges as $ d p _ {\ perp} ^ 2 / p _ {\ perp} ^ 4 $ for $ p _ {\perp} \rightarrow 0 $ \cite{Sjostrand: 2006su}.
@@ -227,7 +239,7 @@ It should also be noted that in order to eliminate the divergence it is necessar
 In this context, the process of atomization is a particular model, used in event generators, which describes the transition from the final partonic state to the final hadron state, which is an observable experimental. It is important to underline that this transition is treated in a phenomenological way and not by a rigorous approach. The two most important classes for tuning are the string model and the cluster model. The difference is that the former transforms the partonic systems directly into hadrons, while the second takes an intermediate step where it groups the objects to a scale of $ \ sim 1 $ GeV.
 
 \paragraph*{String Model}
-The most complete and complete ``string model'' is that of Lund: we know from QCD that there is a linear confinement force between the partons that increases with distance. Consider, as an example, the final state in which there are two quark, $ q \bar{q} $. As the partons move away the color flow tube is ``stretched'' between $ q $ and $ \ bar {q} $, Fig. \Ref{tube} (a). The transverse dimensions of the tube are those typical of hadron, therefore of about 1 fm.
+The most complete and complete ``string model'' is that of Lund: we know from QCD that there is a linear confinement force between the partons that increases with distance. Consider, as an example, the final state in which there are two quark, $ q \bar{q} $. As the partons move away the color flow tube is ``stretched'' between $ q $ and $ \bar{q} $, Fig. \ref{tube} (a). The transverse dimensions of the tube are those typical of hadron, therefore of about 1 fm.
 If the tube is assumed to be uniform, the potential increases linearly, $ V (r) = \kappa r $, with $ \kappa \approx $ 1 GeV /fm, string constant.
 \begin{figure}
 \centering
@@ -238,7 +250,7 @@ If the tube is assumed to be uniform, the potential increases linearly, $ V (r) 
 At short distances it would be necessary to introduce an additional Coulomb term, $ \sim \frac{\alpha_s}{r} $, however in the Lund model this negligible term is assumed.
 As the quark and antiquark move away from the creation vertex, the potential energy accumulated in the string increases until it breaks, giving rise to a pair $ q '\bar{q}' $. So the system is divided into two new color singles $ q \bar{q} '$ and $ q' \bar{q} $. These two systems will move away in turn by repeating the process just described. The evolution of the system in space-time is represented in \ref{tube} (b).
 At the end of the process you will have a serious pair of $ q_i \bar{q_i} $ pairs, each of which will form a hadron.
-For now, only the case $ q \bar{q} $ has been considered. However, if more partons come from the interaction, the string model becomes more complicated. For an event in which there is an additional gluon, $ q \bar{q} g $, the string is stretched between $ q $ and $ g $ and between $ g $ and $ \bar{q} $, Fig. \tubo3ref{}.
+For now, only the case $ q \bar{q} $ has been considered. However, if more partons come from the interaction, the string model becomes more complicated. For an event in which there is an additional gluon, $ q \bar{q} g $, the string is stretched between $ q $ and $ g $ and between $ g $ and $ \bar{q} $, Fig. \ref{tubo3}.
 
 
 \begin{figure}
@@ -282,23 +294,21 @@ The value of $ p = -1 $ defines the algorithm anti-$k_t $ \cite{Cacciari: 2008gp
 
 
 
-\section{Generatori principali}
-Per la fisica delle alte energie sono disponibili differenti generatori Monte Carlo.  Ognuno di questi ha metodi differenti per combinare il  ME con il  PS.
-Qui ci concentreremo in particolare su  \aMC  interfacciato con  P{\footnotesize YTHIA},   P{\footnotesize OWHEG} -anch'esso interfacciato con   P{\footnotesize YTHIA}- e S{\footnotesize HERPA}. 
+\section{Main Monte Carlo generators }
+For high energy physics, different Monte Carlo generators are available. Each of these has different methods for combining the ME with the PS.
+Here we will focus in particular on \aMC interfaced with P {\footnotesize YTHIA}, P {\footnotesize OWHEG} -anch'interface interfaced with P {\footnotesize YTHIA} - and S{\footnotesize HERPA}. 
  
  
 \paragraph{Madgraph\_aM{\footnotesize C@NLO}}
-L'approccio di \aMC \cite{bib:madgraph} è molto ambizioso, infatti lo scopo di questo  generatore è  calcolare la sezione d'urto al NLO includendo nel calcolo sia  i contributi reali che virtuali. L'\textit{hard process} è prodotto col metodo del ME mentre l'emissioni \textit{soft} e collineare col PS.
-Il primo passo è calcolare le correzioni al NLO del ME per un processo a $n$ partoni, includendo   $n+1$ partoni provenienti dalle correzioni reali ed  $n$ provenienti da quelle virtuali. Successivamente si valuta come il \textit{parton shower} popola lo spazio delle fasi a $n+1$ partoni  escludendo in questa fase il fattore di forma di Sudakov. Per ottenere il ``vero'' stato in cui  sono presenti $n+1$ partoni \aMC sottrae l'espressione del PS dallo stato $n+1$ del ME. L'espressioni del PS senza fattore di Sudakov e del  ME sono in accordo nel limite \textit{soft} e collineare, quindi le singolarità sono cancellate ottenendo così un valore finito per la sezione d'urto nel caso di $n$ e $n+1$ partoni.  Un problema tecnico è che nel limite collineare non si ha la certezza che il ME sovrasti sempre il PS. Questo problema è risolto introducendo una frazione di eventi con peso negativo, Fig. \ref{weight}.  Infine viene applicato il \textit{parton shower}, che  include il fattore di Sudakov e dunque permette di ottenere un risultato finito e corretto al NLL. 
- 
- 
+The \aMC \cite{bib:madgraph} approach is very ambitious, in fact the purpose of this generator is to calculate the cross section at the NLO including both real and virtual contributions in the calculation. The  hard process is produced by the ME method while the soft emissions are combined with the PS.
+The first step is to compute the ME NLO corrections for a $ n $ parton process, including $ n + 1 $ partons coming from the real corrections and $ n $ from the virtual ones. Next we evaluate how the parton shower populates the phase space at $ n + 1 $ parton, excluding the Sudakov form factor at this stage. To get the  true  state where $ n + 1 $ is present, \aMC subtracts the PS expression from the $ n + 1 $ state of the ME. The expression of the PS without a factor of Sudakov and of the ME are in agreement in the limit soft and collinear, so the singularities are deleted thus obtaining a finite value for the cross section in the case of $ n $ and $ n + 1 $ partoni. A technical problem is that in the collinear limit there is no certainty that the ME always overhangs the PS. This problem is solved by introducing a fraction of negative-weight events, Fig. \ref{weight}. Finally, the parton shower is applied, which includes the Sudakov factor and thus allows a finite and correct result to be obtained at the NLL. 
  
  
  
 \begin{figure}
 \centering
-\includegraphics[scale= 0.7]{weight}
-\caption{\textit{Distribuzione dei pesi, per differenti generatori Monte Carlo,con  normalizzazione alla sezione d'urto di 1 fb$^{-1}$.}}
+\includegraphics[scale= 0.7]{../Cap3/Fig_MC/weight}
+\caption{Weight distribution, for different Monte Carlo generators, with cross section normalization of 1 fb$^{-1}$.}
 \label{weight}
 \end{figure}
  
@@ -306,15 +316,14 @@ Il primo passo è calcolare le correzioni al NLO del ME per un processo a $n$ pa
 %Lo scopo di  aM{\footnotesize C@NLO} è di rimuovere questi termini aggiuntivi dall'espressione al NLO. 
 %L'eliminazione delle divergenze rende possibile la produzione di due differenti campioni, uno per la parte di Born ($\mathbb{S}$) ed uno per la parte reale ($\mathbb{H}$) ciascuno con un suo proprio peso. $\mathbb{S}$ e $\mathbb{H}$ devono essere accettati in modo proporzionale al loro peso prima di applicare il  \textit{parton shower}.  In generale non si ha la garanzia che i pesi siano positivi (Fig. \ref{weight}), infatti in alcune configurazioni è necessario sottrarre (o in altre aggiungere) eventi.
  
-\paragraph{P{\footnotesize OWHEG}} L'idea alla  base di   P{\footnotesize OWHEG} \cite{Oleari:2010nx} è generare per prima cosa la radiazione più dura, e successivamente  passare l'evento al generatore del \textit{parton shower}. Nei generatori di \textit{parton shower} la produzione, ordinata in impulso trasverso, della radiazione più dura è sempre la prima; quindi  P{\footnotesize OWHEG} sostituisce semplicemente questa con l'emissione al NLO. 
-In   P{\footnotesize OWHEG} gli eventi sono prodotti con un peso positivo e costante (Fig. \ref{weight}).
+\paragraph{P{\footnotesize OWHEG}} The idea behind P{\footnotesize OWHEG} \cite{Oleari:2010nx} is to generate the hardest radiation first, and then pass the event to the parton shower generator. In parton shower generators, the production, ordered in a transverse pulse, of the harshest radiation is always the first; so P{\footnotesize OWHEG} simply replaces this with issuing to the NLO.
+In P {\footnotesize OWHEG} events are produced with a positive and constant weight (Fig. \ref{weight}).
  
  
-\paragraph{P{\footnotesize YTHIA}8 }  P{\footnotesize YTHIA}8 \cite{bib:pythia} è un generatore che può calcolare il ME per processi con due particelle o partoni nello stato finale, ma soprattutto genera il \textit{parton shower} e la successiva adronizzazione. Il \textit{parton shower} è ordinato in impulso trasverso, $p_T$, e la prima emissione è corretta con il metodo del ripesamento. Per l’adronizzazione utilizza il modello di Lund.  
+\paragraph{P{\footnotesize YTHIA}8 } P{\footnotesize YTHIA 8} \cite{bib:pythia} is a generator that can calculate the ME for processes with two particles or partons in the final state, but above all it generates the parton shower and the subsequent synchronization. The parton shower is ordered in a transverse impulse, $ p_T $, and the first issue is corrected with the method of the reshuffle. For the use of the atomization, use the Lund model.
  
  
-\paragraph{S{\footnotesize HERPA}}  S{\footnotesize HERPA}  \cite{bib:sherpa} è un generatore Monte Carlo che come PYTHIA8  fornisce una descrizione completa della collisioni adroniche, dal calcolo dell’elemento di matrice, fino all’adronizzazione.  Il \textit{parton shower} include sia le emissioni QCD che quelle dovute alla QED, ovvero i fotoni. Può calcolare il ME per i processi principali (p.e. $gg \rightarrow H$) al NLO e combinare il ME con il  PS. Il codice è scritto completamente in linguaggio C$++$.  
-
+\paragraph{S{\footnotesize HERPA}}  S{\footnotesize HERPA}  \cite{bib:sherpa} s a Monte Carlo generator that as PYTHIA8 provides a complete description of hadronic collisions, from the calculation of the matrix element, up to the angle. The parton shower includes both QCD and QED emissions, i.e. photons. It can calculate the ME for the main processes (eg $ gg \rightarrow H $) at the NLO and combine the ME with the PS. The code is written completely in C $ ++ $ language.
 
 
 \section{Monte Carlo sample in High Mass Analysis}
@@ -325,8 +334,8 @@ In order to perform the resonance search in a large part of the mass spectrum,
 several signal samples for the gluon-gluon fusion and the vector boson fusion
 mechanisms have been generated corresponding to different Higgs boson masses
 in the range between 200\GeV and 3\TeV. The signal lineshape for each mass point corresponds to the one expected for a SM Higgs boson at that mass.
-All signal samples, presented in Table~\ref{tab:signal}, have been simulated with
-\POWHEG v2~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xd}, designed to describe the full NLO properties of these processes.
+All signal samples, presented in Table , have been simulated with
+POWHEG v2~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xd}, designed to describe the full NLO properties of these processes.
 In particular, for Higgs produced via gluon fusion~\cite{Alioli:2008tz}, and vector-boson-fusion (VBF)~\cite{Nason:2009ai},
 the decay of the Higgs boson into two W boson and subsequently into leptons
 was done using JHUGen v6.2.8~\cite{jhugen} for samples up to 300~\GeV of mass
@@ -352,7 +361,7 @@ A \ttbar sample dilepton sample was also generated using \POWHEG v2. The \WW and
 produced specifically for this analysis are presented in Table~\ref{tab:wwl}.
 
 
-\begin{table*}[htbH]
+\begin{table*}[htb]
 \begin{center}
 \footnotesize{
 \begin{tabular}{@{}|l|c|c|c|@{}}
@@ -371,40 +380,40 @@ $gg\rightarrow$\WW$\rightarrow2l2\nu$ & GluGluWWTo2L2Nu\_MCFM\_13TeV & 500K & 0.
 \end{tabular}
 }
 \caption{Simulated samples for \ttbar and \WW production.}
-\label{tab:wwl}}
+\label{tab:wwl}
 \end{center}
 \end{table*}
 
-Other background samples are used, a list of the most relevant ones is presented in Table~\ref{tab:otherbck}.
-
-\begin{table*}[htbH]
-\begin{center}
-\footnotesize{
-\begin{tabular}{@{}|l|c|c|c|@{}}
-\hline
-Process & Dataset Name &  $\sigma\times$BR [pb] \\
-\hline
-Single top & ST\_tW\_top\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1 &   35.85  \\
-		& ST\_tW\_antitop\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1 &   35.85  \\
-\hline
-Drell-Yan 	& DYJetsToTauTau\_ForcedMuEleDecay\_M-50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8\_ext1 & 1867 \\
-                & DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  6025.26  \\
-                & DYJetsToLL\_M-50\_HT100to200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  147.4  \\
-                & DYJetsToLL\_M-50\_HT200to400\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  40.99  \\
-                & DYJetsToLL\_M-50\_HT400to600\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  5.678  \\
-                & DYJetsToLL\_M-50\_HT600toInf\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  2.198  \\
-\hline
-Multibosons 	& WZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  5.5950 \\
-		& ZZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  3.2210 \\
-		& WWZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8  &  0.1651 \\
-		& WZZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8 &  0.05565 \\
-\hline
-\end{tabular}
-}
-\caption{Simulated samples for other backgrounds used in the analysis. 
-\label{tab:otherbck}}
-\end{center}
-\end{table*}
+%Other background samples are used, a list of the most relevant ones is presented in Table~\ref{tab:otherbck}.
+% 
+%\begin{table*}[htb]
+%\begin{center}
+%\footnotesize{
+%\begin{tabular}{@{}|l|c|c|c|@{}}
+%\hline
+%Process & Dataset Name &  $\sigma\times$BR [pb] \\
+%\hline
+%Single top & ST\_tW\_top\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1 &   35.85  \\
+%        	& ST\_tW\_antitop\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1 &   35.85  \\
+%\hline
+%Drell-Yan 	& DYJetsToTauTau\_ForcedMuEleDecay\_M-50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8\_ext1 & 1867 \\
+%                & DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  6025.26  \\
+%                & DYJetsToLL\_M-50\_HT100to200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  147.4  \\
+%                & DYJetsToLL\_M-50\_HT200to400\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  40.99  \\
+%                & DYJetsToLL\_M-50\_HT400to600\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  5.678  \\
+%                & DYJetsToLL\_M-50\_HT600toInf\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  2.198  \\
+%\hline
+%Multibosons 	& WZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  5.5950 \\
+%        	& ZZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  3.2210 \\
+%        	& WWZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8  &  0.1651 \\
+%        	& WZZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8 &  0.05565 \\
+%\hline
+%\end{tabular}
+%}
+%\caption{Simulated samples for other backgrounds used in the analysis. 
+%\label{tab:otherbck}}
+%\end{center}
+%\end{table*}
 
 For the Drell-Yan backgrounds we use two different sets of samples. For the
 opposite flavore analysis (Sec~\ref{sec:OF}), selecting events with an
@@ -460,7 +469,7 @@ The pileup histogram for reweighting is calculated using the \emph{pileupCalc} t
 Different sources and calculations are used to obtain the cross sections for the different processes at 13\TeV. 
 For Higgs signals, the cross sections used are the ones reported but the LHC Higgs Cross Section Working Group~\cite{temphiggsxsecs},
 computed at NNLO and NNLL QCD and NLO EW for gluon fusion, and at NNLO QCD and NLO EW for the rest of the production modes.
-The branching fractions are the ones reported in Ref.~\cite{Heinemeyer:2013tqa}. 
+The branching fractions are the ones reported in \cite{Heinemeyer:2013tqa}. 
 
 The cross section used for normalizing \qqbar produced WW processes was computed at next-to-next-to-leading order
 (NNLO)~\cite{Gehrmann:2014fva}. The leading-order (LO) cross section for ggWW is obtained directly from \MCFM.
@@ -555,6 +564,8 @@ To check the differences between the LO inclusive sample and the NLO sample simu
 \end{figure}
 
 
+
+
 \subsection{The WW sample}
 
 In the analysis two different WW Monte Carlo samples are merge: the ``$WW \rightarrow 2l 2\nu$ NLO'' and the ``WW plus 2 jet'' LO (WpWmJJ-QCD-noTop in Tab. 4). 
@@ -562,15 +573,14 @@ In the analysis two different WW Monte Carlo samples are merge: the ``$WW \right
 The second sample,  ``WW plus 2 quark'', contais final state with two quarks or a gluon-quark system: only the final state with two quarks interferes with the signal.
 To avoid double count between the two sample a cut on di-jet mass at gen-level,$mjj_{GenLev}$, is applied. In particular the sample ``$WW \rightarrow 2l 2\nu$ at NLO'' is used for $mjj_{GenLev} <100$ GeV and the ``WW plus 2 quark'' for $mjj_{GenLev} >100$ GeV.
 
-The  distribution for the reco di-jet mass is shown in Fig. \ref{fig:WW}. In particular the red distribution correspond the ``$WW \rightarrow 2l 2\nu$ NLO'' sample with a cut of  $mjj_{GenLev} <100$, the blue distribution to  ``WW plus 2 quark'' with $mjj_{GenLev} >100$ GeV. The sum of the red and blue distributions is shown in black. There is a good agreement between with the black distribution and the ``$WW \rightarrow 2l 2\nu$ NLO'' without any  $mjj_{GenLev}$ distribution , in green.
+The  distribution for the reco di-jet mass is shown in Fig.\ref{fig:WW}. In particular the red distribution correspond the ``$WW \rightarrow 2l 2\nu$ NLO'' sample with a cut of  $mjj_{GenLev} <100$, the blue distribution to  ``WW plus 2 quark'' with $mjj_{GenLev} >100$ GeV. The sum of the red and blue distributions is shown in black. There is a good agreement between with the black distribution and the ``$WW \rightarrow 2l 2\nu$ NLO'' without any  $mjj_{GenLev}$ distribution , in green.
 
 
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.6\textwidth]{../AN/Figs/WW_distribution.png}
-\caption{
-    Distribution for $m_{jj}$ at RECO level for the merged WW sample.}
+\includegraphics[width=0.6\textwidth]{../AN/Figs/WW_distribution}
+\caption{ Distribution for $m_{jj}$ at RECO level for the merged WW sample.}
     \label{fig:WW}
 \end{figure}
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Sjostrand:2006su}
 T.~Sjostrand.
@@ -9,5 +9,209 @@ T.~Sjostrand.
 A.~Buckley et~al.
 \newblock {General-purpose event generators for LHC physics}.
 \newblock {\em Phys. Rept.}, 504:145--233, 2011.
+
+\bibitem{Nason:2004rx}
+Paolo Nason.
+\newblock {A New method for combining NLO QCD with shower Monte Carlo
+  algorithms}.
+\newblock {\em JHEP}, 11:040, 2004.
+
+\bibitem{Frixione:2007vw}
+Stefano Frixione, Paolo Nason, and Carlo Oleari.
+\newblock {Matching NLO QCD computations with Parton Shower simulations: the
+  POWHEG method}.
+\newblock {\em JHEP}, 11:070, 2007.
+
+\bibitem{Alioli:2010xd}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock {A general framework for implementing NLO calculations in shower
+  Monte Carlo programs: the POWHEG BOX}.
+\newblock {\em JHEP}, 06:043, 2010.
+
+\bibitem{Alioli:2008tz}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock {NLO Higgs boson production via gluon fusion matched with shower in
+  POWHEG}.
+\newblock {\em JHEP}, 04:002, 2009.
+
+\bibitem{Nason:2009ai}
+Paolo Nason and Carlo Oleari.
+\newblock {NLO Higgs boson production via vector-boson fusion matched with
+  shower in POWHEG}.
+\newblock {\em JHEP}, 02:037, 2010.
+
+\bibitem{jhugen}
+A.~V. Gritsan~{\it et. al.} S.~Bolognesi, Y.~Gao.
+\newblock Jhugen.
+\newblock \url{http://www.pha.jhu.edu/spin/}.
+
+\bibitem{Luisoni:2013kna}
+Gionata Luisoni, Paolo Nason, Carlo Oleari, and Francesco Tramontano.
+\newblock {$HW^{\pm}$/HZ + 0 and 1 jet at NLO with the POWHEG BOX interfaced to
+  GoSam and their merging within MiNLO}.
+\newblock {\em JHEP}, 10:083, 2013.
+
+\bibitem{Sjostrand:2007gs}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock {\em Comput. Phys. Commun.}, 178:852--867, 2008.
+
+\bibitem{Melia:2011tj}
+Tom Melia, Paolo Nason, Raoul Rontsch, and Giulia Zanderighi.
+\newblock {W+W-, WZ and ZZ production in the POWHEG BOX}.
+\newblock {\em JHEP}, 11:078, 2011.
+
+\bibitem{Meade:2014fca}
+Patrick Meade, Harikrishnan Ramani, and Mao Zeng.
+\newblock {Transverse momentum resummation effects in $W^+W^-$ measurements}.
+\newblock {\em Phys. Rev.}, D90(11):114006, 2014.
+
+\bibitem{Jaiswal:2014yba}
+Prerit Jaiswal and Takemichi Okui.
+\newblock {Explanation of the $WW$ excess at the LHC by jet-veto resummation}.
+\newblock {\em Phys. Rev.}, D90(7):073009, 2014.
+
+\bibitem{Campbell:2013wga}
+John~M. Campbell, R.~Keith Ellis, and Ciaran Williams.
+\newblock {Bounding the Higgs width at the LHC: Complementary results from $H
+  \to WW$}.
+\newblock {\em Phys. Rev.}, D89(5):053011, 2014.
+
+\bibitem{Ball:2013hta}
+Richard~D. Ball, Valerio Bertone, Stefano Carrazza, Luigi Del~Debbio, Stefano
+  Forte, Alberto Guffanti, Nathan~P. Hartland, and Juan Rojo.
+\newblock {Parton distributions with QED corrections}.
+\newblock {\em Nucl. Phys.}, B877:290--320, 2013.
+
+\bibitem{Ball:2011uy}
+Richard~D. Ball, Valerio Bertone, Francesco Cerutti, Luigi Del~Debbio, Stefano
+  Forte, Alberto Guffanti, Jose~I. Latorre, Juan Rojo, and Maria Ubiali.
+\newblock {Unbiased global determination of parton distributions and their
+  uncertainties at NNLO and at LO}.
+\newblock {\em Nucl. Phys.}, B855:153--221, 2012.
+
+\bibitem{Khachatryan:2015pea}
+Vardan Khachatryan et~al.
+\newblock {Event generator tunes obtained from underlying event and multiparton
+  scattering measurements}.
+\newblock 2015.
+
+\bibitem{Agostinelli:2002hh}
+S.~Agostinelli et~al.
+\newblock {$\GEANT$4---a simulation toolkit}.
+\newblock {\em Nucl. Instrum. Meth. A}, 506:250, 2003.
+
+\bibitem{puJSON}
+2015 pileup json files.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/PileupJSONFileforData#2015_Pileup_JSON_Files}.
+
+\bibitem{temphiggsxsecs}
+Sm higgs production cross sections at $\sqrt{s}$ = 13-14 tev.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt1314TeV}.
+
+\bibitem{Heinemeyer:2013tqa}
+J~R Andersen et~al.
+\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
+\newblock 2013.
+
+\bibitem{singletop}
+Nlo single-top channel cross sections.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopRefXsec}.
+
+\bibitem{topxsec}
+Nnlo+nnll top-quark-pair cross sections.
+\newblock \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO}.
+
+\bibitem{Alwall:2014hca}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.~S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro.
+\newblock {The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower
+  simulations}.
+\newblock {\em JHEP}, 07:079, 2014.
+
+\bibitem{genxsec}
+How to compute cross sections with the genxsecanalyzer.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/HowToGenXSecAnalyzer}.
+
+\bibitem{25nstwiki}
+Summary table of samples produced for the 1 billion campaign, with 25ns
+  bunch-crossing.
+\newblock \url{https://twiki.cern.ch/twiki/bin/view/CMS/SummaryTable1G25ns}.
+
+\bibitem{CMS-PAS-HIG-16-023}
+{Search for high mass Higgs to WW with fully leptonic decays using 2015 data}.
+\newblock Technical Report CMS-PAS-HIG-16-023, CERN, Geneva, 2016.
+
+\bibitem{bsmhiggsxsecs}
+Lhc hxswg for bsm higgs (wg3).
+\newblock \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG3}.
+
+\bibitem{Harlander:2012pb}
+Robert~V. Harlander, Stefan Liebler, and Hendrik Mantler.
+\newblock {SusHi: A program for the calculation of Higgs production in gluon
+  fusion and bottom-quark annihilation in the Standard Model and the MSSM}.
+\newblock {\em Comput. Phys. Commun.}, 184:1605--1617, 2013.
+
+\bibitem{Heinemeyer:1998yj}
+S.~Heinemeyer, W.~Hollik, and G.~Weiglein.
+\newblock {FeynHiggs: A Program for the calculation of the masses of the
+  neutral CP even Higgs bosons in the MSSM}.
+\newblock {\em Comput. Phys. Commun.}, 124:76--89, 2000.
+
+\bibitem{Heinemeyer:1998np}
+S.~Heinemeyer, W.~Hollik, and G.~Weiglein.
+\newblock {The Masses of the neutral CP - even Higgs bosons in the MSSM:
+  Accurate analysis at the two loop level}.
+\newblock {\em Eur. Phys. J.}, C9:343--366, 1999.
+
+\bibitem{Degrassi:2002fi}
+G.~Degrassi, S.~Heinemeyer, W.~Hollik, P.~Slavich, and G.~Weiglein.
+\newblock {Towards high precision predictions for the MSSM Higgs sector}.
+\newblock {\em Eur. Phys. J.}, C28:133--143, 2003.
+
+\bibitem{Frank:2006yh}
+M.~Frank, T.~Hahn, S.~Heinemeyer, W.~Hollik, H.~Rzehak, and G.~Weiglein.
+\newblock {The Higgs Boson Masses and Mixings of the Complex MSSM in the
+  Feynman-Diagrammatic Approach}.
+\newblock {\em JHEP}, 02:047, 2007.
+
+\bibitem{Hahn:2013ria}
+T.~Hahn, S.~Heinemeyer, W.~Hollik, H.~Rzehak, and G.~Weiglein.
+\newblock {High-Precision Predictions for the Light CP -Even Higgs Boson Mass
+  of the Minimal Supersymmetric Standard Model}.
+\newblock {\em Phys. Rev. Lett.}, 112(14):141801, 2014.
+
+\bibitem{Djouadi:1997yw}
+A.~Djouadi, J.~Kalinowski, and M.~Spira.
+\newblock {HDECAY: A Program for Higgs boson decays in the standard model and
+  its supersymmetric extension}.
+\newblock {\em Comput. Phys. Commun.}, 108:56--74, 1998.
+
+\bibitem{Djouadi:2006bz}
+A.~Djouadi, M.~M. Muhlleitner, and M.~Spira.
+\newblock {Decays of supersymmetric particles: The Program SUSY-HIT
+  (SUspect-SdecaY-Hdecay-InTerface)}.
+\newblock {\em Acta Phys. Polon.}, B38:635--644, 2007.
+
+\bibitem{Rathsman:2011yv}
+Johan Rathsman and Oscar Stal.
+\newblock {2HDMC - A Two Higgs Doublet Model Calculator}.
+\newblock {\em PoS}, CHARGED2010:034, 2010.
+
+\bibitem{bsmhiggsxsecs2}
+Bsm higgs production cross sections at $\sqrt{s}$ = 13 tev.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBSMAt13TeV}.
+
+\bibitem{Boughezal:2013oha}
+Radja Boughezal, Xiaohui Liu, Frank Petriello, Frank~J. Tackmann, and
+  Jonathan~R. Walsh.
+\newblock {Combining Resummed Higgs Predictions Across Jet Bins}.
+\newblock {\em Phys. Rev.}, D89(7):074044, 2014.
 
 \end{thebibliography}
