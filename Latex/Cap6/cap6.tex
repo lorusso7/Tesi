@@ -1,1 +1,74 @@
 \chapter{Results and Interpretation}
+
+\section{Statistical interpretation}
+In the research of high mass Higgs boson, processes that have been predicted but not yet seen are searched . Given that no excesses over the SM expectation are seen in the mass spectra, the  upper limits on the cross sections are computed.
+
+The Bayesian and the classical frequentist~\cite{cowan1998statistical}, with a number of modifications, are two statistical approaches commonly used in high energy physics for characterising the absence
+of a signal.
+Both methods allow one to quantify the level of incompatibility of data with a signal
+hypothesis,  which  is  expressed  as  a  confidence  level  (C.L.)~\cite{CMS-NOTE-2011-005}. For excluding a signal the C.L. 95\% is a common choice.
+The C.L. probabilistic interpretation is used when stating the non-existence
+of a signal is not straightforward and the subject of a vast body of literature as in the high mass analysis.
+The procedure used the establish the upper limits calculation is based on frequentist test using  a likelohood ratio as a test statistic. In addition to the parameter of interest such as the cross section of the signal, the signal and the background models contain a nuisances parameters whose values are not take in account as know \textit{a priori} but rather must be fitted from the data ~\cite{Cowan:2010js}.
+In the following the frequentist approach is described.  The expected high mass signal  event yields will be generically denoted as $s$ and the backgrounds as $b$.
+\newline
+The  frequentist approach is built  to discriminate signal from background events. The most powerful statistic test, in according to the Neyman-Pearson lemma~\cite{cowan1998statistical}, is the likelihoods ratio $\lambda (\mu)$, 
+
+\begin{equation}
+  \lambda (\mu)=\frac{\mathcal{L}(data | \mu s +b)  }{ \mathcal{L}(data | b) }  \end{equation}
+
+where, $\mathcal{L}$ is the likelihood function from the product of Poisson probabilities and  $\mu$ is the strength of the signal process (the case $\mu =0$ correspond to background only hypothesis, $\mu=1$ the the nominal signal hypothesis).
+One can see that $0 \leq  \lambda (\mu) \leq 1 $, $\mu$ near 1 is a evidence of good agreement among data and the hypothesized $\mu$ value.\\
+It is convenient, for numerical reason, to use the test statistic $q_{\mu}$ defined as,  
+\begin{equation}
+ q_{\mu}= -2 \ln \lambda (\mu)  \end{equation}
+where high value of $q_{\mu}$ correspond to  more likely incompatibility between data and $\mu$, i.e. background only hypothesis. \\
+Using the statistic test  $q_{\mu}$, is possible to quantify the level of disagreement between the data and the hypothesis, $p$-value, defined as,
+
+\begin{equation}
+  p_{\mu}=  \int_{ q_{\mu},obs }^{\infty } f(q_{\mu}| \mu  ) dq_{\mu}   \end{equation}
+where $ q_{\mu,obs} $ is the value of statistic test $q_{\mu}$ observed from the data and $f(q_{\mu}| \mu  )$ is the pdf of $q_{\mu}$ under the assumption of the signal strength $\mu$.
+\newline
+The systematic uncertainties on signal $s(\theta)$ and background $b(\theta)$ rates are introduced in test statistic.
+The test statistic then would take the following form:
+\begin{equation}
+ q_{\mu} =\frac{\mathcal{L}(data | \mu, \hat{\theta}_{\mu} )  }{ \mathcal{L}(data |0, \hat{\theta}_0 )},  \end{equation}
+where $\hat{\theta}_{\mu}$ and $\hat{\theta}_0$ are maximum likelihood estimators for the signal+background
+hypothesis (with the signal strength factor $\mu$) and for the
+background-only hypothesis ($\mu =0$). 
+The profile likelihood test statistic is introduced to prevent negative signal as,
+\begin{equation}
+ \tilde{q}_{\mu} =\frac{\mathcal{L}(data | \mu, \hat{\theta}_{\mu} )  }{ \mathcal{L}(data |\hat{\mu}, \hat{\theta} )}, \; \; 0 \leq \hat{\mu} \leq \mu \; ,  \end{equation}
+where $\hat{\mu}$ and $\hat{\theta}$ gives the global maximum of the likelihood. 
+The constrain  $0 \leq \hat{\mu}$ is due to a positive signal rate, while the   $\hat{\mu} \leq \mu$ is imposed by hand in order to guarantee a one-sided  confidence interval.\\
+At this point is useful to evaluate the observed statistic test $\tilde{q}_{\mu}^{obs}$ and the nuisance parameters $\hat{\theta}_0^{obs}$, $\hat{\theta}_{\mu}^{obs}$ that escribing  the  experimentally observed data for the background-only and signal+background hypotheses, respectively.
+With this in mind, the pdf of the test statistic in constructed by generating toy MC pseudo-data for both the background-only and signal+background hypotheses, 
+$f(\tilde{q}_{\mu}| \mu, \hat{\theta}_{\mu}^{obs}  )$ and $f(\tilde{q}_{\mu}| \mu, \hat{\theta}_{0}^{obs}  )$. The corresponding $p$-value for the
+signal+background and background-only hypotheses, $p_{\mu}$ and $p_b$ are given by:
+
+
+\begin{equation}
+  p_{\mu}= P( \tilde{q}_{\mu} \geq \tilde{q}_{\mu}^{obs} | signal+background)=  \int_{ q_{\mu},obs }^{\infty } f(\tilde{q}_{\mu}| \mu, \hat{\theta}_{\mu}^{obs}   ) d \tilde{q}_{\mu}   \end{equation}
+
+
+\begin{equation}
+ 1- p_{b}= P( \tilde{q}_{\mu} \geq \tilde{q}_{\mu}^{obs} | background-only)=  \int_{ q_{0},obs }^{\infty } f(\tilde{q}_{\mu}| 0, \hat{\theta}_{0}^{obs}   ) d \tilde{q}_{\mu}.   \end{equation}
+The CL$_{s}(\mu)$ is given by the ratio,
+
+\begin{equation}
+  CL_s(\mu)=\frac{p_{\mu}}{1-p_b}   \end{equation}
+To quote the 95\% of confidence level upper limits on $\mu$, $\mu$ is adjust until reaches CL$_S$=0.05.
+For the background-only hypothesis, the expected median upper-limit and $\pm 1 \sigma$ and $\pm 2 \sigma$ bands are generated with a large set   of background-only pseudo-data. The CL$_S$ is evaluated for each of them.
+Then,  one can build a cumulative probability distribution of results by starting integration from the side corresponding to low event yield.
+The point at which the cumulative probability distribution crosses the quantile of 50\% is the median expected value. 
+The  $\pm 1 \sigma$ (68\%) band is defined by the crossings of the 16\% and 84\% quantiles.  Crossings at 2.5\% and 97.5\% define the  $\pm 2 \sigma$ (95\%) band.
+\newline
+
+In the high mass analysis,  the interference contribution is not negligible, as described in \ref{sec:interference}, and it is included as part of the signal. 
+In particular during the fit the interference term is scaled by $\sqrt{\mu}$.
+However, to prevent possible negative probability distribution function of the interference,  during the fit the signal yield is computated as,
+\begin{equation}
+Yield=\sqrt{\mu} \times (S+B+I)+ (\mu -\sqrt{\mu}) \times (S) + (1-\sqrt{\mu}) \times (B)
+\end{equation}
+where  $S$ is the signal, $B$ the background and $I$ the interference.
+

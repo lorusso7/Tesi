@@ -29,4 +29,18 @@
 \contentsline {paragraph}{The Top sample}{20}{section*.26}
 \contentsline {paragraph}{The DY sample}{21}{section*.27}
 \contentsline {paragraph}{Other processes}{23}{section*.32}
-\contentsline {chapter}{\numberline {A}Special commands }{25}{appendix.A}
+\contentsline {chapter}{\numberline {4}Event Reconstruction}{25}{chapter.4}
+\contentsline {chapter}{\numberline {5}High mass resonances searching}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}Discriminating variable}{28}{section.5.2}
+\contentsline {section}{\numberline {5.3}Signal interpretation}{28}{section.5.3}
+\contentsline {section}{\numberline {5.4}Opposite Flavor final state}{32}{section.5.4}
+\contentsline {section}{\numberline {5.5}Same Flavor final state}{45}{section.5.5}
+\contentsline {section}{\numberline {5.6}2HDM and MSSM interpretations}{55}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Introduction to 2HDM and MSSM}{55}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Statistical inference}{55}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}Systematic uncertainties}{57}{section.5.7}
+\contentsline {chapter}{\numberline {6}Results and Interpretation}{61}{chapter.6}
+\contentsline {section}{\numberline {6.1}Statistical interpretation}{61}{section.6.1}
+\contentsline {section}{\numberline {6.2}EWS results}{63}{section.6.2}
+\contentsline {chapter}{\numberline {A}Special commands }{67}{appendix.A}
