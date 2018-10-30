@@ -1,51 +1,51 @@
 This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: PhD.aux
-White space in argument---line 48 of file PhD.aux
+White space in argument---line 50 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 54 of file PhD.aux
+White space in argument---line 56 of file PhD.aux
  : \citation{Altarelli:
  :                      1977zs}
 I'm skipping whatever remains of this command
-White space in argument---line 64 of file PhD.aux
+White space in argument---line 66 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 73 of file PhD.aux
+White space in argument---line 75 of file PhD.aux
  : \citation{bib:
  :                pdg}
 I'm skipping whatever remains of this command
-White space in argument---line 74 of file PhD.aux
+White space in argument---line 76 of file PhD.aux
  : \citation{bib:
  :                run2jet}
 I'm skipping whatever remains of this command
-White space in argument---line 75 of file PhD.aux
+White space in argument---line 77 of file PhD.aux
  : \citation{mass:
  :                 in: dijet}
 I'm skipping whatever remains of this command
-White space in argument---line 83 of file PhD.aux
+White space in argument---line 85 of file PhD.aux
  : \citation{Cacciari:
  :                     2008gp}
 I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
-I was expecting a `,' or a `}'---line 106 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 140 of file AN-17-243.bib
  : 
  : @techreport{CMS-PAS-HIG-16-023,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 123 of file AN-17-243.bib
+Unbalanced braces---line 157 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1046 of file AN-17-243.bib
+Repeated entry---line 1080 of file AN-17-243.bib
  : @article{Cowan:2010js
  :                      ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1154 of file AN-17-243.bib
+Illegal end of database file---line 1188 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
@@ -69,45 +69,45 @@ Warning--empty journal in cowan1998statistical
 Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
-You've used 42 entries,
+You've used 44 entries,
             1791 wiz_defined-function locations,
-            703 strings with 10869 characters,
-and the built_in function-call counts, 7966 in all, are:
-= -- 633
-> -- 409
+            716 strings with 11213 characters,
+and the built_in function-call counts, 8365 in all, are:
+= -- 668
+> -- 425
 < -- 1
-+ -- 155
-- -- 113
-* -- 526
-:= -- 1306
-add.period$ -- 117
-call.type$ -- 42
-change.case$ -- 42
++ -- 161
+- -- 117
+* -- 551
+:= -- 1373
+add.period$ -- 123
+call.type$ -- 44
+change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 335
-empty$ -- 818
-format.name$ -- 113
-if$ -- 1758
+cite$ -- 52
+duplicate$ -- 353
+empty$ -- 859
+format.name$ -- 117
+if$ -- 1846
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 32
-newline$ -- 204
-num.names$ -- 32
-pop$ -- 106
+int.to.str$ -- 44
+missing$ -- 34
+newline$ -- 214
+num.names$ -- 34
+pop$ -- 108
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 157
+skip$ -- 165
 stack$ -- 0
-substring$ -- 405
-swap$ -- 37
+substring$ -- 432
+swap$ -- 39
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 8
-while$ -- 59
-width$ -- 44
-write$ -- 420
+while$ -- 63
+width$ -- 46
+write$ -- 442
 (There were 11 error messages)
