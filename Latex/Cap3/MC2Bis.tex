@@ -104,6 +104,7 @@ It should be noted that the cross-section for processes of the type $ 2 \rightar
 
  
 \section{Parton shower}
+\label{ps}
 In a collision between partons a charge of color is accelerated, so there will be bremsstrahlung emission. When studying a process of the type $ 2 \rightarrow n $, where $ n $ represents the number of partons in the final state, the LO matrix elements (called tree-level) will have divergences in the collinear  and 
 soft case. In particular, the processes that suffer from this type of divergence are $ q \rightarrow qg $, $ \bar {q} \rightarrow \ bar{q} g $, $ g \rightarrow gg $: the first are similar processes to $ e \rightarrow e \gamma $ in QED, while the third is due to the fact that QCD is not an Abelian theory. The process $ g \rightarrow q \bar {q} $ does not have this type of divergence.
 The divergences of the tree-level matrix element can be removed by introducing the virtual corrections into the calculation, but they will be in the next order; these calculations are therefore particularly complex and they are only possible for a limited number of processes. The parton shower \cite{Sjostrand: 2006su} algorithms offer an alternative and simple way to eliminate the collinear and soft divergences through:
@@ -121,7 +122,7 @@ The most common choice used is to set  $Q^2=p^2=E^2- |\vec{p}\,|^2$. With this c
 The ISR case is more complicated: in this case $ a $ and $ b $  (supposed off-shell) have $ p^2 $ of type space-like, then redefines $ Q_i^2 = -m_i^2 $ in order to guarantee the increasing order of $ Q^2 $, i.e. $ Q_b^2> Q_a^2 $.
 In contrast, $ c $ will not participate in hard process and will have $ p^2> 0 $ and therefore its shower will evolve like that of the FSR.
 
-\paragraph{Final State Radiation}
+\subsection*{Final State Radiation}
 In the parton shower approach, the final radiation state is modeled through a series of divisional processes of the type $ a \rightarrow bc $.   
 This is evident from the process $q \bar{q}g$, Fig. \ref{nlofig} (b), where the first order matrix element  corrections  correspond to the emission of a gluon. 
 The evolution of the shower is described by two parameters: the fraction of energy carried by one of the two outgoing partons, $ z = E_b / E_a $, and the order variable $ t $. As we said, a possible choice for $ t $ is the  virtuality $ Q_a^2 $ of the incoming parton.
@@ -150,7 +151,7 @@ If you want to interpret it in terms of Feynman diagrams, this represents the vi
 This total process can be combined to have more emissions at different steps: this will result in a partons  shower which will be ordered in decreasing $ Q $. 
 Finally,  the description given by parton shower is correct if you have collinear jet and it fail in configurations where there are well separated partons.   
 
-\paragraph{Initial State Radiation}
+\subsection*{Initial State Radiation}
 The   the initial state radiation evolution is much more complicated than the final state. 
 Indeed the quark and the gluons are   emitted  and absorbed continuously, inside the incoming proton. The initial stare radiation is already present during the hard scattering.
 The ISR simulation could start from the on-shell parton before the interaction and after  could evolve to higher and higher $ Q ^ 2 $ scales until the hard process.
@@ -185,7 +186,7 @@ d \mathcal{P}_{b}^{\mbox{\footnotesize{ISR}}}(t) &=& - \frac{d S_b (x,t,t_{max})
 In this case the form factor Sudakov is different respect to FSR as it contains the PDFs.
 This means that the parton shower results do not depend only on the algorithm but also on the PDFs used.
 
-\paragraph{Resummation} When calculating an observable of the QCD in a perturbative way, the expansion in terms of $ \alpha_S $ contains terms of the type $ \alpha_S^n L^k $ ($ k < 2n $), where $ L = \ln (q_{cut} / s) $, being $ q_{cut} $ the cut on resolvable emission. 
+\subsection*{Resummation} When calculating an observable of the QCD in a perturbative way, the expansion in terms of $ \alpha_S $ contains terms of the type $ \alpha_S^n L^k $ ($ k < 2n $), where $ L = \ln (q_{cut} / s) $, being $ q_{cut} $ the cut on resolvable emission. 
 When we consider small values of  $q_{cut}$ the logarithm of the perturbative expansion becomes large and the  perturbative series diverges.
 The main  perturbative order of the expansion is $n$  only if the successive terms of the series are negligible, however this is not guaranteed if there are high value of L. 
 It is therefore necessary to consider the terms that have a high value of the logarithm. The study of these terms is called resummation and is done by putting the terms together in the perturbation series according to their degree of divergence:
@@ -193,7 +194,7 @@ $ \alpha_S ^ n L ^ {2n} $ are the leading log (LL) terms, $ \alpha_S ^ n L ^ {2n
 At the end  all $ \alpha_S $ orders terms are added. For many processes calculations are available at the NLL.
 The parton shower reproduces the effects of resuming approximately at the NLL.
 
-\paragraph{Merging among ME and PS}
+\subsection*{Merging among ME and PS}
 The two different approaches for the  matrix element calculation  and for the parton shower have advantages and disadvantages. Regarding the ME we have:
 \begin{itemize}
 \item the LO matrix element calculations  can be performed exactly in the cases where there are many jet (of the order of six) in the final state,
@@ -238,7 +239,7 @@ It should also be noted that in order to eliminate the divergence it is necessar
 \section{Hadronization }
 In this context, the process of hadronization is a particular model, used in event generators, which describes the transition from the final partonic state to the final hadron state, which is an observable experimental. It is important to underline that this transition is treated in a phenomenological way and not by a rigorous approach. The two most important classes for tuning are the string model and the cluster model. The difference is that the former transforms the partonic systems directly into hadrons, while the second takes an intermediate step where it groups the objects to a scale of $ \sim 1 $ GeV.
 
-\paragraph*{String Model}
+\subsection*{String Model}
 The Lund model is the most complete string model: we know from QCD that there is a linear confinement force between the partons that increases with distance. Consider, as an example, the final state in which there are two quark, $ q \bar{q} $. As the partons move away the color flow tube is stretched between $ q $ and $ \bar{q} $, Fig. \ref{tube} (a). The transverse dimensions of the tube are the typical dimension for the hadrons, therefore  about 1 fm.
 If the tube is assumed to be uniform, the potential increases linearly, $ V (r) = \kappa r $, with $ \kappa \approx $ 1 GeV /fm, string constant.
 \begin{figure}
@@ -271,7 +272,7 @@ For now, only the case $ q \bar{q} $ has been considered. However, if more parto
 \end{figure}
 
 
-\paragraph*{Cluster Model}  This  hadronization model  is based on the pre-confining property of the parton shower: the invariant mass of a single pair of opposite-colored partons is the same at any $ Q^2 $ scale. This distribution has its maximum at a mass that is near to the cutoff of parton shower and decreases rapidly to zero, Fig \ref{tube2} (a). \\
+\subsection*{Cluster Model}  This  hadronization model  is based on the pre-confining property of the parton shower: the invariant mass of a single pair of opposite-colored partons is the same at any $ Q^2 $ scale. This distribution has its maximum at a mass that is near to the cutoff of parton shower and decreases rapidly to zero, Fig \ref{tube2} (a). \\
 In the model, the gluons from parton shower are represented by pairs of color-anticolor lines connected to the vertex. Each color line, near the cutoff, is connected to another colorless line present at the same scale. At this point the contiguous color / anticolor lines are interpreted, in the non-perturbative limit, as quark-antiquark pairs which give rise to mesons, which are observable objects in the final state.
 This mechanism is represented in \ref{tube2} (b).
 
@@ -299,7 +300,7 @@ In high energy physics, different Monte Carlo generators are available. Each of 
 A short introduction of  \aMC interfaced with P{\footnotesize YTHIA}, P{\footnotesize OWHEG}  and S{\footnotesize HERPA} is described below. 
  
  
-\paragraph{Madgraph\_aM{\footnotesize C@NLO}}
+\subsection*{Madgraph\_aM{\footnotesize C@NLO}}
 The \aMC \cite{bib:madgraph} approach is very ambitious, in fact the purpose of this generator is to calculate the cross section at the NLO including both real and virtual contributions in the calculation. The  hard process is produced by the ME method while the soft emissions are combined with the PS.
 The first step is to compute the ME NLO corrections for a $ n $ parton process, including $ n + 1 $ partons coming from the real corrections and $ n $ from the virtual ones. Next  how the parton shower populates the phase space at $ n + 1 $ parton is evaluated, excluding the Sudakov form factor at this step. To get the  true  state where $ n + 1 $ is present, \aMC subtracts the PS expression from the $ n + 1 $ state of the ME. The expression of the PS without a factor of Sudakov and of the ME are in agreement in the limit soft and collinear, so the singularities are deleted thus obtaining a finite value for the cross section in the case of $ n $ and $ n + 1 $ partoni. A technical problem is that in the collinear limit there is no certainty that the ME always overhangs the PS. This problem is solved by introducing a fraction of negative-weight events, Fig. \ref{weight}. Finally, the parton shower is applied, which includes the Sudakov factor and thus allows a finite and correct result to be obtained at the NLL. 
  
@@ -313,14 +314,14 @@ The first step is to compute the ME NLO corrections for a $ n $ parton process, 
 \end{figure}
  
  
-\paragraph{P{\footnotesize OWHEG}} The idea behind P{\footnotesize OWHEG} \cite{Oleari:2010nx} is to generate the hardest radiation first, and then pass the event to the parton shower generator. In parton shower generators, the production, ordered in a transverse pulse, of the harshest radiation is always the first; so P{\footnotesize OWHEG} simply replaces this with issuing to the NLO.
+\subsection*{P{\footnotesize OWHEG}} The idea behind P{\footnotesize OWHEG} \cite{Oleari:2010nx} is to generate the hardest radiation first, and then pass the event to the parton shower generator. In parton shower generators, the production, ordered in a transverse pulse, of the harshest radiation is always the first; so P{\footnotesize OWHEG} simply replaces this with issuing to the NLO.
 In P {\footnotesize OWHEG} events are produced with a positive and constant weight (Fig. \ref{weight}).
  
  
-\paragraph{P{\footnotesize YTHIA}8 } P{\footnotesize YTHIA 8} \cite{bib:pythia} is a generator that can calculate the ME for processes with two particles or partons in the final state, but above all it generates the parton shower and the subsequent synchronization. The parton shower is ordered in a transverse impulse, $ p_T $, and the first issue is corrected with the method of the reshuffle. For the use of the atomization, use the Lund model.
+\subsection*{P{\footnotesize YTHIA}8 } P{\footnotesize YTHIA 8} \cite{bib:pythia} is a generator that can calculate the ME for processes with two particles or partons in the final state, but above all it generates the parton shower and the subsequent synchronization. The parton shower is ordered in a transverse impulse, $ p_T $, and the first issue is corrected with the method of the reshuffle. For the use of the atomization, use the Lund model.
  
  
-\paragraph{S{\footnotesize HERPA}}  S{\footnotesize HERPA}  \cite{bib:sherpa} s a Monte Carlo generator that as PYTHIA8 provides a complete description of hadronic collisions, from the calculation of the matrix element, up to the angle. The parton shower includes both QCD and QED emissions, i.e. photons. It can calculate the ME for the main processes (eg $ gg \rightarrow H $) at the NLO and combine the ME with the PS. The code is written completely in C $ ++ $ language.
+\subsection*{S{\footnotesize HERPA}}  S{\footnotesize HERPA}  \cite{bib:sherpa} s a Monte Carlo generator that as PYTHIA8 provides a complete description of hadronic collisions, from the calculation of the matrix element, up to the angle. The parton shower includes both QCD and QED emissions, i.e. photons. It can calculate the ME for the main processes (eg $ gg \rightarrow H $) at the NLO and combine the ME with the PS. The code is written completely in C $ ++ $ language.
 
 
 
@@ -397,7 +398,7 @@ Multibosons	& WZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  5.5950 \\
 
 
 
-\paragraph{Signal}  In order to perform the resonance search in a large part of the mass spectrum, several signal samples for the gluon-gluon fusion and the vector boson fusion mechanisms have been generated corresponding to different Higgs boson masses in the range between 200\GeV and 3\TeV. 
+\subsection*{Signal}  In order to perform the resonance search in a large part of the mass spectrum, several signal samples for the gluon-gluon fusion and the vector boson fusion mechanisms have been generated corresponding to different Higgs boson masses in the range between 200\GeV and 3\TeV. 
 All signal samples have been simulated with \POWHEG v2~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xd}, designed to describe the full NLO properties of these processes. In particular, for Higgs produced via gluon fusion~\cite{Alioli:2008tz}, and vector-boson-fusion (VBF)~\cite{Nason:2009ai},
 the decay of the Higgs boson into two W boson and subsequently into leptons was done using JHUGen~\cite{jhugen}. 
 The signals which correspond to a Higgs boson mass of 125\GeV have been simulated accordingly and are treated as backgrounds in the following analysis, including the associated production with a vector boson ($\mathrm{W^{+}H}$, $\mathrm{W^{-}H}$, ZH)~\cite{Luisoni:2013kna}, and gluon fusion produced ZH (ggZH). For associated production processes the Higgs boson decay was done via \PYTHIA 8.1~\cite{Sjostrand:2007gs}.
@@ -408,7 +409,7 @@ The branching fractions are the ones reported in \cite{Heinemeyer:2013tqa}.
 
 
 
-\paragraph{The WW sample} The \WW production, irreducible background for the analysis, was simulated in different ways. 
+\subsection*{The WW sample} The \WW production, irreducible background for the analysis, was simulated in different ways. 
 \POWHEG v2~\cite{Melia:2011tj} was used for \qqbar induced \WW in different decays. 
 The cross section used for normalizing WW processes produced via \qqbar was computed at NNLO~\cite{Gehrmann:2014fva}. 
 Gluon gluon fusion produced \WW was generated, with and without Higgs diagrams, using \MCFM v7.0~\cite{Campbell:2013wga}. 
@@ -430,7 +431,7 @@ The  distribution for the reco di-jet mass is shown in Fig.\ref{fig:WW}. In part
 
 
 
-\paragraph{The Top sample}
+\subsection*{The Top sample}
 In order to control the top quark background processes, the analysis is
 performed in jet bins as described in \ref{bin}. The jet binning enhances the importance of logarithms of the jet \pt, spoiling the convergence of 
 fixed-order calculations of the qq$\rightarrow$WW process and requiring the use of dedicated resummation techniques for an
@@ -447,7 +448,7 @@ The \ttbar cross section is also provided by the LHC Top Working group~\cite{top
 
 
 
-\paragraph{The DY sample}\label{sec:DY}
+\subsection*{The DY sample}\label{sec:DY}
 
 For the Drell-Yan backgrounds we use two different sets of samples. 
 For the opposite flavore analysis (Sec~\ref{sec:OF}), selecting events with an
@@ -541,7 +542,7 @@ events with two electrons with \pt$> 25$~\GeV for the leading one and  \pt$>
 
 
 
-\paragraph{Other processes} Other multiboson processes, such as WZ,ZZ, and VVV (V=W/Z), are generated with a\MCATNLO and normalized
+\subsection*{Other processes} Other multiboson processes, such as WZ,ZZ, and VVV (V=W/Z), are generated with a\MCATNLO and normalized
 to the cross section obtained at NLO in generation.
 The cross sections for the remaining processes were directly obtained using the \emph{GenXSecAnalyzer}
 tool~\cite{genxsec} or from the Twiki presented in Ref.~\cite{25nstwiki}.

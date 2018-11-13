@@ -121,7 +121,7 @@ The most common choice used is to set  $Q^2=p^2=E^2- |\vec{p}\,|^2$. With this c
 The ISR case is more complicated: in this case $ a $ and $ b $  (supposed off-shell) have $ p^2 $ of type space-like, then redefines $ Q_i^2 = -m_i^2 $ in order to guarantee the increasing order of $ Q^2 $, i.e. $ Q_b^2> Q_a^2 $.
 In contrast, $ c $ will not participate in hard process and will have $ p^2> 0 $ and therefore its shower will evolve like that of the FSR.
 
-\paragraph{Final State Radiation}
+\subsection*{Final State Radiation}
 In the parton shower approach, the final radiation state is modeled through a series of divisional processes of the type $ a \rightarrow bc $.   
 This is evident from the process $q \bar{q}g$, Fig. \ref{nlofig} (b), where the first order matrix element  corrections  correspond to the emission of a gluon. 
 The evolution of the shower is described by two parameters: the fraction of energy carried by one of the two outgoing partons, $ z = E_b / E_a $, and the order variable $ t $. As we said, a possible choice for $ t $ is the  virtuality $ Q_a^2 $ of the incoming parton.
@@ -150,7 +150,7 @@ If you want to interpret it in terms of Feynman diagrams, this represents the vi
 This total process can be combined to have more emissions at different steps: this will result in a partons  shower which will be ordered in decreasing $ Q $. 
 Finally,  the description given by parton shower is correct if you have collinear jet and it fail in configurations where there are well separated partons.   
 
-\paragraph{Initial State Radiation}
+\subsection*{Initial State Radiation}
 The   the initial state radiation evolution is much more complicated than the final state. 
 Indeed the quark and the gluons are   emitted  and absorbed continuously, inside the incoming proton. The initial stare radiation is already present during the hard scattering.
 The ISR simulation could start from the on-shell parton before the interaction and after  could evolve to higher and higher $ Q ^ 2 $ scales until the hard process.
@@ -185,7 +185,7 @@ d \mathcal{P}_{b}^{\mbox{\footnotesize{ISR}}}(t) &=& - \frac{d S_b (x,t,t_{max})
 In this case the form factor Sudakov is different respect to FSR as it contains the PDFs.
 This means that the parton shower results do not depend only on the algorithm but also on the PDFs used.
 
-\paragraph{Resummation} When calculating an observable of the QCD in a perturbative way, the expansion in terms of $ \alpha_S $ contains terms of the type $ \alpha_S^n L^k $ ($ k < 2n $), where $ L = \ln (q_{cut} / s) $, being $ q_{cut} $ the cut on resolvable emission. 
+\subsection*{Resummation} When calculating an observable of the QCD in a perturbative way, the expansion in terms of $ \alpha_S $ contains terms of the type $ \alpha_S^n L^k $ ($ k < 2n $), where $ L = \ln (q_{cut} / s) $, being $ q_{cut} $ the cut on resolvable emission. 
 When we consider small values of  $q_{cut}$ the logarithm of the perturbative expansion becomes large and the  perturbative series diverges.
 The main  perturbative order of the expansion is $n$  only if the successive terms of the series are negligible, however this is not guaranteed if there are high value of L. 
 It is therefore necessary to consider the terms that have a high value of the logarithm. The study of these terms is called resummation and is done by putting the terms together in the perturbation series according to their degree of divergence:
@@ -193,7 +193,7 @@ $ \alpha_S ^ n L ^ {2n} $ are the leading log (LL) terms, $ \alpha_S ^ n L ^ {2n
 At the end  all $ \alpha_S $ orders terms are added. For many processes calculations are available at the NLL.
 The parton shower reproduces the effects of resuming approximately at the NLL.
 
-\paragraph{Merging among ME and PS}
+\subsection*{Merging among ME and PS}
 The two different approaches for the  matrix element calculation  and for the parton shower have advantages and disadvantages. Regarding the ME we have:
 \begin{itemize}
 \item the LO matrix element calculations  can be performed exactly in the cases where there are many jet (of the order of six) in the final state,
@@ -238,7 +238,7 @@ It should also be noted that in order to eliminate the divergence it is necessar
 \section{Hadronization }
 In this context, the process of hadronization is a particular model, used in event generators, which describes the transition from the final partonic state to the final hadron state, which is an observable experimental. It is important to underline that this transition is treated in a phenomenological way and not by a rigorous approach. The two most important classes for tuning are the string model and the cluster model. The difference is that the former transforms the partonic systems directly into hadrons, while the second takes an intermediate step where it groups the objects to a scale of $ \sim 1 $ GeV.
 
-\paragraph*{String Model}
+\subsection*{String Model}
 The Lund model is the most complete string model: we know from QCD that there is a linear confinement force between the partons that increases with distance. Consider, as an example, the final state in which there are two quark, $ q \bar{q} $. As the partons move away the color flow tube is stretched between $ q $ and $ \bar{q} $, Fig. \ref{tube} (a). The transverse dimensions of the tube are the typical dimension for the hadrons, therefore  about 1 fm.
 If the tube is assumed to be uniform, the potential increases linearly, $ V (r) = \kappa r $, with $ \kappa \approx $ 1 GeV /fm, string constant.
 \begin{figure}
@@ -271,7 +271,7 @@ For now, only the case $ q \bar{q} $ has been considered. However, if more parto
 \end{figure}
 
 
-\paragraph*{Cluster Model}  This  hadronization model  is based on the pre-confining property of the parton shower: the invariant mass of a single pair of opposite-colored partons is the same at any $ Q^2 $ scale. This distribution has its maximum at a mass that is near to the cutoff of parton shower and decreases rapidly to zero, Fig \ref{tube2} (a). \\
+\subsection*{Cluster Model}  This  hadronization model  is based on the pre-confining property of the parton shower: the invariant mass of a single pair of opposite-colored partons is the same at any $ Q^2 $ scale. This distribution has its maximum at a mass that is near to the cutoff of parton shower and decreases rapidly to zero, Fig \ref{tube2} (a). \\
 In the model, the gluons from parton shower are represented by pairs of color-anticolor lines connected to the vertex. Each color line, near the cutoff, is connected to another colorless line present at the same scale. At this point the contiguous color / anticolor lines are interpreted, in the non-perturbative limit, as quark-antiquark pairs which give rise to mesons, which are observable objects in the final state.
 This mechanism is represented in \ref{tube2} (b).
 
@@ -299,7 +299,7 @@ In high energy physics, different Monte Carlo generators are available. Each of 
 A short introduction of  \aMC interfaced with P{\footnotesize YTHIA}, P{\footnotesize OWHEG}  and S{\footnotesize HERPA} is described below. 
  
  
-\paragraph{Madgraph\_aM{\footnotesize C@NLO}}
+\subsection*{Madgraph\_aM{\footnotesize C@NLO}}
 The \aMC \cite{bib:madgraph} approach is very ambitious, in fact the purpose of this generator is to calculate the cross section at the NLO including both real and virtual contributions in the calculation. The  hard process is produced by the ME method while the soft emissions are combined with the PS.
 The first step is to compute the ME NLO corrections for a $ n $ parton process, including $ n + 1 $ partons coming from the real corrections and $ n $ from the virtual ones. Next  how the parton shower populates the phase space at $ n + 1 $ parton is evaluated, excluding the Sudakov form factor at this step. To get the  true  state where $ n + 1 $ is present, \aMC subtracts the PS expression from the $ n + 1 $ state of the ME. The expression of the PS without a factor of Sudakov and of the ME are in agreement in the limit soft and collinear, so the singularities are deleted thus obtaining a finite value for the cross section in the case of $ n $ and $ n + 1 $ partoni. A technical problem is that in the collinear limit there is no certainty that the ME always overhangs the PS. This problem is solved by introducing a fraction of negative-weight events, Fig. \ref{weight}. Finally, the parton shower is applied, which includes the Sudakov factor and thus allows a finite and correct result to be obtained at the NLL. 
  
@@ -313,14 +313,14 @@ The first step is to compute the ME NLO corrections for a $ n $ parton process, 
 \end{figure}
  
  
-\paragraph{P{\footnotesize OWHEG}} The idea behind P{\footnotesize OWHEG} \cite{Oleari:2010nx} is to generate the hardest radiation first, and then pass the event to the parton shower generator. In parton shower generators, the production, ordered in a transverse pulse, of the harshest radiation is always the first; so P{\footnotesize OWHEG} simply replaces this with issuing to the NLO.
+\subsection*{P{\footnotesize OWHEG}} The idea behind P{\footnotesize OWHEG} \cite{Oleari:2010nx} is to generate the hardest radiation first, and then pass the event to the parton shower generator. In parton shower generators, the production, ordered in a transverse pulse, of the harshest radiation is always the first; so P{\footnotesize OWHEG} simply replaces this with issuing to the NLO.
 In P {\footnotesize OWHEG} events are produced with a positive and constant weight (Fig. \ref{weight}).
  
  
-\paragraph{P{\footnotesize YTHIA}8 } P{\footnotesize YTHIA 8} \cite{bib:pythia} is a generator that can calculate the ME for processes with two particles or partons in the final state, but above all it generates the parton shower and the subsequent synchronization. The parton shower is ordered in a transverse impulse, $ p_T $, and the first issue is corrected with the method of the reshuffle. For the use of the atomization, use the Lund model.
+\subsection*{P{\footnotesize YTHIA}8 } P{\footnotesize YTHIA 8} \cite{bib:pythia} is a generator that can calculate the ME for processes with two particles or partons in the final state, but above all it generates the parton shower and the subsequent synchronization. The parton shower is ordered in a transverse impulse, $ p_T $, and the first issue is corrected with the method of the reshuffle. For the use of the atomization, use the Lund model.
  
  
-\paragraph{S{\footnotesize HERPA}}  S{\footnotesize HERPA}  \cite{bib:sherpa} s a Monte Carlo generator that as PYTHIA8 provides a complete description of hadronic collisions, from the calculation of the matrix element, up to the angle. The parton shower includes both QCD and QED emissions, i.e. photons. It can calculate the ME for the main processes (eg $ gg \rightarrow H $) at the NLO and combine the ME with the PS. The code is written completely in C $ ++ $ language.
+\subsection*{S{\footnotesize HERPA}}  S{\footnotesize HERPA}  \cite{bib:sherpa} s a Monte Carlo generator that as PYTHIA8 provides a complete description of hadronic collisions, from the calculation of the matrix element, up to the angle. The parton shower includes both QCD and QED emissions, i.e. photons. It can calculate the ME for the main processes (eg $ gg \rightarrow H $) at the NLO and combine the ME with the PS. The code is written completely in C $ ++ $ language.
 
 
 
@@ -328,33 +328,53 @@ In P {\footnotesize OWHEG} events are produced with a positive and constant weig
 \section{Monte Carlo sample in High Mass Analysis}
 
 Several  Monte Carlo  generators were used in the searching of high mass particle to simulated the signal and the backgrounds. 
+All processes are generated using the NNPDF3.0~\cite{Ball:2013hta,Ball:2011uy} parton distribution functions (PDF) for NLO generators,
+while the LO version of the same PDF is used for LO generators. All the event generators are interfaced 
+to \PYTHIA 8.1~\cite{Sjostrand:2007gs} for the showering of
+partons and hadronization, as well as including a simulation of the underlying event (UE) and multiple interaction (MPI)
+based on the CUET8PM1 tune~\cite{Khachatryan:2015pea}. 
+For all processes, the detector response is simulated using a detailed
+description of the CMS detector, based on the \GEANT{}4 package~\cite{Agostinelli:2002hh}. 
+The simulated samples are generated with distributions for the number of pileup interactions that are meant to roughly cover,
+though not exactly match, the conditions expected for the different data-taking periods. In order to factorize these effects, 
+the number of true pileup interactions from the simulation truth (as stored in the PileupInfo collection in the Monte Carlo)
+is reweighted to match the data.
+The re-weighting is propagated automatically to both the in-time pile up and the out-of-time one.
+The pileup histogram for reweighting is calculated using the \emph{pileupCalc} tool as described in~\cite{puJSON}. 
+Different sources and calculations are used to obtain the cross sections for the different processes at 13\TeV. 
+All simulated sample are summarized in Tab.~\ref{tab:wwl}.
 
 
 
-
-
+%\hspace{-2cm}
 \begin{table*}[htb]
-\begin{center}
+\hspace{-1cm}
+%\begin{center}
 \footnotesize{
 \begin{tabular}{@{}|l|c|c|c|@{}}
 \hline
-Process & Number of Events & $\sigma\times$BR [pb] \\
+Process & Dataset Name & $\sigma\times$BR [pb] \\
 \hline
-\ttbar$\rightarrow$\WW$b\bar{b}\rightarrow2l2\nu b\bar{b}$ & 5M  & 87.31 \\
+Signal ggH &GluGluHToWWTo2L2NuM200-3000&Various \\
 \hline
-\qqbar$\rightarrow$\WW$\rightarrow2l2\nu$ &  2M & 12.178 \\
-\qqbar$\rightarrow$\WW$\rightarrow l\nu qq$  & 1m & 1.02 \\
-$gg\rightarrow$\WW$\rightarrow2l2\nu$ &  500K & 0.5905 \\
+Signal VBF &VBFHToWWTo2L2NuM200-3000&Various \\
+
 \hline
-Single top & &   35.85  \\
-	&	&   35.85  \\
+\ttbar$\rightarrow$\WW$b\bar{b}\rightarrow2l2\nu b\bar{b}$ & TTTo2L2Nu 13TeV-powheg  & 87.31 \\
 \hline
-Drell-Yan	& DYJetsToTauTau\_ForcedMuEleDecay\_M-50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8\_ext1 & 1867 \\
+\qqbar$\rightarrow$\WW$\rightarrow2l2\nu$ & WWTo2L2Nu 13TeV-powheg & 12.178 \\
+\qqbar$\rightarrow$\WW$\rightarrow l\nu qq$  & WpWmJJ-QCD-noTop 13TeV-powheg & 0.59 \\
+$gg\rightarrow$\WW$\rightarrow2l2\nu$ &  GluGluWWTo2L2Nu MCFM 13TeV & 0.5905 \\
+\hline
+Single top & ST tW top 5f inclusiveDecays &   35.85  \\
+	&ST tW antitop 5f inclusiveDecays	&   35.85  \\
+\hline
+Drell-Yan	& DYJetsToTauTau\_13TeV-amcatnloFXFX-pythia8\_ext1 & 1867 \\
 		& DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  6025.26	\\
-		& DYJetsToLL\_M-50\_HT100to200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  147.4  \\
-		& DYJetsToLL\_M-50\_HT200to400\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  40.99  \\
-		& DYJetsToLL\_M-50\_HT400to600\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  5.678  \\
-		& DYJetsToLL\_M-50\_HT600toInf\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  2.198  \\
+		& DYJetsToLL\_M-50\_HT100to200\_madgraphMLM-pythia8 &  147.4  \\
+		& DYJetsToLL\_M-50\_HT200to400\_madgraphMLM-pythia8 &  40.99  \\
+		& DYJetsToLL\_M-50\_HT400to600\_madgraphMLM-pythia8 &  5.678  \\
+		& DYJetsToLL\_M-50\_HT600toInf\_madgraphMLM-pythia8 &  2.198  \\
 \hline
 Multibosons	& WZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  5.5950 \\
 		& ZZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  3.2210 \\
@@ -369,59 +389,33 @@ Multibosons	& WZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  5.5950 \\
 }
 \caption{Simulated samples for \ttbar and \WW production.}
 \label{tab:wwl}
-\end{center}
+%\end{center}
 \end{table*}
 
-%Other background samples are used, a list of the most relevant ones is presented in Table~\ref{tab:otherbck}.
-% 
-%\begin{table*}[htb]
-%\begin{center}
-%\footnotesize{
-%\begin{tabular}{@{}|l|c|c|c|@{}}
-%\hline
-%Process & Dataset Name &  $\sigma\times$BR [pb] \\
-%\hline
-%Single top & ST\_tW\_top\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1 &   35.85  \\
-%        	& ST\_tW\_antitop\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1 &   35.85  \\
-%\hline
-%Drell-Yan 	& DYJetsToTauTau\_ForcedMuEleDecay\_M-50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8\_ext1 & 1867 \\
-%                & DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  6025.26  \\
-%                & DYJetsToLL\_M-50\_HT100to200\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  147.4  \\
-%                & DYJetsToLL\_M-50\_HT200to400\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  40.99  \\
-%                & DYJetsToLL\_M-50\_HT400to600\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  5.678  \\
-%                & DYJetsToLL\_M-50\_HT600toInf\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  2.198  \\
-%\hline
-%Multibosons 	& WZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  5.5950 \\
-%        	& ZZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  3.2210 \\
-%        	& WWZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8  &  0.1651 \\
-%        	& WZZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8 &  0.05565 \\
-%\hline
-%\end{tabular}
-%}
-%\caption{Simulated samples for other backgrounds used in the analysis. 
-%\label{tab:otherbck}}
-%\end{center}
-%\end{table*}
 
 
 
 
 
-
-
-
-
-\paragraph{Signal}  In order to perform the resonance search in a large part of the mass spectrum, several signal samples for the gluon-gluon fusion and the vector boson fusion mechanisms have been generated corresponding to different Higgs boson masses in the range between 200\GeV and 3\TeV. 
+\subsection*{Signal}  In order to perform the resonance search in a large part of the mass spectrum, several signal samples for the gluon-gluon fusion and the vector boson fusion mechanisms have been generated corresponding to different Higgs boson masses in the range between 200\GeV and 3\TeV. 
 All signal samples have been simulated with \POWHEG v2~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xd}, designed to describe the full NLO properties of these processes. In particular, for Higgs produced via gluon fusion~\cite{Alioli:2008tz}, and vector-boson-fusion (VBF)~\cite{Nason:2009ai},
 the decay of the Higgs boson into two W boson and subsequently into leptons was done using JHUGen~\cite{jhugen}. 
 The signals which correspond to a Higgs boson mass of 125\GeV have been simulated accordingly and are treated as backgrounds in the following analysis, including the associated production with a vector boson ($\mathrm{W^{+}H}$, $\mathrm{W^{-}H}$, ZH)~\cite{Luisoni:2013kna}, and gluon fusion produced ZH (ggZH). For associated production processes the Higgs boson decay was done via \PYTHIA 8.1~\cite{Sjostrand:2007gs}.
+For Higgs signals, the cross sections used are the ones reported but the LHC Higgs Cross Section Working Group~\cite{temphiggsxsecs},
+computed at NNLO and NNLL QCD and NLO EW for gluon fusion, and at NNLO QCD and NLO EW for the rest of the production modes.
+The branching fractions are the ones reported in \cite{Heinemeyer:2013tqa}. 
 
 
 
-\paragraph{The WW sample} The \WW production, irreducible background for the analysis, was simulated in different ways. 
+
+\subsection*{The WW sample} The \WW production, irreducible background for the analysis, was simulated in different ways. 
 \POWHEG v2~\cite{Melia:2011tj} was used for \qqbar induced \WW in different decays. 
 The cross section used for normalizing WW processes produced via \qqbar was computed at NNLO~\cite{Gehrmann:2014fva}. 
 Gluon gluon fusion produced \WW was generated, with and without Higgs diagrams, using \MCFM v7.0~\cite{Campbell:2013wga}. 
+The cross section used for normalizing \qqbar produced WW processes was computed at next-to-next-to-leading order
+(NNLO)~\cite{Gehrmann:2014fva}. The leading-order (LO) cross section for ggWW is obtained directly from \MCFM.
+For gluon fusion, the difference between LO and NLO cross sections is significantly big.
+A scale factor of 1.4 is theoretically calculated~\cite{Caola:2015rqy} and applied to the gg$\to$WW background. \\
 In the analysis two different WW Monte Carlo samples are merge: the ``$WW \rightarrow 2l 2\nu$ NLO'' and the ``WW plus 2 jet'' LO.  
 The second sample,  ``WW plus 2 quark'', contais final state with two quarks or a gluon-quark system: only the final state with two quarks interferes with the signal.
 To avoid double count between the two sample a cut on di-jet mass at gen-level,$mjj_{GenLev}$, is applied. In particular the sample ``$WW \rightarrow 2l 2\nu$ at NLO'' is used for $mjj_{GenLev} <100$ GeV and the ``WW plus 2 quark'' for $mjj_{GenLev} >100$ GeV.
@@ -436,7 +430,7 @@ The  distribution for the reco di-jet mass is shown in Fig.\ref{fig:WW}. In part
 
 
 
-\paragraph{The Top sample}
+\subsection*{The Top sample}
 In order to control the top quark background processes, the analysis is
 performed in jet bins as described in \ref{bin}. The jet binning enhances the importance of logarithms of the jet \pt, spoiling the convergence of 
 fixed-order calculations of the qq$\rightarrow$WW process and requiring the use of dedicated resummation techniques for an
@@ -445,101 +439,26 @@ Since the \pt of the jets produced in association with the WW system is strongly
 \pt$^{WW}$,  the simulated qq$\rightarrow$WW events are reweighted  
 to reproduce the \pt$^{WW}$ distribution from the \pt-resummed calculation.
 A \ttbar sample dilepton sample was also generated using \POWHEG v2. 
+The cross sections of the different single top processes are estimated by the LHC Top Working group~\cite{singletop} at NLO.
+The \ttbar cross section is also provided by the LHC Top Working group~\cite{topxsec}, and it is computed at NNLO, with NNLL soft gluon resummation. 
 
 
 
 
 
 
+\subsection*{The DY sample}\label{sec:DY}
 
-
-
-
-
-
-
-
-For the Drell-Yan backgrounds we use two different sets of samples. For the
-opposite flavore analysis (Sec~\ref{sec:OF}), selecting events with an
+For the Drell-Yan backgrounds we use two different sets of samples. 
+For the opposite flavore analysis (Sec~\ref{sec:OF}), selecting events with an
 electron and a muon, a dedicated sample in which only the
 $Z/\gamma^{*}\rightarrow{}\tau\tau\rightarrow{e\mu\nu\nu}$ decay is simulated.
 For the same flavor analysis (Sec.~\ref{sec:SF}), in which pairs of electrons
 or muons are selected, a soup of different HT binned DY samples is used. A
 detailed study about this soup is given below in Sec.~\ref{sec:DY}.
-
-All processes are generated using the NNPDF3.0~\cite{Ball:2013hta,Ball:2011uy} parton distribution functions (PDF) for NLO generators,
-while the LO version of the same PDF is used for LO generators. All the event generators are interfaced 
-to \PYTHIA 8.1~\cite{Sjostrand:2007gs} for the showering of
-partons and hadronization, as well as including a simulation of the underlying event (UE) and multiple interaction (MPI)
-based on the CUET8PM1 tune~\cite{Khachatryan:2015pea}. 
+Drell-Yan production of Z/$\gamma^{*}$ is generated using a\MADGRAPH~\cite{Alwall:2014hca} and the cross section is scaled using a LO to NNLO k-factor equal to 1.23. 
 
 
-For all processes, the detector response is simulated using a detailed
-description of the CMS detector, based on the \GEANT{}4 package~\cite{Agostinelli:2002hh}. 
-The MC samples used  are part of the RunIISummer16MiniAODv2 campaign with the global tag:
-\begin{center} \emph{PUMoriond17\_80X\_mcRun2\_asymptotic\_2016\_TrancheIV\_v6} \end{center}
-and the CMSSW version used is \emph{8\_0\_26\_patch1}.
-
-%PU
-The simulated samples are generated with distributions for the number of pileup interactions that are meant to roughly cover,
-though not exactly match, the conditions expected for the different data-taking periods. In order to factorize these effects, 
-the number of true pileup interactions from the simulation truth (as stored in the PileupInfo collection in the Monte Carlo)
-is reweighted to match the data.
-The re-weighting is propagated automatically to both the in-time pile up and the out-of-time one.
-In Figure~\ref{Fig:pu}, the effect of this reweighting on a sample enriched in Drell-Yan events is shown.
-In order to select this sample, 
-events with two electrons with \pt$> 25$~\GeV for the leading one and  \pt$>
-13$~\GeV for the trailing one, are selected only if  $|\mll - m_Z| < 10$~\GeV. 
-
-\begin{figure*}[htbp]
-\centering
-\includegraphics[width=0.45\textwidth]{../AN/Figs/nvertices.png}
-\caption{
-    Distributions of the number of vertices in a Drell-Yan enriched sample
-    (Z$\rightarrow{}ee$) in
-    data}
-    \label{Fig:pu}
-\end{figure*}
-
-The pileup histogram for reweighting is calculated using the \emph{pileupCalc} tool as described in~\cite{puJSON}. 
-
-
-%Cross sections
-Different sources and calculations are used to obtain the cross sections for the different processes at 13\TeV. 
-For Higgs signals, the cross sections used are the ones reported but the LHC Higgs Cross Section Working Group~\cite{temphiggsxsecs},
-computed at NNLO and NNLL QCD and NLO EW for gluon fusion, and at NNLO QCD and NLO EW for the rest of the production modes.
-The branching fractions are the ones reported in \cite{Heinemeyer:2013tqa}. 
-
-The cross section used for normalizing \qqbar produced WW processes was computed at next-to-next-to-leading order
-(NNLO)~\cite{Gehrmann:2014fva}. The leading-order (LO) cross section for ggWW is obtained directly from \MCFM.
-For gluon fusion, the difference between LO and NLO cross sections is significantly big.
-A scale factor of 1.4 is theoretically calculated~\cite{Caola:2015rqy} and applied to the gg$\to$WW background. 
-%The interference between the high mass resonance, the gg$\to$WW background and the H(125) has been computed using the MELA package as describe in Sec.~\ref{sec:AnalysisStrategy}.
-
-%For the LO simulation of the interference between 
-%gg$\rightarrow$WW and gluon fusion  produced H$\rightarrow$WW a k-factor of 1.87 is applied. 
-%This k-factor is obtained as the average between LO to NNLO ggH scale factor and LO to NLO ggWW scale factor 
-%(from private communication with the authors of~\cite{Caola:2015rqy}). 
-
-The cross sections of the different single top processes are estimated by the LHC Top Working group~\cite{singletop} at NLO.
-The \ttbar cross section is also provided by the LHC Top Working group~\cite{topxsec}, and it is computed at NNLO, with NNLL soft gluon resummation. 
-
-Drell-Yan (DY) production of Z/$\gamma^{*}$ is generated using a\MADGRAPH~\cite{Alwall:2014hca} and the cross section is scaled using a LO to NNLO k-factor equal to 1.23. 
-Other multiboson processes, such as WZ,ZZ, and VVV (V=W/Z), are generated with a\MCATNLO and normalized
-to the cross section obtained at NLO in generation.
-The cross sections for the remaining processes were directly obtained using the \emph{GenXSecAnalyzer}
-tool~\cite{genxsec} or from the Twiki presented in Ref.~\cite{25nstwiki}.
-
-All processes are generated using the NNPDF2.3~\cite{Ball:2013hta,Ball:2011uy} parton distribution functions (PDF) for NLO generators,
-while the LO version of the same PDF is used for LO generators. All the event generators are interfaced 
-to \PYTHIA 8.1 for the showering of partons and hadronization, as well as including a simulation of the 
-underlying event (UE) and multiple interaction (MPI) based on the CUET8PM1 tune~\cite{Khachatryan:2015pea}.
-
-
-
-
-
-\subsection{The DY sample}\label{sec:DY}
 
 Given the lack of MC statistics in the LO inclusive DY sample the
 $H_\mathrm{T}$-binned samples are used. This helps increasing the MC
@@ -601,6 +520,31 @@ To check the differences between the LO inclusive sample and the NLO sample simu
     Comparison between the LO and NLO DY samples.}
     \label{fig:LOvsNLO}
 \end{figure}
+
+
+In Figure~\ref{Fig:pu}, the effect of this reweighting on a sample enriched in Drell-Yan events is shown.
+In order to select this sample, 
+events with two electrons with \pt$> 25$~\GeV for the leading one and  \pt$>
+13$~\GeV for the trailing one, are selected only if  $|\mll - m_Z| < 10$~\GeV. 
+
+\begin{figure*}[htbp]
+\centering
+\includegraphics[width=0.45\textwidth]{../AN/Figs/nvertices.png}
+\caption{
+    Distributions of the number of vertices in a Drell-Yan enriched sample
+    (Z$\rightarrow{}ee$) in
+    data}
+    \label{Fig:pu}
+\end{figure*}
+
+
+
+
+
+\subsection*{Other processes} Other multiboson processes, such as WZ,ZZ, and VVV (V=W/Z), are generated with a\MCATNLO and normalized
+to the cross section obtained at NLO in generation.
+The cross sections for the remaining processes were directly obtained using the \emph{GenXSecAnalyzer}
+tool~\cite{genxsec} or from the Twiki presented in Ref.~\cite{25nstwiki}.
 
 
 
