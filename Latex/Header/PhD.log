@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.7)  14 NOV 2018 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.7)  15 NOV 2018 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,7 +1081,7 @@ LaTeX Info: Redefining \nameref on input line 30.
 \openout3 = `PhD.out'.
 
 
-<LOGO_UNISI_ESTESO.pdf, id=28, 821.0876pt x 329.34845pt>
+<LOGO_UNISI_ESTESO.pdf, id=132, 821.0876pt x 329.34845pt>
 File: LOGO_UNISI_ESTESO.pdf Graphic file (type pdf)
 
 <use LOGO_UNISI_ESTESO.pdf>
@@ -1133,18 +1133,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 48.
  [5] [6
 
-] (./PhD.toc)
+] (./PhD.toc [7])
 \tf@toc=\write4
 \openout4 = `PhD.toc'.
 
- [7] [8
+ [8] [9
 
-] [9]
+]
 [10
 
 ] (../Cap1/cap1.tex
 Chapter 1.
-<../Cap1/SM.png, id=112, 1204.5pt x 1152.305pt>
+<../Cap1/SM.png, id=243, 1204.5pt x 1152.305pt>
 File: ../Cap1/SM.png Graphic file (type png)
  <use ../Cap1/SM.png>
 Package pdftex.def Info: ../Cap1/SM.png used on input line 15.
@@ -1152,14 +1152,14 @@ Package pdftex.def Info: ../Cap1/SM.png used on input line 15.
  [1
 
 ]
-<../Cap1/rubbia_W.png, id=129, 281.1303pt x 288.3573pt>
+<../Cap1/rubbia_W.png, id=260, 281.1303pt x 288.3573pt>
 File: ../Cap1/rubbia_W.png Graphic file (type png)
 
 <use ../Cap1/rubbia_W.png>
 Package pdftex.def Info: ../Cap1/rubbia_W.png used on input line 44.
 (pdftex.def)             Requested size: 185.54657pt x 190.31639pt.
 
-<../Cap1/rubbia_Z.png, id=130, 302.0886pt x 207.4149pt>
+<../Cap1/rubbia_Z.png, id=261, 302.0886pt x 207.4149pt>
 File: ../Cap1/rubbia_Z.png Graphic file (type png)
 
 <use ../Cap1/rubbia_Z.png>
@@ -1172,19 +1172,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 48.
 
-<../Cap1/alt_Z.png, id=132, 468.3096pt x 347.8596pt>
+<../Cap1/alt_Z.png, id=263, 468.3096pt x 347.8596pt>
 File: ../Cap1/alt_Z.png Graphic file (type png)
  <use ../Cap1/alt_Z.png>
 Package pdftex.def Info: ../Cap1/alt_Z.png used on input line 58.
 (pdftex.def)             Requested size: 187.32051pt x 139.14137pt.
 
-<../Cap1/alt_W.png, id=133, 414.348pt x 383.5128pt>
+<../Cap1/alt_W.png, id=264, 414.348pt x 383.5128pt>
 File: ../Cap1/alt_W.png Graphic file (type png)
  <use ../Cap1/alt_W.png>
 Package pdftex.def Info: ../Cap1/alt_W.png used on input line 60.
 (pdftex.def)             Requested size: 165.73625pt x 153.40239pt.
 
-<../Cap1/Wells2004_Article_ExperimentalTestsOfTheStandard.png, id=138, 267.399p
+<../Cap1/Wells2004_Article_ExperimentalTestsOfTheStandard.png, id=269, 267.399p
 t x 245.718pt>
 File: ../Cap1/Wells2004_Article_ExperimentalTestsOfTheStandard.png Graphic file
  (type png)
@@ -1192,7 +1192,7 @@ File: ../Cap1/Wells2004_Article_ExperimentalTestsOfTheStandard.png Graphic file
 <use ../Cap1/Wells2004_Article_ExperimentalTestsOfTheStandard.png>
 Package pdftex.def Info: ../Cap1/Wells2004_Article_ExperimentalTestsOfTheStanda
 rd.png used on input line 69.
-(pdftex.def)             Requested size: 176.48389pt x 162.17438pt.
+(pdftex.def)             Requested size: 213.91948pt x 196.57466pt.
  [2 <../Cap1/SM.png>] [3 <../Cap1/rubbia_W.png> <../Cap1/rubbia_Z.png>] [4 <../
 Cap1/alt_Z.png> <../Cap1/alt_W.png> <../Cap1/Wells2004_Article_ExperimentalTest
 sOfTheStandard.png>]
@@ -1205,171 +1205,1835 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--120
 
  []
 
-<../Cap1/higgspotential.png, id=177, 563.10374pt x 355.3275pt>
+[5] <../Cap1/higgspotential.png, id=323, 563.10374pt x 355.3275pt>
 File: ../Cap1/higgspotential.png Graphic file (type png)
 
 <use ../Cap1/higgspotential.png>
-Package pdftex.def Info: ../Cap1/higgspotential.png used on input line 128.
-(pdftex.def)             Requested size: 225.2375pt x 142.12846pt.
+Package pdftex.def Info: ../Cap1/higgspotential.png used on input line 129.
+(pdftex.def)             Requested size: 185.8248pt x 117.25842pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--146
+<../Cap1/650px-CMS_Higgs-event.jpg, id=329, 652.4375pt x 601.24625pt>
+File: ../Cap1/650px-CMS_Higgs-event.jpg Graphic file (type jpg)
 
- []
+<use ../Cap1/650px-CMS_Higgs-event.jpg>
+Package pdftex.def Info: ../Cap1/650px-CMS_Higgs-event.jpg used on input line 1
+62.
+(pdftex.def)             Requested size: 195.73276pt x 180.37526pt.
+ [6 <../Cap1/higgspotential.png>]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 170.
 
-[5] [6 <../Cap1/higgspotential.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--172
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--245
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--245
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 246--250
-
- []
-
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 255.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [8]
+)
+<../Cap1/gg.pdf, id=345, 165.61874pt x 76.285pt>
+File: ../Cap1/gg.pdf Graphic file (type pdf)
+ <use ../Cap1/gg.pdf>
+Package pdftex.def Info: ../Cap1/gg.pdf used on input line 174.
+(pdftex.def)             Requested size: 115.93231pt x 53.39912pt.
+
+<../Cap1/vbf.pdf, id=346, 199.74625pt x 115.43124pt>
+File: ../Cap1/vbf.pdf Graphic file (type pdf)
+ <use ../Cap1/vbf.pdf>
+Package pdftex.def Info: ../Cap1/vbf.pdf used on input line 181.
+(pdftex.def)             Requested size: 119.84866pt x 69.25926pt.
+
+[7 <../Cap1/650px-CMS_Higgs-event.jpg> <../Cap1/gg.pdf> <../Cap1/vbf.pdf
+
+pdfTeX warning: pdflatex (file ../Cap1/vbf.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+>] <../Cap1/hlung.pdf, id=367, 158.5925pt x 104.39pt>
+File: ../Cap1/hlung.pdf Graphic file (type pdf)
+ <use ../Cap1/hlung.pdf>
+Package pdftex.def Info: ../Cap1/hlung.pdf used on input line 189.
+(pdftex.def)             Requested size: 95.15622pt x 62.63446pt.
+
+<../Cap1/tt.pdf, id=368, 188.705pt x 118.4425pt>
+File: ../Cap1/tt.pdf Graphic file (type pdf)
+ <use ../Cap1/tt.pdf>
+Package pdftex.def Info: ../Cap1/tt.pdf used on input line 196.
+(pdftex.def)             Requested size: 113.22386pt x 71.06604pt.
+
+<../Cap1/004.jpg, id=374, 211.69354pt x 198.26283pt>
+File: ../Cap1/004.jpg Graphic file (type jpg)
+ <use ../Cap1/004.jpg>
+Package pdftex.def Info: ../Cap1/004.jpg used on input line 213.
+(pdftex.def)             Requested size: 169.35506pt x 158.61046pt.
+
+<../Cap1/009.jpg, id=375, 204.6584pt x 149.0169pt>
+File: ../Cap1/009.jpg Graphic file (type jpg)
+ <use ../Cap1/009.jpg>
+Package pdftex.def Info: ../Cap1/009.jpg used on input line 215.
+(pdftex.def)             Requested size: 163.72693pt x 119.21367pt.
+
+<../Cap1/Figure_016.pdf, id=378, 569.12625pt x 546.04pt>
+File: ../Cap1/Figure_016.pdf Graphic file (type pdf)
+
+<use ../Cap1/Figure_016.pdf>
+Package pdftex.def Info: ../Cap1/Figure_016.pdf used on input line 228.
+(pdftex.def)             Requested size: 227.64647pt x 218.41212pt.
+ [8 <../Cap1/hlung.pdf> <../Cap1/tt.pdf
+
+pdfTeX warning: pdflatex (file ../Cap1/tt.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 238--243
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <../Cap1/004.jpg> <../Cap1/009.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 264--269
+
+ []
+
+[10 <../Cap1/Figure_016.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 279--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--347
+
+ []
+
+[11] [12]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 296.
+(Font)              <12> on input line 393.
 
 <../Cap1/Higgs-production-cross-sections-at-the-LHC-for-various-production-mech
-anisms-as-a.png, id=227, 816.04875pt x 641.39626pt>
+anisms-as-a.png, id=490, 816.04875pt x 641.39626pt>
 File: ../Cap1/Higgs-production-cross-sections-at-the-LHC-for-various-production
 -mechanisms-as-a.png Graphic file (type png)
 
 <use ../Cap1/Higgs-production-cross-sections-at-the-LHC-for-various-production-
 mechanisms-as-a.png>
 Package pdftex.def Info: ../Cap1/Higgs-production-cross-sections-at-the-LHC-for
--various-production-mechanisms-as-a.png used on input line 303.
-(pdftex.def)             Requested size: 244.81651pt x 192.42035pt.
+-various-production-mechanisms-as-a.png used on input line 400.
+(pdftex.def)             Requested size: 326.41371pt x 256.55396pt.
 
-
-LaTeX Warning: Reference `ps' on page 9 undefined on input line 311.
-
-<../Cap1/plots_decay.png, id=232, 569.12625pt x 408.52625pt>
+<../Cap1/plots_decay.png, id=496, 569.12625pt x 408.52625pt>
 File: ../Cap1/plots_decay.png Graphic file (type png)
 
 <use ../Cap1/plots_decay.png>
-Package pdftex.def Info: ../Cap1/plots_decay.png used on input line 320.
-(pdftex.def)             Requested size: 199.19717pt x 142.98633pt.
+Package pdftex.def Info: ../Cap1/plots_decay.png used on input line 417.
+(pdftex.def)             Requested size: 227.64647pt x 163.4076pt.
 
-<../Cap1/BRTotalUncertBands4f.png, id=233, 569.12625pt x 408.52625pt>
+<../Cap1/BRTotalUncertBands4f.png, id=497, 569.12625pt x 408.52625pt>
 File: ../Cap1/BRTotalUncertBands4f.png Graphic file (type png)
 
 <use ../Cap1/BRTotalUncertBands4f.png>
-Package pdftex.def Info: ../Cap1/BRTotalUncertBands4f.png used on input line 32
-2.
-(pdftex.def)             Requested size: 199.19717pt x 142.98633pt.
- [9] [10 <../Cap1/Higgs-production-cross-sections-at-the-LHC-for-various-produc
-tion-mechanisms-as-a.png> <../Cap1/plots_decay.png (PNG copy)> <../Cap1/BRTotal
-UncertBands4f.png (PNG copy)>]
-<../Cap1/tevatron.png, id=258, 1180.41pt x 425.59pt>
+Package pdftex.def Info: ../Cap1/BRTotalUncertBands4f.png used on input line 41
+9.
+(pdftex.def)             Requested size: 227.64647pt x 163.4076pt.
+ [13 <../Cap1/Higgs-production-cross-sections-at-the-LHC-for-various-production
+-mechanisms-as-a.png>] [14 <../Cap1/plots_decay.png (PNG copy)> <../Cap1/BRTota
+lUncertBands4f.png (PNG copy)>]
+<../Cap1/tevatron.png, id=521, 1180.41pt x 425.59pt>
 File: ../Cap1/tevatron.png Graphic file (type png)
 
 <use ../Cap1/tevatron.png>
-Package pdftex.def Info: ../Cap1/tevatron.png used on input line 347.
+Package pdftex.def Info: ../Cap1/tevatron.png used on input line 444.
 (pdftex.def)             Requested size: 389.53651pt x 140.44513pt.
 
-<../Cap1/plots_combination_combinedSM_def.png, id=261, 439.4016pt x 239.2137pt>
+<../Cap1/plots_combination_combinedSM_def.png, id=524, 439.4016pt x 239.2137pt>
 File: ../Cap1/plots_combination_combinedSM_def.png Graphic file (type png)
 <use ../Cap1/plots_combination_combinedSM_def.png>
 Package pdftex.def Info: ../Cap1/plots_combination_combinedSM_def.png used on i
-nput line 363.
+nput line 460.
 (pdftex.def)             Requested size: 395.45778pt x 215.29033pt.
 
-<../Cap1/lim_2015.png, id=264, 556.0775pt x 534.99875pt>
+<../Cap1/lim_2015.png, id=527, 556.0775pt x 534.99875pt>
 File: ../Cap1/lim_2015.png Graphic file (type png)
 
 <use ../Cap1/lim_2015.png>
-Package pdftex.def Info: ../Cap1/lim_2015.png used on input line 371.
+Package pdftex.def Info: ../Cap1/lim_2015.png used on input line 468.
 (pdftex.def)             Requested size: 222.42705pt x 213.9957pt.
- [11 <../Cap1/tevatron.png>] [12 <../Cap1/plots_combination_combinedSM_def.png>
+ [15 <../Cap1/tevatron.png>] [16 <../Cap1/plots_combination_combinedSM_def.png>
 ]
-<../Cap1/ATLAS-CONF-2016-074.png, id=287, 495.2904pt x 427.8384pt>
+<../Cap1/ATLAS-CONF-2016-074.png, id=550, 495.2904pt x 427.8384pt>
 File: ../Cap1/ATLAS-CONF-2016-074.png Graphic file (type png)
 
 <use ../Cap1/ATLAS-CONF-2016-074.png>
-Package pdftex.def Info: ../Cap1/ATLAS-CONF-2016-074.png used on input line 394
+Package pdftex.def Info: ../Cap1/ATLAS-CONF-2016-074.png used on input line 491
 .
 (pdftex.def)             Requested size: 445.75723pt x 385.051pt.
 
-Overfull \hbox (49.75723pt too wide) in paragraph at lines 394--395
+Overfull \hbox (49.75723pt too wide) in paragraph at lines 491--492
 [][] 
  []
 
-) [13 <../Cap1/lim_2015.png>] [14 <../Cap1/ATLAS-CONF-2016-074.png>]
+) (../Cap2/cap2.tex [17 <../Cap1/lim_2015.png>] [18 <../Cap1/ATLAS-CONF-2016-07
+4.png>]
+Chapter 2.
+) (../Cap3/MC2Bis.tex [19
+
+] [20
+
+]
+Chapter 3.
+<../Cap3/Fig_MC/generalMC.pdf, id=573, 365.20439pt x 464.4552pt>
+File: ../Cap3/Fig_MC/generalMC.pdf Graphic file (type pdf)
+
+<use ../Cap3/Fig_MC/generalMC.pdf>
+Package pdftex.def Info: ../Cap3/Fig_MC/generalMC.pdf used on input line 12.
+(pdftex.def)             Requested size: 365.20349pt x 464.45406pt.
+ [21] [22 <../Cap3/Fig_MC/generalMC.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+[23]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 76.
+ <../Cap3/Fig_MC/fattoriale.pdf, id=603, 112.7412pt x 91.7829pt>
+File: ../Cap3/Fig_MC/fattoriale.pdf Graphic file (type pdf)
+
+<use ../Cap3/Fig_MC/fattoriale.pdf>
+Package pdftex.def Info: ../Cap3/Fig_MC/fattoriale.pdf used on input line 81.
+(pdftex.def)             Requested size: 281.85226pt x 229.45667pt.
+
+
+LaTeX Warning: Citation `bib:madgraph' on page 24 undefined on input line 86.
+
+[24 <../Cap3/Fig_MC/fattoriale.pdf>]
+<../Cap3/Fig_MC/nlo2.jpg, id=627, 1793.70125pt x 421.575pt>
+File: ../Cap3/Fig_MC/nlo2.jpg Graphic file (type jpg)
+
+<use ../Cap3/Fig_MC/nlo2.jpg>
+Package pdftex.def Info: ../Cap3/Fig_MC/nlo2.jpg used on input line 100.
+(pdftex.def)             Requested size: 394.6155pt x 92.74678pt.
+
+
+LaTeX Warning: Citation `Sjostrand: 2006su' on page 25 undefined on input line 
+110.
+
+[25 <../Cap3/Fig_MC/nlo2.jpg>] [26]
+
+LaTeX Warning: Citation `Altarelli: 1977zs' on page 27 undefined on input line 
+163.
+
+<../Cap3/Fig_MC/isr.pdf, id=647, 469.755pt x 144.54pt>
+File: ../Cap3/Fig_MC/isr.pdf Graphic file (type pdf)
+
+<use ../Cap3/Fig_MC/isr.pdf>
+Package pdftex.def Info: ../Cap3/Fig_MC/isr.pdf used on input line 167.
+(pdftex.def)             Requested size: 375.80452pt x 115.63214pt.
+ [27 <../Cap3/Fig_MC/isr.pdf>] [28]
+<../Cap3/Fig_MC/merge.pdf, id=675, 299.77597pt x 317.98799pt>
+File: ../Cap3/Fig_MC/merge.pdf Graphic file (type pdf)
+
+<use ../Cap3/Fig_MC/merge.pdf>
+Package pdftex.def Info: ../Cap3/Fig_MC/merge.pdf used on input line 219.
+(pdftex.def)             Requested size: 209.84174pt x 222.59006pt.
+
+
+LaTeX Warning: Citation `ripesamento' on page 29 undefined on input line 225.
+
+
+LaTeX Warning: Citation `ripesamento2' on page 29 undefined on input line 225.
+
+
+LaTeX Warning: Citation `ckkw' on page 29 undefined on input line 226.
+
+
+LaTeX Warning: Citation `ckkw2' on page 29 undefined on input line 226.
+
+
+LaTeX Warning: Citation `Sjostrand: 2006su' on page 29 undefined on input line 
+233.
+
+[29]
+
+LaTeX Warning: Reference `tube' on page 30 undefined on input line 243.
+
+<../Cap3/Fig_MC/stringone.pdf, id=681, 635.14523pt x 263.16216pt>
+File: ../Cap3/Fig_MC/stringone.pdf Graphic file (type pdf)
+
+<use ../Cap3/Fig_MC/stringone.pdf>
+Package pdftex.def Info: ../Cap3/Fig_MC/stringone.pdf used on input line 247.
+(pdftex.def)             Requested size: 317.57184pt x 131.58075pt.
+
+
+LaTeX Warning: Reference `tube' on page 30 undefined on input line 252.
+
+[30 <../Cap3/Fig_MC/merge.pdf>]
+<../Cap3/Fig_MC/stringtwo22.pdf, id=694, 456.33344pt x 317.16206pt>
+File: ../Cap3/Fig_MC/stringtwo22.pdf Graphic file (type pdf)
+
+<use ../Cap3/Fig_MC/stringtwo22.pdf>
+Package pdftex.def Info: ../Cap3/Fig_MC/stringtwo22.pdf used on input line 259.
+
+(pdftex.def)             Requested size: 228.16615pt x 158.58064pt.
+
+<../Cap3/Fig_MC/split2.pdf, id=695, 135.72307pt x 175.18248pt>
+File: ../Cap3/Fig_MC/split2.pdf Graphic file (type pdf)
+
+<use ../Cap3/Fig_MC/split2.pdf>
+Package pdftex.def Info: ../Cap3/Fig_MC/split2.pdf used on input line 267.
+(pdftex.def)             Requested size: 203.58408pt x 262.77306pt.
+
+<../Cap3/Fig_MC/split.pdf, id=696, 133.84404pt x 120.83545pt>
+File: ../Cap3/Fig_MC/split.pdf Graphic file (type pdf)
+
+<use ../Cap3/Fig_MC/split.pdf>
+Package pdftex.def Info: ../Cap3/Fig_MC/split.pdf used on input line 269.
+(pdftex.def)             Requested size: 187.38036pt x 169.16846pt.
+
+
+LaTeX Warning: Reference `tube2' on page 31 undefined on input line 275.
+
+
+LaTeX Warning: Reference `tube2' on page 31 undefined on input line 277.
+
+
+LaTeX Warning: Citation `bib: pdg' on page 31 undefined on input line 280.
+
+[31 <../Cap3/Fig_MC/stringone.pdf>] [32 <../Cap3/Fig_MC/stringtwo22.pdf> <../Ca
+p3/Fig_MC/split2.pdf
+
+pdfTeX warning: pdflatex (file ../Cap3/Fig_MC/split2.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <../Cap3/Fig_MC/split.pdf
+
+pdfTeX warning: pdflatex (file ../Cap3/Fig_MC/split.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Citation `bib: run2jet' on page 33 undefined on input line 285.
+
+
+LaTeX Warning: Citation `mass: in: dijet' on page 33 undefined on input line 28
+5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--290
+
+ []
+
+
+LaTeX Warning: Citation `Cacciari: 2008gp' on page 33 undefined on input line 2
+93.
+
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+
+LaTeX Warning: Citation `bib:madgraph' on page 33 undefined on input line 304.
+
+[33] <../Cap3/Fig_MC/weight.pdf, id=760, 337.16966pt x 304.4474pt>
+File: ../Cap3/Fig_MC/weight.pdf Graphic file (type pdf)
+
+<use ../Cap3/Fig_MC/weight.pdf>
+Package pdftex.def Info: ../Cap3/Fig_MC/weight.pdf used on input line 311.
+(pdftex.def)             Requested size: 236.01715pt x 213.11172pt.
+
+
+LaTeX Warning: Citation `Oleari:2010nx' on page 34 undefined on input line 317.
+
+
+
+LaTeX Warning: Citation `bib:pythia' on page 34 undefined on input line 321.
+
+[34 <../Cap3/Fig_MC/weight.pdf>]
+
+LaTeX Warning: Citation `bib:sherpa' on page 35 undefined on input line 324.
+
+
+Overfull \hbox (39.19205pt too wide) in paragraph at lines 352--391
+[]   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--391
+
+ []
+
+[35]
+
+LaTeX Warning: Citation `Gehrmann:2014fva' on page 36 undefined on input line 4
+14.
+
+
+LaTeX Warning: Citation `Gehrmann:2014fva' on page 36 undefined on input line 4
+17.
+
+
+LaTeX Warning: Citation `Caola:2015rqy' on page 36 undefined on input line 419.
+
+
+<../AN/Figs/WW_distribution.png, id=823, 700.6175pt x 475.7775pt>
+File: ../AN/Figs/WW_distribution.png Graphic file (type png)
+
+<use ../AN/Figs/WW_distribution.png>
+Package pdftex.def Info: ../AN/Figs/WW_distribution.png used on input line 426.
+
+(pdftex.def)             Requested size: 237.60242pt x 161.34839pt.
+
+
+LaTeX Warning: Reference `bin' on page 36 undefined on input line 436.
+
+[36] <../AN/Figs/log_c_incl_HTGen.png, id=843, 798.985pt x 574.145pt>
+File: ../AN/Figs/log_c_incl_HTGen.png Graphic file (type png)
+
+<use ../AN/Figs/log_c_incl_HTGen.png>
+Package pdftex.def Info: ../AN/Figs/log_c_incl_HTGen.png used on input line 471
+.
+(pdftex.def)             Requested size: 237.60242pt x 170.73798pt.
+ [37 <../AN/Figs/WW_distribution.png>]
+<../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_mll.png, id=857, 798.985pt x 77
+4.895pt>
+File: ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_mll.png Graphic file (type
+ png)
+ <use ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_mll.png>
+Package pdftex.def Info: ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_mll.png
+ used on input line 484.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_ptll.png, id=858, 798.985pt x 7
+74.895pt>
+File: ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_ptll.png Graphic file (typ
+e png)
+ <use ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_ptll.png>
+Package pdftex.def Info: ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_ptll.pn
+g used on input line 487.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_eta1.png, id=859, 798.985pt x 7
+74.895pt>
+File: ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_eta1.png Graphic file (typ
+e png)
+ <use ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_eta1.png>
+Package pdftex.def Info: ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_eta1.pn
+g used on input line 491.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_eta2.png, id=860, 798.985pt x 7
+74.895pt>
+File: ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_eta2.png Graphic file (typ
+e png)
+ <use ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_eta2.png>
+Package pdftex.def Info: ../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_eta2.pn
+g used on input line 494.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_mll.png, id=862, 798.985pt x 774.8
+95pt>
+File: ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_mll.png Graphic file (type pn
+g)
+ <use ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_mll.png>
+Package pdftex.def Info: ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_mll.png us
+ed on input line 509.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_ptll.png, id=863, 798.985pt x 774.
+895pt>
+File: ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_ptll.png Graphic file (type p
+ng)
+ <use ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_ptll.png>
+Package pdftex.def Info: ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_ptll.png u
+sed on input line 512.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_eta1.png, id=864, 798.985pt x 774.
+895pt>
+File: ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_eta1.png Graphic file (type p
+ng)
+ <use ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_eta1.png>
+Package pdftex.def Info: ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_eta1.png u
+sed on input line 516.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_njet.png, id=865, 798.985pt x 774.
+895pt>
+File: ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_njet.png Graphic file (type p
+ng)
+ <use ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_njet.png>
+Package pdftex.def Info: ../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_njet.png u
+sed on input line 519.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/nvertices.png, id=867, 798.985pt x 774.895pt>
+File: ../AN/Figs/nvertices.png Graphic file (type png)
+
+<use ../AN/Figs/nvertices.png>
+Package pdftex.def Info: ../AN/Figs/nvertices.png used on input line 533.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+) (../Cap4/cap4.tex [38 <../AN/Figs/log_c_incl_HTGen.png>] [39 <../AN/Figs/DY/i
+nclLOvsHT/log_cratio_dyee_13TeV_mll.png> <../AN/Figs/DY/inclLOvsHT/log_cratio_d
+yee_13TeV_ptll.png> <../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_eta1.png> <
+../AN/Figs/DY/inclLOvsHT/log_cratio_dyee_13TeV_eta2.png>] [40 <../AN/Figs/DY/LO
+vsNLO/log_cratio_dyee_13TeV_mll.png> <../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13T
+eV_ptll.png> <../AN/Figs/DY/LOvsNLO/log_cratio_dyee_13TeV_eta1.png> <../AN/Figs
+/DY/LOvsNLO/log_cratio_dyee_13TeV_njet.png> <../AN/Figs/nvertices.png>]
+Chapter 4.
+) (../Cap5/cap5.tex [41
+
+] [42
+
+]
+Chapter 5.
+) (../Cap5/AnalysisStrategy.tex [43]
+<../AN/Figs/Distribution_higgsLHEmass_cuts_nocuts.png, id=916, 901.3675pt x 676
+.5275pt>
+File: ../AN/Figs/Distribution_higgsLHEmass_cuts_nocuts.png Graphic file (type p
+ng)
+ <use ../AN/Figs/Distribution_higgsLHEmass_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/Distribution_higgsLHEmass_cuts_nocuts.png u
+sed on input line 58.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/Distribution_mth_cuts_nocuts.png, id=917, 901.3675pt x 676.5275pt>
+File: ../AN/Figs/Distribution_mth_cuts_nocuts.png Graphic file (type png)
+
+<use ../AN/Figs/Distribution_mth_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/Distribution_mth_cuts_nocuts.png used on in
+put line 61.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/Distribution_mll_cuts_nocuts.png, id=918, 901.3675pt x 676.5275pt>
+File: ../AN/Figs/Distribution_mll_cuts_nocuts.png Graphic file (type png)
+
+<use ../AN/Figs/Distribution_mll_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/Distribution_mll_cuts_nocuts.png used on in
+put line 65.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/Distribution_mTi_cuts_nocuts.png, id=919, 901.3675pt x 676.5275pt>
+File: ../AN/Figs/Distribution_mTi_cuts_nocuts.png Graphic file (type png)
+
+<use ../AN/Figs/Distribution_mTi_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/Distribution_mTi_cuts_nocuts.png used on in
+put line 68.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/higgsLHEmass700_cuts_nocuts.png, id=921, 901.3675pt x 676.5275pt>
+File: ../AN/Figs/higgsLHEmass700_cuts_nocuts.png Graphic file (type png)
+
+<use ../AN/Figs/higgsLHEmass700_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/higgsLHEmass700_cuts_nocuts.png used on inp
+ut line 96.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/mth700_cuts_nocuts.png, id=922, 901.3675pt x 676.5275pt>
+File: ../AN/Figs/mth700_cuts_nocuts.png Graphic file (type png)
+
+<use ../AN/Figs/mth700_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/mth700_cuts_nocuts.png used on input line 9
+9.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/mll700_cuts_nocuts.png, id=923, 901.3675pt x 676.5275pt>
+File: ../AN/Figs/mll700_cuts_nocuts.png Graphic file (type png)
+
+<use ../AN/Figs/mll700_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/mll700_cuts_nocuts.png used on input line 1
+03.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/mTi700_cuts_nocuts.png, id=924, 901.3675pt x 676.5275pt>
+File: ../AN/Figs/mTi700_cuts_nocuts.png Graphic file (type png)
+
+<use ../AN/Figs/mTi700_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/mTi700_cuts_nocuts.png used on input line 1
+06.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+ [44] [45 <../AN/Figs/Distribution_higgsLHEmass_cuts_nocuts.png> <../AN/Figs/Di
+stribution_mth_cuts_nocuts.png> <../AN/Figs/Distribution_mll_cuts_nocuts.png> <
+../AN/Figs/Distribution_mTi_cuts_nocuts.png>] [46 <../AN/Figs/higgsLHEmass700_c
+uts_nocuts.png> <../AN/Figs/mth700_cuts_nocuts.png> <../AN/Figs/mll700_cuts_noc
+uts.png> <../AN/Figs/mTi700_cuts_nocuts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 118--127
+
+ []
+
+
+<../AN/Figs/Interference_higgsLHEmass300_cuts_nocuts.png, id=955, 901.3675pt x 
+676.5275pt>
+File: ../AN/Figs/Interference_higgsLHEmass300_cuts_nocuts.png Graphic file (typ
+e png)
+ <use ../AN/Figs/Interference_higgsLHEmass300_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/Interference_higgsLHEmass300_cuts_nocuts.pn
+g used on input line 133.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/Interference_higgsLHEmass400_cuts_nocuts.png, id=956, 901.3675pt x 
+676.5275pt>
+File: ../AN/Figs/Interference_higgsLHEmass400_cuts_nocuts.png Graphic file (typ
+e png)
+ <use ../AN/Figs/Interference_higgsLHEmass400_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/Interference_higgsLHEmass400_cuts_nocuts.pn
+g used on input line 136.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/Interference_higgsLHEmass700_cuts_nocuts.png, id=957, 901.3675pt x 
+676.5275pt>
+File: ../AN/Figs/Interference_higgsLHEmass700_cuts_nocuts.png Graphic file (typ
+e png)
+ <use ../AN/Figs/Interference_higgsLHEmass700_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/Interference_higgsLHEmass700_cuts_nocuts.pn
+g used on input line 140.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/Interference_higgsLHEmass1500_cuts_nocuts.png, id=958, 901.3675pt x
+ 676.5275pt>
+File: ../AN/Figs/Interference_higgsLHEmass1500_cuts_nocuts.png Graphic file (ty
+pe png)
+ <use ../AN/Figs/Interference_higgsLHEmass1500_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/Interference_higgsLHEmass1500_cuts_nocuts.p
+ng used on input line 143.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/Inter_VFB/Interference_higgsLHEmass300_cuts_nocuts.png, id=959, 901
+.3675pt x 676.5275pt>
+File: ../AN/Figs/Inter_VFB/Interference_higgsLHEmass300_cuts_nocuts.png Graphic
+ file (type png)
+
+<use ../AN/Figs/Inter_VFB/Interference_higgsLHEmass300_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/Inter_VFB/Interference_higgsLHEmass300_cuts
+_nocuts.png used on input line 157.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+
+<../AN/Figs/Inter_VFB/Interference_higgsLHEmass1500_cuts_nocuts.png, id=960, 90
+1.3675pt x 676.5275pt>
+File: ../AN/Figs/Inter_VFB/Interference_higgsLHEmass1500_cuts_nocuts.png Graphi
+c file (type png)
+
+<use ../AN/Figs/Inter_VFB/Interference_higgsLHEmass1500_cuts_nocuts.png>
+Package pdftex.def Info: ../AN/Figs/Inter_VFB/Interference_higgsLHEmass1500_cut
+s_nocuts.png used on input line 160.
+(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
+)
+(../Cap5/AnalysisOF.tex [47 <../AN/Figs/Interference_higgsLHEmass300_cuts_nocut
+s.png> <../AN/Figs/Interference_higgsLHEmass400_cuts_nocuts.png> <../AN/Figs/In
+terference_higgsLHEmass700_cuts_nocuts.png> <../AN/Figs/Interference_higgsLHEma
+ss1500_cuts_nocuts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+[48 <../AN/Figs/Inter_VFB/Interference_higgsLHEmass300_cuts_nocuts.png> <../AN/
+Figs/Inter_VFB/Interference_higgsLHEmass1500_cuts_nocuts.png>]
+Overfull \hbox (42.93137pt too wide) in paragraph at lines 61--62
+[]\T1/lmr/bx/n/10.95 0/1/2 jet\T1/lmr/m/n/10.95 (-20) , [100,150,200,250,300,35
+0,400,450,500,550,600,650,700,750,800,900,1000,2000] 
+ []
+
+
+<../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_0j/log_cratio_hww
+hm_13TeV_of0j_mTi.png, id=979, 798.985pt x 774.895pt>
+File: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_0j/log_crati
+o_hwwhm_13TeV_of0j_mTi.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_0j/log_cratio
+_hwwhm_13TeV_of0j_mTi.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_p
+ostFit_0j/log_cratio_hwwhm_13TeV_of0j_mTi.png used on input line 72.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_1j/log_cratio_hww
+hm_13TeV_of1j_mTi.png, id=980, 798.985pt x 774.895pt>
+File: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_1j/log_crati
+o_hwwhm_13TeV_of1j_mTi.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_1j/log_cratio
+_hwwhm_13TeV_of1j_mTi.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_p
+ostFit_1j/log_cratio_hwwhm_13TeV_of1j_mTi.png used on input line 75.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_2j/log_cratio_hww
+hm_13TeV_of2j_mTi.png, id=981, 798.985pt x 774.895pt>
+File: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_2j/log_crati
+o_hwwhm_13TeV_of2j_mTi.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_2j/log_cratio
+_hwwhm_13TeV_of2j_mTi.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_p
+ostFit_2j/log_cratio_hwwhm_13TeV_of2j_mTi.png used on input line 79.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_VBF/log_cratio_hw
+whm_13TeV_ofVBF_mTi.png, id=982, 798.985pt x 774.895pt>
+File: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_VBF/log_crat
+io_hwwhm_13TeV_ofVBF_mTi.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_VBF/log_crati
+o_hwwhm_13TeV_ofVBF_mTi.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_p
+ostFit_VBF/log_cratio_hwwhm_13TeV_ofVBF_mTi.png used on input line 82.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+ [49] [50 <../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_0j/log_
+cratio_hwwhm_13TeV_of0j_mTi.png> <../AN/Figs/unblinding/plot_SR/plotHWWhighMass
+_OF_300_postFit_1j/log_cratio_hwwhm_13TeV_of1j_mTi.png> <../AN/Figs/unblinding/
+plot_SR/plotHWWhighMass_OF_300_postFit_2j/log_cratio_hwwhm_13TeV_of2j_mTi.png> 
+<../AN/Figs/unblinding/plot_SR/plotHWWhighMass_OF_300_postFit_VBF/log_cratio_hw
+whm_13TeV_ofVBF_mTi.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
+
+ []
+
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mTi.png, id=1000, 798.98
+5pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mTi.png Graphic fil
+e (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mTi.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_
+mTi.png used on input line 117.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mth_DY.png, id=1001, 798
+.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mth_DY.png Graphic 
+file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mth_DY.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_
+mth_DY.png used on input line 120.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mjj.png, id=1002, 798.98
+5pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mjj.png Graphic fil
+e (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mjj.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_
+mjj.png used on input line 124.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mll_DY.png, id=1003, 798
+.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mll_DY.png Graphic 
+file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mll_DY.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_
+mll_DY.png used on input line 127.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_std_vector_lepton_pt[0].
+png, id=1004, 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_std_vector_lepton_p
+t[0].png Graphic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_std_vector_lepton_pt
+[0].png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_
+std_vector_lepton_pt[0].png used on input line 131.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_ptll.png, id=1005, 798.9
+85pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_ptll.png Graphic fi
+le (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_ptll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_
+ptll.png used on input line 134.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mTi.png, id=1006, 798.98
+5pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mTi.png Graphic fil
+e (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mTi.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_
+mTi.png used on input line 148.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mth_DY.png, id=1007, 798
+.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mth_DY.png Graphic 
+file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mth_DY.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_
+mth_DY.png used on input line 151.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mjj.png, id=1008, 798.98
+5pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mjj.png Graphic fil
+e (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mjj.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_
+mjj.png used on input line 155.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mll_DY.png, id=1009, 798
+.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mll_DY.png Graphic 
+file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mll_DY.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_
+mll_DY.png used on input line 158.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_std_vector_lepton_pt[0].
+png, id=1010, 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_std_vector_lepton_p
+t[0].png Graphic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_std_vector_lepton_pt
+[0].png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_
+std_vector_lepton_pt[0].png used on input line 162.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_ptll.png, id=1011, 798.9
+85pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_ptll.png Graphic fi
+le (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_ptll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_
+ptll.png used on input line 165.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mTi.png, id=1012, 798.98
+5pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mTi.png Graphic fil
+e (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mTi.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+mTi.png used on input line 179.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mth_DY.png, id=1013, 798
+.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mth_DY.png Graphic 
+file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mth_DY.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+mth_DY.png used on input line 182.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mjj.png, id=1014, 798.98
+5pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mjj.png Graphic fil
+e (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mjj.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+mjj.png used on input line 186.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mll_DY.png, id=1015, 798
+.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mll_DY.png Graphic 
+file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mll_DY.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+mll_DY.png used on input line 189.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_std_vector_lepton_pt[0].
+png, id=1016, 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_std_vector_lepton_p
+t[0].png Graphic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_std_vector_lepton_pt
+[0].png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+std_vector_lepton_pt[0].png used on input line 193.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_ptll.png, id=1017, 798.9
+85pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_ptll.png Graphic fi
+le (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_ptll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+ptll.png used on input line 196.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mTi.png, id=1018, 79
+8.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mTi.png Graphic
+ file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mTi.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+vbf_mTi.png used on input line 209.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mth_DY.png, id=1019,
+ 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mth_DY.png Grap
+hic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mth_DY.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+vbf_mth_DY.png used on input line 212.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mjj_DY_VBF.png, id=1
+020, 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mjj_DY_VBF.png 
+Graphic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mjj_DY_VBF.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+vbf_mjj_DY_VBF.png used on input line 216.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mll_DY.png, id=1021,
+ 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mll_DY.png Grap
+hic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mll_DY.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+vbf_mll_DY.png used on input line 219.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_std_vector_lepton_pt
+[0].png, id=1022, 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_std_vector_lept
+on_pt[0].png Graphic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_std_vector_lepto
+n_pt[0].png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+vbf_std_vector_lepton_pt[0].png used on input line 223.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_ptll.png, id=1023, 7
+98.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_ptll.png Graphi
+c file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_ptll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+vbf_ptll.png used on input line 226.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+[51] [52 <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mTi.png> <../AN
+/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of0j_mth_DY.png> <../AN/Figs/OF_CR_
+Blind/cratio_hww2l2v_13TeV_dytt_of0j_mjj.png> <../AN/Figs/OF_CR_Blind/cratio_hw
+w2l2v_13TeV_dytt_of0j_mll_DY.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_
+dytt_of0j_std_vector_lepton_pt[0].png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_1
+3TeV_dytt_of0j_ptll.png>] [53 <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt
+_of1j_mTi.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mth_DY.pn
+g> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mjj.png> <../AN/Figs/
+OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of1j_mll_DY.png> <../AN/Figs/OF_CR_Blind/
+cratio_hww2l2v_13TeV_dytt_of1j_std_vector_lepton_pt[0].png> <../AN/Figs/OF_CR_B
+lind/cratio_hww2l2v_13TeV_dytt_of1j_ptll.png>] [54 <../AN/Figs/OF_CR_Blind/crat
+io_hww2l2v_13TeV_dytt_of2j_mTi.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13Te
+V_dytt_of2j_mth_DY.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_
+mjj.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_mll_DY.png> <..
+/AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_std_vector_lepton_pt[0].png
+> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_ptll.png>] [55 <../AN/
+Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mTi.png> <../AN/Figs/OF_CR_
+Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_mth_DY.png> <../AN/Figs/OF_CR_Blind/cr
+atio_hww2l2v_13TeV_dytt_of2j_vbf_mjj_DY_VBF.png> <../AN/Figs/OF_CR_Blind/cratio
+_hww2l2v_13TeV_dytt_of2j_vbf_mll_DY.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v
+_13TeV_dytt_of2j_vbf_std_vector_lepton_pt[0].png> <../AN/Figs/OF_CR_Blind/crati
+o_hww2l2v_13TeV_dytt_of2j_vbf_ptll.png>]
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mTi.png, id=1080, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mTi.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mTi.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_m
+Ti.png used on input line 261.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mth.png, id=1081, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mth.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mth.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_m
+th.png used on input line 264.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mjj.png, id=1082, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mjj.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mjj.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_m
+jj.png used on input line 268.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mll.png, id=1083, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mll.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_m
+ll.png used on input line 271.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_std_vector_lepton_pt[0].p
+ng, id=1084, 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_std_vector_lepton_pt
+[0].png Graphic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_std_vector_lepton_pt[
+0].png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_s
+td_vector_lepton_pt[0].png used on input line 275.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_ptll.png, id=1085, 798.98
+5pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_ptll.png Graphic fil
+e (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_ptll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_p
+tll.png used on input line 278.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mTi.png, id=1086, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mTi.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mTi.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_m
+Ti.png used on input line 291.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mth.png, id=1087, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mth.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mth.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_m
+th.png used on input line 294.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mjj.png, id=1088, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mjj.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mjj.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_m
+jj.png used on input line 298.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mll.png, id=1089, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mll.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_m
+ll.png used on input line 301.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_std_vector_lepton_pt[0].p
+ng, id=1090, 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_std_vector_lepton_pt
+[0].png Graphic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_std_vector_lepton_pt[
+0].png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_s
+td_vector_lepton_pt[0].png used on input line 305.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_ptll.png, id=1091, 798.98
+5pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_ptll.png Graphic fil
+e (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_ptll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_p
+tll.png used on input line 308.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mTi.png, id=1092, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mTi.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mTi.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_m
+Ti.png used on input line 320.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mth.png, id=1093, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mth.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mth.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_m
+th.png used on input line 323.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mjj.png, id=1094, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mjj.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mjj.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_m
+jj.png used on input line 327.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mll.png, id=1095, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mll.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_m
+ll.png used on input line 330.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_std_vector_lepton_pt[0].p
+ng, id=1096, 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_std_vector_lepton_pt
+[0].png Graphic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_std_vector_lepton_pt[
+0].png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_s
+td_vector_lepton_pt[0].png used on input line 334.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_ptll.png, id=1097, 798.98
+5pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_ptll.png Graphic fil
+e (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_ptll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_p
+tll.png used on input line 337.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mTi.png, id=1098, 798.985p
+t x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mTi.png Graphic file 
+(type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mTi.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mT
+i.png used on input line 349.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mth.png, id=1099, 798.985p
+t x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mth.png Graphic file 
+(type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mth.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mt
+h.png used on input line 352.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mjj_DY_VBF.png, id=1100, 7
+98.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mjj_DY_VBF.png Graphi
+c file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mjj_DY_VBF.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mj
+j_DY_VBF.png used on input line 356.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mll.png, id=1101, 798.985p
+t x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mll.png Graphic file 
+(type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_ml
+l.png used on input line 359.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_std_vector_lepton_pt[0].pn
+g, id=1102, 798.985pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_std_vector_lepton_pt[
+0].png Graphic file (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_std_vector_lepton_pt[0
+].png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_st
+d_vector_lepton_pt[0].png used on input line 363.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_ptll.png, id=1103, 798.985
+pt x 774.895pt>
+File: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_ptll.png Graphic file
+ (type png)
+
+<use ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_ptll.png>
+Package pdftex.def Info: ../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_pt
+ll.png used on input line 366.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+)
+(../Cap5/AnalysisSF.tex [56] [57 <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_t
+op_of0j_mTi.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mth.png>
+ <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mjj.png> <../AN/Figs/OF_
+CR_Blind/cratio_hww2l2v_13TeV_top_of0j_mll.png> <../AN/Figs/OF_CR_Blind/cratio_
+hww2l2v_13TeV_top_of0j_std_vector_lepton_pt[0].png> <../AN/Figs/OF_CR_Blind/cra
+tio_hww2l2v_13TeV_top_of0j_ptll.png>] [58 <../AN/Figs/OF_CR_Blind/cratio_hww2l2
+v_13TeV_top_of1j_mTi.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j
+_mth.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mjj.png> <../AN
+/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of1j_mll.png> <../AN/Figs/OF_CR_Blin
+d/cratio_hww2l2v_13TeV_top_of1j_std_vector_lepton_pt[0].png> <../AN/Figs/OF_CR_
+Blind/cratio_hww2l2v_13TeV_top_of1j_ptll.png>] [59 <../AN/Figs/OF_CR_Blind/crat
+io_hww2l2v_13TeV_top_of2j_mTi.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV
+_top_of2j_mth.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mjj.pn
+g> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_mll.png> <../AN/Figs/O
+F_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_std_vector_lepton_pt[0].png> <../AN/Fi
+gs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_of2j_ptll.png>] [60 <../AN/Figs/OF_CR_B
+lind/cratio_hww2l2v_13TeV_top_VBF_mTi.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l
+2v_13TeV_top_VBF_mth.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_
+mjj_DY_VBF.png> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_mll.png> <
+../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_std_vector_lepton_pt[0].png
+> <../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_top_VBF_ptll.png>]
+<../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_ee_postfit_300/cratio_hwwhm_1
+3TeV_sfVBF_ee_mTi.png, id=1155, 798.985pt x 774.895pt>
+File: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_ee_postfit_300/cratio_hw
+whm_13TeV_sfVBF_ee_mTi.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_ee_postfit_300/cratio_hww
+hm_13TeV_sfVBF_ee_mTi.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_ee_po
+stfit_300/cratio_hwwhm_13TeV_sfVBF_ee_mTi.png used on input line 48.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_mm_postfit_300/cratio_hwwhm_1
+3TeV_sfVBF_mm_mTi.png, id=1156, 798.985pt x 774.895pt>
+File: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_mm_postfit_300/cratio_hw
+whm_13TeV_sfVBF_mm_mTi.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_mm_postfit_300/cratio_hww
+hm_13TeV_sfVBF_mm_mTi.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_mm_po
+stfit_300/cratio_hwwhm_13TeV_sfVBF_mm_mTi.png used on input line 51.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_ee_postfit_300/log_cratio_hww
+hm_13TeV_sfVBF_ee_mTi.png, id=1157, 798.985pt x 774.895pt>
+File: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_ee_postfit_300/log_crati
+o_hwwhm_13TeV_sfVBF_ee_mTi.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_ee_postfit_300/log_cratio
+_hwwhm_13TeV_sfVBF_ee_mTi.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_ee_po
+stfit_300/log_cratio_hwwhm_13TeV_sfVBF_ee_mTi.png used on input line 55.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_mm_postfit_300/log_cratio_hww
+hm_13TeV_sfVBF_mm_mTi.png, id=1158, 798.985pt x 774.895pt>
+File: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_mm_postfit_300/log_crati
+o_hwwhm_13TeV_sfVBF_mm_mTi.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_mm_postfit_300/log_cratio
+_hwwhm_13TeV_sfVBF_mm_mTi.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_mm_po
+stfit_300/log_cratio_hwwhm_13TeV_sfVBF_mm_mTi.png used on input line 58.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+ [61] [62 <../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_ee_postfit_300/crat
+io_hwwhm_13TeV_sfVBF_ee_mTi.png> <../AN/Figs/unblinding/plot_SR/plotHWWhighMass
+_SF_mm_postfit_300/cratio_hwwhm_13TeV_sfVBF_mm_mTi.png> <../AN/Figs/unblinding/
+plot_SR/plotHWWhighMass_SF_ee_postfit_300/log_cratio_hwwhm_13TeV_sfVBF_ee_mTi.p
+ng> <../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_mm_postfit_300/log_cratio
+_hwwhm_13TeV_sfVBF_mm_mTi.png>] [63]
+<../AN/Figs/METrw/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_metPfType1.png, id=1185, 7
+98.985pt x 774.895pt>
+File: ../AN/Figs/METrw/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_metPfType1.png Graphi
+c file (type png)
+
+<use ../AN/Figs/METrw/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_metPfType1.png>
+Package pdftex.def Info: ../AN/Figs/METrw/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_me
+tPfType1.png used on input line 94.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/METrw/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_metPfType1.png, id=1186,
+ 798.985pt x 774.895pt>
+File: ../AN/Figs/METrw/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_metPfType1.png Grap
+hic file (type png)
+
+<use ../AN/Figs/METrw/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_metPfType1.png>
+Package pdftex.def Info: ../AN/Figs/METrw/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_
+metPfType1.png used on input line 97.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_metPfType1.png, id=1
+187, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_metPfType1.png 
+Graphic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_metPfType1.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_metPfType1.png used on input line 101.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_metPfType1.png, id
+=1188, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_metPfType1.pn
+g Graphic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_metPfType1.png
+>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2
+j_VBF_metPfType1.png used on input line 104.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+ [64 <../AN/Figs/METrw/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_metPfType1.png> <../A
+N/Figs/METrw/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_metPfType1.png> <../AN/Figs/S
+F_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_metPfType1.png> <../AN/Figs/SF_CR
+_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_metPfType1.png>]
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mTi.png, id=1197, 79
+8.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mTi.png Graphic
+ file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mTi.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_mTi.png used on input line 121.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mth.png, id=1198, 79
+8.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mth.png Graphic
+ file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mth.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_mth.png used on input line 124.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mjj_DY.png, id=1199,
+ 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mjj_DY.png Grap
+hic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mjj_DY.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_mjj_DY.png used on input line 128.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mll.png, id=1200, 79
+8.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mll.png Graphic
+ file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mll.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_mll.png used on input line 131.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_std_vector_lepton_pt
+[0].png, id=1201, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_std_vector_lept
+on_pt[0].png Graphic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_std_vector_lepto
+n_pt[0].png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_std_vector_lepton_pt[0].png used on input line 135.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_ptll.png, id=1202, 7
+98.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_ptll.png Graphi
+c file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_ptll.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_ptll.png used on input line 138.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mTi.png Graphic
+ file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mTi.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_mTi.png used on input line 150.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mth.png Graphic
+ file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mth.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_mth.png used on input line 153.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mjj_DY.png Grap
+hic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mjj_DY.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_mjj_DY.png used on input line 157.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mll.png Graphic
+ file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mll.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_mll.png used on input line 160.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_std_vector_lept
+on_pt[0].png Graphic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_std_vector_lepto
+n_pt[0].png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_std_vector_lepton_pt[0].png used on input line 164.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_ptll.png Graphi
+c file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_ptll.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_
+VBF_ptll.png used on input line 167.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mTi.png, id=1203, 
+798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mTi.png Graph
+ic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mTi.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2
+j_VBF_mTi.png used on input line 180.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mth.png, id=1204, 
+798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mth.png Graph
+ic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mth.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2
+j_VBF_mth.png used on input line 183.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mjj_DY.png, id=120
+5, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mjj_DY.png Gr
+aphic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mjj_DY.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2
+j_VBF_mjj_DY.png used on input line 187.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mll.png, id=1206, 
+798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mll.png Graph
+ic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mll.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2
+j_VBF_mll.png used on input line 190.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_std_vector_lepton_
+pt[0].png, id=1207, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_std_vector_le
+pton_pt[0].png Graphic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_std_vector_lep
+ton_pt[0].png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2
+j_VBF_std_vector_lepton_pt[0].png used on input line 194.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_ptll.png, id=1208,
+ 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_ptll.png Grap
+hic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_ptll.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2
+j_VBF_ptll.png used on input line 197.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[65 <../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mTi.png> <../AN/
+Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mth.png> <../AN/Figs/SF_CR_
+Blind/cratio_hww2l2v_13TeV_dy_e_e_2j_VBF_mjj_DY.png> <../AN/Figs/SF_CR_Blind/cr
+atio_hww2l2v_13TeV_dy_e_e_2j_VBF_mll.png> <../AN/Figs/SF_CR_Blind/cratio_hww2l2
+v_13TeV_dy_e_e_2j_VBF_std_vector_lepton_pt[0].png> <../AN/Figs/SF_CR_Blind/crat
+io_hww2l2v_13TeV_dy_e_e_2j_VBF_ptll.png>] [66] [67 <../AN/Figs/SF_CR_Blind/crat
+io_hww2l2v_13TeV_dy_mu_mu_2j_VBF_mTi.png> <../AN/Figs/SF_CR_Blind/cratio_hww2l2
+v_13TeV_dy_mu_mu_2j_VBF_mth.png> <../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_d
+y_mu_mu_2j_VBF_mjj_DY.png> <../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_m
+u_2j_VBF_mll.png> <../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_
+std_vector_lepton_pt[0].png> <../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu
+_mu_2j_VBF_ptll.png>]
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mTi.png, id=1243, 7
+98.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mTi.png Graphi
+c file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mTi.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j
+_VBF_mTi.png used on input line 222.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mth.png, id=1244, 7
+98.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mth.png Graphi
+c file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mth.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j
+_VBF_mth.png used on input line 225.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mjj_DY.png, id=1245
+, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mjj_DY.png Gra
+phic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mjj_DY.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j
+_VBF_mjj_DY.png used on input line 229.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mll_DY.png, id=1246
+, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mll_DY.png Gra
+phic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mll_DY.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j
+_VBF_mll_DY.png used on input line 232.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_std_vector_lepton_p
+t[0].png, id=1247, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_std_vector_lep
+ton_pt[0].png Graphic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_std_vector_lept
+on_pt[0].png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j
+_VBF_std_vector_lepton_pt[0].png used on input line 236.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_njet.png, id=1248, 
+798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_njet.png Graph
+ic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_njet.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j
+_VBF_njet.png used on input line 239.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mTi.png, id=1249,
+ 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mTi.png Grap
+hic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mTi.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_
+2j_VBF_mTi.png used on input line 252.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mth.png, id=1250,
+ 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mth.png Grap
+hic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mth.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_
+2j_VBF_mth.png used on input line 255.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mjj_DY.png, id=12
+51, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mjj_DY.png G
+raphic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mjj_DY.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_
+2j_VBF_mjj_DY.png used on input line 259.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mll_DY.png, id=12
+52, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mll_DY.png G
+raphic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mll_DY.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_
+2j_VBF_mll_DY.png used on input line 262.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_std_vector_lepton
+_pt[0].png, id=1253, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_std_vector_l
+epton_pt[0].png Graphic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_std_vector_le
+pton_pt[0].png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_
+2j_VBF_std_vector_lepton_pt[0].png used on input line 266.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+
+<../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_njet.png, id=1254
+, 798.985pt x 774.895pt>
+File: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_njet.png Gra
+phic file (type png)
+
+<use ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_njet.png>
+Package pdftex.def Info: ../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_mu_mu_
+2j_VBF_njet.png used on input line 269.
+(pdftex.def)             Requested size: 178.19879pt x 172.81856pt.
+)
+(../Cap5/Analysis2HDM.tex [68
+
+] [69 <../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mTi.png> <../
+AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mth.png> <../AN/Figs/SF
+_CR_Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mjj_DY.png> <../AN/Figs/SF_CR_Bli
+nd/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_mll_DY.png> <../AN/Figs/SF_CR_Blind/crat
+io_hww2l2v_13TeV_top_e_e_2j_VBF_std_vector_lepton_pt[0].png> <../AN/Figs/SF_CR_
+Blind/cratio_hww2l2v_13TeV_top_e_e_2j_VBF_njet.png>] [70 <../AN/Figs/SF_CR_Blin
+d/cratio_hww2l2v_13TeV_top_mu_mu_2j_VBF_mTi.png> <../AN/Figs/SF_CR_Blind/cratio
+_hww2l2v_13TeV_top_mu_mu_2j_VBF_mth.png> <../AN/Figs/SF_CR_Blind/cratio_hww2l2v
+_13TeV_top_mu_mu_2j_VBF_mjj_DY.png> <../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13Te
+V_top_mu_mu_2j_VBF_mll_DY.png> <../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_top
+_mu_mu_2j_VBF_std_vector_lepton_pt[0].png> <../AN/Figs/SF_CR_Blind/cratio_hww2l
+2v_13TeV_top_mu_mu_2j_VBF_njet.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+LaTeX Warning: Citation `Carena:2013ytb' on page 71 undefined on input line 15.
+
+
+) (../Cap5/Systematics.tex [71] [72] [73] [74] [75]) (../Cap6/cap6.tex [76]
+Chapter 6.
+[77
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 59--66
+
+ []
+
+[78]) (../Cap6/Results.tex
+
+LaTeX Warning: Reference `fig:lim_OFSF_comb' on page 79 undefined on input line
+ 9.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--11
+
+ []
+
+
+<../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png, id=1361, 600.2425pt x 576.1
+525pt>
+File: ../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png Graphic file (type png)
+
+ <use ../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png used
+ on input line 14.
+(pdftex.def)             Requested size: 257.39758pt x 247.07259pt.
+
+<../AN/Figs/unblinding/2HDM/mhmodp.png, id=1363, 598.235pt x 574.145pt>
+File: ../AN/Figs/unblinding/2HDM/mhmodp.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/2HDM/mhmodp.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/mhmodp.png used on input li
+ne 32.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/hmssm.png, id=1364, 598.235pt x 574.145pt>
+File: ../AN/Figs/unblinding/2HDM/hmssm.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/2HDM/hmssm.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/hmssm.png used on input lin
+e 35.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png, id=1369, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png used 
+on input line 47.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png, id=1370, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png used 
+on input line 50.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png, id=1371, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png used 
+on input line 54.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png, id=1372, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png used 
+on input line 57.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png, id=1373, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png used 
+on input line 61.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png, id=1374, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png used 
+on input line 64.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_mh_t1.png, id=1375, 598.235pt x 574.145pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_mh_t1.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/2HDM/thdm_mh_t1.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_mh_t1.png used on inpu
+t line 73.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_mh_t2.png, id=1376, 598.235pt x 574.145pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_mh_t2.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/2HDM/thdm_mh_t2.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_mh_t2.png used on inpu
+t line 76.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+) [79] [80 <../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png> <../AN/Figs/unbl
+inding/2HDM/mhmodp.png> <../AN/Figs/unblinding/2HDM/hmssm.png>] [81 <../AN/Figs
+/unblinding/2HDM/thdm_cosba_t1_200.png> <../AN/Figs/unblinding/2HDM/thdm_cosba_
+t2_200.png> <../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png> <../AN/Figs/unbl
+inding/2HDM/thdm_cosba_t2_300.png> <../AN/Figs/unblinding/2HDM/thdm_cosba_t1_50
+0.png> <../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png>] [82 <../AN/Figs/unbl
+inding/2HDM/thdm_mh_t1.png> <../AN/Figs/unblinding/2HDM/thdm_mh_t2.png>]
 Appendix A.
-(./PhD.bbl [15
+(./PhD.bbl [83
 
-] [16
+] [84
 
-] [17])
+] [85] [86]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 177.
+
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 1997) in paragraph at lines 175--178
+[]\T1/lmr/m/n/10.95 (+20) 2015 pileup json files.  []$\T1/lmtt/m/n/10.95 https 
+: / / twiki . cern . ch / twiki / bin / view / CMS /
+ []
+
+[87]
+Underfull \hbox (badness 6063) in paragraph at lines 269--272
+[]\T1/lmr/m/n/10.95 (+20) Summary ta-ble of sam-ples pro-duced for the 1 bil-li
+on cam-paign,
+ []
+
+[88])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
- [18]
+ [89]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./PhD.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `PhD.out' has not changed.
-(rerunfilecheck)             Checksum: 45C9AADF3F42202DCFE43D56F1B6547D;404.
+(rerunfilecheck)             Checksum: D51303899239B31780C143188599E7B5;2203.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12183 strings out of 494893
- 179831 string characters out of 6179541
- 414281 words of memory out of 5000000
- 15022 multiletter control sequences out of 15000+600000
- 80034 words of font info for 125 fonts, out of 8000000 for 9000
+ 13613 strings out of 494893
+ 229604 string characters out of 6179541
+ 423319 words of memory out of 5000000
+ 15787 multiletter control sequences out of 15000+600000
+ 113020 words of font info for 184 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 60i,12n,94p,895b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/
-share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/
-lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/f
-onts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmsy8.pfb>
-Output written on PhD.pdf (28 pages, 2252912 bytes).
+ 60i,12n,94p,1425b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/latxfont/lcmss8.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcs
+c10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmtt10.pfb>
+Output written on PhD.pdf (99 pages, 7226499 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 305 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
- 23676 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 1651 PDF objects out of 1728 (max. 8388607)
+ 1278 compressed objects within 13 object streams
+ 473 named destinations out of 1000 (max. 500000)
+ 34302 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -66,7 +66,7 @@ The next missing SM piece was top quark evidence. It was a necessary component o
 After the top quark discovery, the only missing part to the SM is the Higgs boson particle  that has been observed at ATLAS and CMS experiment at LHC proton-proton collider at CERN in 2012 (see Sec.\ref{H}).  
 \begin{figure}
 \centering
-\includegraphics[scale= 0.66]{../Cap1/Wells2004_Article_ExperimentalTestsOfTheStandard}
+\includegraphics[scale= 0.8]{../Cap1/Wells2004_Article_ExperimentalTestsOfTheStandard}
 \caption{Top quark mass measurements.}
 \label{Wells2004_Article_ExperimentalTestsOfTheStandard}
 \end{figure}
@@ -87,7 +87,7 @@ is in act for the other SM particles.
 A symmetrical Lagrangian is invariant under a group of transformations. However the fact that the weak gauge bosons have a mass different from zero indicates that
 the electroweak Lagrangian, $\mathcal{L}_{EWK}$, is not a symmetry of the vacuum. Also the fermion masses can
 not be included without violating gauge symmetry in the $\mathcal{L}_{QCD}$.
-The mass terms can be introduced with the Spontaneous Symmetry Breaking Mechanism, adding  $\mathcal{L}_{H}$, that gives mass to the weak bosons and fermions and leaves the photon massless. 
+The mass terms can be introduced with the Spontaneous Symmetry Breaking Mechanism, adding  $\mathcal{L}_{H}$, that gives mass to the weak bosons and fermions and leaves the photon massless. This mechanism has been proposed in 1964 independently by Higgs~\cite{HIGGS1964132} and Brout and Englert~\cite{PhysRevLett.13.321} independently. With the spontaneous symmetry breaking mechanism, a  new particle whose couplings to the massive fermions and to the boson emerging. This particle is called Higgs boson and its mass is a free parameter the theory. In 2012, 48 years after the theoretical assumption, the Higgs boson has been observed by ATLAS~\cite{Aad:2012tfa} and CMS~\cite{Chatrchyan:2012xdj} experiments at LHC, a  proton proton collider, located at CERN, that has been designed and built to Higgs boson researches specifically. 
 
 \subsection*{The Brout–Englert–Higgs mechanism}
 The symmetry of SM Lagrangian, $\mathcal{L}_{SM}$, is $SU(2) \otimes U(1)$. To broken symmetry group,  a  scalar field $\Phi$ (Higgs field) is introduced. The field is a doublet isospin ($SU(2)_L$) as,
@@ -110,32 +110,129 @@ $$
 $$
 where $\Phi_j$ with $j=1,2,3,4$ are real fields used to manifest the complexity of $\Phi^+$ and  $\Phi^0$. The simplest Lagrangian of a self-interacting scalar field is in the form of,
 \begin{equation}
- \mathcal{L}_{H}= (D^{\mu} \Phi^{\dag})(D_{\mu} \Phi) -\mu^2 \Phi^{\dag}\Phi - \lambda(\Phi^{\dag}\Phi)^2 \end{equation}
+ \mathcal{L}_{H}= (D^{\mu} \Phi^{\dag})(D_{\mu} \Phi) -\mu^2 \Phi^{\dag}\Phi - \lambda(\Phi^{\dag}\Phi)^2 \; , \end{equation}
 where $\lambda$ needs to be positive for the potential to be bounded from below and $\mu^2$
  is a mass term for the $\Phi$ field.
 The ground state (vacuum) of the theory is defined as the state where the energy density is at a minimum.
 If the $\mu$ parameter is chosen so that $\mu^2<0$, the symmetry of the potential may be broken,
 as it has a minimal value of,
 \newline
-$$
+\begin{equation}
 v\equiv
-\sqrt{\frac{-\mu^2}{\lambda}}
-$$
-This is illustrated in Fig.~\ref{higgspotential}.
-
+\sqrt{\frac{-\mu^2}{\lambda}}=\Phi^{\dag}\Phi \; .
+\label{min}
+\end{equation}
+The choice for the sign of the
+parameters $\mu^2$ and $\lambda$ gives to the potential $V(\Phi)= \mu^2 \Phi^{\dag}\Phi + \lambda(\Phi^{\dag}\Phi)^2$ the ``mexican hat'' shape, as illustrated in Fig.~\ref{higgspotential}.
 \begin{figure}
 \centering
-\includegraphics[scale= 0.4]{../Cap1/higgspotential}
-\caption{Higgs fields potential.}
+\includegraphics[scale= 0.33]{../Cap1/higgspotential}
+\caption{Higgs fields potential with two degree of freedom.}
 \label{higgspotential}
 \end{figure}
+In the perturbation theory, the $\Phi$ fields is expanded around the minimum, that is chosen among the set of states which satisfy Eq.~\ref{min}. All this states break the rotational symmetry of the Lagrangian.
+The $\Phi$ field is expressed as, 
+\begin{equation}
+\Phi= \frac{1}{\sqrt{2}} 
+\left(
+\begin{array}{c}
+0   \\
+v +h(x) \\
+\end{array}
+\right) .
+\end{equation}
+The $h(x)$ field gives a particle with mass equal to,
+\begin{equation}
+m_H=\sqrt{2}\mu=v\sqrt{2 \lambda} \; ,
+\label{mass_H}
+\end{equation}
+that is a free parameter of the theory. However some theoretical constrains could be imposed. The value of $v$ parameter in Eq.~\ref{mass_H} could be determinate by the Fermi constant, $G_F$, as,
+\begin{equation}
+v=\frac{2m_W}{g}=(\sqrt{2} G_F)^{-1/2} \; ,
+\end{equation}
+with the actual $G_F$ measurements obtained with the muon lifetime~\cite{vanRitbergen:1999fi}, a value  of~$\sim$~250 GeV is obtained for  $v$. However the e model is not predictive on the value of the $\lambda$ parameter. Nevertheless, additional theoretical arguments place approximate upper and
+lower bounds on $m_H$~\cite{Beringer:1900zz}. The lower bound on the Higgs mass is given by  the vacuum state stability, that leads to requiring $\lambda$ to be
+positive at all energies. The upper edge would be imposed by the Planck scale. So a Higgs boson in a range of 130 $<m_H<$ 180 GeV is consistent with the theory.
+ 
+\subsection*{The Higgs boson at LHC}
+The Higgs boson  searches (Fig.~\ref{650px-CMS_Higgs-event}) has been performed in several experiments located  at different  colliders (LEP, SLC, Tevatron) without a clear evidence of such particle.
+Due  this reason, a proton-proton collider, the Large Hadron Collider (see Sec. 2.1) has been designed. 
+\begin{figure}
+\centering
+\includegraphics[scale= 0.3]{../Cap1/650px-CMS_Higgs-event}
+\caption{An example of simulated data modeled for the CMS particle detector on the Large Hadron Collider (LHC) at CERN.}
+\label{650px-CMS_Higgs-event}
+\end{figure}  
+In a proton collision the Higgs boson could be produced in different ways. The production modes are the gluon gluon fusion, the vector boson fusion (VBF), the vector-boson associated production and the top-quark associated production. Following, the different mechanism, from the most to the less probable:
 
 
-\subsection*{The Higgs boson at colliders}
+\begin{itemize}
+\item \textit{Gluon gluon fusion} ($gg \rightarrow H$): this is the main Higgs boson production mode. Here a couple of gluons interact via a heavy quark loop and give rise to a Higgs boson.
+\begin{figure}[h]
+\centering
+\vspace{0.5cm}
+\includegraphics[scale= 0.7]{../Cap1/gg}
+\end{figure}
+\item \textit{Vector Boson Fusion} (VBF) ($qq \rightarrow qqH$): each interacting quarks emits a virtual W or Z boson that interact generating a Higgs boson.
+The quarks after the emission of vector bosons proceed in the forward direction and represent the peculiar signature of this production mode.
+\begin{figure}[h]
+\centering
+\vspace{1cm}
+\includegraphics[scale= 0.6]{../Cap1/vbf}
+\end{figure}
+\newpage
+ \item \textit{Vector boson associated production} (or \textit{Higgsstrahlung}): where the Higgs boson is emitted from a W$^{\pm}$ or a Z boson which has
+been produced by a pair of quark-antiquark.
+\begin{figure}[h]
+\centering
+\vspace{0.5cm}
+\includegraphics[scale= 0.6]{../Cap1/hlung}
+\end{figure}
+\item \textit{Top-quark associated production}: a pair of top quarks, originated from
+the splitting of two incoming gluons, interacts to give rise to a Higgs boson. 
+ \begin{figure}[!htbp]
+\centering
+\vspace{0.5cm}
+\includegraphics[scale= 0.6]{../Cap1/tt}
+\end{figure}  
+\end{itemize}
+The Higgs boson cross section of the different production modes, depend by the center of mass energy of the collider and by the supposed mass of the particle.
+The cross section increase with the energy of the colliding particle $(\sqrt{s})$ and decrease with the mass of the boson, $m_H$. The second behaviour is shown in
+Fig.~\ref{prod}. The Higgs boson is an unstable particle and should be decay in a variety of different final states~\ref{br}. For a Higgs boson of mass $m_H \sim$ 125 GeV (that is the mass measured by ATLAS and CMS) the channel with the largest branching ratio is in $\bar{b}b$ quark, followed by the $W^+W^-$, $\tau^+ \tau^-$ and $ZZ$ channels.
 
 \subsection*{Experimental Results}
+The discovery or exclusion of the SM Higgs boson is one of the primary scientific goals of LHC. On the 4th of July 2012, of the observation of a new boson by the ATLAS~\cite{Aad:2012tfa} and the CMS~\cite{Chatrchyan:2012xdj} collaborations, has been announced, indeed an excess of events near 125 GeV was reported by both experiments, Fig.~\ref{disc_hig}. In 2012 the proton-proton centre of mass energy was increased to 8 TeV and by the end of June an additional integrated luminosity
+of more than 5 fb$^{-1}$
+had been recorded by each of these experiments, thereby enhancing significantly the sensitivity of the search for the Higgs boson.
+Latest results from both the experiments confirm
+that all the properties of the discovered particle are consistent with the hypothesis of
+being the Higgs boson predicted by the Standard Model.
+\begin{figure}
+\centering%
+\subfigure[]%
+{\includegraphics[scale= 0.8]{../Cap1/004}}
+\subfigure[]%
+{\includegraphics[scale= 0.8]{../Cap1/009}}
+\caption{(a) Distribution of the four-lepton invariant mass for the ZZ$\to 4 \ell$ analysis.  (b) The observed (solid) $p_0$ local as a function of $m_H$ in the low mass range in ATLAS detector. }
+\label{disc_hig}
+\end{figure}
+The measurements of Higgs boson couplings via exclusive production modes and decay channels, of its spin-parity, and
+of its differential production cross section, need to be thoroughly investigated to verify
+that they correspond precisely to the SM predictions. It has been done using the new data, collected from 2015 at LHC with a increase center mass energy of 13 TeV.
+Precision measurements of the Higgs boson’s properties are important to understood why the Higgs
+boson mass is near the electroweak scale. A good measurement that is possible to perform is the  Higgs boson's coupling. In the $k$-framework~\cite{Heinemeyer:2013tqa}  coupling modifiers are introduced in order to test for deviations in the couplings of the Higgs boson to other particles.  
+Indeed, the couplings to up and down type fermions can be nonuniversal.  Additionally, in these models,
+it is possible that the Higgs boson will couple differently to leptons ($k_F$) and quarks ($k_V$), Fig.~\ref{Figure_016}. This results shows a good agreement among the experimental  data and the theory.
+\begin{figure}
+\centering
+\includegraphics[scale= 0.4]{../Cap1/Figure_016}
+\caption{The  CL regions in the $k_F$ vs $k_V$ parameter space for the model assuming a common scaling of all the vector boson and fermion couplings.}
+\label{Figure_016}
+\end{figure}  
 
-\subsection*{Higgs boson to WW channel}
+
+
+%\subsection*{Higgs boson to WW channel}
 
 \section{New Scalar Particles}
 There are many deficiencies of the Standard Model (SM), such as the hierarchy problem,
@@ -300,7 +397,7 @@ gluon gluon fusion and vector boson fusion (VBF) Fig. \ref{prod}.
 The first one is the main mechanism for mass values below 1 TeV, above the VBF production mechanism become more and more important as $m_X$ approaches to high values.
 \begin{figure}
 \centering
-\includegraphics[scale= 0.3]{../Cap1/Higgs-production-cross-sections-at-the-LHC-for-various-production-mechanisms-as-a}
+\includegraphics[scale= 0.4]{../Cap1/Higgs-production-cross-sections-at-the-LHC-for-various-production-mechanisms-as-a}
 \caption{Higgs-production cross sections at the LHC for various production mechanisms as a function of the Higgs mass. QCD corrections are included except for Higgs bremsstrahlung~\cite{Djouadi2004}.}
 \label{prod}
 \end{figure}
@@ -317,9 +414,9 @@ gluon-gluon fusion, a higher signal-to-noise ratio is expected.
 \begin{figure}
 \centering%
 \subfigure[]%
-{\includegraphics[scale= 0.35]{../Cap1/plots_decay}}
+{\includegraphics[scale= 0.4]{../Cap1/plots_decay}}
 \subfigure[]%
-{\includegraphics[scale= 0.35]{../Cap1/BRTotalUncertBands4f}}
+{\includegraphics[scale= 0.4]{../Cap1/BRTotalUncertBands4f}}
 \caption{(a) Higgs branching ratios and their uncertainties for the full mass range~\cite{Denner:2011mq}. (b) Higgs branching ratios for the different $H \to 4 \ell$ and $H \to 2\ell 2\nu $ final states and their uncertainties for the full mass range~\cite{Denner:2011mq}.}
 \label{br}
 \end{figure}
