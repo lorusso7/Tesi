@@ -1,59 +1,59 @@
 This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: PhD.aux
-White space in argument---line 119 of file PhD.aux
+White space in argument---line 120 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 125 of file PhD.aux
+White space in argument---line 126 of file PhD.aux
  : \citation{Altarelli:
  :                      1977zs}
 I'm skipping whatever remains of this command
-White space in argument---line 132 of file PhD.aux
+White space in argument---line 133 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 137 of file PhD.aux
+White space in argument---line 138 of file PhD.aux
  : \citation{bib:
  :                pdg}
 I'm skipping whatever remains of this command
-White space in argument---line 146 of file PhD.aux
+White space in argument---line 147 of file PhD.aux
  : \citation{bib:
  :                run2jet}
 I'm skipping whatever remains of this command
-White space in argument---line 147 of file PhD.aux
+White space in argument---line 148 of file PhD.aux
  : \citation{mass:
  :                 in: dijet}
 I'm skipping whatever remains of this command
-White space in argument---line 148 of file PhD.aux
+White space in argument---line 149 of file PhD.aux
  : \citation{Cacciari:
  :                     2008gp}
 I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
-I was expecting a `,' or a `}'---line 471 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 487 of file AN-17-243.bib
  : 
  : @techreport{CMS-PAS-HIG-16-023,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 471 of file AN-17-243.bib
+Repeated entry---line 487 of file AN-17-243.bib
  : @techreport{CMS-PAS-HIG-16-023
  :                               ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 488 of file AN-17-243.bib
+Unbalanced braces---line 504 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 691 of file AN-17-243.bib
+Repeated entry---line 707 of file AN-17-243.bib
  : @article{Heinemeyer:2013tqa
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1411 of file AN-17-243.bib
+Repeated entry---line 1427 of file AN-17-243.bib
  : @article{Cowan:2010js
  :                      ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1519 of file AN-17-243.bib
+Illegal end of database file---line 1535 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
@@ -68,7 +68,6 @@ Warning--I didn't find a database entry for "bib:pythia"
 Warning--I didn't find a database entry for "bib:sherpa"
 Warning--I didn't find a database entry for "Gehrmann:2014fva"
 Warning--I didn't find a database entry for "Caola:2015rqy"
-Warning--I didn't find a database entry for "Carena:2013ytb"
 Warning--empty publisher in Halzen:1984mc
 Warning--empty publisher in doi:10.1142/9789814644150_0006
 Warning--empty year in doi:10.1142/9789814644150_0006
@@ -82,45 +81,45 @@ Warning--empty journal in cowan1998statistical
 Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
-You've used 65 entries,
+You've used 66 entries,
             1791 wiz_defined-function locations,
-            856 strings with 14448 characters,
-and the built_in function-call counts, 12906 in all, are:
-= -- 1085
-> -- 575
+            862 strings with 14685 characters,
+and the built_in function-call counts, 13215 in all, are:
+= -- 1112
+> -- 589
 < -- 3
-+ -- 221
-- -- 156
-* -- 863
-:= -- 2087
-add.period$ -- 184
-call.type$ -- 65
-change.case$ -- 63
++ -- 226
+- -- 160
+* -- 893
+:= -- 2136
+add.period$ -- 188
+call.type$ -- 66
+change.case$ -- 64
 chr.to.int$ -- 0
-cite$ -- 78
-duplicate$ -- 551
-empty$ -- 1329
-format.name$ -- 156
-if$ -- 2861
+cite$ -- 79
+duplicate$ -- 560
+empty$ -- 1358
+format.name$ -- 160
+if$ -- 2927
 int.to.chr$ -- 0
-int.to.str$ -- 65
-missing$ -- 56
-newline$ -- 317
-num.names$ -- 54
+int.to.str$ -- 66
+missing$ -- 57
+newline$ -- 323
+num.names$ -- 55
 pop$ -- 149
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 247
+skip$ -- 250
 stack$ -- 0
-substring$ -- 818
-swap$ -- 68
+substring$ -- 854
+swap$ -- 69
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 13
-while$ -- 106
-width$ -- 67
-write$ -- 665
+while$ -- 108
+width$ -- 68
+write$ -- 678
 (There were 13 error messages)
