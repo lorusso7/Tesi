@@ -1,65 +1,65 @@
 This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: PhD.aux
-White space in argument---line 120 of file PhD.aux
+White space in argument---line 147 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 126 of file PhD.aux
+White space in argument---line 153 of file PhD.aux
  : \citation{Altarelli:
  :                      1977zs}
 I'm skipping whatever remains of this command
-White space in argument---line 133 of file PhD.aux
+White space in argument---line 160 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 138 of file PhD.aux
+White space in argument---line 165 of file PhD.aux
  : \citation{bib:
  :                pdg}
 I'm skipping whatever remains of this command
-White space in argument---line 147 of file PhD.aux
+White space in argument---line 174 of file PhD.aux
  : \citation{bib:
  :                run2jet}
 I'm skipping whatever remains of this command
-White space in argument---line 148 of file PhD.aux
+White space in argument---line 175 of file PhD.aux
  : \citation{mass:
  :                 in: dijet}
 I'm skipping whatever remains of this command
-White space in argument---line 149 of file PhD.aux
+White space in argument---line 176 of file PhD.aux
  : \citation{Cacciari:
  :                     2008gp}
 I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
 Warning--string name "title" is undefined
---line 33 of file AN-17-243.bib
-I was expecting a `,' or a `}'---line 33 of file AN-17-243.bib
+--line 43 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 43 of file AN-17-243.bib
  :       title         
  :                     = "https://cms-hcomb.gitbooks.io/combine/"
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 512 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 522 of file AN-17-243.bib
  : 
  : @techreport{CMS-PAS-HIG-16-023,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 512 of file AN-17-243.bib
+Repeated entry---line 522 of file AN-17-243.bib
  : @techreport{CMS-PAS-HIG-16-023
  :                               ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 529 of file AN-17-243.bib
+Unbalanced braces---line 539 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 732 of file AN-17-243.bib
+Repeated entry---line 742 of file AN-17-243.bib
  : @article{Heinemeyer:2013tqa
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1452 of file AN-17-243.bib
+Repeated entry---line 1462 of file AN-17-243.bib
  : @article{Cowan:2010js
  :                      ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1560 of file AN-17-243.bib
+Illegal end of database file---line 1570 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
