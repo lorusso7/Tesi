@@ -104,6 +104,7 @@ It should be noted that the cross-section for processes of the type $ 2 \rightar
 
  
 \section{Parton shower}
+\label{ps}
 In a collision between partons a charge of color is accelerated, so there will be bremsstrahlung emission. When studying a process of the type $ 2 \rightarrow n $, where $ n $ represents the number of partons in the final state, the LO matrix elements (called tree-level) will have divergences in the collinear  and 
 soft case. In particular, the processes that suffer from this type of divergence are $ q \rightarrow qg $, $ \bar {q} \rightarrow \ bar{q} g $, $ g \rightarrow gg $: the first are similar processes to $ e \rightarrow e \gamma $ in QED, while the third is due to the fact that QCD is not an Abelian theory. The process $ g \rightarrow q \bar {q} $ does not have this type of divergence.
 The divergences of the tree-level matrix element can be removed by introducing the virtual corrections into the calculation, but they will be in the next order; these calculations are therefore particularly complex and they are only possible for a limited number of processes. The parton shower \cite{Sjostrand: 2006su} algorithms offer an alternative and simple way to eliminate the collinear and soft divergences through:

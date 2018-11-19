@@ -11,7 +11,7 @@ The Higgs boson width and lineshape is reweighted at generator level according t
 The interference effects between the signal produced  via gluon gluon fusion, the WW background emerging from two gluons and SM
 Higgs boson, that are expected to change the shape of the signal distribution, have been fully taken into account. 
 A similar treatment is also applied for the interference between VBF high mass signal produced via VBF, the  WW plus two quarks background (emerging with the same initial state)  and the SM Higgs generated with  VBF production mechanism. In general, the interference becomes more and more important as the mass of $X$ increase and it is study in detail, Sec~\ref{sec:signalModel}.
-Finally, the interference between the $\mathrm{W^+W^-}\to2\ell2\nu$ and $\mathrm{ZZ}\to2\ell2\nu$ is negligible due to the different phase space characteristic of these processes. In the SM there are some processes that have the some or similar final state respect to the signal. These processes are called background and affecting the signal signature. To estimate and to control the backgrounds in the analysis, control regions are defined for the most important backgrounds. A fully description of backgrounds events are reported in Sec.~\ref{bk}. \\
+Finally, the interference between the $\mathrm{W^+W^-}\to2\ell2\nu$ and $\mathrm{ZZ}\to2\ell2\nu$ is negligible due to the different phase space characteristic of these processes. In the SM there are some processes that have the some or similar final state respect to the signal. These processes are called background and affecting the signal signature. To estimate and to control the backgrounds in the analysis, control regions are defined for the most important backgrounds. A fully description of backgrounds events are reported in Sec.~\ref{anbkg}. \\
 \newline
 The analysis strategy for the high mass search in the $X \to \mathrm{W^+W^-}\to2\ell2\nu$ final state is similar to the high
 mass analysis performed with 2015 data (2.3 fb$^{-1}$)~\cite{CMS-PAS-HIG-16-023}, but has several improvements. Study on VBF interference, on discriminating variables and a new categorization of the events have been performed.
@@ -160,4 +160,187 @@ mass signal, Higgs bison and background.}
 \end{figure}
 
 
-\section{Main Background}
+\section{Main Background processes}
+\label{anbkg}
+Inside the SM that are several processes that have the same or a similar final state of the signal, called background processes. The most important background processes contributing to this final state are non resonant $q\bar{q} \to W^+ W^-$, the top production ($t\bar{t}$ and single-top) and  the Drell-Yan process. 
+Other background the $W$ and the $Z$ bosons.
+All these processes have been simulated with Monte Carlo generators and the simulation details have been discussed in Sec~\ref{MSsample}.
+Following, the description of the main different background processes:
+\begin{itemize}
+\item \textit{Non-resonant WW} ($q\bar{q} \to W^+ W^-$): this background is characterized by a final state identical to the signal, however the lepton kinematics for signal and $q\bar{q} \to W^+ W^-$ processes is rather different.
+For the signal process, the W bosons originate from a spin-0 particle decay
+and their spins must therefore be antiparallel, implying that the charged leptons pro-
+duced in their decays appear preferentially in the same hemisphere~\cite{Ellis:2012wg}. In contrast,
+there is no preferential spin direction in the background case. For this reason the
+azimuthal angle difference between the two leptons is on average smaller for signal
+than for background, resulting in a smaller dilepton invariant mass in the former case. The Feynman diagram of the process is reported below.
+\begin{figure}[h]
+\centering
+\vspace{0.5cm}
+\includegraphics[scale= 0.9]{../Cap5/nnr_WW}
+\end{figure}
+\item \textit{Top} ($t\bar{t}$ and single-top): the $t\bar{t}$ events can give a signal-like signature if the decay chain is $t \to Wb$ and subsequently $W \o \ell \nu$.  In such a case, in fact, there are two leptons and two jets (from the hadronization of the $b$ quark) in the final state. This process is especially important when the signal is produced via VBS or when the signal in produced with jets coming from initial or final state radiation. The single-top instead is characterized by the presence of $W$ boson and a top quark. Following, some examples of Feynman diagrams for the top background. The $t\bar{t}$ in (a) and (b) diagrams, the single-top in (c).
+\begin{figure}
+\centering%
+\subfigure[]%
+{\includegraphics[scale= 0.3]{../Cap5/ggtt_t}} \qquad 
+\subfigure[]%
+{\includegraphics[scale= 0.3]{../Cap5/qqtt_s}} \qquad 
+\subfigure[]%
+{\includegraphics[scale= 0.5]{../Cap5/st_bg}}
+\end{figure}
+\newpage
+\item \textit{Drell-Yan}: the Drell-Yan process is defined as the annihilation of a quark-antiquark pair into a lepton-antilepton pair. his process is described at leading order by
+the two Feynman diagrams drawn. These two amplitudes are proportional to the fine structure constant $\alpha \sim 1/137$.
+This kind of background is particular important for the same flavour final state of the signal having two leptons  of same flavour.
+\begin{figure}[h]
+\centering
+\vspace{0.5cm}
+\includegraphics[scale= 0.7]{../Cap5/dy}
+\end{figure}
+
+\item \textit{W+jet}: this background is charaterized by a $W$ boson, decaying in $\ell \nu$ in addition to a jet. A fake lepton arise from the misidentified jet and lead the same final state of the signal (two leptons and missing-transverse-energy). 
+
+\item \textit{Other}: other background processes involved the Z bosons, such as $WZ/W\gamma^*$, $ZZ^*$ with a misidentified lepton and $Z\gamma$ with $\gamma$ conversion.
+
+\end{itemize}
+The main background processes the \WW production and the top production  are estimated using data. 
+Instrumental backgrounds arising from non-prompt leptons in $W+$jets production and mis-measurement of $E_T^{miss}$ in Drell-Yan events are also estimated from
+data. The contribution from W$\gamma^*$  is estimated partly from data. The
+contribution of other sub-dominant backgrounds is obtained directly from simulated samples. The different data-driven background estimations are explained in the following sections. More precisely top and  Drell-Yan backgrounds normalizations have been extracted
+directly from data-simulation comparison in specific control regions enriched in either one
+or the other background separately for the different events categories, using the rateParam feature of the combine package~\cite{combine}.
+
+
+\section{Data sample and Triggers}
+\subsection*{Data in CMS}
+Data recorded in proton proton collisions at 13 TeV during all 2016 was used in the analysis, with a total integrated luminosity of  35.9 \fbinv.
+The data has been reprocessed in the reprocessing campaign characterized by the submission date \textit{03Feb2017} in CMS.
+In Table~\ref{tab:data} the different data streams used are presented. All runs are taken at 25~ns and recorded in seven different periods.
+\begin{table}
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Data Taking Era & Stream\\
+\hline
+\multirow{5}{*}{Run2016C} 	& SingleMuon  \\
+                                & DoubleMuon \\
+				& SingleElectron \\
+                                & DoubleEG \\
+				& MuonEG \\ \hline
+\multirow{5}{*}{Run2016D}       & SingleMuon  \\
+                                & DoubleMuon \\
+                                & SingleElectron \\
+                                & DoubleEG \\
+                                & MuonEG \\ \hline
+\multirow{5}{*}{Run2016E}       & SingleMuon  \\
+                                & DoubleMuon \\
+                                & SingleElectron \\
+                                & DoubleEG \\
+                                & MuonEG \\ \hline
+\multirow{5}{*}{Run2016F}       & SingleMuon  \\
+                                & DoubleMuon \\
+                                & SingleElectron \\
+                                & DoubleEG \\
+                                & MuonEG \\ \hline
+\multirow{5}{*}{Run2016G}       & SingleMuon  \\
+                                & DoubleMuon \\
+                                & SingleElectron \\
+                                & DoubleEG \\
+                                & MuonEG \\ \hline
+\multirow{5}{*}{Run2016H}       & SingleMuon  \\
+                                & DoubleMuon \\
+                                & SingleElectron \\
+                                & DoubleEG \\
+                                & MuonEG \\ \hline
+\hline 
+\end{tabular}
+%\vspace{0.5cm}
+\caption{Data samples used in the analysis. The total integrated luminosity corresponds to 35.9\fbinv.
+\label{tab:data}}
+\end{center}
+\end{table}
+
+\subsection*{Triggers}
+In the high mass analysis final states with 2 leptons are studied, therefore a combination of both single and double lepton triggers  are used. For the electrons A combination of triggers is necessary to increase the statistics and to adjust the $p_T$ threshold requirement. Efficiencies are
+measured using the Tag and Probe method described in App.~\ref{TP}. For the trigger efficiencies
+calculation, it is applied the complete identification/isolation criteria on the leptons.
+The results for the trigger efficiencies for electron triggers using Tag and Probe method are more 95\%.
+Also for the calculation of the muon trigger efficiency the tag-and-probe method has been used.
+The triggers used in the analysis are summarized in Table~\ref{tab:triggers} 
+\begin{table}
+\begin{center}
+\begin{tabular}{|l|l|}
+   \hline
+   Dataset & HLT path \\
+   \hline
+   
+   \multirow{2}{*}{SingleElectron} & HLT\_Ele45\_WPLoose\_Gsf\_v* \\
+                                   & HLT\_Ele27\_eta2p1\_WPLoose\_Gsf\_v* \\
+   \hline
+   
+   \multirow{2}{*}{SingleMuon}   & HLT\_IsoMu22\_v* \\
+                                 & HLT\_IsoTkMu22\_v* \\
+   \hline
+   
+   \multirow{2}{*}{MuonEG}       & HLT\_Mu8\_TrkIsoVVL\_Ele17\_CaloIdL\_TrackIdL\_IsoVL\_v*  \\
+                                 & HLT\_Mu17\_TrkIsoVVL\_Ele12\_CaloIdL\_TrackIdL\_IsoVL\_v*  \\
+   
+   \hline
+   
+   \multirow{2}{*}{DoubleMuon}   & HLT\_Mu17\_TrkIsoVVL\_Mu8\_TrkIsoVVL\_v*  \\
+                                 & HLT\_Mu17\_TrkIsoVVL\_TkMu8\_TrkIsoVVL\_v*  \\
+
+   
+   \hline
+   
+   \multirow{1}{*}{DoubleEG}   &    HLT\_Ele23\_Ele12\_CaloIdL\_TrackIdL\_IsoVL\_DZ\_v* \\
+   
+   \hline
+\end{tabular}
+\caption{HLT paths used in the analysis.
+\label{tab:triggers}  }
+\end{center}
+\end{table}
+In Figure~\ref{Fig:trigger} the trigger efficiency for a gluon fusion signal
+with mass 300~\GeV is shown for electrons (left) and muons (right).
+An average trigger efficiency greater than 99\% is found, as shown in Figure~\ref{Fig:triggerIntegral}. The triggers used in the analysis are summarized in Table~\ref{tab:triggers}. 
+\begin{figure*}[htbp]
+\centering
+\begin{tabular}{cc}
+%  \includegraphics[width=0.45\textwidth]{Figs/Trigger/ele.png} &
+%  \includegraphics[width=0.45\textwidth]{Figs/Trigger/mu.png} \\
+%  (a) electron & (b) muon \\
+ \includegraphics[width=0.45\textwidth]{../AN/Figs/Trigger/ele1.png} &
+ \includegraphics[width=0.45\textwidth]{../AN/Figs/Trigger/mu1.png} \\
+ (a) electron 1st & (b) muon 1st \\
+ \includegraphics[width=0.45\textwidth]{../AN/Figs/Trigger/ele2.png} &
+ \includegraphics[width=0.45\textwidth]{../AN/Figs/Trigger/mu2.png} \\
+ (c) electron 2nd & (d) muon 2nd \\
+\end{tabular}
+\caption{
+      Trigger efficiency per event
+      as a function of the lepton \pt
+      for electrons (a) where leading lepton is an electron, 
+      and (c) where trailing lepton is an electron, 
+      and muons (b) where leading lepton is a muon, 
+      and (d) where trailing lepton is an muon, 
+      for a gluon fusion 300~\GeV MC sample.
+      In this plots the other lepton not shown is
+      integrated.
+      An average trigger efficiency greater than 99\% is found.      
+     }
+    \label{Fig:trigger}
+\end{figure*}
+\begin{figure*}[htbp]
+\centering
+ \includegraphics[width=0.45\textwidth]{../AN/Figs/Trigger/triggW.png}
+\caption{
+      Trigger efficiency distribution for 
+      four MC samples corresponding to masses of 300, 500, 1000 and 3000~\GeV.
+      An average trigger efficiency greater than 99\% is found.
+     }
+    \label{Fig:triggerIntegral}
+\end{figure*}
+
+

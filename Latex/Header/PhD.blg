@@ -31,29 +31,35 @@ White space in argument---line 149 of file PhD.aux
 I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
-I was expecting a `,' or a `}'---line 487 of file AN-17-243.bib
+Warning--string name "title" is undefined
+--line 33 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 33 of file AN-17-243.bib
+ :       title         
+ :                     = "https://cms-hcomb.gitbooks.io/combine/"
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 512 of file AN-17-243.bib
  : 
  : @techreport{CMS-PAS-HIG-16-023,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 487 of file AN-17-243.bib
+Repeated entry---line 512 of file AN-17-243.bib
  : @techreport{CMS-PAS-HIG-16-023
  :                               ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 504 of file AN-17-243.bib
+Unbalanced braces---line 529 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 707 of file AN-17-243.bib
+Repeated entry---line 732 of file AN-17-243.bib
  : @article{Heinemeyer:2013tqa
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1427 of file AN-17-243.bib
+Repeated entry---line 1452 of file AN-17-243.bib
  : @article{Cowan:2010js
  :                      ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1535 of file AN-17-243.bib
+Illegal end of database file---line 1560 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
@@ -77,49 +83,53 @@ Warning--empty author in CMS-PAS-HIG-16-023
 Warning--empty author in ATLAS-CONF-2016-074
 Warning--empty journal in Sjostrand:2006su
 Warning--empty journal in Khachatryan:2015pea
+Warning--empty author in combine
+Warning--empty title in combine
+Warning--empty journal in combine
+Warning--empty year in combine
 Warning--empty journal in cowan1998statistical
 Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
-You've used 66 entries,
+You've used 68 entries,
             1791 wiz_defined-function locations,
-            862 strings with 14685 characters,
-and the built_in function-call counts, 13215 in all, are:
-= -- 1112
-> -- 589
+            869 strings with 14786 characters,
+and the built_in function-call counts, 13501 in all, are:
+= -- 1131
+> -- 598
 < -- 3
-+ -- 226
-- -- 160
-* -- 893
-:= -- 2136
-add.period$ -- 188
-call.type$ -- 66
-change.case$ -- 64
++ -- 230
+- -- 162
+* -- 916
+:= -- 2175
+add.period$ -- 192
+call.type$ -- 68
+change.case$ -- 65
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 560
-empty$ -- 1358
-format.name$ -- 160
-if$ -- 2927
+cite$ -- 85
+duplicate$ -- 577
+empty$ -- 1391
+format.name$ -- 162
+if$ -- 2987
 int.to.chr$ -- 0
-int.to.str$ -- 66
-missing$ -- 57
-newline$ -- 323
-num.names$ -- 55
-pop$ -- 149
+int.to.str$ -- 68
+missing$ -- 59
+newline$ -- 331
+num.names$ -- 56
+pop$ -- 158
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 250
+skip$ -- 260
 stack$ -- 0
-substring$ -- 854
-swap$ -- 69
+substring$ -- 863
+swap$ -- 70
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 13
-while$ -- 108
-width$ -- 68
-write$ -- 678
-(There were 13 error messages)
+warning$ -- 17
+while$ -- 110
+width$ -- 70
+write$ -- 693
+(There were 14 error messages)

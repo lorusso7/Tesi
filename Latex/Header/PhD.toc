@@ -23,11 +23,12 @@
 \contentsline {section}{\numberline {5.2}Discriminating variable}{44}{section.5.2}
 \contentsline {section}{\numberline {5.3}Signal interpretation: EW singlet, 2HDM and MSSM}{44}{section.5.3}
 \contentsline {section}{\numberline {5.4}Study of the Interference effects}{48}{section.5.4}
-\contentsline {section}{\numberline {5.5}Main Background}{48}{section.5.5}
-\contentsline {section}{\numberline {5.6}Opposite Flavor final state}{50}{section.5.6}
-\contentsline {section}{\numberline {5.7}Same Flavor final state}{63}{section.5.7}
-\contentsline {section}{\numberline {5.8}Systematic uncertainties}{73}{section.5.8}
-\contentsline {chapter}{\numberline {6}Results and Interpretation}{77}{chapter.6}
-\contentsline {section}{\numberline {6.1}Statistical interpretation}{77}{section.6.1}
-\contentsline {section}{\numberline {6.2}EWS results}{79}{section.6.2}
-\contentsline {chapter}{\numberline {A}Special commands }{83}{appendix.A}
+\contentsline {section}{\numberline {5.5}Main Background processes}{48}{section.5.5}
+\contentsline {section}{\numberline {5.6}Data sample and Triggers}{51}{section.5.6}
+\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{55}{section.5.7}
+\contentsline {section}{\numberline {5.8}Same Flavor final state}{68}{section.5.8}
+\contentsline {section}{\numberline {5.9}Systematic uncertainties}{78}{section.5.9}
+\contentsline {chapter}{\numberline {6}Results and Interpretation}{83}{chapter.6}
+\contentsline {section}{\numberline {6.1}Statistical interpretation}{83}{section.6.1}
+\contentsline {section}{\numberline {6.2}Limits and results}{85}{section.6.2}
+\contentsline {chapter}{\numberline {A}Electron Efficiencies from Tag and Probe Method}{89}{appendix.A}
