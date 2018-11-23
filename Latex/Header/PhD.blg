@@ -1,65 +1,65 @@
 This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: PhD.aux
-White space in argument---line 145 of file PhD.aux
+White space in argument---line 146 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 151 of file PhD.aux
+White space in argument---line 152 of file PhD.aux
  : \citation{Altarelli:
  :                      1977zs}
 I'm skipping whatever remains of this command
-White space in argument---line 158 of file PhD.aux
+White space in argument---line 159 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 163 of file PhD.aux
+White space in argument---line 164 of file PhD.aux
  : \citation{bib:
  :                pdg}
 I'm skipping whatever remains of this command
-White space in argument---line 172 of file PhD.aux
+White space in argument---line 173 of file PhD.aux
  : \citation{bib:
  :                run2jet}
 I'm skipping whatever remains of this command
-White space in argument---line 173 of file PhD.aux
+White space in argument---line 174 of file PhD.aux
  : \citation{mass:
  :                 in: dijet}
 I'm skipping whatever remains of this command
-White space in argument---line 174 of file PhD.aux
+White space in argument---line 175 of file PhD.aux
  : \citation{Cacciari:
  :                     2008gp}
 I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
 Warning--string name "title" is undefined
---line 43 of file AN-17-243.bib
-I was expecting a `,' or a `}'---line 43 of file AN-17-243.bib
+--line 57 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 57 of file AN-17-243.bib
  :       title         
  :                     = "https://cms-hcomb.gitbooks.io/combine/"
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 522 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 536 of file AN-17-243.bib
  : 
  : @techreport{CMS-PAS-HIG-16-023,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 522 of file AN-17-243.bib
+Repeated entry---line 536 of file AN-17-243.bib
  : @techreport{CMS-PAS-HIG-16-023
  :                               ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 539 of file AN-17-243.bib
+Unbalanced braces---line 553 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 742 of file AN-17-243.bib
+Repeated entry---line 756 of file AN-17-243.bib
  : @article{Heinemeyer:2013tqa
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1462 of file AN-17-243.bib
+Repeated entry---line 1476 of file AN-17-243.bib
  : @article{Cowan:2010js
  :                      ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1570 of file AN-17-243.bib
+Illegal end of database file---line 1584 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
@@ -81,8 +81,10 @@ Warning--empty journal in Heinemeyer:2013tqa
 Warning--empty journal in Barroso:2013zxa
 Warning--empty author in CMS-PAS-HIG-16-023
 Warning--empty author in ATLAS-CONF-2016-074
+Warning--empty institution in Pettersson:291782
 Warning--empty journal in Sjostrand:2006su
 Warning--empty journal in Khachatryan:2015pea
+Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty author in combine
 Warning--empty title in combine
 Warning--empty journal in combine
@@ -91,45 +93,45 @@ Warning--empty journal in cowan1998statistical
 Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
-You've used 68 entries,
+You've used 70 entries,
             1791 wiz_defined-function locations,
-            869 strings with 14786 characters,
-and the built_in function-call counts, 13501 in all, are:
-= -- 1131
-> -- 598
-< -- 3
-+ -- 230
-- -- 162
-* -- 916
-:= -- 2175
-add.period$ -- 192
-call.type$ -- 68
-change.case$ -- 65
+            879 strings with 15047 characters,
+and the built_in function-call counts, 13762 in all, are:
+= -- 1154
+> -- 607
+< -- 5
++ -- 234
+- -- 164
+* -- 936
+:= -- 2218
+add.period$ -- 197
+call.type$ -- 70
+change.case$ -- 67
 chr.to.int$ -- 0
-cite$ -- 85
-duplicate$ -- 577
-empty$ -- 1391
-format.name$ -- 162
-if$ -- 2987
+cite$ -- 89
+duplicate$ -- 591
+empty$ -- 1415
+format.name$ -- 164
+if$ -- 3042
 int.to.chr$ -- 0
-int.to.str$ -- 68
+int.to.str$ -- 70
 missing$ -- 59
-newline$ -- 331
-num.names$ -- 56
-pop$ -- 158
+newline$ -- 340
+num.names$ -- 57
+pop$ -- 163
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 260
+skip$ -- 264
 stack$ -- 0
 substring$ -- 863
-swap$ -- 70
-text.length$ -- 3
+swap$ -- 72
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 17
-while$ -- 110
-width$ -- 70
-write$ -- 693
+warning$ -- 19
+while$ -- 111
+width$ -- 72
+write$ -- 713
 (There were 14 error messages)

@@ -389,12 +389,35 @@
     %\parindent=0pt
     %\sffamily
 
-    \vspace*{-25mm}
+    \vspace*{-3cm}
     \centering
       \includegraphics[scale=0.5]{LOGO_UNISI_ESTESO}\\
 
-% \hline
-    
+\vspace*{0.6cm}
+\huge{Dottorato in Fisica Sperimentale}\\
+\vspace*{0.3cm}
+\Large{XXXI Ciclo}\\
+
+\vspace*{2cm}
+\bf{\huge{Search for new resonances in p-p}}\\
+\vspace*{0.2cm}
+\bf{\huge{collisions using fully leptonic W$^+$W$^-$ }}\\
+\vspace*{0.2cm}
+\bf{\huge{decays with the CMS detector}}
+
+\vspace*{3cm}
+\centering
+\bf{\Large Dottorando   \qquad \qquad \qquad  \qquad \qquad Tutore}\\
+
+\vspace*{0.2cm}
+$\;$ $\,$ Dr. Lorenzo Russo  $\;$ $\;$   $\;$ $\;$   $\;$ \qquad   Prof. Vitaliano Ciulli\\
+
+\vspace*{3cm}
+Coordinatore\\
+Prof. Piersimone Marrocchesi\\
+
+\vspace*{2.5cm}
+Anni 2015-2018
 	\end{titlepage}
 \clearpage
 \SAP@composebacktitlepage

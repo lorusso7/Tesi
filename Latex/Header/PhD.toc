@@ -19,18 +19,22 @@
 \contentsline {section}{\numberline {3.7}Main Monte Carlo generators }{45}{section.3.7}
 \contentsline {section}{\numberline {3.8}Monte Carlo sample in High Mass Analysis}{47}{section.3.8}
 \contentsline {chapter}{\numberline {4}Event Reconstruction}{53}{chapter.4}
-\contentsline {chapter}{\numberline {5}High mass resonances searching}{55}{chapter.5}
-\contentsline {section}{\numberline {5.1}The $X$ to $WW$ search: summary}{55}{section.5.1}
-\contentsline {section}{\numberline {5.2}Discriminating variable}{56}{section.5.2}
-\contentsline {section}{\numberline {5.3}Signal interpretation: EW singlet, 2HDM and MSSM}{56}{section.5.3}
-\contentsline {section}{\numberline {5.4}Study of the Interference effects}{60}{section.5.4}
-\contentsline {section}{\numberline {5.5}Main Background processes}{60}{section.5.5}
-\contentsline {section}{\numberline {5.6}Data sample and Triggers}{63}{section.5.6}
-\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{67}{section.5.7}
-\contentsline {section}{\numberline {5.8}Same Flavor final state}{80}{section.5.8}
-\contentsline {section}{\numberline {5.9}Systematic uncertainties}{90}{section.5.9}
-\contentsline {chapter}{\numberline {6}Results and Interpretation}{95}{chapter.6}
-\contentsline {section}{\numberline {6.1}Statistical interpretation}{95}{section.6.1}
-\contentsline {section}{\numberline {6.2}Limits and results}{97}{section.6.2}
-\contentsline {chapter}{\numberline {A}Boost-invariant variables}{101}{appendix.A}
-\contentsline {chapter}{\numberline {B}Electron Efficiencies from Tag and Probe Method}{103}{appendix.B}
+\contentsline {section}{\numberline {4.1}The Particle Flow}{53}{section.4.1}
+\contentsline {section}{\numberline {4.2}Lepton reconstruction and identification}{54}{section.4.2}
+\contentsline {section}{\numberline {4.3}Jet reconstruction and identification}{57}{section.4.3}
+\contentsline {section}{\numberline {4.4}b-jet identification}{60}{section.4.4}
+\contentsline {chapter}{\numberline {5}High mass resonances searching}{67}{chapter.5}
+\contentsline {section}{\numberline {5.1}The $X$ to $WW$ search: summary}{67}{section.5.1}
+\contentsline {section}{\numberline {5.2}Discriminating variable}{68}{section.5.2}
+\contentsline {section}{\numberline {5.3}Signal interpretation: EW singlet, 2HDM and MSSM}{68}{section.5.3}
+\contentsline {section}{\numberline {5.4}Study of the Interference effects}{72}{section.5.4}
+\contentsline {section}{\numberline {5.5}Main Background processes}{72}{section.5.5}
+\contentsline {section}{\numberline {5.6}Data sample and Triggers}{75}{section.5.6}
+\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{79}{section.5.7}
+\contentsline {section}{\numberline {5.8}Same Flavor final state}{92}{section.5.8}
+\contentsline {section}{\numberline {5.9}Systematic uncertainties}{102}{section.5.9}
+\contentsline {chapter}{\numberline {6}Results and Interpretation}{107}{chapter.6}
+\contentsline {section}{\numberline {6.1}Statistical interpretation}{107}{section.6.1}
+\contentsline {section}{\numberline {6.2}Limits and results}{109}{section.6.2}
+\contentsline {chapter}{\numberline {A}Boost-invariant variables}{113}{appendix.A}
+\contentsline {chapter}{\numberline {B}Electron Efficiencies from Tag and Probe Method}{115}{appendix.B}

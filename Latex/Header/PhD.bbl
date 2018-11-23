@@ -132,6 +132,11 @@ Vardan Khachatryan et~al.
   collisions at $\sqrt{s}$=13 TeV with the ATLAS detector}.
 \newblock Technical Report ATLAS-CONF-2016-074, CERN, Geneva, Aug 2016.
 
+\bibitem{Pettersson:291782}
+Thomas~Sven Pettersson and P~Lefèvre.
+\newblock {The Large Hadron Collider: conceptual design}.
+\newblock Technical Report CERN-AC-95-05-LHC, Oct 1995.
+
 \bibitem{Sjostrand:2006su}
 T.~Sjostrand.
 \newblock {Monte Carlo generators}.
@@ -269,6 +274,11 @@ How to compute cross sections with the genxsecanalyzer.
 Summary table of samples produced for the 1 billion campaign, with 25ns
   bunch-crossing.
 \newblock \url{https://twiki.cern.ch/twiki/bin/view/CMS/SummaryTable1G25ns}.
+
+\bibitem{CMS-PAS-PFT-09-001}
+{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
+  MET}.
+\newblock Technical Report CMS-PAS-PFT-09-001, CERN, Geneva, Apr 2009.
 
 \bibitem{Gori:2130983}
 Stefania Gori, Ian-Woo Kim, Nausheen~R. Shah, and Kathryn~M. Zurek.
