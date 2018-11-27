@@ -382,43 +382,41 @@
 % Titlepage:
 
 	\begin{titlepage}
-	
-	%\linespread{1}\selectfont
 
-    %\newcommand{\SAP@parbox}[2][]{\hspace{1.72cm}\parbox[t][##1][t]{11.9cm}{##2}}
-    %\parindent=0pt
-    %\sffamily
+\vspace*{-1.5 cm}
+\begin{center}
+{\bf UNIVERSITA' di SIENA}\\
+\rule{\textwidth}{0.4pt}
+\small{DIPARTIMENTO DI SCIENZE FISICHE, DELLA TERRA E DELL'~AMBIENTE}\\
+\small{SEZIONE DI FISICA}
+\end{center}
 
-    \vspace*{-3cm}
-    \centering
-      \includegraphics[scale=0.5]{LOGO_UNISI_ESTESO}\\
-
-\vspace*{0.6cm}
-\huge{Dottorato in Fisica Sperimentale}\\
-\vspace*{0.3cm}
-\Large{XXXI Ciclo}\\
+%\vspace*{0.5cm}
+\centering
+\includegraphics[scale=0.28]{LOGO_UNISI}\\
+\vspace*{1cm}
+{\bf \huge{Search for new resonances in p-p}\\
+\vspace*{0.2cm}
+ \huge{collisions using fully leptonic W$^+$W$^-$ }\\
+\vspace*{0.4cm}
+\huge{decays with the CMS detector} }
 
 \vspace*{2cm}
-\bf{\huge{Search for new resonances in p-p}}\\
-\vspace*{0.2cm}
-\bf{\huge{collisions using fully leptonic W$^+$W$^-$ }}\\
-\vspace*{0.2cm}
-\bf{\huge{decays with the CMS detector}}
-
-\vspace*{3cm}
 \centering
-\bf{\Large Dottorando   \qquad \qquad \qquad  \qquad \qquad Tutore}\\
+Tesi di Dottorato di Ricerca in Fisica Sperimentale\\
+In partial fulfillment of the requirements fo the Ph.D. \\
+Thesis in Experimental Physics
+\vspace*{2.5cm}
 
-\vspace*{0.2cm}
-$\;$ $\,$ Dr. Lorenzo Russo  $\;$ $\;$   $\;$ $\;$   $\;$ \qquad   Prof. Vitaliano Ciulli\\
+\begin{tabular}{ll}
+Candidato:        \qquad \qquad \qquad \qquad \qquad \qquad&  Supervisor:\\
+{\bf Dr. Lorenzo Russo} \qquad \qquad \qquad \qquad \qquad \qquad& {\bf Prof. Vitaliano Ciulli}\\
+\end{tabular}
 
 \vspace*{3cm}
-Coordinatore\\
-Prof. Piersimone Marrocchesi\\
-
-\vspace*{2.5cm}
-Anni 2015-2018
-	\end{titlepage}
+\rule{\textwidth}{0.4pt}
+{\bf Ciclo di dottorato XXXI}
+\end{titlepage}
 \clearpage
 \SAP@composebacktitlepage
 }
@@ -558,7 +556,9 @@ Anni 2015-2018
 %% ACKNOWLEDGMENTS ENVIRONMENT %%
 \newenvironment{acknowledgments}[1][\SAP@AcknowledgmentsLabel]
 {\cleardoublepage\thispagestyle{plain}
-\noindent{\Large\bfseries #1}\par\vspace{0.5cm}\itshape\noindent\ignorespaces}
+
+%\noindent{\Large\bfseries #1}\par\vspace{0.5cm}\itshape\noindent\ignorespaces}
+\noindent{\Large\bfseries #1}\par\vspace{0.5cm}\noindent\ignorespaces}
 {\null\ignorespacesafterend}
 
 
