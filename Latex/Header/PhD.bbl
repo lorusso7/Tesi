@@ -26,6 +26,11 @@ A.~B. Balantekin and W.~C. Haxton.
 \newblock {Neutrino Oscillations}.
 \newblock {\em Prog. Part. Nucl. Phys.}, 71:150--161, 2013.
 
+\bibitem{Beringer:1900zz}
+{Particle Data Group}, J.~Beringer, et~al.
+\newblock {Review of Particle Physics}.
+\newblock {\em Phys. Rev. D}, 86:010001, 2012.
+
 \bibitem{doi:10.1142/9789814644150_0006}
 Luigi~Di Lella and Carlo Rubbia.
 \newblock {\em The Discovery of the W and Z Particles}, pages 137--163.
@@ -70,11 +75,6 @@ Timo van Ritbergen and Robin~G. Stuart.
   muon lifetime}.
 \newblock {\em Nucl. Phys.}, B564:343--390, 2000.
 
-\bibitem{Beringer:1900zz}
-{Particle Data Group}, J.~Beringer, et~al.
-\newblock {Review of Particle Physics}.
-\newblock {\em Phys. Rev. D}, 86:010001, 2012.
-
 \bibitem{Heinemeyer:2013tqa}
 J~R Andersen et~al.
 \newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
@@ -92,15 +92,22 @@ Robert~M. Schabinger and James~D. Wells.
   boson physics at the large hadron collider}.
 \newblock {\em Phys. Rev.}, D72:093007, 2005.
 
-\bibitem{FAYET1976159}
-P.~Fayet.
-\newblock Supersymmetry and weak, electromagnetic and strong interactions.
-\newblock {\em Physics Letters B}, 64(2):159 -- 162, 1976.
-
 \bibitem{Barroso:2013zxa}
 A.~Barroso, P.~M. Ferreira, Rui Santos, Marc Sher, and Joao~P. Silva.
 \newblock {2HDM at the LHC - the story so far}.
 \newblock 2013.
+
+\bibitem{PhysRevD.41.3421}
+V.~Barger, J.~L. Hewett, and R.~J.~N. Phillips.
+\newblock New constraints on the charged higgs sector in two-higgs-doublet
+  models.
+\newblock {\em Phys. Rev. D}, 41:3421--3441, Jun 1990.
+
+\bibitem{PhysRevD.80.015017}
+Mayumi Aoki, Shinya Kanemura, Koji Tsumura, and Kei Yagyu.
+\newblock Models of yukawa interaction in the two higgs doublet model, and
+  their collider phenomenology.
+\newblock {\em Phys. Rev. D}, 80:015017, Jul 2009.
 
 \bibitem{Djouadi2004}
 Abdelhak Djouadi.

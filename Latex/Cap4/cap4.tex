@@ -427,3 +427,71 @@ Z enriched control region. The normalization of the DY background is scaled to m
 The systematics band comprises only the uncertainties related to the b tagging scale factors..}
 \label{cmvaD}
 \end{figure}
+
+\section{The Missing Transverse Energy}
+The longitudinal momentum (along the beam axis) in the collision is not known, so the measurement of the total missing
+energy is impossible.
+However the initial transverse momentum, carried by the incoming partons, is zero, so in the final state of the collision, for the conservation of the momentum
+components, the sum of momenta of all the particles must be zero.
+If a missing transverse momentum, $\vec{p_T^{miss}}$, in the transverse plane is present, it is the evidence of invisible particles, such as neutrinos particles predicted by some BSM models.
+The $\vec{p_T^{miss}}$ is defined as,
+\begin{equation}
+\vec{p}_T^{\: miss}= -\sum_{PF\: Objs} \vec{p}_T^{\:PF \: Obj} \: ,
+\end{equation}
+where the sum extends over all the PF objects. The $\vec{p_T^{miss}}$ is the  negative
+vectorial sum of transverse momenta of all reconstructed PF objects, and its module is called missing transverse energy, $E_T^{miss}=|\vec{p_T^{miss}}|$.
+As inefficiencies of the tracking algorithm, minimal thresholds in the calorimeter energy
+estimation, and nonlinearities of the energy response of the calorimeters for hadronic parti-
+cles can introduce a bias in the $\vec{p_T^{miss}}$ determination, a correction is applied by propagating
+to the $\vec{p_T^{miss}}$ sum the jet energy corrections,  in according as,
+\begin{equation}
+\vec{p}_T^{\:miss \: correction}= \vec{p}_T^{\:miss} -\sum_{Jets}( \vec{p}_T^{\:Corr} -\vec{p}_T) \: ,
+\end{equation}
+where the superscript JEC refers to corrected jets.
+To estimate the $E_T^{miss}$  systematic uncertainty we have considered the following sources:
+\begin{itemize}
+\item jet $p_T$;
+\item jet resolution;
+\item muon  $p_T$;
+\item electron $p_T$;
+\item unclustered energy.
+\end{itemize}
+The $E_T^{miss}$ has been computated varying each of these uncertainties and added in quadrature the
+differences with respect to the nominal value. For the $\phi$ uncertainty has been taken as the largest
+$\phi$ variation.
+The distributions of various  $E_T^{miss}$ variables, in the electron-muon channel, are shown in Fig.~\ref{met}
+\begin{figure}
+\centering
+\includegraphics[scale= 0.8]{../Cap4/met}
+\caption{The  $E_T^{miss}$ filters efficiencies for 35.9 fb$^{-1}$ of 2016 data. The common requirements for
+the distributions before filters (solid histogram) and after filters (black points) are the trigger
+and two tight leptons.}
+\label{met}
+\end{figure}
+
+\section{Fake Lepton Background Estimation}
+Lepton fake rates are measured as a
+function of the lepton $p_T$ and $\eta$, in a single lepton triggered sample. The test of the method and
+systematic errors are described below.
+In the analysis
+the primary source of background from misidentification is W+Jets. QCD multi-jet and hadronic top backgrounds
+are also present at much smaller level. Events in which W bosons are produced in association
+with jets give rise to background to WW events when a jet is misidentified as a lepton. These
+events contain a real lepton and real missing energy from the W decay. With the jet misidentified 
+as a lepton, the W+Jets events have two identified leptons, missing energy, and no other
+significant event characteristics. As a result, the W+Jets events cannot be readily suppressed
+by event selection. This background is particularly important at low $p_T$.
+The estimation of the fake lepton contribution is based on the ``fakeable objet'' data-driven
+method and provides a measurement of the yield and the kinematic distributions of fake background. 
+It is a general technique, applicable to any physics analysis in which particle level
+selection criteria are used to suppress background. The method can be used with any number
+of final state particles and is independent of the event selection.
+The fundamental idea of the fakeable objet method is simple: select a control sample of events
+enriched in the background being estimated, and then use an extrapolation factor to relate these
+events to the background in the signal region. The method is data-driven provided the control
+sample is selected in data, and the extrapolation factor is measured with data. For background
+arising from particle misidentification, the extrapolation is done in particle identification space
+($p_T$ and $\eta$ ) of the lepton. The control sample is defined using a looser particle selection criteria
+that are chosen such that the rate of misidentification is increased. The extrapolation factor
+relates background misidentified with this criteria, to background misidentified as passing the
+full particle selection of the signal region.
