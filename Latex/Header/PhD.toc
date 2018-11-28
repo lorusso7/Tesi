@@ -1,9 +1,8 @@
+\contentsline {chapter}{Introduction}{ix}{chapter*.2}
 \contentsline {chapter}{\numberline {1}The Standard Model, the Higgs Boson and New Scalar Particles}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Phenomenology of the Standard Model}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}The Higgs Boson}{6}{section.1.2}
+\contentsline {section}{\numberline {1.2}The Higgs Boson}{7}{section.1.2}
 \contentsline {section}{\numberline {1.3}New Scalar Particles}{10}{section.1.3}
-\contentsline {paragraph}{Searches at Tevatron}{18}{section*.29}
-\contentsline {paragraph}{Searches at LHC}{18}{section*.31}
 \contentsline {chapter}{\numberline {2}The CMS experiment at LHC}{23}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadorn Collider}{23}{section.2.1}
 \contentsline {section}{\numberline {2.2}The Compact Muon Solenoid experiment}{24}{section.2.2}
@@ -14,7 +13,7 @@
 \contentsline {section}{\numberline {3.3}Multiple Interaction}{46}{section.3.3}
 \contentsline {section}{\numberline {3.4}Hadronization }{46}{section.3.4}
 \contentsline {section}{\numberline {3.5}Hadronic Decays and Electromagnetic Radiation.}{49}{section.3.5}
-\contentsline {section}{\numberline {3.6}Jets Reconstruction}{49}{section.3.6}
+\contentsline {section}{\numberline {3.6}Jets}{49}{section.3.6}
 \contentsline {section}{\numberline {3.7}Main Monte Carlo generators }{49}{section.3.7}
 \contentsline {section}{\numberline {3.8}Monte Carlo sample in High Mass Analysis}{51}{section.3.8}
 \contentsline {chapter}{\numberline {4}Event Reconstruction}{57}{chapter.4}
@@ -38,4 +37,5 @@
 \contentsline {section}{\numberline {6.1}Statistical interpretation}{113}{section.6.1}
 \contentsline {section}{\numberline {6.2}Limits and results}{115}{section.6.2}
 \contentsline {chapter}{\numberline {A}Boost-invariant variables}{119}{appendix.A}
-\contentsline {chapter}{\numberline {B}Electron Efficiencies from Tag and Probe Method}{121}{appendix.B}
+\contentsline {chapter}{\numberline {B}Parton Distribution Function}{121}{appendix.B}
+\contentsline {chapter}{\numberline {C}Electron Efficiencies from Tag and Probe Method}{123}{appendix.C}

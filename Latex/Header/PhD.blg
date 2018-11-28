@@ -1,79 +1,55 @@
 This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: PhD.aux
-White space in argument---line 148 of file PhD.aux
+White space in argument---line 147 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 154 of file PhD.aux
+White space in argument---line 153 of file PhD.aux
  : \citation{Altarelli:
  :                      1977zs}
 I'm skipping whatever remains of this command
-White space in argument---line 161 of file PhD.aux
+White space in argument---line 160 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
-I'm skipping whatever remains of this command
-White space in argument---line 166 of file PhD.aux
- : \citation{bib:
- :                pdg}
-I'm skipping whatever remains of this command
-White space in argument---line 175 of file PhD.aux
- : \citation{bib:
- :                run2jet}
-I'm skipping whatever remains of this command
-White space in argument---line 176 of file PhD.aux
- : \citation{mass:
- :                 in: dijet}
-I'm skipping whatever remains of this command
-White space in argument---line 177 of file PhD.aux
- : \citation{Cacciari:
- :                     2008gp}
 I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
 Warning--string name "title" is undefined
---line 92 of file AN-17-243.bib
-I was expecting a `,' or a `}'---line 92 of file AN-17-243.bib
+--line 220 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 220 of file AN-17-243.bib
  :       title         
  :                     = "https://cms-hcomb.gitbooks.io/combine/"
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 571 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 699 of file AN-17-243.bib
  : 
  : @techreport{CMS-PAS-HIG-16-023,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 571 of file AN-17-243.bib
+Repeated entry---line 699 of file AN-17-243.bib
  : @techreport{CMS-PAS-HIG-16-023
  :                               ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 588 of file AN-17-243.bib
+Unbalanced braces---line 716 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 791 of file AN-17-243.bib
+Repeated entry---line 919 of file AN-17-243.bib
  : @article{Heinemeyer:2013tqa
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1511 of file AN-17-243.bib
+Repeated entry---line 1639 of file AN-17-243.bib
  : @article{Cowan:2010js
  :                      ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1619 of file AN-17-243.bib
+Illegal end of database file---line 1747 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "bib:madgraph"
-Warning--I didn't find a database entry for "ripesamento"
-Warning--I didn't find a database entry for "ripesamento2"
-Warning--I didn't find a database entry for "ckkw"
-Warning--I didn't find a database entry for "ckkw2"
-Warning--I didn't find a database entry for "Oleari:2010nx"
-Warning--I didn't find a database entry for "bib:pythia"
-Warning--I didn't find a database entry for "bib:sherpa"
-Warning--I didn't find a database entry for "Gehrmann:2014fva"
-Warning--I didn't find a database entry for "Caola:2015rqy"
+Warning--I didn't find a database entry for "bib:pdg"
+Warning--I didn't find a database entry for "bib:run2jet"
 Warning--empty publisher in Halzen:1984mc
 Warning--empty publisher in doi:10.1142/9789814644150_0006
 Warning--empty year in doi:10.1142/9789814644150_0006
@@ -83,7 +59,18 @@ Warning--empty author in CMS-PAS-HIG-16-023
 Warning--empty author in ATLAS-CONF-2016-074
 Warning--empty institution in Pettersson:291782
 Warning--empty journal in Sjostrand:2006su
+Warning--empty journal in ripesamento
+Warning--empty year in ripesamento
+Warning--empty journal in ripesamento2
+Warning--empty year in ripesamento2
+Name 1 in "S. Catani, F. Krauss, R. Kuhn, and B. R. Webber" has a comma at the end for entry ckkw
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in ckkw
+Warning--empty year in ckkw
+Warning--empty journal in ckkw2
+Warning--empty year in ckkw2
 Warning--empty journal in Khachatryan:2015pea
+Warning--empty journal in Aaboud:2018jqu
 Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty author in combine
 Warning--empty title in combine
@@ -93,45 +80,45 @@ Warning--empty journal in cowan1998statistical
 Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
-You've used 71 entries,
+You've used 79 entries,
             1791 wiz_defined-function locations,
-            885 strings with 15296 characters,
-and the built_in function-call counts, 14041 in all, are:
-= -- 1177
-> -- 628
+            911 strings with 16149 characters,
+and the built_in function-call counts, 15515 in all, are:
+= -- 1292
+> -- 704
 < -- 5
-+ -- 241
-- -- 170
-* -- 962
-:= -- 2266
-add.period$ -- 200
-call.type$ -- 71
-change.case$ -- 68
++ -- 269
+- -- 190
+* -- 1058
+:= -- 2534
+add.period$ -- 222
+call.type$ -- 79
+change.case$ -- 76
 chr.to.int$ -- 0
-cite$ -- 90
-duplicate$ -- 600
-empty$ -- 1436
-format.name$ -- 170
-if$ -- 3098
+cite$ -- 107
+duplicate$ -- 675
+empty$ -- 1569
+format.name$ -- 190
+if$ -- 3404
 int.to.chr$ -- 0
-int.to.str$ -- 71
-missing$ -- 60
-newline$ -- 345
-num.names$ -- 58
-pop$ -- 164
+int.to.str$ -- 79
+missing$ -- 70
+newline$ -- 383
+num.names$ -- 68
+pop$ -- 186
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 267
+skip$ -- 291
 stack$ -- 0
-substring$ -- 885
-swap$ -- 73
+substring$ -- 942
+swap$ -- 76
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 19
-while$ -- 114
-width$ -- 73
-write$ -- 724
-(There were 14 error messages)
+warning$ -- 28
+while$ -- 129
+width$ -- 81
+write$ -- 802
+(There were 11 error messages)

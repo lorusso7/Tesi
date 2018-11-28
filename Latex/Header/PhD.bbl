@@ -119,11 +119,6 @@ A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi, and M.~Spira.
 \newblock {Standard Model Higgs-Boson Branching Ratios with Uncertainties}.
 \newblock {\em Eur. Phys. J.}, C71:1753, 2011.
 
-\bibitem{Petridis:2012jd}
-Konstantinos~A. Petridis.
-\newblock {High Mass Standard Model Higgs searches at the Tevatron}.
-\newblock {\em EPJ Web Conf.}, 28:07002, 2012.
-
 \bibitem{Khachatryan:2015cwa}
 Vardan Khachatryan et~al.
 \newblock {Search for a Higgs boson in the mass range from 145 to 1000 GeV
@@ -153,6 +148,51 @@ T.~Sjostrand.
 A.~Buckley et~al.
 \newblock {General-purpose event generators for LHC physics}.
 \newblock {\em Phys. Rept.}, 504:145--233, 2011.
+
+\bibitem{bib:madgraph}
+T.~Stelzer and W.~F. Long.
+\newblock {Automatic generation of tree level helicity amplitudes}.
+\newblock {\em Comput. Phys. Commun.}, 81:357--371, 1994.
+
+\bibitem{ripesamento}
+M.~H. Seymour.
+\newblock {Matrix element corrections to parton shower algorithms, Comp. Phys.
+  Commun. 90 (1995) 95–101, arXiv:hep-ph/9410414.}
+
+\bibitem{ripesamento2}
+G.~Miu and T.~Sjostrand.
+\newblock {W production in an improved parton shower approach,” Phys. Lett.
+  B449 (1999) 313–320, arXiv:hep-ph/9812455.}
+
+\bibitem{ckkw}
+R.~Kuhn S.~Catani, F.~Krauss and B.~R. Webber.
+\newblock {QCD matrix elements + parton showers,” JHEP 11 (2001) 063,
+  arXiv:hep-ph/0109231.}
+
+\bibitem{ckkw2}
+F.~Krauss.
+\newblock {Matrix elements and parton showers in hadronic interactions,” JHEP
+  08 (2002) 015, arXiv:hep-ph/0205283.}
+
+\bibitem{Cacciari:2008gp}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock The anti-$k_t$ jet clustering algorithm.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{Oleari:2010nx}
+C.~Oleari.
+\newblock {The POWHEG-BOX}.
+\newblock {\em Nucl. Phys. Proc. Suppl.}, 205-206:36--41, 2010.
+
+\bibitem{bib:pythia}
+T.~Sjostrand, S.~Mrenna, and P.~Skands.
+\newblock {PYTHIA 6.4 physics and manual}.
+\newblock {\em JHEP}, 05:026, 2006.
+
+\bibitem{bib:sherpa}
+T.~Gleisberg et~al.
+\newblock {SHERPA 1.alpha, a proof-of-concept version}.
+\newblock {\em JHEP}, 02:056, 2004.
 
 \bibitem{Ball:2013hta}
 Richard~D. Ball, Valerio Bertone, Stefano Carrazza, Luigi Del~Debbio, Stefano
@@ -245,6 +285,13 @@ John~M. Campbell, R.~Keith Ellis, and Ciaran Williams.
   \to WW$}.
 \newblock {\em Phys. Rev.}, D89(5):053011, 2014.
 
+\bibitem{Aaboud:2018jqu}
+Morad Aaboud et~al.
+\newblock {Measurements of gluon-gluon fusion and vector-boson fusion Higgs
+  boson production cross-sections in the $H \to WW^{\ast} \to e\nu\mu\nu$ decay
+  channel in $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector}.
+\newblock 2018.
+
 \bibitem{Meade:2014fca}
 Patrick Meade, Harikrishnan Ramani, and Mao Zeng.
 \newblock {Transverse momentum resummation effects in $W^+W^-$ measurements}.
@@ -271,16 +318,6 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
   differential cross sections, and their matching to parton shower
   simulations}.
 \newblock {\em JHEP}, 07:079, 2014.
-
-\bibitem{genxsec}
-How to compute cross sections with the genxsecanalyzer.
-\newblock
-  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/HowToGenXSecAnalyzer}.
-
-\bibitem{25nstwiki}
-Summary table of samples produced for the 1 billion campaign, with 25ns
-  bunch-crossing.
-\newblock \url{https://twiki.cern.ch/twiki/bin/view/CMS/SummaryTable1G25ns}.
 
 \bibitem{CMS-PAS-PFT-09-001}
 {Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
@@ -384,5 +421,10 @@ Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock {Asymptotic formulae for likelihood-based tests of new physics}.
 \newblock {\em Eur. Phys. J.}, C71:1554, 2011.
 \newblock [Erratum: Eur. Phys. J.C73,2501(2013)].
+
+\bibitem{Altarelli:1977zs}
+G.~Altarelli and G.~Parisi.
+\newblock {Asymptotic Freedom in Parton Language}.
+\newblock {\em Nucl. Phys.}, B126:298, 1977.
 
 \end{thebibliography}

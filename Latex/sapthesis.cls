@@ -383,7 +383,7 @@
 
 	\begin{titlepage}
 
-\vspace*{-1.5 cm}
+\vspace*{-2.5 cm}
 \begin{center}
 {\bf UNIVERSITA' di SIENA}\\
 \rule{\textwidth}{0.4pt}
@@ -391,10 +391,10 @@
 \small{SEZIONE DI FISICA}
 \end{center}
 
-%\vspace*{0.5cm}
+%\vspace*{-0.5cm}
 \centering
 \includegraphics[scale=0.28]{LOGO_UNISI}\\
-\vspace*{1cm}
+\vspace*{0.5cm}
 {\bf \huge{Search for new resonances in p-p}\\
 \vspace*{0.2cm}
  \huge{collisions using fully leptonic W$^+$W$^-$ }\\
@@ -406,14 +406,19 @@
 Tesi di Dottorato di Ricerca in Fisica Sperimentale\\
 In partial fulfillment of the requirements fo the Ph.D. \\
 Thesis in Experimental Physics
-\vspace*{2.5cm}
+\vspace*{2.6cm}
 
 \begin{tabular}{ll}
-Candidato:        \qquad \qquad \qquad \qquad \qquad \qquad&  Supervisor:\\
+Candidato:              \qquad \qquad \qquad \qquad \qquad \qquad&  Supervisor:\\
 {\bf Dr. Lorenzo Russo} \qquad \qquad \qquad \qquad \qquad \qquad& {\bf Prof. Vitaliano Ciulli}\\
+                                                                 &\\
+                                                                 &\\
+                        \qquad \qquad \qquad \qquad \qquad \qquad& Tutor:\\
+                        \qquad \qquad \qquad \qquad \qquad \qquad& {\bf Prof.ssa Maria Agnese Ciocci}\\
+
 \end{tabular}
 
-\vspace*{3cm}
+\vspace*{2.8cm}
 \rule{\textwidth}{0.4pt}
 {\bf Ciclo di dottorato XXXI}
 \end{titlepage}
