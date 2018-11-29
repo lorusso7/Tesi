@@ -12,7 +12,7 @@ This limit represent a 	considerable improvement respect to the high mass search
 \centering
 \includegraphics[width=0.65\textwidth]{../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png}
 \caption{95$\%$ CL exclusion limits,  on the production ggH and VBF cross section times branching fraction as a function of the mass for the  combination of the two analysis OF and SF, in the full mass range.   The red  line represent the predicted cross-section for EW high mass bosons.}
-\label{fig:sig_OFSF_comb}
+\label{fig:lim_OFSF_comb}
 \end{figure}
 
 

@@ -33,9 +33,16 @@
 \contentsline {section}{\numberline {5.7}Opposite Flavor final state}{85}{section.5.7}
 \contentsline {section}{\numberline {5.8}Same Flavor final state}{98}{section.5.8}
 \contentsline {section}{\numberline {5.9}Systematic uncertainties}{108}{section.5.9}
-\contentsline {chapter}{\numberline {6}Results and Interpretation}{113}{chapter.6}
-\contentsline {section}{\numberline {6.1}Statistical interpretation}{113}{section.6.1}
-\contentsline {section}{\numberline {6.2}Limits and results}{115}{section.6.2}
-\contentsline {chapter}{\numberline {A}Boost-invariant variables}{119}{appendix.A}
-\contentsline {chapter}{\numberline {B}Parton Distribution Function}{121}{appendix.B}
-\contentsline {chapter}{\numberline {C}Electron Efficiencies from Tag and Probe Method}{123}{appendix.C}
+\contentsline {chapter}{\numberline {6}Semileptonic final state}{113}{chapter.6}
+\contentsline {section}{\numberline {6.1}General overview}{113}{section.6.1}
+\contentsline {section}{\numberline {6.2}Jets for Boosted and Resolved selection}{113}{section.6.2}
+\contentsline {section}{\numberline {6.3}Event categorisation}{116}{section.6.3}
+\contentsline {section}{\numberline {6.4}Backgrounds}{116}{section.6.4}
+\contentsline {section}{\numberline {6.5}Systematic uncertainties}{118}{section.6.5}
+\contentsline {chapter}{\numberline {7}Results and Interpretation}{121}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical interpretation}{121}{section.7.1}
+\contentsline {section}{\numberline {7.2}Fully leptonic results}{123}{section.7.2}
+\contentsline {section}{\numberline {7.3}Results for the combination of fully- and semi-leptonic analysis}{124}{section.7.3}
+\contentsline {chapter}{\numberline {A}Boost-invariant variables}{129}{appendix.A}
+\contentsline {chapter}{\numberline {B}Parton Distribution Function}{131}{appendix.B}
+\contentsline {chapter}{\numberline {C}Electron Efficiencies from Tag and Probe Method}{133}{appendix.C}

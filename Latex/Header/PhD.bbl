@@ -97,6 +97,11 @@ A.~Barroso, P.~M. Ferreira, Rui Santos, Marc Sher, and Joao~P. Silva.
 \newblock {2HDM at the LHC - the story so far}.
 \newblock 2013.
 
+\bibitem{PhysRevD.15.1958}
+Sheldon~L. Glashow and Steven Weinberg.
+\newblock Natural conservation laws for neutral currents.
+\newblock {\em Phys. Rev. D}, 15:1958--1965, Apr 1977.
+
 \bibitem{PhysRevD.41.3421}
 V.~Barger, J.~L. Hewett, and R.~J.~N. Phillips.
 \newblock New constraints on the charged higgs sector in two-higgs-doublet
@@ -407,6 +412,16 @@ Radja Boughezal, Xiaohui Liu, Frank Petriello, Frank~J. Tackmann, and
 \newblock {Combining Resummed Higgs Predictions Across Jet Bins}.
 \newblock {\em Phys. Rev.}, D89(7):074044, 2014.
 
+\bibitem{Thaler:2011gf}
+Jesse Thaler and Ken Van~Tilburg.
+\newblock {Maximizing Boosted Top Identification by Minimizing N-subjettiness}.
+\newblock {\em JHEP}, 02:093, 2012.
+
+\bibitem{Bertolini2014}
+Daniele Bertolini, Philip Harris, Matthew Low, and Nhan Tran.
+\newblock Pileup per particle identification.
+\newblock {\em Journal of High Energy Physics}, 2014(10):59, Oct 2014.
+
 \bibitem{cowan1998statistical}
 G.~Cowan.
 \newblock {Statistical data analysis}.
@@ -421,6 +436,12 @@ Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock {Asymptotic formulae for likelihood-based tests of new physics}.
 \newblock {\em Eur. Phys. J.}, C71:1554, 2011.
 \newblock [Erratum: Eur. Phys. J.C73,2501(2013)].
+
+\bibitem{Sirunyan:2018qlb}
+Albert~M Sirunyan et~al.
+\newblock {Search for a new scalar resonance decaying to a pair of Z bosons in
+  proton-proton collisions at $\sqrt{s}=13 $ TeV}.
+\newblock {\em JHEP}, 06:127, 2018.
 
 \bibitem{Altarelli:1977zs}
 G.~Altarelli and G.~Parisi.
