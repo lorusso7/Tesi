@@ -1,46 +1,48 @@
-\contentsline {chapter}{Introduction}{xi}{chapter*.2}
-\contentsline {chapter}{\numberline {1}The Standard Model, Higgs Boson and New Scalar Particles }{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}The Standard Model}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}The Higgs Boson}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}New Scalar Particles}{1}{section.1.3}
-\contentsline {paragraph}{Higgs Singlet Extension}{1}{section*.3}
-\contentsline {chapter}{\numberline {2}The CMS experiment at LHC}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Large Hadorn Collider}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid experient}{5}{section.2.2}
-\contentsline {chapter}{\numberline {3}Monte Carlo Generators}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Hard process}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Parton shower}{11}{section.3.2}
-\contentsline {paragraph}{Final State Radiation}{12}{section*.7}
-\contentsline {paragraph}{Initial State Radiation}{13}{section*.8}
-\contentsline {paragraph}{Resummation}{14}{section*.10}
-\contentsline {paragraph}{Merging among ME and PS}{14}{section*.11}
-\contentsline {section}{\numberline {3.3}Multiple Interaction}{15}{section.3.3}
-\contentsline {section}{\numberline {3.4}Hadronization }{16}{section.3.4}
-\contentsline {section}{\numberline {3.5}Hadronic Decays and Electromagnetic Radiation.}{18}{section.3.5}
-\contentsline {section}{\numberline {3.6}Jets Reconstruction}{18}{section.3.6}
-\contentsline {section}{\numberline {3.7}Main Monte Carlo generators }{19}{section.3.7}
-\contentsline {paragraph}{Madgraph\_aM{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip C@NLO}}{19}{section*.18}
-\contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip OWHEG}}{19}{section*.20}
-\contentsline {paragraph}{P{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip YTHIA}8 }{20}{section*.21}
-\contentsline {paragraph}{S{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip HERPA}}{20}{section*.22}
-\contentsline {section}{\numberline {3.8}Monte Carlo sample in High Mass Analysis}{20}{section.3.8}
-\contentsline {paragraph}{Signal}{21}{section*.24}
-\contentsline {paragraph}{The WW sample}{22}{section*.25}
-\contentsline {paragraph}{The Top sample}{22}{section*.27}
-\contentsline {paragraph}{The DY sample}{23}{section*.28}
-\contentsline {paragraph}{Other processes}{25}{section*.33}
-\contentsline {chapter}{\numberline {4}Event Reconstruction}{27}{chapter.4}
-\contentsline {chapter}{\numberline {5}High mass resonances searching}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{29}{section.5.1}
-\contentsline {section}{\numberline {5.2}Discriminating variable}{30}{section.5.2}
-\contentsline {section}{\numberline {5.3}Signal interpretation}{30}{section.5.3}
-\contentsline {section}{\numberline {5.4}Opposite Flavor final state}{34}{section.5.4}
-\contentsline {section}{\numberline {5.5}Same Flavor final state}{47}{section.5.5}
-\contentsline {section}{\numberline {5.6}2HDM and MSSM interpretations}{57}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Introduction to 2HDM and MSSM}{57}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Statistical inference}{57}{subsection.5.6.2}
-\contentsline {section}{\numberline {5.7}Systematic uncertainties}{59}{section.5.7}
-\contentsline {chapter}{\numberline {6}Results and Interpretation}{63}{chapter.6}
-\contentsline {section}{\numberline {6.1}Statistical interpretation}{63}{section.6.1}
-\contentsline {section}{\numberline {6.2}EWS results}{65}{section.6.2}
-\contentsline {chapter}{\numberline {A}Special commands }{69}{appendix.A}
+\contentsline {chapter}{Introduction}{ix}{chapter*.2}
+\contentsline {chapter}{\numberline {1}The Standard Model, the Higgs Boson and New Scalar Particles}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Phenomenology of the Standard Model}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}The Higgs Boson}{7}{section.1.2}
+\contentsline {section}{\numberline {1.3}New Scalar Particles}{10}{section.1.3}
+\contentsline {chapter}{\numberline {2}The CMS experiment at LHC}{23}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadorn Collider}{23}{section.2.1}
+\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid experiment}{24}{section.2.2}
+\contentsline {section}{\numberline {2.3}Data recoiled and future plans}{33}{section.2.3}
+\contentsline {chapter}{\numberline {3}Monte Carlo Generators}{37}{chapter.3}
+\contentsline {section}{\numberline {3.1}Hard process}{39}{section.3.1}
+\contentsline {section}{\numberline {3.2}Parton shower}{41}{section.3.2}
+\contentsline {section}{\numberline {3.3}Multiple Interaction}{46}{section.3.3}
+\contentsline {section}{\numberline {3.4}Hadronization }{46}{section.3.4}
+\contentsline {section}{\numberline {3.5}Hadronic Decays and Electromagnetic Radiation.}{49}{section.3.5}
+\contentsline {section}{\numberline {3.6}Jets}{49}{section.3.6}
+\contentsline {section}{\numberline {3.7}Main Monte Carlo generators }{49}{section.3.7}
+\contentsline {section}{\numberline {3.8}Monte Carlo sample in High Mass Analysis}{51}{section.3.8}
+\contentsline {chapter}{\numberline {4}Event Reconstruction}{57}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Particle Flow}{57}{section.4.1}
+\contentsline {section}{\numberline {4.2}Lepton reconstruction and identification}{58}{section.4.2}
+\contentsline {section}{\numberline {4.3}Jet reconstruction and identification}{61}{section.4.3}
+\contentsline {section}{\numberline {4.4}b-jet identification}{64}{section.4.4}
+\contentsline {section}{\numberline {4.5}The Missing Transverse Energy}{68}{section.4.5}
+\contentsline {section}{\numberline {4.6}Fake Lepton Background Estimation}{70}{section.4.6}
+\contentsline {chapter}{\numberline {5}High mass resonances searching}{73}{chapter.5}
+\contentsline {section}{\numberline {5.1}The $X$ to $WW$ search: summary}{73}{section.5.1}
+\contentsline {section}{\numberline {5.2}Discriminating variable}{74}{section.5.2}
+\contentsline {section}{\numberline {5.3}Signal interpretation: EW singlet, 2HDM and MSSM}{74}{section.5.3}
+\contentsline {section}{\numberline {5.4}Study of the Interference effects}{78}{section.5.4}
+\contentsline {section}{\numberline {5.5}Main Background processes}{78}{section.5.5}
+\contentsline {section}{\numberline {5.6}Data sample and Triggers}{81}{section.5.6}
+\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{85}{section.5.7}
+\contentsline {section}{\numberline {5.8}Same Flavor final state}{98}{section.5.8}
+\contentsline {section}{\numberline {5.9}Systematic uncertainties}{108}{section.5.9}
+\contentsline {chapter}{\numberline {6}Semileptonic final state}{113}{chapter.6}
+\contentsline {section}{\numberline {6.1}General overview}{113}{section.6.1}
+\contentsline {section}{\numberline {6.2}Jets for Boosted and Resolved selection}{113}{section.6.2}
+\contentsline {section}{\numberline {6.3}Event categorisation}{116}{section.6.3}
+\contentsline {section}{\numberline {6.4}Backgrounds}{116}{section.6.4}
+\contentsline {section}{\numberline {6.5}Systematic uncertainties}{118}{section.6.5}
+\contentsline {chapter}{\numberline {7}Results and Interpretation}{121}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical interpretation}{121}{section.7.1}
+\contentsline {section}{\numberline {7.2}Fully leptonic results}{123}{section.7.2}
+\contentsline {section}{\numberline {7.3}Results for the combination of fully- and semi-leptonic analysis}{124}{section.7.3}
+\contentsline {chapter}{\numberline {A}Boost-invariant variables}{129}{appendix.A}
+\contentsline {chapter}{\numberline {B}Parton Distribution Function}{131}{appendix.B}
+\contentsline {chapter}{\numberline {C}Electron Efficiencies from Tag and Probe Method}{133}{appendix.C}

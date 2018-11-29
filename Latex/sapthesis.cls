@@ -382,20 +382,46 @@
 % Titlepage:
 
 	\begin{titlepage}
-	
-	%\linespread{1}\selectfont
 
-    %\newcommand{\SAP@parbox}[2][]{\hspace{1.72cm}\parbox[t][##1][t]{11.9cm}{##2}}
-    %\parindent=0pt
-    %\sffamily
+\vspace*{-2.5 cm}
+\begin{center}
+{\bf UNIVERSITA' di SIENA}\\
+\rule{\textwidth}{0.4pt}
+\small{DIPARTIMENTO DI SCIENZE FISICHE, DELLA TERRA E DELL'~AMBIENTE}\\
+\small{SEZIONE DI FISICA}
+\end{center}
 
-    \vspace*{-25mm}
-    \centering
-      \includegraphics[scale=0.5]{LOGO_UNISI_ESTESO}\\
+%\vspace*{-0.5cm}
+\centering
+\includegraphics[scale=0.28]{LOGO_UNISI}\\
+\vspace*{0.5cm}
+{\bf \huge{Search for new resonances in p-p}\\
+\vspace*{0.2cm}
+ \huge{collisions using fully leptonic W$^+$W$^-$ }\\
+\vspace*{0.4cm}
+\huge{decays with the CMS detector} }
 
-% \hline
-    
-	\end{titlepage}
+\vspace*{2cm}
+\centering
+Tesi di Dottorato di Ricerca in Fisica Sperimentale\\
+In partial fulfillment of the requirements fo the Ph.D. \\
+Thesis in Experimental Physics
+\vspace*{2.6cm}
+
+\begin{tabular}{ll}
+Candidato:              \qquad \qquad \qquad \qquad \qquad \qquad&  Supervisor:\\
+{\bf Dr. Lorenzo Russo} \qquad \qquad \qquad \qquad \qquad \qquad& {\bf Prof. Vitaliano Ciulli}\\
+                                                                 &\\
+                                                                 &\\
+                        \qquad \qquad \qquad \qquad \qquad \qquad& Tutor:\\
+                        \qquad \qquad \qquad \qquad \qquad \qquad& {\bf Prof.ssa Maria Agnese Ciocci}\\
+
+\end{tabular}
+
+\vspace*{2.8cm}
+\rule{\textwidth}{0.4pt}
+{\bf Ciclo di dottorato XXXI}
+\end{titlepage}
 \clearpage
 \SAP@composebacktitlepage
 }
@@ -535,7 +561,9 @@
 %% ACKNOWLEDGMENTS ENVIRONMENT %%
 \newenvironment{acknowledgments}[1][\SAP@AcknowledgmentsLabel]
 {\cleardoublepage\thispagestyle{plain}
-\noindent{\Large\bfseries #1}\par\vspace{0.5cm}\itshape\noindent\ignorespaces}
+
+%\noindent{\Large\bfseries #1}\par\vspace{0.5cm}\itshape\noindent\ignorespaces}
+\noindent{\Large\bfseries #1}\par\vspace{0.5cm}\noindent\ignorespaces}
 {\null\ignorespacesafterend}
 
 

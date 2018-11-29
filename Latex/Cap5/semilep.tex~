@@ -1,0 +1,116 @@
+\chapter{Semileptonic final state}
+
+\section{General overview}
+The $WW \to \ell \nu q \bar{q}$ final state is the dominant decay channel of a SM-like Higgs boson for masses above 200 GeV.
+In the mass regime of interest the hadronically decaying boson may be sufficiently boosted that
+its decay products are contained in a single merged jet. Jet substructure techniques are used
+to identify merged jets with two well defined subjets and to determine the merged jet mass,
+helping to discriminate vector boson decays from QCD jets coming from quarks and gluons. If
+the hadronic decay products are resolved then the boson decay may be reconstructed as two
+quark-jets (a dijet). In this analysis it is first attempted to reconstruct boson candidates using
+merged jets, if no boosted candidates are found then dijet reconstruction is attempted.
+The leptonically decaying boson is reconstructed as a single isolated lepton and missing transverse energy
+orresponding to the neutrino. An estimate of the neutrino longitudinal
+momentum is derived by imposing the constraint of the W mass on the invariant mass of the $\ell \nu$ system.
+The dominant background processes
+are from $W$+jets and top production, with a smaller contribution from diboson, $Z$+Jets and
+QCD multijet events. Unlike for the signal the mass distribution of the background events is
+not resonant, providing a useful handle to isolate signal events. Data from signal-free control
+regions are used to normalize and tune the W+jets and top MC background prediction reducing
+the dependence on the simulation.
+The kinematic information of the final state particles is fully exploited with the use of a matrix
+element based kinematic discriminant to enhance the sensitivity to signal. Identifying addi-
+tional jets in the event also leads to increased sensitivity to signal produced through vector-
+boson fusion. Effects due to the interference between the signal, the SM Higgs boson and
+the WW continuum background are also considered.
+
+\section{Jets for Boosted and Resolved selection}
+Hadronic jets are reconstructed with the anti-$k_T$ clustering algorithm  using two different
+radius parameters, $R = 0.8$ (AK8) and $R = 0.4$ (AK4). The AK8 algorithm is adopted for
+reconstructing the hadronic W decay in a single merged jet when the decay products are highly
+collimated, while the AK4 algorithm is used to reconstruct the hadronic W decay when the
+decay products are resolved.
+Charged Particle Flow
+constituents not associated to the primary vertex are not used in the jet clustering procedure.
+To avoid double counting of the same object
+reconstructed in different collections, jets are required to be separated from the selected isolated
+leptons by $\Delta R(lj)> 0.8 $ for AK8 jets by  $\Delta R(lj)> 0.4$ for AK4 jets.
+For the selection of $W$ candidates is require two AK4 jets both with $p_T>30$ GeV or an AK8 jet with  $p_T>200$.
+The final hadronic $W$ candidate requirements for the merged and resolved analyses
+will be discussed in detail in the following.
+This analysis also makes use of the n-subjettiness variable~\cite{Thaler:2011gf}  to quantify the compatibility
+of AK8 jets with a substructure hypothesis of n-subjets. It is based on the distribution of the
+jet constituents with respect to the subjet axes. The ratio of 2-subjettiness and 1-subjettiness,
+ $\tau_2 /\tau_1$, allows the dipole structure of hadronic W decays to be distinguished from the monopole
+structure of QCD jets.
+In order to mitigate the effect of pileup on the jet substructure observables used in this analysis
+(softdrop mass and n-subjettiness) the pileup per particle identification (PUPPI)~\cite{Bertolini2014} method is
+implemented.
+
+\subsection*{Boosted selection}
+For the boosted merged jet analysis an AK8 jet with corrected PUPPI softdrop mass $m_J >$ 40 GeV is required.
+To suppress the background from QCD multijet events it is require $MET>40$ GeV.
+The $W \to \ell \nu$ and $W \to q \bar{q}$ decay candidates satisfying the boosted analysis requirements are combined into $\ell \nu J$ resonance candidates.
+To suppress the dominant $W+$jets background, candidates are selected in the PUPPI softdrop mass region  $65<m_J < 105$, that is the signal region.
+For the final selection a cut on the PUPPI n-subjettiness ratio $\tau_2 /\tau_1<0.4$ is used to identify boosted
+hadronic boson candidates. The entire selection procedure described above is referred to as the ``boosted selection''.
+
+
+\subsection*{Resolved selection}
+For events which do not pass the boosted jet selection, it is attempted to reconstruct a resolved
+hadronic W decay using two AK4 jets.
+A kinematic fit is performed to the dijet system using
+the $W$ mass constraint, in events with greater than two jets the dijet pair with the smallest $\chi^2$ is
+chosen.
+To suppress the background from QCD multijet events we require $MET>$30 GeV and
+ $W_{m_T} >$ 50 GeV, where $W_{m_T}$ is the transverse mass of the leptonic W candidate. 
+The $W \to \ell \nu$ and $W \to q \bar{q}$  decay candidates satisfying these requirements are combined into $\ell \nu jj$ resonance
+candidates. To suppress background $\ell \nu jj$ candidates are selected in the dijet mass signal region
+65 $< m_{jj} <$ 105 GeV. Sideband and top control regions used for background estimation are
+defined as for the boosted selection.
+The entire selection procedure described above is referred to as the ``resolved selection''.
+
+\section{Event categorisation}
+In this analysis the events are categorised by the flavour of the lepton (electron and muon)
+and type of hadronic W candidate (boosted and resolved). To increase the signal sensitivity
+further we also divide events into categories based on the tagging of VBF  production and
+gluon-gluon fusion for the high mass $X$ production:
+\begin{itemize}
+\item {\bf The VBF category}: for the identification of a VBF high mass candidate event, it is required two additional AK4 jets
+with $p_T>$ 30 GeV and $\eta <$ 4.7. If there are more then two additional jets then the pair with
+the highest invariant mass is chosen. An event enters the VBF category if the dijet pair has a
+separation in $\eta$ ,  $\Delta \eta_{jj}$ , greater than 3.5 and an invariant mass, $m_{jj}$ , greater than 500 GeV.
+\item {\bf The gluon-gluon fusion category}: those events which are not tagged as VBF selection are considered for the gluon-gluon fusion category. 
+The tagging of gluon-gluon fusion  is achieved
+using a kinematic discriminant based on the angular distributions of the X candidate decays
+products. A kinematic discriminant is constructed as :
+\begin{equation}
+KD=(1+\frac{c \cdot P_{Bkgr}}{P_{Sig}})^{-1} \: , \end{equation}
+where $c$ is a that  may be tuned to adjust the relative normalisations of probabilities. 
+$ P_{Bkgr}$ and $P_{Sig}$  are the probability for an event to come from either background or signal respectively calculated using JHUG EN and MCFM.
+The discriminant is continuously distributed between 0 and 1, with signal being closer to 1 and background closer to 0. 
+In this analysis a cut at 0.5 is used to tag gluon-gluon fusion.
+\end{itemize}
+Since the decay products of the spin-0 resonance can be fully reconstructed, it is possible to use
+the reconstructed resonance mass distribution to discriminate signal events from background
+events. The reconstructed mass will peak around the true resonance mass, $m_X$, for the signal,
+while for background processes it will have a broader distribution. 
+
+
+The $m_{\ell \nu J}$ and $m_{\ell \nu jj}$ mass distributions in the sideband region, for the three X-tagging categories, a
+re depicted in Figures 19 and 20. 
+The mass distributions are compared to the background predictions after fitting to
+the data in the SB. 
+In this fit the Top CR is used to constrain the background normalisations.
+The m ` νJ and m ` νjj mass distributions in the signal region, for the three X-tagging categories,
+are depicted in Figures 21 and 22. The mass distributions are compared to the background
+predictions after fitting to the data in the SR with the SB and Top CR used to constrain the
+background normalisations. Figures 23 and 24 show the same events also split by lepton type.
+The total uncertainty on the background prediction is represented by the gray band in these
+Figures.
+
+
+
+
+
+

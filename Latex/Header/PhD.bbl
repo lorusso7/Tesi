@@ -1,5 +1,85 @@
 \begin{thebibliography}{10}
 
+\bibitem{Halzen:1984mc}
+F.~Halzen and Alan~D. Martin.
+\newblock {\em {QUARKS AND LEPTONS: AN INTRODUCTORY COURSE IN MODERN PARTICLE
+  PHYSICS}}.
+\newblock 1984.
+
+\bibitem{GLASHOW1961579}
+Sheldon~L. Glashow.
+\newblock Partial-symmetries of weak interactions.
+\newblock {\em Nuclear Physics}, 22(4):579 -- 588, 1961.
+
+\bibitem{PhysRevLett.19.1264}
+Steven Weinberg.
+\newblock A model of leptons.
+\newblock {\em Phys. Rev. Lett.}, 19:1264--1266, Nov 1967.
+
+\bibitem{Salam:1968rm}
+Abdus Salam.
+\newblock {Weak and Electromagnetic Interactions}.
+\newblock {\em Conf. Proc.}, C680519:367--377, 1968.
+
+\bibitem{Balantekin:2013tqa}
+A.~B. Balantekin and W.~C. Haxton.
+\newblock {Neutrino Oscillations}.
+\newblock {\em Prog. Part. Nucl. Phys.}, 71:150--161, 2013.
+
+\bibitem{Beringer:1900zz}
+{Particle Data Group}, J.~Beringer, et~al.
+\newblock {Review of Particle Physics}.
+\newblock {\em Phys. Rev. D}, 86:010001, 2012.
+
+\bibitem{doi:10.1142/9789814644150_0006}
+Luigi~Di Lella and Carlo Rubbia.
+\newblock {\em The Discovery of the W and Z Particles}, pages 137--163.
+
+\bibitem{PhysRevLett.73.225}
+et~alt. Abe.
+\newblock Evidence for top quark production in
+  p\ifmmode\bar\else\textasciimacron\fi{}p collisions at \ensuremath{\surd}s
+  =1.8 tev.
+\newblock {\em Phys. Rev. Lett.}, 73:225--231, Jul 1994.
+
+\bibitem{D0:1995jca}
+S.~Abachi et~al.
+\newblock {Observation of the top quark}.
+\newblock {\em Phys. Rev. Lett.}, 74:2632--2637, 1995.
+
+\bibitem{HIGGS1964132}
+P.W. Higgs.
+\newblock Broken symmetries, massless particles and gauge fields.
+\newblock {\em Physics Letters}, 12(2):132 -- 133, 1964.
+
+\bibitem{PhysRevLett.13.321}
+F.~Englert and R.~Brout.
+\newblock Broken symmetry and the mass of gauge vector mesons.
+\newblock {\em Phys. Rev. Lett.}, 13:321--323, Aug 1964.
+
+\bibitem{Aad:2012tfa}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Phys. Lett.}, B716:1--29, 2012.
+
+\bibitem{Chatrchyan:2012xdj}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock {\em Phys. Lett.}, B716:30--61, 2012.
+
+\bibitem{vanRitbergen:1999fi}
+Timo van Ritbergen and Robin~G. Stuart.
+\newblock {On the precise determination of the Fermi coupling constant from the
+  muon lifetime}.
+\newblock {\em Nucl. Phys.}, B564:343--390, 2000.
+
+\bibitem{Heinemeyer:2013tqa}
+J~R Andersen et~al.
+\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
+\newblock 2013.
+
 \bibitem{Robens:2015gla}
 Tania Robens and Tim Stefaniak.
 \newblock {Status of the Higgs Singlet Extension of the Standard Model after
@@ -12,6 +92,58 @@ Robert~M. Schabinger and James~D. Wells.
   boson physics at the large hadron collider}.
 \newblock {\em Phys. Rev.}, D72:093007, 2005.
 
+\bibitem{Barroso:2013zxa}
+A.~Barroso, P.~M. Ferreira, Rui Santos, Marc Sher, and Joao~P. Silva.
+\newblock {2HDM at the LHC - the story so far}.
+\newblock 2013.
+
+\bibitem{PhysRevD.15.1958}
+Sheldon~L. Glashow and Steven Weinberg.
+\newblock Natural conservation laws for neutral currents.
+\newblock {\em Phys. Rev. D}, 15:1958--1965, Apr 1977.
+
+\bibitem{PhysRevD.41.3421}
+V.~Barger, J.~L. Hewett, and R.~J.~N. Phillips.
+\newblock New constraints on the charged higgs sector in two-higgs-doublet
+  models.
+\newblock {\em Phys. Rev. D}, 41:3421--3441, Jun 1990.
+
+\bibitem{PhysRevD.80.015017}
+Mayumi Aoki, Shinya Kanemura, Koji Tsumura, and Kei Yagyu.
+\newblock Models of yukawa interaction in the two higgs doublet model, and
+  their collider phenomenology.
+\newblock {\em Phys. Rev. D}, 80:015017, Jul 2009.
+
+\bibitem{Djouadi2004}
+Abdelhak Djouadi.
+\newblock Higgs physics at future colliders: Recent theoretical developments.
+\newblock {\em Pramana}, 62(2):191--206, Feb 2004.
+
+\bibitem{Denner:2011mq}
+A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi, and M.~Spira.
+\newblock {Standard Model Higgs-Boson Branching Ratios with Uncertainties}.
+\newblock {\em Eur. Phys. J.}, C71:1753, 2011.
+
+\bibitem{Khachatryan:2015cwa}
+Vardan Khachatryan et~al.
+\newblock {Search for a Higgs boson in the mass range from 145 to 1000 GeV
+  decaying to a pair of W or Z bosons}.
+\newblock {\em JHEP}, 10:144, 2015.
+
+\bibitem{CMS-PAS-HIG-16-023}
+{Search for high mass Higgs to WW with fully leptonic decays using 2015 data}.
+\newblock Technical Report CMS-PAS-HIG-16-023, CERN, Geneva, 2016.
+
+\bibitem{ATLAS-CONF-2016-074}
+{Search for a high-mass Higgs boson decaying to a pair of $W$ bosons in $pp$
+  collisions at $\sqrt{s}$=13 TeV with the ATLAS detector}.
+\newblock Technical Report ATLAS-CONF-2016-074, CERN, Geneva, Aug 2016.
+
+\bibitem{Pettersson:291782}
+Thomas~Sven Pettersson and P~Lefèvre.
+\newblock {The Large Hadron Collider: conceptual design}.
+\newblock Technical Report CERN-AC-95-05-LHC, Oct 1995.
+
 \bibitem{Sjostrand:2006su}
 T.~Sjostrand.
 \newblock {Monte Carlo generators}.
@@ -21,6 +153,51 @@ T.~Sjostrand.
 A.~Buckley et~al.
 \newblock {General-purpose event generators for LHC physics}.
 \newblock {\em Phys. Rept.}, 504:145--233, 2011.
+
+\bibitem{bib:madgraph}
+T.~Stelzer and W.~F. Long.
+\newblock {Automatic generation of tree level helicity amplitudes}.
+\newblock {\em Comput. Phys. Commun.}, 81:357--371, 1994.
+
+\bibitem{ripesamento}
+M.~H. Seymour.
+\newblock {Matrix element corrections to parton shower algorithms, Comp. Phys.
+  Commun. 90 (1995) 95–101, arXiv:hep-ph/9410414.}
+
+\bibitem{ripesamento2}
+G.~Miu and T.~Sjostrand.
+\newblock {W production in an improved parton shower approach,” Phys. Lett.
+  B449 (1999) 313–320, arXiv:hep-ph/9812455.}
+
+\bibitem{ckkw}
+R.~Kuhn S.~Catani, F.~Krauss and B.~R. Webber.
+\newblock {QCD matrix elements + parton showers,” JHEP 11 (2001) 063,
+  arXiv:hep-ph/0109231.}
+
+\bibitem{ckkw2}
+F.~Krauss.
+\newblock {Matrix elements and parton showers in hadronic interactions,” JHEP
+  08 (2002) 015, arXiv:hep-ph/0205283.}
+
+\bibitem{Cacciari:2008gp}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock The anti-$k_t$ jet clustering algorithm.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{Oleari:2010nx}
+C.~Oleari.
+\newblock {The POWHEG-BOX}.
+\newblock {\em Nucl. Phys. Proc. Suppl.}, 205-206:36--41, 2010.
+
+\bibitem{bib:pythia}
+T.~Sjostrand, S.~Mrenna, and P.~Skands.
+\newblock {PYTHIA 6.4 physics and manual}.
+\newblock {\em JHEP}, 05:026, 2006.
+
+\bibitem{bib:sherpa}
+T.~Gleisberg et~al.
+\newblock {SHERPA 1.alpha, a proof-of-concept version}.
+\newblock {\em JHEP}, 02:056, 2004.
 
 \bibitem{Ball:2013hta}
 Richard~D. Ball, Valerio Bertone, Stefano Carrazza, Luigi Del~Debbio, Stefano
@@ -102,11 +279,6 @@ Sm higgs production cross sections at $\sqrt{s}$ = 13-14 tev.
 \newblock
   \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageAt1314TeV}.
 
-\bibitem{Heinemeyer:2013tqa}
-J~R Andersen et~al.
-\newblock {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}.
-\newblock 2013.
-
 \bibitem{Melia:2011tj}
 Tom Melia, Paolo Nason, Raoul Rontsch, and Giulia Zanderighi.
 \newblock {W+W-, WZ and ZZ production in the POWHEG BOX}.
@@ -117,6 +289,13 @@ John~M. Campbell, R.~Keith Ellis, and Ciaran Williams.
 \newblock {Bounding the Higgs width at the LHC: Complementary results from $H
   \to WW$}.
 \newblock {\em Phys. Rev.}, D89(5):053011, 2014.
+
+\bibitem{Aaboud:2018jqu}
+Morad Aaboud et~al.
+\newblock {Measurements of gluon-gluon fusion and vector-boson fusion Higgs
+  boson production cross-sections in the $H \to WW^{\ast} \to e\nu\mu\nu$ decay
+  channel in $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector}.
+\newblock 2018.
 
 \bibitem{Meade:2014fca}
 Patrick Meade, Harikrishnan Ramani, and Mao Zeng.
@@ -145,19 +324,18 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
   simulations}.
 \newblock {\em JHEP}, 07:079, 2014.
 
-\bibitem{genxsec}
-How to compute cross sections with the genxsecanalyzer.
-\newblock
-  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/HowToGenXSecAnalyzer}.
+\bibitem{CMS-PAS-PFT-09-001}
+{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
+  MET}.
+\newblock Technical Report CMS-PAS-PFT-09-001, CERN, Geneva, Apr 2009.
 
-\bibitem{25nstwiki}
-Summary table of samples produced for the 1 billion campaign, with 25ns
-  bunch-crossing.
-\newblock \url{https://twiki.cern.ch/twiki/bin/view/CMS/SummaryTable1G25ns}.
-
-\bibitem{CMS-PAS-HIG-16-023}
-{Search for high mass Higgs to WW with fully leptonic decays using 2015 data}.
-\newblock Technical Report CMS-PAS-HIG-16-023, CERN, Geneva, 2016.
+\bibitem{Gori:2130983}
+Stefania Gori, Ian-Woo Kim, Nausheen~R. Shah, and Kathryn~M. Zurek.
+\newblock {Closing the Wedge: Search Strategies for Extended Higgs Sectors with
+  Heavy Flavor Final States}.
+\newblock {\em Phys. Rev. D}, 93(WSU-HEP-1508. WSU-HEP-1508):075038. 30 p, Feb
+  2016.
+\newblock Comments: 30 pages, 10 figures.
 
 \bibitem{bsmhiggsxsecs}
 Lhc hxswg for bsm higgs (wg3).
@@ -220,11 +398,29 @@ Bsm higgs production cross sections at $\sqrt{s}$ = 13 tev.
 \newblock
   \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBSMAt13TeV}.
 
+\bibitem{Ellis:2012wg}
+John Ellis and Dae~Sung Hwang.
+\newblock {Does the `Higgs' have Spin Zero?}
+\newblock {\em JHEP}, 09:071, 2012.
+
+\bibitem{combine}
+
+
 \bibitem{Boughezal:2013oha}
 Radja Boughezal, Xiaohui Liu, Frank Petriello, Frank~J. Tackmann, and
   Jonathan~R. Walsh.
 \newblock {Combining Resummed Higgs Predictions Across Jet Bins}.
 \newblock {\em Phys. Rev.}, D89(7):074044, 2014.
+
+\bibitem{Thaler:2011gf}
+Jesse Thaler and Ken Van~Tilburg.
+\newblock {Maximizing Boosted Top Identification by Minimizing N-subjettiness}.
+\newblock {\em JHEP}, 02:093, 2012.
+
+\bibitem{Bertolini2014}
+Daniele Bertolini, Philip Harris, Matthew Low, and Nhan Tran.
+\newblock Pileup per particle identification.
+\newblock {\em Journal of High Energy Physics}, 2014(10):59, Oct 2014.
 
 \bibitem{cowan1998statistical}
 G.~Cowan.
@@ -240,5 +436,16 @@ Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock {Asymptotic formulae for likelihood-based tests of new physics}.
 \newblock {\em Eur. Phys. J.}, C71:1554, 2011.
 \newblock [Erratum: Eur. Phys. J.C73,2501(2013)].
+
+\bibitem{Sirunyan:2018qlb}
+Albert~M Sirunyan et~al.
+\newblock {Search for a new scalar resonance decaying to a pair of Z bosons in
+  proton-proton collisions at $\sqrt{s}=13 $ TeV}.
+\newblock {\em JHEP}, 06:127, 2018.
+
+\bibitem{Altarelli:1977zs}
+G.~Altarelli and G.~Parisi.
+\newblock {Asymptotic Freedom in Parton Language}.
+\newblock {\em Nucl. Phys.}, B126:298, 1977.
 
 \end{thebibliography}

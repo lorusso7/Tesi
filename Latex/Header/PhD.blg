@@ -1,113 +1,124 @@
 This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: PhD.aux
-White space in argument---line 50 of file PhD.aux
+White space in argument---line 148 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 56 of file PhD.aux
+White space in argument---line 154 of file PhD.aux
  : \citation{Altarelli:
  :                      1977zs}
 I'm skipping whatever remains of this command
-White space in argument---line 66 of file PhD.aux
+White space in argument---line 161 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 75 of file PhD.aux
- : \citation{bib:
- :                pdg}
-I'm skipping whatever remains of this command
-White space in argument---line 76 of file PhD.aux
- : \citation{bib:
- :                run2jet}
-I'm skipping whatever remains of this command
-White space in argument---line 77 of file PhD.aux
- : \citation{mass:
- :                 in: dijet}
-I'm skipping whatever remains of this command
-White space in argument---line 85 of file PhD.aux
- : \citation{Cacciari:
- :                     2008gp}
-I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
-I was expecting a `,' or a `}'---line 140 of file AN-17-243.bib
+Warning--string name "title" is undefined
+--line 292 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 292 of file AN-17-243.bib
+ :       title         
+ :                     = "https://cms-hcomb.gitbooks.io/combine/"
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 771 of file AN-17-243.bib
  : 
  : @techreport{CMS-PAS-HIG-16-023,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 157 of file AN-17-243.bib
+Repeated entry---line 771 of file AN-17-243.bib
+ : @techreport{CMS-PAS-HIG-16-023
+ :                               ,
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 788 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1080 of file AN-17-243.bib
+Repeated entry---line 991 of file AN-17-243.bib
+ : @article{Heinemeyer:2013tqa
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1711 of file AN-17-243.bib
  : @article{Cowan:2010js
  :                      ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1188 of file AN-17-243.bib
+Illegal end of database file---line 1819 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "bib:madgraph"
-Warning--I didn't find a database entry for "ripesamento"
-Warning--I didn't find a database entry for "ripesamento2"
-Warning--I didn't find a database entry for "ckkw"
-Warning--I didn't find a database entry for "ckkw2"
-Warning--I didn't find a database entry for "Oleari:2010nx"
-Warning--I didn't find a database entry for "bib:pythia"
-Warning--I didn't find a database entry for "bib:sherpa"
-Warning--I didn't find a database entry for "Gehrmann:2014fva"
-Warning--I didn't find a database entry for "Caola:2015rqy"
-Warning--I didn't find a database entry for "Carena:2013ytb"
-Warning--empty journal in Sjostrand:2006su
-Warning--empty journal in Khachatryan:2015pea
+Warning--I didn't find a database entry for "bib:pdg"
+Warning--I didn't find a database entry for "bib:run2jet"
+Warning--empty publisher in Halzen:1984mc
+Warning--empty publisher in doi:10.1142/9789814644150_0006
+Warning--empty year in doi:10.1142/9789814644150_0006
 Warning--empty journal in Heinemeyer:2013tqa
+Warning--empty journal in Barroso:2013zxa
 Warning--empty author in CMS-PAS-HIG-16-023
+Warning--empty author in ATLAS-CONF-2016-074
+Warning--empty institution in Pettersson:291782
+Warning--empty journal in Sjostrand:2006su
+Warning--empty journal in ripesamento
+Warning--empty year in ripesamento
+Warning--empty journal in ripesamento2
+Warning--empty year in ripesamento2
+Name 1 in "S. Catani, F. Krauss, R. Kuhn, and B. R. Webber" has a comma at the end for entry ckkw
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in ckkw
+Warning--empty year in ckkw
+Warning--empty journal in ckkw2
+Warning--empty year in ckkw2
+Warning--empty journal in Khachatryan:2015pea
+Warning--empty journal in Aaboud:2018jqu
+Warning--empty author in CMS-PAS-PFT-09-001
+Warning--empty author in combine
+Warning--empty title in combine
+Warning--empty journal in combine
+Warning--empty year in combine
 Warning--empty journal in cowan1998statistical
 Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
-You've used 44 entries,
+You've used 83 entries,
             1791 wiz_defined-function locations,
-            716 strings with 11213 characters,
-and the built_in function-call counts, 8365 in all, are:
-= -- 668
-> -- 425
-< -- 1
-+ -- 161
-- -- 117
-* -- 551
-:= -- 1373
-add.period$ -- 123
-call.type$ -- 44
-change.case$ -- 44
+            933 strings with 16751 characters,
+and the built_in function-call counts, 16351 in all, are:
+= -- 1365
+> -- 742
+< -- 5
++ -- 283
+- -- 200
+* -- 1119
+:= -- 2674
+add.period$ -- 234
+call.type$ -- 83
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 353
-empty$ -- 859
-format.name$ -- 117
-if$ -- 1846
+cite$ -- 111
+duplicate$ -- 711
+empty$ -- 1651
+format.name$ -- 200
+if$ -- 3585
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 34
-newline$ -- 214
-num.names$ -- 34
-pop$ -- 108
+int.to.str$ -- 83
+missing$ -- 74
+newline$ -- 403
+num.names$ -- 72
+pop$ -- 190
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 165
+skip$ -- 306
 stack$ -- 0
-substring$ -- 432
-swap$ -- 39
-text.length$ -- 1
+substring$ -- 997
+swap$ -- 80
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 8
-while$ -- 63
-width$ -- 46
-write$ -- 442
+warning$ -- 28
+while$ -- 138
+width$ -- 85
+write$ -- 846
 (There were 11 error messages)

@@ -21,11 +21,11 @@
 \usepackage{xspace}
 \usepackage{new_command}
 
-
+\usepackage{multirow}
 
 % Commands for the titlepage
 
-\title{High mass Higgs boson particle seraching}
+\title{"Search for new resonances in p-p collisions using fully leptonic W+W- decays with the CMS detector" }
 
 \begin{document}
 
@@ -37,28 +37,57 @@
 
 \maketitle
 
+\dedication{  dedica a...}
 %\dedication{ \textsc{Memento Avdere Semper \\}   \vspace*{2mm} -G. D'Annunzio}
-\dedication{ dedica a ...}
+
+%\begin{acknowledgments}[Ringraziamenti]
+%\lipsum[1-2]
+%\end{acknowledgments}
+
 
 \begin{abstract}
-
-\lipsum[1-2]
-
+In this thesis is presented a search for a possible heavy Higgs boson, $X$, decaying to a pair of $W$
+bosons in the mass range from 200 GeV to 3 TeV. The analysis is based on proton-proton 
+collisions recorded by the CMS experiment at the CERN LHC in 2016, corresponding to an integrated luminosity of 
+35.9 fb$^{-1}$  at $\sqrt{s}=$13 TeV. The W boson pair decays are reconstructed in the $2\ell 2\nu$  final states. 
+Both gluon fusion and electroweak production of the scalar resonance are considered. 
+Dedicated event categorizations, based on the kinematic properties of the final states, are employed for an
+optimal signal-to-background separation. The combined upper limit at the 95\% confidence level on the product of the cross section and branching fraction 
+exclude a heavy Higgs boson with Standard Model-like couplings and decays in the mass range
+evaluated.
 \end{abstract}
 
-\begin{acknowledgments}[Ringraziamenti]
-
-\lipsum[1-2]
-
-\end{acknowledgments}
 
 \tableofcontents
 
 % Do not use the starred version of the chapter command!
 \chapter{Introduction}
-
-\lipsum[1-2]
-
+A major breakthrough in modern experimental particle physics came with the discovery of the Higgs boson by the LHC experiments ATLAS and CMS in 2012.
+The discovered particle is compatible with the Standard Model (SM) Higgs mechanism predictions: the only unknown parameter, the boson's mass, has been
+measured to be  close to 125 GeV. Nevertheless, in order to determine whether the SM Higgs sector is complete, precise measurements of the Higgs boson coupling strengths, $CP$ structure and transverse momentum are required. 
+A complementary and important strategy is the search for additional heavy
+scalars, that would prove the presence of  beyond-the-SM (BSM) physics in
+the form of a non-minimal Higgs sector. The existence of such a sibling Higgs boson,
+denoted $X$, is motivated in many BSM scenarios, so the search for additional scalar resonances in the full
+mass range accessible at the LHC remains one of the main objectives of the experimental community.
+The search for a high mass Higgs boson has been performed using Run-I and
+early Run-II data in many different decay channels and an upper limit on its
+cross section has been determined. With the full 2016 data collected by CMS
+experiment at $\sqrt{s}=$13 TeV, approximately  36 fb$^{-1}$, it is now possible to set a very tight upper limit on the high mass Higgs boson cross section.
+One of the most sensitive decay channels, for masses above 200 GeV, is to a pair of W bosons. 
+The fully leptonic, 2$\ell$2$\nu$,  final state (with $\ell =$ e or $\mu$) is considered in this analysis.
+The fully leptonic channel has a clear signature due to the presence of the two isolated leptons and moderate missing-transverse-energy (MET) that provides indirect evidence of the neutrinos presence.
+The search is performed in a wide range of masses from 200 GeV up to 3 TeV.
+The  events are categories in four differet categories, optimised for the gluon-gluon fusion and for the vector-boson fusion (VBF) production mechanisms.
+%For the semi-leptonic channel the leptonically decaying boson is reconstructed as a single isolated lepton and MET.
+%The hadronically decaying boson may be sufficiently boosted that its decay products are contained in a single merged jet.
+%Jet substructure techniques are used to identify merged jets with two well defined subjets and to determine the merged jet mass, helping to discriminate vector bosons from QCD jets originating from quarks and gluons. If the hadronic decay products are resolved then the boson decay products may be reconstructed using two quark-jets (a dijet).\\
+%In this channel it is first attempted to reconstruct boson candidates using merged jets, if no boosted candidates are found then dijet reconstruction is attempted.
+%Event categories optimised for the ggF and VBF production mechanisms are also included for this channel.
+The signal is interpreted in terms of the electroweak (EW) singlet model including a detailed simulation of the on interference between X signal, SM Higgs boson H and WW backgrounds.
+In addition in the search for new particles, the  Two-Higgs-doublet model (2HDM)  is a well motivated extension of the SM. A final interpretation of the EW singlet model results in term of 2HDM model is also performed.\\
+\newline
+This work is partially funded by MIUR Italy, under contract 2012Z23ERZ of PRIN 2012, ``H-TEAM: Trigger, Elettronica Avanzata e Metodi innovativi per misure di precisione nel settore dell’ Higgs ad LHC''.
 
 \mainmatter
 
@@ -71,66 +100,81 @@
 {\input{../Cap5/AnalysisStrategy.tex}}
 {\input{../Cap5/AnalysisOF.tex}}
 {\input{../Cap5/AnalysisSF.tex}}
-{\input{../Cap5/Analysis2HDM.tex}}
 {\input{../Cap5/Systematics.tex}}
+{\input{../Cap5/semilep.tex}}
 {\input{../Cap6/cap6.tex}} 
 {\input{../Cap6/Results.tex}} 
 
 \appendix
-\chapter{Special commands }
+
+\chapter{Boost-invariant variables}
+\label{psr}
+Since the center-of-mass of the parton-parton scattering is normally boosted in the beam
+direction with respect to that of the two incoming hadrons, it is therefore useful to classify
+the final state in terms of variables that are invariant under Lorentz transformations in
+that direction. For this purpose, the variables rapidity $y$, transverse momentum $p_T$ , and
+azimuth angle $\phi$ are introduced. In term of these variables, the four-momentum of a
+particle of mass m may be written as,
+\begin{equation}
+p^{\mu}=(E,p_x,p_y,p_z)
+\end{equation}
+where where $p_x$ , $p_y$ and $p_z$ are the Cartesian coordinates of the momentum $\vec{p}$. 
+The rapidity y is defined by the relation,
+\begin{equation}
+y=\frac{1}{2} ln (\frac{E+p_z}{E-p_z})
+\end{equation}
+and is not invariant for relativistic transformations but since it transforms according to
+the law $y = y + \beta$, (where $\beta$ is the relative velocity between two frames), the rapidity
+differences $\Delta y$ are boost invariant. In the approximation of ultra-relativistic particles rapidity can be approximated by the pseudorapidity $\eta$, defined as:
+\begin{equation}
+\eta=- ln (tan \frac{\theta}{2}) \sim y
+\end{equation}
+where $\theta$ is the angle between the particle and the beam direction, and
+is therefore directly measurable in the detector.
+
+\chapter{Parton Distribution Function}
+\label{pdfa}
+In  the hadron colliders, the cross-section of $pp \to F+X $, where $F$ is the final state, is given by,
+\begin{equation}
+d \sigma_{pp \rightarrow F} = \int_0 ^1 dx_1 \int_0 ^1 d x_2 \: f_1(x_1, \mu_F^2) f_2(x_2, \mu_F^2) d \hat{\sigma}_{pp \rightarrow F}(\mu_F ^2)  \mbox{,}\end{equation}
+where  $\hat{\sigma}$ is the partonic cross section, $x_1$ and  $x_2$ are the transverse momentum fraction respect to the incoming parton,  $f_{1,2}(x)$ are the 
+parton distribution function (PDF) giving the probability that a parton has a $x$ momentum fraction of the incoming proton,  $\mu_F$ is the factorization scale.
+The PDF are evaluated via experiments, and their evolution is evaluated with perturbative method, following the Altarelli-Parisi equations (DGLAP)~\cite{Altarelli:1977zs}.
+
+\chapter{Electron  Efficiencies from Tag and Probe Method}
+\label{TP}
+One of the well established data-driven approach for measuring the particle efficiencies is the
+so called Tag and Probe method. The Tag and probe method uses a known mass resonance (e.g. $J/\Psi$, $Z$) to select particles of the desired type, and probe the efficiency of a particular
+selection criterion on these particles. In general the “tag” is an object that passes a set of very
+tight selection criteria designed to isolate the required particle type. Tags are often referred
+to as a “golden” electrons or muons and the fake rate for passing tag selection criteria should
+be very small. A generic set of the desired particle type (i.e. with potentially very loose se-
+lection criteria) known as “probes” is selected by pairing these objects with tags such that the
+invariant mass of the combination is consistent with the mass of the resonance. Combinatoric
+backgrounds may be eliminated through any of a variety of background subtraction methods
+such as fitting, or sideband subtraction. The definition of the probe objects depend on the specifics of the selection criterion being examined. The simple expression to get the efficiency as a function of $p_T$ and $\eta$ is given below:
+\begin{equation}
+\epsilon=\frac{N_{Pass}^{Probes}}{N_{Pass}^{Probes}+N_{Fail}^{Probes}}
+\end{equation}
+This method is used here to get the Identification efficiency of electrons. In this case, the Tag is a
+well identified and isolated electron which also made to pass an electron Trigger to increase the
+purity. Once the Tag electron is selected then we look for another object which is reconstructed
+as electron. After passing some kinematical selection, we form the total probe selection. The in-
+variant mass of the pair is then reconstructed from Tag and Probe electron and a Z boson mass
+window is imposed. After that, we ask the Probe to pass the Id working point to be checked
+and compute the efficiency. This is done for both data and MC. Once we get the efficiency
+for both data and MC then we compute the scale factors, which are the ratio of efficiencies of
+Data and MC. These scale factors are used then in the analysis to scale the MC to correct the
+difference in efficiencies between data and MC. The Pile-Up reweighting is also applied on MC
+during the computation of efficiencies. A MC truth matching has also been applied in case of
+the computation using simulation. There are basically two methods to estimate the efficiencies.
+One is the Counting Method and the other is the Fitting Method. The counting method is used
+when there is less background. We are computing efficiencies with loose Z mass window and
+hence there is a possibility of background contamination under the Z peak. Hence, proper han-
+dling of background becomes important. In order to take into account the effect of background,
+the Fitting method has been used to estimate the efficiency.
 
 
-%396\, cm\\
-%In Fig.~\ref{fig:layout}\\
-%\textsf{sapthesis} page layout is shown.\\
-%etc\ldots\\
-% 
-%\begin{equation}
-%x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-%\end{equation}
-% 
-%\lipsum[1-2]
-% 
-%\texttt{\bs maketitle}
-% 
-% Tab.~\ref{tab:letters}
-% 
-% 
-% 
-%\begin{figure}
-%\centering
-%\includegraphics[width=0.7\textwidth]{LOGO_UNISI}\\[3ex]
-%\includegraphics[width=0.7\textwidth]{LOGO_UNISI}
-%\caption{Logo.}
-%\label{fig:layout}
-%\end{figure}
-% 
-% 
-%\begin{table}
-%\caption{This is a simple table.}
-%\label{tab:letters}
-%\centering
-%\begin{tabular}{lcc}
-%\toprule
-%Letter & Test & Test \\
-%\midrule
-%A & C & E \\
-%B & D & F \\
-%\bottomrule
-%\end{tabular}
-%\end{table}
-% 
-%In the following dummy text you can observe the usage of \texttt{\bs mnote} command which typesets fancy margin notes.
-%\textcolor{gray}{\lipsum}
-%\marginpar{This is a fancy margin note!}
-%\textcolor{gray}{\lipsum}
-
-%\backmatter
-% bibliography
-%\cleardoublepage
-%\phantomsection
 \bibliographystyle{unsrt} % BibTeX style
 \bibliography{AN-17-243} % BibTeX database without .bib extension
-
-
 \end{document}
