@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.7)  1 DEC 2018 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.7)  1 DEC 2018 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1501,16 +1501,21 @@ Overfull \hbox (49.75723pt too wide) in paragraph at lines 696--697
 Chapter 2.
 [23
 
-] <../Cap2/lhc.png, id=705, 726.715pt x 466.74374pt>
-File: ../Cap2/lhc.png Graphic file (type png)
- <use ../Cap2/lhc.png>
-Package pdftex.def Info: ../Cap2/lhc.png used on input line 50.
-(pdftex.def)             Requested size: 363.3566pt x 233.37129pt.
+] <../Cap2/lhc_cern.jpg, id=705, 696.6025pt x 563.10374pt>
+File: ../Cap2/lhc_cern.jpg Graphic file (type jpg)
 
-[24 <../Cap2/lhc.png (PNG copy)>]
-<../Cap2/cms.png, id=714, 2033.5975pt x 1316.92pt>
+<use ../Cap2/lhc_cern.jpg>
+Package pdftex.def Info: ../Cap2/lhc_cern.jpg used on input line 50.
+(pdftex.def)             Requested size: 417.96472pt x 337.86485pt.
+
+Overfull \hbox (21.96472pt too wide) in paragraph at lines 50--51
+ [][] 
+ []
+
+[24 <../Cap2/lhc_cern.jpg>] <../Cap2/cms.png, id=713, 2033.5975pt x 1316.92pt>
 File: ../Cap2/cms.png Graphic file (type png)
- <use ../Cap2/cms.png>
+
+<use ../Cap2/cms.png>
 Package pdftex.def Info: ../Cap2/cms.png used on input line 106.
 (pdftex.def)             Requested size: 427.06808pt x 276.56136pt.
 
@@ -1518,54 +1523,57 @@ Overfull \hbox (31.06808pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
-[25] [26 <../Cap2/cms.png>] <../Cap2/trk.png, id=728, 568.1225pt x 347.2975pt>
+[25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26 <../Cap2/cms.png>] <../Cap2/trk.png, id=727, 568.1225pt x 347.2975pt>
 File: ../Cap2/trk.png Graphic file (type png)
 
 <use ../Cap2/trk.png>
 Package pdftex.def Info: ../Cap2/trk.png used on input line 184.
 (pdftex.def)             Requested size: 284.06055pt x 173.64832pt.
 
-<../Cap2/fig_cmstracker.png, id=729, 1111.15125pt x 522.95375pt>
+<../Cap2/fig_cmstracker.png, id=728, 1111.15125pt x 522.95375pt>
 File: ../Cap2/fig_cmstracker.png Graphic file (type png)
 
 <use ../Cap2/fig_cmstracker.png>
 Package pdftex.def Info: ../Cap2/fig_cmstracker.png used on input line 191.
 (pdftex.def)             Requested size: 333.34795pt x 156.88733pt.
- [27 <../Cap2/trk.png>] [28 <../Cap2/fig_cmstracker.png (PNG copy)>]
-<../Cap2/ecal_all.jpeg, id=744, 656.4525pt x 320.19624pt>
+ [27] [28 <../Cap2/trk.png> <../Cap2/fig_cmstracker.png (PNG copy)>] [29]
+<../Cap2/ecal_all.jpeg, id=750, 656.4525pt x 320.19624pt>
 File: ../Cap2/ecal_all.jpeg Graphic file (type jpg)
 
 <use ../Cap2/ecal_all.jpeg>
 Package pdftex.def Info: ../Cap2/ecal_all.jpeg used on input line 280.
 (pdftex.def)             Requested size: 328.22545pt x 160.09772pt.
- [29 <../Cap2/ecal_all.jpeg>]
-<../Cap2/hcal.png, id=752, 853.1875pt x 479.7925pt>
+ [30 <../Cap2/ecal_all.jpeg>]
+<../Cap2/hcal.png, id=757, 853.1875pt x 479.7925pt>
 File: ../Cap2/hcal.png Graphic file (type png)
  <use ../Cap2/hcal.png>
 Package pdftex.def Info: ../Cap2/hcal.png used on input line 344.
 (pdftex.def)             Requested size: 341.26895pt x 191.91359pt.
 
-[30] <../Cap2/magnet.jpg, id=761, 723.6636pt x 543.9522pt>
+[31] <../Cap2/magnet.jpg, id=767, 723.6636pt x 543.9522pt>
 File: ../Cap2/magnet.jpg Graphic file (type jpg)
 
 <use ../Cap2/magnet.jpg>
 Package pdftex.def Info: ../Cap2/magnet.jpg used on input line 364.
 (pdftex.def)             Requested size: 253.28606pt x 190.38611pt.
- [31 <../Cap2/hcal.png>]
-<../Cap2/muon_res.pdf, id=772, 287.77914pt x 193.97269pt>
+
+<../Cap2/muon_res.pdf, id=770, 287.77914pt x 193.97269pt>
 File: ../Cap2/muon_res.pdf Graphic file (type pdf)
 
 <use ../Cap2/muon_res.pdf>
 Package pdftex.def Info: ../Cap2/muon_res.pdf used on input line 387.
 (pdftex.def)             Requested size: 345.33325pt x 232.76604pt.
- <../Cap2/muon.png, id=773, 731.73375pt x 538.01pt>
+ <../Cap2/muon.png, id=771, 731.73375pt x 538.01pt>
 File: ../Cap2/muon.png Graphic file (type png)
 
 <use ../Cap2/muon.png>
 Package pdftex.def Info: ../Cap2/muon.png used on input line 393.
 (pdftex.def)             Requested size: 292.68831pt x 215.20018pt.
-
-<../Cap2/int_lumi_cumulative_pp_1.png, id=775, 1084.05pt x 433.62pt>
+ [32 <../Cap2/hcal.png>] [33 <../Cap2/magnet.jpg> <../Cap2/muon_res.pdf>]
+<../Cap2/int_lumi_cumulative_pp_1.png, id=794, 1084.05pt x 433.62pt>
 File: ../Cap2/int_lumi_cumulative_pp_1.png Graphic file (type png)
 
 <use ../Cap2/int_lumi_cumulative_pp_1.png>
@@ -1577,13 +1585,13 @@ Overfull \hbox (37.61232pt too wide) in paragraph at lines 430--431
  [][] 
  []
 
-<../Cap2/beam.png, id=778, 963.6pt x 725.71124pt>
+<../Cap2/beam.png, id=797, 963.6pt x 725.71124pt>
 File: ../Cap2/beam.png Graphic file (type png)
  <use ../Cap2/beam.png>
 Package pdftex.def Info: ../Cap2/beam.png used on input line 444.
 (pdftex.def)             Requested size: 192.71658pt x 145.13968pt.
 
-<../Cap2/lhcplan.jpg, id=779, 851.18pt x 351.3125pt>
+<../Cap2/lhcplan.jpg, id=798, 851.18pt x 351.3125pt>
 File: ../Cap2/lhcplan.jpg Graphic file (type jpg)
  <use ../Cap2/lhcplan.jpg>
 Package pdftex.def Info: ../Cap2/lhcplan.jpg used on input line 450.
@@ -1593,15 +1601,8 @@ Overfull \hbox (29.58894pt too wide) in paragraph at lines 450--451
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <../Cap2/magnet.jpg>] [33 <../Cap2/muon_res.pdf> <../Cap2/muon.png (PNG co
-py)>])
-(../Cap3/MC2Bis.tex [34 <../Cap2/int_lumi_cumulative_pp_1.png>] [35 <../Cap2/be
-am.png (PNG copy)> <../Cap2/lhcplan.jpg>] [36
-
-]
+[34 <../Cap2/muon.png (PNG copy)>]) (../Cap3/MC2Bis.tex [35 <../Cap2/int_lumi_c
+umulative_pp_1.png> <../Cap2/beam.png (PNG copy)>] [36 <../Cap2/lhcplan.jpg>]
 Chapter 3.
 <../Cap3/Fig_MC/generalMC.pdf, id=819, 365.20439pt x 464.4552pt>
 File: ../Cap3/Fig_MC/generalMC.pdf Graphic file (type pdf)
@@ -1609,7 +1610,9 @@ File: ../Cap3/Fig_MC/generalMC.pdf Graphic file (type pdf)
 <use ../Cap3/Fig_MC/generalMC.pdf>
 Package pdftex.def Info: ../Cap3/Fig_MC/generalMC.pdf used on input line 12.
 (pdftex.def)             Requested size: 365.20349pt x 464.45406pt.
- [37] [38 <../Cap3/Fig_MC/generalMC.pdf>]
+ [37
+
+] [38 <../Cap3/Fig_MC/generalMC.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
@@ -3406,8 +3409,8 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  14186 strings out of 494893
- 238240 string characters out of 6179541
- 443615 words of memory out of 5000000
+ 238265 string characters out of 6179541
+ 443616 words of memory out of 5000000
  16078 multiletter control sequences out of 15000+600000
  125211 words of font info for 214 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -3437,7 +3440,7 @@ xmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
 /usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on PhD.pdf (150 pages, 14345186 bytes).
+Output written on PhD.pdf (150 pages, 14357704 bytes).
 PDF statistics:
  2294 PDF objects out of 2487 (max. 8388607)
  1798 compressed objects within 18 object streams
