@@ -24,6 +24,27 @@ neutral hadrons are given by unaccounted HCAL deposits.
 After that, once the list of PF Candidates is defined, the PF jets are clustered. At the end the PF MET is evaluated as the  opposite of transverse momentum-vector sum over all reconstructed PF Candidates.
 
 \section{Tracking}
+\subsection*{Hit reconstruction in the pixel and strip detector}
+The first step of the reconstruction process is referred to as local reconstruction~\cite{Chatrchyan:2014fea}.  It consists of the clustering of zero-suppressed
+signals above specified thresholds in pixel and strip channels into hits,  and then estimating the cluster positions and their uncertainties defined in a local
+orthogonal  coordinate  system ($u$, $v$) in  the  plane  of  each  sensor (pixel and strip). 
+The  hit reconstruction in the pixel detector and in the the strip detector is described below:
+\begin{itemize} 
+\item In the pixel detector: in the data acquisition system of the pixel detector, zero-suppression is performed in the
+readout chips of the sensors, with adjustable thresholds for each pixel.  This pixel readout threshold 
+is set to a single-pixel threshold corresponding to an equivalent charge of 3200
+electrons.  Offline, pixel clusters are formed from adjacent pixels, including both side-by-side
+and corner-by-corner adjacent cells.  Each cluster must have a minimum charge equivalent to
+4000 electrons
+\item In the strip detector:  the clusters are seeded by any channel passing zero-suppression that has a charge at least a
+factor of three greater than the corresponding channel noise. Neighbouring strips are added
+to each seed, if their strip charge is more than twice the strip noise. 
+A cluster is kept if its total charge is a factor five larger than the cluster noise.
+The position of the hit corresponding to each cluster is determined from the charge-weighted
+average of its strip positions, corrected for the  Lorentz drift.
+\end{itemize}
+
+\subsection*{Track reconstruction}
 Different algorithms are used in CMS for track reconstruction,~\cite{Chatrchyan:2014fea, Adam:2005cg}.
 All   methods   use   the   reconstructed positions (hits) of the passage of charged
 particles inside the CMS silicon detectors to determine the
@@ -88,7 +109,7 @@ The DA process thereby finds not only positions and assignments of tracks to ver
 In Fig.~\label{Fig:pu} is shown the distributions of the number of vertices in a Drell-Yan sample.
 \begin{figure*}[htbp]
 \centering
-\includegraphics[width=0.45\textwidth]{../AN/Figs/nvertices.png}
+\includegraphics[width=0.6\textwidth]{../AN/Figs/nvertices.png}
 \caption{
     Distributions of the number of vertices in a Drell-Yan enriched sample
     (Z$\rightarrow{}ee$) in
@@ -224,7 +245,7 @@ carried out.  It is based on:
 \item the jet’s susceptibility to contamination: it is embodied in the jet area A measured on $\eta$ and $\phi$. The jet area is different for each jet and depends on the details of its substructure, and practical measurement of the jet areas is carried out using the FastJet package. 
 Given a suitable definition of jet area, the modification of a jet’s $p_T$ by diffuse noise can be shown to be,
 \begin{equation} 
-\Delta p_T=A\rho \pm \sigma \sqrt{A} -L \:, \qquad \langle L \rangle=o(\alpha_S \times A \rho \ln \frac{p_T}{ A \rho} \:,  )
+\Delta p_T=A\rho \pm \sigma \sqrt{A} -L \:, \qquad \langle L \rangle=\mathcal{O}(\alpha_S \times A \rho \ln \frac{p_T}{ A \rho}) \:,  
 \end{equation} 
 where $\rho$ is the level of diffuse noise that  corresponds to the amount of transverse momentum added to the event per unit area (at LHC is around 
 10-20 GeV~\cite{Sjostrand:2003wg}): the first term is therefore the geometrical contamination of the je
