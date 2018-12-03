@@ -23,8 +23,261 @@ neutral hadrons instead are given by unaccounted HCAL deposits.
 \end{itemize}
 After that, once the list of PF Candidates is defined, the PF jets are clustered. At the end the PF MET is evaluated as  the opposite of the transverse momentum-vector sum over all reconstructed PF Candidates.
 
-\section{Lepton reconstruction and identification}
+\section{Tracking}
+\subsection*{Hit reconstruction in the pixel and strip detector}
+The first step of the reconstruction process is referred to as local reconstruction~\cite{Chatrchyan:2014fea}.  It consists of the clustering of zero-suppressed
+signals above specified thresholds in pixel and strip channels into hits,  and then estimating the cluster positions and their uncertainties defined in a local
+orthogonal  coordinate  system ($u$, $v$) in  the  plane  of  each  sensor (pixel and strip). 
+The  hit reconstruction in the pixel detector and in the the strip detector is described below:
+\begin{itemize} 
+\item In the pixel detector: in the data acquisition system of the pixel detector, zero-suppression is performed in the
+readout chips of the sensors, with adjustable thresholds for each pixel.  This pixel readout threshold 
+is set to a single-pixel threshold corresponding to an equivalent charge of 3200
+electrons.  Offline, pixel clusters are formed from adjacent pixels, including both side-by-side
+and corner-by-corner adjacent cells.  Each cluster must have a minimum charge equivalent to
+4000 electrons
+\item In the strip detector:  the clusters are seeded by any channel passing zero-suppression that has a charge at least a
+factor of three greater than the corresponding channel noise. Neighbouring strips are added
+to each seed, if their strip charge is more than twice the strip noise. 
+A cluster is kept if its total charge is a factor five larger than the cluster noise.
+The position of the hit corresponding to each cluster is determined from the charge-weighted
+average of its strip positions, corrected for the  Lorentz drift.
+\end{itemize}
 
+\subsection*{Track reconstruction}
+Different algorithms are used in CMS for track reconstruction,~\cite{Chatrchyan:2014fea, Adam:2005cg}.
+All   methods   use   the   reconstructed positions (hits) of the passage of charged
+particles inside the CMS silicon detectors to determine the
+trajectories of the charged tracks and therefore measure their directions and momenta.  
+The Combinatorial Track Finder (CTF) is the main standard algorithm and proceeds in three steps:
+\begin{itemize} 
+\item Seeding:  pairs of hits, that are compatible with the interaction region above a lower
+$p_T$ limit, are considered as possible candidates of
+charged tracks.  Pixel hits provide the best track
+seeding, given their three-dimensional position in formation and lower occupancy.  
+\item Finding: is based on a standard Kalman  Filter  pattern  recognition  approach.
+The  track trajectory  is  extrapolated  to  the  neighboring tracker  layers, starting form the seeded parameters.
+Compatible  hits  are  assigned to the track. 
+The Kalman Filter, a  succession of  alternating  prediction  and  filtering  steps, 
+updates the track parameters at each steps with new hits.
+ The updated tracks are assigned a quality and only the best ones are kept for further propagation. 
+\item Fitting: the  final  estimate  of  the   parameters  of
+each  track  helix  is  completed  in  the  last  steps
+applying again the Kalman Filter for the trajectory fitting.  Each trajectory is refitted using a
+least-squares fit. In the central region, $|\eta|<1$, the $p_T$ resolution is better than 1\%  for tracks with $p_T<10\%$. At higher $p_T$ resolution worsens approximately as $\Delta (1/p_T) \sim 0.2$ TeV$^{-1}$.
+\end{itemize}
+The  reconstruction  of  single  muons  with  the
+CTF  algorithm  is  almost  fully  efficient  over  the whole acceptance range.
+Electrons, being charged particles, can be reconstructed through the standard track reconstruction.  However,  as electrons lose energy primarily through bremsstrahlung,  rather than ionization,  large energy losses are common.  
+ The energy loss distribution is highly non-Gaussian, and therefore the standard Kalman filter is not appropriate.
+Electron candidates are reconstructed using the  information from the tracker but also from
+the ECAL, Sec~\ref{ler}. 
+For charged hadrons the reconstruction is more problematic due to their nuclear
+interactions  in  the  tracker  material. 
+
+
+\subsection*{Primary-vertex reconstruction}
+The goal of primary-vertex reconstruction~\cite{Speer:927395}  is to measure the location, and the associated
+uncertainty, of all proton-proton interaction vertices in each event, including the ``signal'' vertex
+and any vertices from pileup collisions, using the available reconstructed tracks.  
+It consists of three steps: 
+\begin{itemize} 
+\item  selection of the tracks;
+\item clustering of the tracks that appear to originate from the same interaction vertex;
+\item fitting for the position of each vertex using its associated tracks.
+\end{itemize}
+Track selection involves choosing tracks consistent with being produced promptly in the primary interaction region, 
+by imposing requirements some requirements~\cite{Chatrchyan:2014fea} on the significance and on the $\chi^2$.
+The selected tracks are then clustered on the basis of their z-coordinates at their point of closest approach to the centre of the beam spot  using a
+\textit{deterministic annealing} (DA) algorithm~\cite{726788}. 
+The algorithm proceeds in a way that is analogous to that of a physical system approaching a state of minimal energy through a series of
+gradual  temperature  reductions. 
+The z-coordinates  of  the  points  of  closest  approach  of  the tracks to the centre of the beam spot are $z_i^T \pm \sigma_i^Z$.
+ The tracks must be assigned to some unknown number of vertices at positions $z_k^V$.
+The tracks can be associated with more than one vertex, with probability $p_{i,k}$ that is  the probability of the
+assignment of track $i$ to vertex $k$ in a large ensemble of possible assignments.
+ The most probable vertex positions at ``temperature'' T (like in the calculations in statistical mechanics) is,
+\begin{equation}
+F=-T \sum_{i}^{\# \; tracks} p_i \, \log \sum_{k}^{\# \, vertices} \rho_k  \exp [-\frac{1}{T} \frac{(z_i^T-z_k^V)^2}{(\sigma_i^z)^2}  ]
+\end{equation}
+ relative to the positions of the vertices $z_k^V$ with vertex weights $\rho_k$ (the weights are variable, but the sum is always constrained
+to unity).
+The DA algorithm is initiated at a very high temperature with a single vertex and $T$ is gradually decreased.
+This procedure traces the global minimum of $F$ from high to low temperature.
+The number of vertices increases as the temperature falls, and rises each time the minimum of $F$ turns into a saddle point at lower temperatures. 
+The DA process thereby finds not only positions and assignments of tracks to vertices but also the number of vertices.
+In Fig.~\label{Fig:pu} is shown the distributions of the number of vertices in a Drell-Yan sample.
+\begin{figure*}[htbp]
+\centering
+\includegraphics[width=0.6\textwidth]{../AN/Figs/nvertices.png}
+\caption{
+    Distributions of the number of vertices in a Drell-Yan enriched sample
+    (Z$\rightarrow{}ee$) in
+    data}
+    \label{Fig:pu}
+\end{figure*}
+
+
+
+
+\section{Calorimeter clusters}
+The purpose of the clustering algorithm in the calorimeters are~\cite{Sirunyan:2017ulk}:
+\begin{itemize} 
+\item detect and measure the energy and direction of stable neutral particles such as photons and neutral hadrons;
+\item separate these neutral particles from charged hadron energy deposits;
+\item reconstruct and identify electrons and all accompanying bremsstrahlung photons;
+\item help the energy measurement of charged hadrons for which the track parameters were not determined accurately,
+which is the case for low-quality and high $p_T$ tracks.
+\end{itemize}
+For the PF event reconstruction, a  specific clustering algorithm was developed. 
+The clustering is performed separately in each subdetector: ECAL (barrel and endcaps) and HCAL (barrel and endcaps)
+In the algorithm, first, \textit{cluster seeds} are identified   as cells with an energy larger than a given seed threshold, and
+larger than the energy of the neighbouring cells. Second, \textit{topological clusters} are grown from the seeds by aggregating cells with at least a corner in common with a cell already in the cluster.
+After an expectation-maximization algorithm based on a Gaussian-mixture mode to
+reconstruct the clusters within a topological cluster is used.
+The Gaussian-mixture model postulates
+that the energy deposits in the M individual cells of the topological cluster arise from N Gaussian energy deposits where N is the number of seeds. 
+The expectation-maximization algorithm is an iterative algorithm with two steps at each iteration.
+During the first step, the parameters of the model are kept constant and the parameters of the model are determined during the second step in an analytical maximum-
+likelihood. 
+The energy and position of the seeds are used as initial values for the parameters of the corresponding 
+Gaussian functions and the expectation maximization cycle is repeated until convergence.
+
+\section{Link algorithm}
+A given particle is, in general, expected to give rise to several PF elements in the various CMS
+subdetectors. The reconstruction of a particle therefore first proceeds with a
+link algorithm that connects the PF elements from different subdetectors.
+The link between a track in the central tracker and a calorimeter cluster is established:
+the track is first extrapolated from its last measured hit in the tracker to
+ the ECAL at a depth corresponding to the expected maximum of a typical longitudinal electron shower
+profile, and to the HCAL at a depth corresponding to one interaction length.  
+The track is linked to a cluster if its extrapolated position is within the cluster area, defined by the union of the
+areas in the HCAL and the ECAL in $(\phi, \eta)$ plane. 
+After, Calorimeter cluster-to-cluster links are sought between HCAL clusters and ECAL clusters.
+Charged-particle tracks may also be linked together through a common secondary vertex, for
+nuclear-interaction reconstruction.
+Finally, a link between a track in the central tracker and information in the muon detector is
+established to form global and tracker muons, Sec~\ref{ler}.\\
+
+In each PF block, the identification and reconstruction sequence proceeds as,
+\begin{itemize} 
+\item first, muon candidates are identified and reconstructed and the
+corresponding PF elements (tracks and clusters) are removed from the PF block.  
+\item The electron identification and reconstruction follows. Energetic and isolated photons, converted or un-
+converted, are identified in the same step.  The corresponding tracks and ECAL or preshower
+clusters are excluded from further consideration
+\item The remaining elements in the block are then subject to a cross-identification of charged hadrons,
+neutral hadrons, and photons, arising from parton fragmentation, hadronization, and decays
+in jets. 
+\end{itemize}
+
+\section{Jet Energy Calibration}
+The purpose of the jet energy calibration is to relate, on average, the energy measured for the
+detector jet to the energy of the corresponding true particle jet.  A true particle jet results from
+the clustering (with the same clustering algorithm applied to detector jets, Sec.~\ref{jetr}) of all stable particles
+originating from the fragmenting parton, as well as of the particles from the underlying event
+(UE) activity. 
+
+The jet energy calibration is related,  on average, on the energy measured in
+the detector to the true energy of the corresponding final state particle jet or parton jet.
+From the clustering  of all stable particle, a true particle jet results. The correction is applied as
+a multiplicative factor C to each component of the raw jet four-momentum vector, $p_{\mu}^{raw}$, as:
+\newline
+\begin{equation}
+p_{\mu}^{corr}=C \cdot p_{\mu}^{raw} \; ,
+\end{equation}
+where correction factor $C$ is composed of the offset correction $C_{offset}$ , the MC calibration
+factor $C_{MC}$, and the residual calibrations $C_{rel}$ and $C_{abs}$ for the relative and absolute
+energy scales, respectively. The various components are applied in sequence:
+\newline
+\begin{equation}
+C=   C_{offset} ( p_{\mu}^{raw}) \cdot  C_{MC} (p_T',\eta) \cdot C_{rel}(\eta) \cdot  C_{abs} (p_T'') \; ,
+\end{equation}
+\newline
+where $p_T'$ is the transverse momentum of the jet after applying the offset correction and $p_T''$ is the transverse momentum 
+of the jet after all previous corrections. The details of each component are:
+\begin{itemize}
+\item $C_{offset}$: a energy offset is produced by the pileup of multiple proton-proton collisions and by electronic noise.
+The goal of the offset correction is to subtract, on average, the unwanted
+energy from the jet. For the offset correction estimation, the Jet Area Method has been used. 
+An average $p_T$-density $\rho$ per unit area is estimated, for each event. 
+The key element for this approach is the jet area $A_j$.
+A very large number of infinitely soft four-momentum vectors are artificially added in the event and clustered
+by the jet algorithm together with the true jet components. The other important quantity for the pileup subtraction is the $p_T$ density $\rho$, which
+is calculated with the $k_T$ jet clustering algorithm with a distance parameter R$=$0.6.
+The quantity $\rho$ is defined on an event-by-event basis as the median of the distribution of
+the variable $p_{Tj}  /A_j$ , where j runs over all jets in the event, and is not sensitive to the
+presence of hard jets. Therefore, the event-by-event and jet-by-jet offset correction can be defined as,
+\begin{equation}
+  C_{offset}= (p_T^{raw}, A_j ,\rho )=1- \frac{(\rho -\langle \rho_{UE}  \rangle )\cdot A_j }{p_T^{raw}} \; ,
+\end{equation}
+where $\langle \rho_{UE}  \rangle$ is the $p_T$-density component due to the UE and electronics
+noise, and is measured in events with exactly one reconstructed primary vertex (no pileup).
+\item $C_{MC}$: is based on the simulation and corrects the energy of the reconstructed
+jets such that it is equal on average to the energy of the generated jets (GenJets). The
+GenJets reconstruction algorithm is identical to the one applied to the data.
+The response variable, $R=p_T^{reco}/p_T^{gen}$, in each bin of the GenJet transverse momentum $/p_T^{gen}$, is recorded as jet $p_T^{reco}$.
+The average correction in each bin is defined as,
+\begin{equation}
+  C_{MC}(p_T^{reco})= \frac{1}{\langle R \rangle } \; ,
+\end{equation}
+\item $C_{rel}$: the goal of the relative jet energy scale correction is to make the jet response flat versus $\eta$. 
+This is achieved by employing a Tag and Probe technique, selecting dijet
+events in data. The size of this residual correction is of the order of 2-3\% in the
+central $\eta$ region, while it goes up to about 10\% in the forward region.
+\item $C_{abs}$: the goal of the absolute jet energy scale correction is to make the jet response flat versus $p_T$.
+Once a jet has been corrected for $\eta$ dependence, it is corrected back to particle
+level.
+\end{itemize}
+Each type of correction has uncertainties arising from many different sources.
+These sources are categorized as: physics modeling in MC, MC modeling of true detector response and potential biases in the methodologies used to estimate the corrections. In CMS more than 16 such sources of uncertainties have been identified. Several are
+related and can be combined into groups that are relative to the absolute scale, relative
+scale, extrapolation in $p_T$ , pileup, jet flavor and time stability.
+
+\section{Pileup subtraction}
+At the LHC,  at each bunch crossing there are of the order of 20 minimum bias proton-proton interactions, which pollute any interesting hard events with many soft particle. The kinematic measurements for jets will be adversely affected by pileup (PU), with resolution and absolute energy measurements
+suffering significantly: in fact for the  neutral particles is not possible distinct primary vertex that corresponds to a single
+proton-proton interaction,  and most jet measurements are carried out with calorimeters, which do not have the angular
+resolution needed to reconstruct the original primary vertex.\\
+An event-by-event, and jet-by-jet, pileup subtraction approach, which performs the corrections after the jet finding,  has been out~\cite{Cacciari:2007fd}
+carried out.  It is based on:
+\begin{itemize}
+\item the jet’s susceptibility to contamination: it is embodied in the jet area A measured on $\eta$ and $\phi$. The jet area is different for each jet and depends on the details of its substructure, and practical measurement of the jet areas is carried out using the FastJet package. 
+Given a suitable definition of jet area, the modification of a jet’s $p_T$ by diffuse noise can be shown to be,
+\begin{equation} 
+\Delta p_T=A\rho \pm \sigma \sqrt{A} -L \:, \qquad \langle L \rangle=\mathcal{O}(\alpha_S \times A \rho \ln \frac{p_T}{ A \rho}) \:,  
+\end{equation} 
+where $\rho$ is the level of diffuse noise that  corresponds to the amount of transverse momentum added to the event per unit area (at LHC is around 
+10-20 GeV~\cite{Sjostrand:2003wg}): the first term is therefore the geometrical contamination of the je
+t and is associated with an uncertainty (second term) because of fluctuations in the noise from point to point in the event.
+$L$  accounts for the occasional loss (or the even more occasional gain) of part of the jet’s contents,
+due to the fact that jets can be modified when clustered in the presence of diffuse noise, as some
+of the particles originally clustered into one jet can instead end up in a different one. \\
+If the fluctuations are small, $\sigma << \sqrt{A} \, \rho$, the measured $p_T$ for each jet $j$ using the subtraction is given by,
+\begin{equation} 
+p_{T,j}^{sub}=p_{T,j} -A_J \rho \: ,
+\end{equation} 
+where $A_j $ is the jet area. This equation provides a correction to the jet’s scalar transverse
+momentum.
+\item The second ingredient in carrying out the subtraction is the estimate of $\rho$ for each event.
+The principal difficulty in estimating the amount of noise is that of distinguishing the noise component from the large amounts of $p_T$ deposited by the hard event.
+The $\rho$ value  for each even can be estimated~\cite{Cacciari:2007fd}  taking the median value of this distribution in the event: 
+\begin{equation} 
+\rho= median \; [\{\frac{p_{T,j}}{A_j}\}]  \: ,
+\end{equation} 
+\end{itemize}
+The above pileup subtraction procedure is valid if: 
+\begin{itemize}
+\item The pileup noise should be independent of $\eta$ and $\phi$.
+\item The radius $R$ of the jet algorithm should be no smaller than the typical distance between minimum bias particles, otherwise the extraction of
+ $\rho$ from the median will be biased by the large amount of empty area not associated with jets
+\item The number of pileup jets should be much larger than the number of jets from the hard interaction. 
+\end{itemize}
+
+
+
+\section{Lepton reconstruction and identification}
+\label{ler}
 \subsection*{Electron reconstruction and identification}
 The combination of tracker and ECAL information is used for electrons reconstruction.
 The electrons, emerging from a collision, when interact with the silicon tracker, radiate bremsstrahlung photons that reaches the ECAL with a significant spread in the azimuthal direction $\phi$. These energy deposites measured in ECAL are the starting point of the electrons reconstruction algorithm. They are associated in clusters and in superclusters (clusters of clusters) that take into account the spread in the $\phi$ direction of the bremsstrahlung energy, Fig.~\ref{clustering}.
@@ -201,61 +454,6 @@ between pairs of particles, performing subsequent recombinations of the pair of 
 particles and stopping when all resulting objects are too far apart. The standard algorithms adopted by
 CMS are the SISCone in the conical recombination class, and the $k_t$, Cambridge-Aachen (CA) and anti-$k_T$ algorithms, Sec~\ref{rico_jet}.\\
 \newline
-The jet energy calibration is related,  on average, on the energy measured in
-the detector to the true energy of the corresponding final state particle jet or parton jet.
-From the clustering  of all stable particle, a true particle jet results. The correction is applied as
-a multiplicative factor C to each component of the raw jet four-momentum vector, $p_{\mu}^{raw}$, as:
-\newline
-\begin{equation}
-p_{\mu}^{corr}=C \cdot p_{\mu}^{raw} \; ,
-\end{equation}
-where correction factor $C$ is composed of the offset correction $C_{offset}$ , the MC calibration
-factor $C_{MC}$, and the residual calibrations $C_{rel}$ and $C_{abs}$ for the relative and absolute
-energy scales, respectively. The various components are applied in sequence:
-\newline
-\begin{equation}
-C=   C_{offset} ( p_{\mu}^{raw}) \cdot  C_{MC} (p_T',\eta) \cdot C_{rel}(\eta) \cdot  C_{abs} (p_T'') \; ,
-\end{equation}
-\newline
-where $p_T'$ is the transverse momentum of the jet after applying the offset correction and $p_T''$ is the transverse momentum 
-of the jet after all previous corrections. The details of each component are:
-\begin{itemize}
-\item $C_{offset}$: a energy offset is produced by the pileup of multiple proton-proton collisions and by electronic noise.
-The goal of the offset correction is to subtract, on average, the unwanted
-energy from the jet. For the offset correction estimation, the Jet Area Method has been used. 
-An average $p_T$-density $\rho$ per unit area is estimated, for each event. 
-The key element for this approach is the jet area $A_j$.
-A very large number of infinitely soft four-momentum vectors are artificially added in the event and clustered
-by the jet algorithm together with the true jet components. The other important quantity for the pileup subtraction is the $p_T$ density $\rho$, which
-is calculated with the $k_T$ jet clustering algorithm with a distance parameter R$=$0.6.
-The quantity $\rho$ is defined on an event-by-event basis as the median of the distribution of
-the variable $p_{Tj}  /A_j$ , where j runs over all jets in the event, and is not sensitive to the
-presence of hard jets. Therefore, the event-by-event and jet-by-jet offset correction can be defined as,
-\begin{equation}
-  C_{offset}= (p_T^{raw}, A_j ,\rho )=1- \frac{(\rho -\langle \rho_{UE}  \rangle )\cdot A_j }{p_T^{raw}} \; ,
-\end{equation}
-where $\langle \rho_{UE}  \rangle$ is the $p_T$-density component due to the UE and electronics
-noise, and is measured in events with exactly one reconstructed primary vertex (no pileup).
-\item $C_{MC}$: is based on the simulation and corrects the energy of the reconstructed
-jets such that it is equal on average to the energy of the generated jets (GenJets). The
-GenJets reconstruction algorithm is identical to the one applied to the data.
-The response variable, $R=p_T^{reco}/p_T^{gen}$, in each bin of the GenJet transverse momentum $/p_T^{gen}$, is recorded as jet $p_T^{reco}$.
-The average correction in each bin is defined as,
-\begin{equation}
-  C_{MC}(p_T^{reco})= \frac{1}{\langle R \rangle } \; ,
-\end{equation}
-\item $C_{rel}$: the goal of the relative jet energy scale correction is to make the jet response flat versus $\eta$. 
-This is achieved by employing a Tag and Probe technique, selecting dijet
-events in data. The size of this residual correction is of the order of 2-3\% in the
-central $\eta$ region, while it goes up to about 10\% in the forward region.
-\item $C_{abs}$: the goal of the absolute jet energy scale correction is to make the jet response flat versus $p_T$.
-Once a jet has been corrected for $\eta$ dependence, it is corrected back to particle
-level.
-\end{itemize}
-Each type of correction has uncertainties arising from many different sources.
-These sources are categorized as: physics modeling in MC, MC modeling of true detector response and potential biases in the methodologies used to estimate the corrections. In CMS more than 16 such sources of uncertainties have been identified. Several are
-related and can be combined into groups that are relative to the absolute scale, relative
-scale, extrapolation in p T , pileup, jet flavor and time stability.
 
 \subsection*{Jets in $X \to WW$}
 The jets collection is made by clustering the reconstructed particles known as the Particle Flow

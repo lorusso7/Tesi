@@ -329,6 +329,45 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
   MET}.
 \newblock Technical Report CMS-PAS-PFT-09-001, CERN, Geneva, Apr 2009.
 
+\bibitem{Chatrchyan:2014fea}
+Serguei Chatrchyan et~al.
+\newblock {Description and performance of track and primary-vertex
+  reconstruction with the CMS tracker}.
+\newblock {\em JINST}, 9(10):P10009, 2014.
+
+\bibitem{Adam:2005cg}
+W.~Adam, B.~Mangano, T.~Speer, and T.~Todorov.
+\newblock {Track reconstruction in the CMS tracker}.
+\newblock 2005.
+
+\bibitem{Speer:927395}
+Thomas Speer, Kirill Prokofiev, R~Frühwirth, Wolfgang Waltenberger, and Pascal
+  Vanlaer.
+\newblock {Vertex Fitting in the CMS Tracker}.
+\newblock Technical Report CMS-NOTE-2006-032, CERN, Geneva, Feb 2006.
+
+\bibitem{726788}
+K.~Rose.
+\newblock Deterministic annealing for clustering, compression, classification,
+  regression, and related optimization problems.
+\newblock {\em Proceedings of the IEEE}.
+
+\bibitem{Sirunyan:2017ulk}
+A.~M. Sirunyan et~al.
+\newblock {Particle-flow reconstruction and global event description with the
+  CMS detector}.
+\newblock {\em JINST}, 12(10):P10003, 2017.
+
+\bibitem{Cacciari:2007fd}
+Matteo Cacciari and Gavin~P. Salam.
+\newblock {Pileup subtraction using jet areas}.
+\newblock {\em Phys. Lett.}, B659:119--126, 2008.
+
+\bibitem{Sjostrand:2003wg}
+Torbjorn Sjostrand, Leif Lonnblad, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {Pythia 6.3 physics and manual}.
+\newblock 2003.
+
 \bibitem{Gori:2130983}
 Stefania Gori, Ian-Woo Kim, Nausheen~R. Shah, and Kathryn~M. Zurek.
 \newblock {Closing the Wedge: Search Strategies for Extended Higgs Sectors with
