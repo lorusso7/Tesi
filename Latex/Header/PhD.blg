@@ -16,34 +16,34 @@ I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
 Warning--string name "title" is undefined
---line 292 of file AN-17-243.bib
-I was expecting a `,' or a `}'---line 292 of file AN-17-243.bib
+--line 392 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 392 of file AN-17-243.bib
  :       title         
  :                     = "https://cms-hcomb.gitbooks.io/combine/"
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 771 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 871 of file AN-17-243.bib
  : 
  : @techreport{CMS-PAS-HIG-16-023,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 771 of file AN-17-243.bib
+Repeated entry---line 871 of file AN-17-243.bib
  : @techreport{CMS-PAS-HIG-16-023
  :                               ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 788 of file AN-17-243.bib
+Unbalanced braces---line 888 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 991 of file AN-17-243.bib
+Repeated entry---line 1091 of file AN-17-243.bib
  : @article{Heinemeyer:2013tqa
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1711 of file AN-17-243.bib
+Repeated entry---line 1811 of file AN-17-243.bib
  : @article{Cowan:2010js
  :                      ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1819 of file AN-17-243.bib
+Illegal end of database file---line 1919 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
@@ -72,6 +72,9 @@ Warning--empty year in ckkw2
 Warning--empty journal in Khachatryan:2015pea
 Warning--empty journal in Aaboud:2018jqu
 Warning--empty author in CMS-PAS-PFT-09-001
+Warning--empty journal in Adam:2005cg
+Warning--empty year in 726788
+Warning--empty journal in Sjostrand:2003wg
 Warning--empty author in combine
 Warning--empty title in combine
 Warning--empty journal in combine
@@ -80,45 +83,45 @@ Warning--empty journal in cowan1998statistical
 Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
-You've used 83 entries,
+You've used 90 entries,
             1791 wiz_defined-function locations,
-            933 strings with 16751 characters,
-and the built_in function-call counts, 16351 in all, are:
-= -- 1365
-> -- 742
-< -- 5
-+ -- 283
-- -- 200
-* -- 1119
-:= -- 2674
-add.period$ -- 234
-call.type$ -- 83
-change.case$ -- 80
+            968 strings with 17739 characters,
+and the built_in function-call counts, 17674 in all, are:
+= -- 1470
+> -- 815
+< -- 6
++ -- 310
+- -- 220
+* -- 1207
+:= -- 2905
+add.period$ -- 255
+call.type$ -- 90
+change.case$ -- 87
 chr.to.int$ -- 0
-cite$ -- 111
-duplicate$ -- 711
-empty$ -- 1651
-format.name$ -- 200
-if$ -- 3585
+cite$ -- 121
+duplicate$ -- 769
+empty$ -- 1774
+format.name$ -- 220
+if$ -- 3867
 int.to.chr$ -- 0
-int.to.str$ -- 83
-missing$ -- 74
-newline$ -- 403
-num.names$ -- 72
-pop$ -- 190
+int.to.str$ -- 90
+missing$ -- 80
+newline$ -- 438
+num.names$ -- 79
+pop$ -- 208
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 306
+skip$ -- 328
 stack$ -- 0
-substring$ -- 997
-swap$ -- 80
-text.length$ -- 5
+substring$ -- 1054
+swap$ -- 85
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 28
-while$ -- 138
-width$ -- 85
-write$ -- 846
+warning$ -- 31
+while$ -- 148
+width$ -- 92
+write$ -- 918
 (There were 11 error messages)
