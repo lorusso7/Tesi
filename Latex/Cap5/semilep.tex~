@@ -1,7 +1,13 @@
 \chapter{Semileptonic final state}
-
+\label{cap6}
 \section{General overview}
-The $WW \to \ell \nu q \bar{q}$ final state is the dominant decay channel of a SM-like Higgs boson for masses above 200 GeV.
+The $X \to WW \to \ell \nu q \bar{q}$ final state is one of the dominant decay channel of a SM-like Higgs boson for masses above 200 GeV,  Fig.~\ref{BRTotalUncertBands4f2} in green.
+\begin{figure}
+\centering
+\includegraphics[scale= 0.65]{../Cap5/BRTotalUncertBands4f2}
+\caption{Higgs branching ratios for different final states and their uncertainties for the full mass range.}
+\label{BRTotalUncertBands4f2}
+\end{figure}
 In the mass regime of interest the hadronically decaying boson may be sufficiently boosted that
 its decay products are contained in a single merged jet. Jet substructure techniques are used
 to identify merged jets with two well defined subjets and to determine the merged jet mass,

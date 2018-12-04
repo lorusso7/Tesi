@@ -1,8 +1,11 @@
 \chapter{Monte Carlo Generators}
-\thispagestyle{empty}
+\label{cap3}
 
-As we have seen in the collisions between high energy protons hundreds of particles are generally present in the final state.
-Given the complexity of the events it is necessary to use Monte Carlo generators, i.e. programs that allow to simulate the realistic result of the collisions assuming a certain model for the processes involved. 
+
+\textit{As we have seen in the collisions between high energy protons hundreds of particles are generally present in the final state.
+Given the complexity of the events it is necessary to use Monte Carlo generators, i.e. programs that allow to simulate the realistic result of the collisions assuming a certain model for the processes involved. In this chapter are described the various stages beyond the Monte Carlo events simulation. In particular I have participated personally to the Monte Carlo production and validation for the CMS collaboration.  }
+
+\section{General Overview}
 The use of Monte Carlo generators is necessary because it is impossible to predict what happens event-by-event: in fact,  in quantum mechanics we can only calculate the probability of having a certain result.
 The simulation of an event is carried out in successive steps \cite{Sjostrand:2006su, Buckley:2011ms}, as schematized in Fig.~\ref{qqqq}, thus subdividing the problem into several parts of lower complexity.
 
@@ -499,24 +502,10 @@ different data-taking periods.
 In order to factorize these effects, the number of true pileup interactions from the simulation truth is reweighted to match the data. 
 The re-weighting is propagated automatically to both the in-
 time pile up and the out-of-time one.
-In Figure~\ref{Fig:pu}, the effect of this reweighting on a sample enriched in Drell-Yan events is shown.
+In Fig.~\ref{Fig:pu}, the effect of this reweighting on a sample enriched in Drell-Yan events is shown.
 In order to select this sample, 
 events with two electrons with \pt$> 25$~\GeV for the leading one and  \pt$>
 13$~\GeV for the trailing one, are selected only if  $|\mll - m_Z| < 10$~\GeV. 
-
-\begin{figure*}[htbp]
-\centering
-\includegraphics[width=0.45\textwidth]{../AN/Figs/nvertices.png}
-\caption{
-    Distributions of the number of vertices in a Drell-Yan enriched sample
-    (Z$\rightarrow{}ee$) in
-    data}
-    \label{Fig:pu}
-\end{figure*}
-
-
-
-
 
 \subsection*{Other processes} Other multiboson processes, such as WZ,ZZ, and VVV (V=W/Z), are generated with a\MCATNLO and normalized
 to the cross section obtained at NLO in generation.
