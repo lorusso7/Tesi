@@ -1,4 +1,5 @@
 \chapter{Event Reconstruction}
+\label{cap4}
 In the search of high mass in $W^+W^-$ channel, leptons (specifically, electrons or muons and neutrinos) and jets are searched for to select signal events.
 The reconstruction of such objects follow standard algorithms and procedure which have been
 developed by the experiment. In this chapter the reconstruction of the interested objects are described.
@@ -239,8 +240,8 @@ At the LHC,  at each bunch crossing there are of the order of 20 minimum bias pr
 suffering significantly: in fact for the  neutral particles is not possible distinct primary vertex that corresponds to a single
 proton-proton interaction,  and most jet measurements are carried out with calorimeters, which do not have the angular
 resolution needed to reconstruct the original primary vertex.\\
-An event-by-event, and jet-by-jet, pileup subtraction approach, which performs the corrections after the jet finding,  has been out~\cite{Cacciari:2007fd}
-carried out.  It is based on:
+An event-by-event, and jet-by-jet, pileup subtraction approach, which performs the corrections after the jet finding,  has been
+carried out~\cite{Cacciari:2007fd}.  It is based on:
 \begin{itemize}
 \item the jet’s susceptibility to contamination: it is embodied in the jet area A measured on $\eta$ and $\phi$. The jet area is different for each jet and depends on the details of its substructure, and practical measurement of the jet areas is carried out using the FastJet package. 
 Given a suitable definition of jet area, the modification of a jet’s $p_T$ by diffuse noise can be shown to be,
@@ -248,8 +249,8 @@ Given a suitable definition of jet area, the modification of a jet’s $p_T$ by 
 \Delta p_T=A\rho \pm \sigma \sqrt{A} -L \:, \qquad \langle L \rangle=\mathcal{O}(\alpha_S \times A \rho \ln \frac{p_T}{ A \rho}) \:,  
 \end{equation} 
 where $\rho$ is the level of diffuse noise that  corresponds to the amount of transverse momentum added to the event per unit area (at LHC is around 
-10-20 GeV~\cite{Sjostrand:2003wg}): the first term is therefore the geometrical contamination of the je
-t and is associated with an uncertainty (second term) because of fluctuations in the noise from point to point in the event.
+10-20 GeV~\cite{Sjostrand:2003wg}): the first term is therefore the geometrical contamination of the jet 
+and is associated with an uncertainty (second term) because of fluctuations in the noise from point to point in the event.
 $L$  accounts for the occasional loss (or the even more occasional gain) of part of the jet’s contents,
 due to the fact that jets can be modified when clustered in the presence of diffuse noise, as some
 of the particles originally clustered into one jet can instead end up in a different one. \\
