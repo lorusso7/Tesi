@@ -33,13 +33,13 @@ signals above specified thresholds in pixel and strip channels into hits,  and t
 orthogonal  coordinate  system ($u$, $v$) in  the  plane  of  each  sensor (pixel and strip). 
 The  hit reconstruction in the pixel detector and in the the strip detector is described below:
 \begin{itemize} 
-\item In the pixel detector: in the data acquisition system of the pixel detector, zero-suppression is performed in the
+\item The pixel detector: in the data acquisition system of the pixel detector, zero-suppression is performed in the
 readout chips of the sensors, with adjustable thresholds for each pixel.  This pixel readout threshold 
 is set to a single-pixel threshold corresponding to an equivalent charge of 3200
 electrons.  Offline, pixel clusters are formed from adjacent pixels, including both side-by-side
 and corner-by-corner adjacent cells.  Each cluster must have a minimum charge equivalent to
-4000 electrons
-\item In the strip detector:  the clusters are seeded by any channel passing zero-suppression that has a charge at least a
+4000 electrons.
+\item The strip detector:  the clusters are seeded by any channel passing zero-suppression that has a charge at least a
 factor of three greater than the corresponding channel noise. Neighbouring strips are added
 to each seed, if their strip charge is more than twice the strip noise. 
 A cluster is kept if its total charge is a factor five larger than the cluster noise.
@@ -89,7 +89,8 @@ It consists of three steps:
 \item clustering of the tracks that appear to originate from the same interaction vertex;
 \item fitting for the position of each vertex using its associated tracks.
 \end{itemize}
-Track selection involves choosing tracks consistent with being produced promptly in the primary interaction region~\cite{Chatrchyan:2014fea}.
+Track selection involves choosing tracks consistent with being produced promptly in the primary interaction region, by imposing requirements on the maximum value of significance of the transverse impact parameter,  the number of strip and pixel hits associated with a track and the normalized
+$\chi^2$ from the fit to the trajectory  ~\cite{Chatrchyan:2014fea}.
 The selected tracks are then clustered on the basis of their z-coordinates at their point of closest approach to the centre of the beam spot  using a
 \textit{deterministic annealing} (DA) algorithm~\cite{726788}. 
 The algorithm proceeds in a way that is analogous to that of a physical system approaching a state of minimal energy through a series of
