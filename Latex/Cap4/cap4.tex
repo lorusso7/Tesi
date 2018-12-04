@@ -108,7 +108,7 @@ The selected tracks are then clustered on the basis of their z-coordinates at th
 % relative to the positions of the vertices $z_k^V$ with vertex weights $\rho_k$ (the weights are variable, but the sum is always constrained
 %to unity).
 %The DA algorithm is initiated at a very high temperature with a single vertex and $T$ is gradually decreased.
-%This procedure traces the global minimum of $F$ from high to low temperature.
+%This procedure tracks the global minimum of $F$ from high to low temperature.
 %The number of vertices increases as the temperature falls, and rises each time the minimum of $F$ turns into a saddle point at lower temperatures. 
 The DA process finds not only positions and assignments of tracks to vertices but also thex number of vertices.
 In Fig.~\ref{Fig:pu} is shown the distribution of the number of vertices in a Drell-Yan sample. This distribution is related to the number of PU events. Therefore MC events are reweighted according to the ratio between data and simulation in the number of primary vertices in order to correct for the different pileup. 
@@ -360,7 +360,7 @@ between pairs of particles, then performing subsequent recombinations of pairs o
 particles, and stopping when all resulting objects are too far apart. The standard algorithms adopted by
 CMS are the SISCone in the conical recombination class, and the $k_t$, Cambridge-Aachen (CA) and anti-$k_T$ algorithms for the sequential, Sec~\ref{rico_jet}.\\
 \newline
-\section{Jet Energy Calibration}
+\subsection*{Jet Energy Calibration}
 The purpose of the jet energy calibration is to relate, on average, the energy measured for the
 detector jet to the energy of the corresponding true particle jet.  A true particle jet results from
 the clustering (with the same clustering algorithm applied to detector jets, Sec.~\ref{jetr}) of all stable particles
@@ -461,65 +461,66 @@ scale, extrapolation in $p_T$, pileup, jet flavor and time stability.
 % \item The number of pileup jets should be much larger than the number of jets from the hard interaction. 
 % \end{itemize}
 
-\subsection*{Jets in $X \to WW$}
-The jets collection is made by clustering the reconstructed particles known as the Particle Flow
-Candidates in the CMS software. The reclustering algorithm used is the anti-kt algorithm with
+\subsection*{Jets in $X \to WW$ analysis}
+%The jets collection is made by clustering the reconstructed particles known as the Particle Flow
+%candidates. 
+The clustering algorithm used for jet reconstruction in the $X \to WW$ analysis is the anti-kt algorithm with
 a distance parameter equal to 0.4. Pileup mitigation is done with the Charge Hadron Subtraction  algorithm 
 which removes charged particles coming from pileup vertices before
 clustering.
-The Jet Energy Corrections  that are applied to correct the reconstructed jet energy back
-to the true energy of the final state particles.  To reject jets originating
+%The Jet Energy Corrections  that are applied to correct the reconstructed jet energy back
+%to the true energy of the final state particles. 
+To reject jets originating
 from calorimeter or readout electronics noise the loose working point of the PF Jet Identification is applied. 
-This analysis selects a jet by the selection cut as,
+This analysis selects jets with
 \begin{equation}
- p_T^{Jet} > 30 GeV \: , |\eta| < 5.0 \: .
+ p_T^{Jet} > 30 \, \mathrm{GeV} \: , |\eta| < 5.0 \: .
 \end{equation}
-The various distributions of jet after correction are shown at Fig.~\ref{jetFig}
+Kinematic distributions of the jets after applying corrections are shown in Fig.~\ref{jetFig} for a Drell-Yan enriched sample.  As can be seen from the plot there is a good agreement between simulation and data.
 \begin{figure}
 \centering
 \includegraphics[scale= 0.5]{../Cap4/jetFig}
-\caption{The jet kinematic distributions:.}
+\caption{The jet kinematic distributions}
 \label{jetFig}
 \end{figure}
 
 \section{b-jet identification}
-To identify the b jets  the properties that characterize hadrons are used
-containing the quark b.
-In fact these hadrons have a relatively large mass, around 5 GeV, and a long average life, about 1.5 ps. Given that they can
+To identify the b jets, the peculiarities that characterize hadrons
+containing the quark b are used.
+These hadrons have a relatively large mass, around 5 GeV, and a long lifetime, of about 1.5 ps. Given that they can
 have an impulse of several tens of GeV, the distance that they travel in the detector
 it is of the order of:
 \begin{eqnarray}
-\delta &\approx& t_{medio} \: v \approx \gamma \: \tau \: \beta  \: c  \nonumber \\
+  \delta &\approx& \langle t \rangle \: v \approx \gamma \: \tau \: \beta  \: c  \nonumber \\
  &\approx& 10 \cdot 1.5 \cdot 10^{-12} \mbox{s} \cdot 1 \cdot 3 \cdot 10^8 \: \mbox{m/s}   \nonumber \\
- &\approx& 5  \mbox{mm.} \end{eqnarray}
-A distance that can be measured since the accuracy of the position of the
+ &\approx& 5  \mbox{mm,} \end{eqnarray}
+a distance that can be measured since the accuracy of the position of the
 secondary vertices is $\sim$100 $\mu$m.
 The CMS collaboration has developed different algorithms to identify the jets coming from
   quarks b (b-tag algorithms). Each of these algorithms is characterized
-from a certain efficiency of signal identification (jets from b quark) and from the probability of
-reject the background (jet not from b quark), which in general depend on the transverse impulse,
-$p_T$, and from the pseudorapidity  of the jet. To build an observable (or discriminator) which distinguishes 
-the jets originated by b from those originating from light quark 
-is used to reconstructed objects such as, traces, vertices and leptons. 
-Some algorithms simple but reliable use a single observable in input, while others
-more complexes combine different ones to generate the discriminator. Each algorithm
-produces, in output, a single value of the discriminator for each jet of the event.
-The first step in identifying of b-jets is the reconstruction of all the jets present in the
-the event. As mentioned, the CMS collaboration uses for jet reconstruction
-the anti-$k_T$ algorithm, applied to Particle Flow objects. However the algorithms of
-identification require a sample with well reconstructed and high purity traces.
-Therefore further cuts to the traces of the jet are applied. First of all, to reduce
-the number of traces reconstructed incorrectly, a transverse pulse is required
-greater than 1 GeV and at least two signals in the silicon pixel detector. Then, at 
-least eight signals per track must be present with a fit that has a
- $\chi^2$/d.o.f. $<$5, where d.o.f. it is the number of degrees of freedom of the fit. It also applies
-also a selection on the impact parameters: this is used to increase
-the fraction of well reconstructed traces and to reduce the contamination due to long life particles like neutral kaons.
-The transverse distance $d_{xy}$ and longitudinal $d_z$ between the trace and the primary vertex
+by the efficiency of signal identification (i.e. to select jets from b quark) versus the probability of
+rejecting the background (jets that are not from b quark), which in general depend on the transverse impulse,
+$p_T$, and on the pseudorapidity of the jet. To build an observable (or discriminator) which can separate 
+jets originated by b from those originating from light quark 
+reconstructed objects such as tracks, vertices and leptons are used.
+Some simple algorithms use a single observable in input, while others,
+more complexes, combine several variables. Each algorithm
+produces, in output, a value of the discriminator for each jet of the event.
+The first step in identifying of b-jets is the reconstruction of all the jets in the
+the event, using, as mentioned, the anti-$k_T$ algorithm. However b-jet
+identification algorithms require a sample with well reconstructed and high purity tracks.
+Therefore further cuts to the tracks in the jet are applied. First of all, to reduce
+the number of tracks reconstructed incorrectly, transverse momentum must be 
+greater than 1 GeV and at least two hits must be present in the silicon pixel detector. Then, at 
+least eight hits per each track must be present and the fit must have 
+ $\chi^2$/d.o.f. $<$5, where d.o.f. it is the number of degrees of freedom.
+A selection is also applied on the impact parameter (see below): this is used to increase
+the fraction of well reconstructed tracks and to reduce the contamination due to long life particles like neutral kaons.
+The transverse distance $d_{xy}$ and longitudinal $d_z$ between the track and the primary vertex
 are required to be smaller than 0.2 cm and 17 cm respectively.
-In Fig.~\ref{bj}  it is
-was a schematic representation of the parameters used in the identification
-of the b jets.
+In Fig.~\ref{bj},  
+a schematic representation of the parameters used in the identification 
+of the b jets is given.
 \begin{figure}
 \centering
 \includegraphics[scale= 0.5]{../Cap4/btag}
@@ -530,77 +531,75 @@ of the b jets.
 The impact parameter (IP) of a track respect to the primary vertex, can be used to distinguish 
 the hadrons b decay  respect to background tracks (prompt). The IP is calculated in three dimensions 
 thanks to the excellent resolution of the pixel detector.
-The impact parameter has the same sign of the product scalar between the direction of the
-jet and the distance of the primary vertex from the nearest point of the trace. The traces
-produced by particles due to the decay of a hadron with a long average life
-they have a positive value of IP, while for the traces originated from the primary vertex
-(prompt) the IP will be both negative and positive.
-The variable used as observable is the significance of the parameter of
-pact, S$_{IP}$, defined as the relationship between IP and its estimated uncertainty. There
-significance of the impact parameter can therefore be used as a discriminant  between b and non-b jets.
-The Track Counting (TC) algorithm orders in significance
-IP traces of jets, from the highest to lowest. There are two different versions of this algorithm that
-they are distinguished on the basis of which significance value is taken into consideration:
-Track Counting High Efficiency (TCHE) uses the S$_{IP}$ of the second track , while the Track Counting High Purity (TCHP) use the third.
+The impact parameter has the same sign of the scalar product between the direction of the
+jet and the vector between the primary vertex and the nearest point of the track. The tracks
+due to the decay of a hadron with a long lifetime
+have a positive IP, while for tracks originated from the primary vertex
+the IP is equally negative or positive.
+The variable used as observable is the significance of the impact parameter, 
+S$_{IP}$, defined as the ratio between IP and its estimated uncertainty.
+% There
+%significance of the impact parameter can therefore be used as a discriminant  between b and non-b jets.
+The Track Counting (TC) algorithm orders according to their IP significance
+the tracks of the jet, from the highest to lowest. There are two versions of this algorithm that
+differ for which value of the IP significance is used as the discriminator:
+Track Counting High Efficiency (TCHE) uses the S$_{IP}$ of the second track, while the Track Counting High Purity (TCHP) uses the third.
 A natural extension of the TC algorithms is the combination of the several tracks impact points. 
-This is implemented in the Jet Probability (JP) and Jet algorithms
-B Probability (JBP). The former uses an estimator for the likelihood he evaluates
-which may be the probability that all traces associated with a jet come from
-from the vertex of primary interaction. The estimator of likelihood, P$_{jet}$, is defined
-such as,
+This is implemented in the Jet Probability (JP) and Jet
+B Probability (JBP) algorithms. The former uses an estimator for the likelihood that 
+all the tracks in the jet come
+from the primary vertex of the interaction. This estimator, P$_{jet}$, is defined as,
 \begin{equation}
 P_{jet}=\Pi \cdot \sum_{i=0} ^{N-1} \frac{(-\ln \Pi)^i}{i!} \qquad \mbox{con} \qquad \Pi= \prod_{i=0} ^{N}\mbox{max}(P_i, 0.005)  \mbox{,}\end{equation} 
-where N is the number of traces considered and P  the probability that the track is
+where N is the number of tracks considered and P  the probability that the track is
 originated in the primary vertex.
-Instead the JBP algorithm gives more weight to the tracks (up to a maximum of four) than
-they are connected to a jet from b; these are identified as they have a high level
-value of the significance of IP.
+Instead the JBP algorithm gives more weight to the tracks (up to a maximum of four) that have a high 
+value of the IP significance. 
 
 \subsection*{Secondary Vertex identification}
 The presence of a
 secondary vertex in the event and related variables  can be used
 to discriminate jets coming from a quark b respect to the others. The main variables associated with the secondary vertex are the distance, the flight direction
-with respect to the primary vertex, the mass and the energy of the particles associated to the traces
-secondary. To identify a secondary vertex it is required that:
+with respect to the primary vertex, the invariant mass and the energy of the tracks associated to 
+secondary vertex. To identify a secondary vertex it is required that:
 \begin{itemize}
-\item shares less than 65\% of its traces associated with the primary vertex and
+\item less than 65\% of its tracks are associated with the primary vertex and
 the significance of the radial distance between the two vertices is beyond 3$\sigma$;
-\item the flight distance of each candidate is in a cone with $\Delta R <$0.5 around
-to the direction of the jet;
-\item the secondary candidates who have a distance over
-per 2.5 cm above the primary vertex, both a mass compatible with
-that of K$_0$ or that in any case exceeds 6.5 GeV.
+\item the flight distance of each candidate is in a cone of $\Delta R <$0.5 around
+the jet direction;
+\item it has not a radial distance of more than 2.5 cm from the primary vertex and a mass compatible with
+that of K$_0$ or exceeding 6.5 GeV (this is needed to reduce contamination from long-lived mesons and interactions with the detector material).
 \end{itemize}
 The Simple Secondary Vertex (SSV) algorithm uses as a discriminating variable 
-the significance of the flight distance, given by the distance ratio of
-flight with its uncertainty. Similar to the TC algorithm, there are two versions
-of SSV: High Efficiency (SSVHE) which uses vertices to which they are associated at least
-two tracks, and High Purity (SSVHP) that requires at least three tracks.
+the significance of the flight distance, given by the ratio of the flight distance to its uncertainty. 
+Similar to the TC algorithm, there are two versions
+of SSV: High Efficiency (SSVHE) which uses vertices to which there are at least
+two associated tracks, and High Purity (SSVHP) that requires at least three associated tracks.
 There are more complicated algorithms that consider the secondary vertices together with the
-information on the average life. This makes it possible to construct a discriminant
-even when there is no secondary summit, increasing efficiency in terms of
-to SSV; two of these algorithms are the Combined Secondary Vertex (CSV) and the
+information on the lifetime. This makes possible to construct a discriminant
+even when there is no secondary vertex, increasing efficiency with respect to 
+SSV; two of these algorithms are the Combined Secondary Vertex (CSV) and the
 Combined Secondary Vertex Version 2 + Inclusive Vertex Finder (CSVV2IVF).
-The difference between the two is that the CSV algorithm uses to reconstruct the vertices share information from jets while the CSVV2IVF algorithm uses
+The difference between the two is that the CSV algorithm uses information from the jets only to reconstruct the vertices while the CSVV2IVF algorithm uses
 all the tracks present in the event.
-Moreover, in general, there are some variables that are not very related to each other and that
-they can be used as good discriminators that are:
-\begin{itemize}
-\item the category of vertices;
-\item the significance of the flight distance in the transverse plane;
-\item the mass of the vertex;
-\item the number of vertex tracks;
-\item the ratio between the energy carried by a track and the other jet tracks;
-\item the pseudorapidity of the track;
-\item the number of traces in the jet.
-\end{itemize}
+%In addition there are some other variables that
+%can be used to increase the discrimination power
+%\begin{itemize}
+%\item the category of vertices;
+%\item the significance of the flight distance in the transverse plane;
+%\item the mass of the vertex;
+%\item the number of vertex tracks;
+%\item the ratio between the energy carried by a track and the other jet tracks;
+%\item the pseudorapidity of the track;
+%\item the number of tracks in the jet.
+%\end{itemize}
 
 \subsection*{b-tag performance in $X \to WW$ analysis}
 In order to assess which tagger and working point are performing better, we have calculated
-the signal significance for different taggers and working points in the 0 and 1 jet categories,
-which are the most sensitive to the dominant gluon fusion production mode. The significance
-has been computed running the full analysis but including only the systematic uncertainties
-associated to the b tagging scale factors. The results are shown in Tab.~\ref{btt}.
+the signal significance for different taggers and working points in events with 0 or 1 jet with $p_T>$30  GeV, 
+which are the most sensitive to the dominant gluon fusion production mode. In events with 0 jets with $p_T>$30  GeV, the b-tag algorithm is applied to jets with 20$< p_T <$30 GeV, if any. The significance
+has been computed running the full analysis for the Higgs at 125 GeV mass point,  but including only the systematic uncertainties
+associated to the b-tagging. The results are shown in Tab.~\ref{btt}.
 The results show that the usage of CMVA (loose WP) or Deep CSV (medium WP) leads to a
 comparable signal significance in the combined 0+1 jet category. The CMVA tagger with loose
 WP has been found to be the best option for the analysis, given the good performance and the
@@ -619,8 +618,7 @@ the significance evaluation.}
 \includegraphics[scale= 0.4]{../Cap4/cmvaT}
 \caption{CMVA discriminator for jets above 30 GeV (a) and between 20 and 30 GeV (b) in a
 top enriched control region, after applying the scale factors. The top background normalization
-is scaled to match data. The systematics band comprises only the uncertainties related to the b
-tagging scale factors.}
+is scaled to match data. The systematics band comprises only the uncertainties related to the b-tagging.}
 \label{cmvaT}
 \end{figure}
 
@@ -629,7 +627,7 @@ tagging scale factors.}
 \includegraphics[scale= 0.4]{../Cap4/cmvaD}
 \caption{CMVA discriminator for jets between 20 and 30 GeV (a) and above 30 GeV (b) in the
 Z enriched control region. The normalization of the DY background is scaled to match data.
-The systematics band comprises only the uncertainties related to the b tagging scale factors..}
+The systematics band comprises only the uncertainties related to the b-tagging.}
 \label{cmvaD}
 \end{figure}
 
@@ -638,22 +636,21 @@ The longitudinal momentum (along the beam axis) in the collision is not known, s
 energy is impossible.
 However the initial transverse momentum, carried by the incoming partons, is zero, so in the final state of the collision, for the conservation of the momentum
 components, the sum of momenta of all the particles must be zero.
-If a missing transverse momentum, $\vec{p_T^{miss}}$, in the transverse plane is present, it is the evidence of invisible particles, such as neutrinos particles predicted by some BSM models.
-The $\vec{p_T^{miss}}$ is defined as,
+If a missing transverse momentum, $\vec{p_T^{miss}}$, in the transverse plane is present, it is the evidence of invisible particles, such as neutrinos or other weakly interacting particles predicted by some BSM models.
+The $\vec{p_T}^{\: miss}$ is defined as,
 \begin{equation}
 \vec{p}_T^{\: miss}= -\sum_{PF\: Objs} \vec{p}_T^{\:PF \: Obj} \: ,
 \end{equation}
-where the sum extends over all the PF objects. The $\vec{p_T^{miss}}$ is the  negative
-vectorial sum of transverse momenta of all reconstructed PF objects, and its module is called missing transverse energy, $E_T^{miss}=|\vec{p_T^{miss}}|$.
-As inefficiencies of the tracking algorithm, minimal thresholds in the calorimeter energy
+where the sum extends over all the PF objects. The module of $\vec{p_T}^{\: miss}$ is usually referred to as missing transverse energy, $E_T^{miss}=|\vec{p_T^{miss}}|$.
+Inefficiencies of the tracking algorithm, minimal thresholds in the calorimeter energy
 estimation, and nonlinearities of the energy response of the calorimeters for hadronic parti-
-cles can introduce a bias in the $\vec{p_T^{miss}}$ determination, a correction is applied by propagating
-to the $\vec{p_T^{miss}}$ sum the jet energy corrections,  in according as,
+cles can introduce a bias in the $\vec{p_T}^{\: miss}$. A correction is applied by propagating
+the jet energy corrections to the $\vec{p_T}^{\: miss}$ formula:
 \begin{equation}
-\vec{p}_T^{\:miss \: correction}= \vec{p}_T^{\:miss} -\sum_{Jets}( \vec{p}_T^{\:Corr} -\vec{p}_T) \: ,
+\vec{p}_T^{\:miss \: corr}= \vec{p}_T^{\:miss} -\sum_{Jets}( \vec{p}_T^{\:JEC} -\vec{p}_T) \: ,
 \end{equation}
 where the superscript JEC refers to corrected jets.
-To estimate the $E_T^{miss}$  systematic uncertainty we have considered the following sources:
+To estimate the $E_T^{miss}$  systematic uncertainty, the following sources have been taken into account:
 \begin{itemize}
 \item jet $p_T$;
 \item jet resolution;
@@ -661,16 +658,18 @@ To estimate the $E_T^{miss}$  systematic uncertainty we have considered the foll
 \item electron $p_T$;
 \item unclustered energy.
 \end{itemize}
-The $E_T^{miss}$ has been computated varying each of these uncertainties and added in quadrature the
-differences with respect to the nominal value. For the $\phi$ uncertainty has been taken as the largest
-$\phi$ variation.
-The distributions of various  $E_T^{miss}$ variables, in the electron-muon channel, are shown in Fig.~\ref{met}
+The $E_T^{miss}$ systematic uncertainty has been computed varying each of these uncertainties and addeding in quadrature the
+difference with respect to the nominal value. For the $\phi$ uncertainty, the largest
+$\phi$ variation has been used.
+The distributions of various  $E_T^{miss}$ variables, in a Drell-Yan enriched sample, are shown in Fig.~\ref{met}
 \begin{figure}
 \centering
 \includegraphics[scale= 0.8]{../Cap4/met}
-\caption{The  $E_T^{miss}$ filters efficiencies for 35.9 fb$^{-1}$ of 2016 data. The common requirements for
-the distributions before filters (solid histogram) and after filters (black points) are the trigger
-and two tight leptons.}
+\caption{
+%The  $E_T^{miss}$ filters efficiencies for 35.9 fb$^{-1}$ of 2016 data. The common requirements for
+%the distributions before filters (solid histogram) and after filters (black points) are the trigger
+%and two tight leptons.
+}
 \label{met}
 \end{figure}
 
@@ -684,9 +683,9 @@ are also present at much smaller level. Events in which W bosons are produced in
 with jets give rise to background to WW events when a jet is misidentified as a lepton. These
 events contain a real lepton and real missing energy from the W decay. With the jet misidentified 
 as a lepton, the W+Jets events have two identified leptons, missing energy, and no other
-significant event characteristics. As a result, the W+Jets events cannot be readily suppressed
+significant event characteristics. As a result, the W+Jets events cannot be easily suppressed
 by event selection. This background is particularly important at low $p_T$.
-The estimation of the fake lepton contribution is based on the ``fakeable objet'' data-driven
+The estimation of the fake lepton contribution is based on the ``fakeable object'' data-driven
 method and provides a measurement of the yield and the kinematic distributions of fake background. 
 It is a general technique, applicable to any physics analysis in which particle level
 selection criteria are used to suppress background. The method can be used with any number
