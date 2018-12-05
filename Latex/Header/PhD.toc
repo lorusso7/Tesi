@@ -3,50 +3,51 @@
 \contentsline {section}{\numberline {1.1}Phenomenology of the Standard Model}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}The Higgs Boson}{5}{section.1.2}
 \contentsline {section}{\numberline {1.3}New Scalar Particles}{12}{section.1.3}
-\contentsline {chapter}{\numberline {2}The CMS experiment at LHC}{23}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{23}{section.2.1}
-\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid experiment}{24}{section.2.2}
-\contentsline {section}{\numberline {2.3}Data samples and future plans}{33}{section.2.3}
-\contentsline {chapter}{\numberline {3}Monte Carlo Generators}{37}{chapter.3}
-\contentsline {section}{\numberline {3.1}General Overview}{37}{section.3.1}
-\contentsline {section}{\numberline {3.2}Hard process}{39}{section.3.2}
-\contentsline {section}{\numberline {3.3}Parton shower}{41}{section.3.3}
-\contentsline {section}{\numberline {3.4}Multiple Interaction}{46}{section.3.4}
-\contentsline {section}{\numberline {3.5}Hadronization }{46}{section.3.5}
-\contentsline {section}{\numberline {3.6}Hadronic Decays and Electromagnetic Radiation.}{49}{section.3.6}
-\contentsline {section}{\numberline {3.7}Jets}{49}{section.3.7}
-\contentsline {section}{\numberline {3.8}Main Monte Carlo generators }{49}{section.3.8}
-\contentsline {section}{\numberline {3.9}Monte Carlo samples in High Mass Analysis}{51}{section.3.9}
-\contentsline {chapter}{\numberline {4}Event Reconstruction}{57}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Particle Flow}{57}{section.4.1}
-\contentsline {section}{\numberline {4.2}Tracking}{58}{section.4.2}
-\contentsline {section}{\numberline {4.3}Calorimeter clusters}{60}{section.4.3}
-\contentsline {section}{\numberline {4.4}Link algorithm}{61}{section.4.4}
-\contentsline {section}{\numberline {4.5}Lepton reconstruction and identification}{61}{section.4.5}
-\contentsline {section}{\numberline {4.6}Jet reconstruction and identification}{64}{section.4.6}
-\contentsline {section}{\numberline {4.7}b-jet identification}{68}{section.4.7}
-\contentsline {section}{\numberline {4.8}The Missing Transverse Energy}{70}{section.4.8}
-\contentsline {section}{\numberline {4.9}Fake Lepton Background Estimation}{72}{section.4.9}
-\contentsline {chapter}{\numberline {5}High mass resonances searching}{75}{chapter.5}
-\contentsline {section}{\numberline {5.1}An introduction to the $X$ to $WW$ analysis }{75}{section.5.1}
-\contentsline {section}{\numberline {5.2}Discriminating variable}{76}{section.5.2}
-\contentsline {section}{\numberline {5.3}Signal interpretation: EW singlet, 2HDM and MSSM}{78}{section.5.3}
-\contentsline {section}{\numberline {5.4}Study of the Interference effects}{80}{section.5.4}
-\contentsline {section}{\numberline {5.5}Main Background processes}{82}{section.5.5}
-\contentsline {section}{\numberline {5.6}Data sample and Triggers}{84}{section.5.6}
-\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{87}{section.5.7}
-\contentsline {section}{\numberline {5.8}Same Flavor final state}{100}{section.5.8}
-\contentsline {section}{\numberline {5.9}Systematic uncertainties}{110}{section.5.9}
-\contentsline {chapter}{\numberline {6}Semileptonic final state}{115}{chapter.6}
-\contentsline {section}{\numberline {6.1}General overview}{115}{section.6.1}
-\contentsline {section}{\numberline {6.2}Jets for Boosted and Resolved selection}{116}{section.6.2}
-\contentsline {section}{\numberline {6.3}Event categorisation}{118}{section.6.3}
-\contentsline {section}{\numberline {6.4}Backgrounds}{119}{section.6.4}
-\contentsline {section}{\numberline {6.5}Systematic uncertainties}{119}{section.6.5}
-\contentsline {chapter}{\numberline {7}Results and Interpretation}{123}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical interpretation}{123}{section.7.1}
-\contentsline {section}{\numberline {7.2}Fully leptonic results}{125}{section.7.2}
-\contentsline {section}{\numberline {7.3}Results for the combination of fully- and semi-leptonic analysis}{126}{section.7.3}
-\contentsline {chapter}{\numberline {A}Boost-invariant variables}{131}{appendix.A}
-\contentsline {chapter}{\numberline {B}Parton Distribution Function}{133}{appendix.B}
-\contentsline {chapter}{\numberline {C}Electron Efficiencies from Tag and Probe Method}{135}{appendix.C}
+\contentsline {section}{\numberline {1.4}The WW decay channel for high mass Higgs-like particles}{18}{section.1.4}
+\contentsline {chapter}{\numberline {2}The CMS experiment at LHC}{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{25}{section.2.1}
+\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid experiment}{26}{section.2.2}
+\contentsline {section}{\numberline {2.3}Data samples and future plans}{35}{section.2.3}
+\contentsline {chapter}{\numberline {3}Monte Carlo Generators}{39}{chapter.3}
+\contentsline {section}{\numberline {3.1}General Overview}{39}{section.3.1}
+\contentsline {section}{\numberline {3.2}Hard process}{41}{section.3.2}
+\contentsline {section}{\numberline {3.3}Parton shower}{43}{section.3.3}
+\contentsline {section}{\numberline {3.4}Multiple Interaction}{48}{section.3.4}
+\contentsline {section}{\numberline {3.5}Hadronization }{48}{section.3.5}
+\contentsline {section}{\numberline {3.6}Hadronic Decays and Electromagnetic Radiation.}{51}{section.3.6}
+\contentsline {section}{\numberline {3.7}Jets}{51}{section.3.7}
+\contentsline {section}{\numberline {3.8}Main Monte Carlo generators }{51}{section.3.8}
+\contentsline {section}{\numberline {3.9}Monte Carlo samples in High Mass Analysis}{53}{section.3.9}
+\contentsline {chapter}{\numberline {4}Event Reconstruction}{59}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Particle Flow}{59}{section.4.1}
+\contentsline {section}{\numberline {4.2}Tracking}{60}{section.4.2}
+\contentsline {section}{\numberline {4.3}Calorimeter clusters}{62}{section.4.3}
+\contentsline {section}{\numberline {4.4}Link algorithm}{63}{section.4.4}
+\contentsline {section}{\numberline {4.5}Lepton reconstruction and identification}{63}{section.4.5}
+\contentsline {section}{\numberline {4.6}Jet reconstruction and identification}{67}{section.4.6}
+\contentsline {section}{\numberline {4.7}b-jet identification}{69}{section.4.7}
+\contentsline {section}{\numberline {4.8}The Missing Transverse Energy}{72}{section.4.8}
+\contentsline {section}{\numberline {4.9}Fake Lepton Background Estimation}{74}{section.4.9}
+\contentsline {chapter}{\numberline {5}High mass resonances searching}{77}{chapter.5}
+\contentsline {section}{\numberline {5.1}An introduction to the $X$ to $WW$ analysis }{77}{section.5.1}
+\contentsline {section}{\numberline {5.2}Discriminating variable}{78}{section.5.2}
+\contentsline {section}{\numberline {5.3}Signal interpretation: EW singlet, 2HDM and MSSM}{80}{section.5.3}
+\contentsline {section}{\numberline {5.4}Study of the Interference effects}{82}{section.5.4}
+\contentsline {section}{\numberline {5.5}Main Background processes}{84}{section.5.5}
+\contentsline {section}{\numberline {5.6}Data sample and Triggers}{86}{section.5.6}
+\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{89}{section.5.7}
+\contentsline {section}{\numberline {5.8}Same Flavor final state}{102}{section.5.8}
+\contentsline {section}{\numberline {5.9}Systematic uncertainties}{112}{section.5.9}
+\contentsline {chapter}{\numberline {6}Semileptonic final state}{117}{chapter.6}
+\contentsline {section}{\numberline {6.1}General overview}{117}{section.6.1}
+\contentsline {section}{\numberline {6.2}Jets for Boosted and Resolved selection}{118}{section.6.2}
+\contentsline {section}{\numberline {6.3}Event categorisation}{120}{section.6.3}
+\contentsline {section}{\numberline {6.4}Backgrounds}{121}{section.6.4}
+\contentsline {section}{\numberline {6.5}Systematic uncertainties}{121}{section.6.5}
+\contentsline {chapter}{\numberline {7}Results and Interpretation}{125}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical interpretation}{125}{section.7.1}
+\contentsline {section}{\numberline {7.2}Fully leptonic results}{127}{section.7.2}
+\contentsline {section}{\numberline {7.3}Results for the combination of fully- and semi-leptonic analysis}{128}{section.7.3}
+\contentsline {chapter}{\numberline {A}Boost-invariant variables}{133}{appendix.A}
+\contentsline {chapter}{\numberline {B}Parton Distribution Function}{135}{appendix.B}
+\contentsline {chapter}{\numberline {C}Lepton Efficiencies from Tag and Probe Method}{137}{appendix.C}

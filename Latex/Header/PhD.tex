@@ -49,7 +49,7 @@
 This thesis presents a search for a possible heavy Higgs boson, $X$, decaying into a pair of $W$
 bosons, in the mass range from 200 GeV to 3 TeV. The analysis is based on proton-proton 
 collisions recorded by the CMS experiment at the CERN LHC in 2016, corresponding to an integrated luminosity of 
-35.9 fb$^{-1}$  at $\sqrt{s}=$13 TeV. The W boson pair decays are reconstructed in the $2\ell 2\nu$  final states. 
+35.9 fb$^{-1}$  at $\sqrt{s}=$13 TeV. The W boson pair decays are reconstructed in the $2\ell 2\nu$  and $\ell\nu q \bar{q}$ final states. 
 Both gluon fusion and electroweak production of the scalar resonance are considered. 
 Dedicated event categorizations, based on the kinematic properties of the final states, are employed for an
 optimal signal-to-background separation. 
@@ -74,24 +74,26 @@ early Run-II data in many different decay channels and upper limits on its cross
 With the full 2016 data collected by CMS experiment at $\sqrt{s}=$13 TeV, approximately  36 fb$^{-1}$, 
 it is now possible to set very tight upper limits on high mass Higgs boson cross section. 
 One of the most sensitive decay channels, for masses above 200 GeV, is to a pair of W bosons. 
-The fully leptonic, 2$\ell$2$\nu$,  final state (with $\ell =$ e or $\mu$) is considered in this analysis.
+The fully leptonic, 2$\ell$2$\nu$,  and the semi leptonic, $\ell \nu q \bar{q}$ final state (with $\ell =$ e or $\mu$), are considered in this analysis.
 The fully leptonic channel has a clear signature due to the presence of the two isolated leptons and moderate missing-transverse-energy (MET) that provides indirect evidence of the neutrinos presence.
+For the semi leptonic channel the leptonically decaying boson is reconstructed as a single isolated lepton and MET.
+If the hadronic decay products are resolved then the boson decay products may be reconstructed using two quark-jets
 The search is performed in a wide range of masses from 200 GeV up to 3 TeV.
-The  events are classified in four different categories, optimised for the gluon-gluon fusion and for the vector-boson fusion (VBF) production mechanisms.
+The  events are classified in  different categories, optimised for the gluon-gluon fusion and for the vector-boson fusion (VBF) production mechanisms.
 The signal is interpreted in terms of the electroweak (EW) singlet model, including a detailed simulation of the interference between $X$ signal, SM Higgs boson  and $WW$ backgrounds.
 In addition, since  Two-Higgs-doublet models (2HDM)  are a well motivated extension of the SM, a final interpretation of the results in term of 2HDM models is also performed.\\
 \newline
 The general picture of the SM,  the relative open question and the Higgs boson sector  are described in the first chapter, Cap.~\ref{cap1}. 
 The  Electroweak  Singlet model and Two Higgs Doublet Models, used in this analysis, are also introduced in the same chapter. 
-A particular attention is given to the high mass particle, $X$,  in  $WW \to 2\ell 2 \nu$ (fully-leptonic) final state.
+%A particular attention is given to the high mass particle, $X$,  in  $WW \to 2\ell 2 \nu$ (fully-leptonic) final state.
 In Cap.~\ref{cap2}, the Compact Muon Solenoid (CMS) experiment at the CERN Large Hadron Collider (LHC) is described, focusing the attention on its
 components, useful to reconstruct the hunted final objects (leptons and hadrons).
 Due to the complexity of  hadron-hadron collision at LHC, Monte Carlo generators are used to simulate the realistic result of such  collisions. 
 The various simulations steps and the review of the main Monte Carlo generators are presented in Cap.~\ref{cap3}.
-The reconstructed objects and the identification algorithms used to obtain the high level objects, targeting in the analysis, is illustrated in Cap.~\ref{cap4}.
-In the Cap.~\ref{cap5}, starting from the reconstructed objects, the analysis strategy for high mass in 2$\ell$2$\nu$ final state  is described, focusing the attention on the signal  modellization and identification.
-Following the semi-leptonic final state  analysis is descried, Cap.~\ref{cap6}.
-The results for the the fully- and same-leptonic analysis including their combination are shown in Cap.~\ref{cap7}.
+The reconstructed objects and the identification algorithms used to obtain the high level objects, targeting in the analysis, are illustrated in Cap.~\ref{cap4}.
+In the Cap.~\ref{cap5}, starting from the reconstructed objects, the analysis strategy for fully leptonic final state  is described, focusing the attention on the signal  modellization and signal identification.
+Following the semi leptonic final state  analysis is descried, Cap.~\ref{cap6}.
+The results for the the fully leptonic and same leptonic analysis including their combination are shown in Cap.~\ref{cap7}.
 The analysis is under review of the CMS collaboration and it is targeting to journal publication in the first months of 2019.\\
 \newline
 This work is partially funded by MIUR Italy, under contract 2012Z23ERZ of PRIN 2012, ``H-TEAM: Trigger, Elettronica Avanzata e Metodi innovativi per misure di precisione nel settore dell’ Higgs ad LHC''.
@@ -148,7 +150,7 @@ where  $\hat{\sigma}$ is the partonic cross section, $x_1$ and  $x_2$ are the tr
 parton distribution function (PDF) giving the probability that a parton has a $x$ momentum fraction of the incoming proton,  $\mu_F$ is the factorization scale.
 The PDF are evaluated via experiments, and their evolution is evaluated with perturbative method, following the Altarelli-Parisi equations (DGLAP)~\cite{Altarelli:1977zs}.
 
-\chapter{Electron  Efficiencies from Tag and Probe Method}
+\chapter{Lepton  Efficiencies from Tag and Probe Method}
 \label{TP}
 One of the well established data-driven approach for measuring the particle efficiencies is the
 so called Tag and Probe method. The Tag and probe method uses a known mass resonance (e.g. $J/\Psi$, $Z$) to select particles of the desired type, and probe the efficiency of a particular
@@ -163,25 +165,70 @@ such as fitting, or sideband subtraction. The definition of the probe objects de
 \begin{equation}
 \epsilon=\frac{N_{Pass}^{Probes}}{N_{Pass}^{Probes}+N_{Fail}^{Probes}}
 \end{equation}
-This method is used here to get the Identification efficiency of electrons. In this case, the Tag is a
-well identified and isolated electron which also made to pass an electron Trigger to increase the
+
+\subsection*{Electrons} 
+This method is used here to get the identification efficiency of electrons. In this case, the Tag is a
+well identified and isolated electron which also made to pass an electron trigger to increase the
 purity. Once the Tag electron is selected then we look for another object which is reconstructed
-as electron. After passing some kinematical selection, we form the total probe selection. The in-
-variant mass of the pair is then reconstructed from Tag and Probe electron and a Z boson mass
+as electron. After passing some kinematical selection, we form the total probe selection. The invariant 
+mass of the pair is then reconstructed from Tag and Probe electron and a Z boson mass
 window is imposed. After that, we ask the Probe to pass the Id working point to be checked
 and compute the efficiency. This is done for both data and MC. Once we get the efficiency
 for both data and MC then we compute the scale factors, which are the ratio of efficiencies of
 Data and MC. These scale factors are used then in the analysis to scale the MC to correct the
-difference in efficiencies between data and MC. The Pile-Up reweighting is also applied on MC
-during the computation of efficiencies. A MC truth matching has also been applied in case of
+difference in efficiencies between data and MC. 
+The Pile-Up reweighting is also applied on MC during the computation of efficiencies. 
+A MC truth matching has also been applied in case of
 the computation using simulation. There are basically two methods to estimate the efficiencies.
-One is the Counting Method and the other is the Fitting Method. The counting method is used
+One is the \textit{counting method} and the other is the \textit{fitting method}. The counting method is used
 when there is less background. We are computing efficiencies with loose Z mass window and
-hence there is a possibility of background contamination under the Z peak. Hence, proper han-
-dling of background becomes important. In order to take into account the effect of background,
-the Fitting method has been used to estimate the efficiency.
+hence there is a possibility of background contamination under the Z peak. 
+Hence, proper handling of background becomes important. In order to take into account the effect of background,
+the fitting method has been used to estimate the efficiency.
 
+The Drell-Yan Monte Calro sample is used as a default one. Tag and Probe pairs are then selected using Z mass window of 60 to 120 GeV.
+If there exist more than one pair then the one whose invariant mass closer to Z pole mass has been selected.
+The efficiencies have been computed as a function of $p_T$ and $\eta$ of electron.
+For signal
+fitting, MC templates are derived from the simulated sample in the Z mass range 60 to 120
+GeV in  $p_T$ and $\eta$ bins.
+The MC Templates are then smeared using Gaussian function. For the
+background fitting a function, that is combination of
+an exponential function and an error function, has been used.
+The exponential decay distribution becomes
+active at high mass beyond the Z peak and the error function takes over at low masses due to
+threshold effect.
+A fit examples for all $p_T$ bins is shown in Fig.~\ref{ac}
+\begin{figure}
+\centering
+\includegraphics[scale= 0.5]{tpe}
+\caption{Fits for $p_T$ bin (35-50) GeV and $\eta$ in (-2.5,-2.0) bin.}
+\label{ac}
+\end{figure}
 
+\subsection*{Muons} 
+The muon ID and Isolation efficiency is studied and compared to the prediction of MC in order
+to understand if a correction is needed. The muon efficiency is obtained as
+
+\begin{equation}
+\epsilon_{\mu} = \epsilon_{TRK} \times \epsilon_{TightHWW} \times \epsilon_{ISO_Tight} \; ,
+\end{equation}
+\newline
+where $ \epsilon_{TRK}$ is the tracker (TRK) muon efficiency.  
+The $ \epsilon_{TightHWW} $ muon efficiency
+under the assumption that the muon passes the selections summarized in  Tab.~\ref{IDm}.
+The $\epsilon_{ISO_Tight}$ is the efficiency of the isolation criteria under the assumption that the muon passes the same selection.
+The $\epsilon_{TightHWW}$ and $ \epsilon_{ISO_Tight}$ are determined  using the tag-and-probe method. 
+The tag muon is obtained by applying  the kinematic selections and in addition 
+ is required to match to the trigger using the isolated muon with $p_T>20$ GeV.
+The probe muon  is requested to pass the selection and the isolation described.
+ After that it is checked if the probe muon is matched to the muon trigger. 
+
+In general the efficiencies are relatively high due to the lower cut on $p_T$ and the looser cut on
+isolation in the double lepton trigger compared to single muon trigger. Their values on the
+plateau are around 93\%-99\%.
+
+%%################################
 \bibliographystyle{unsrt} % BibTeX style
 \bibliography{AN-17-243} % BibTeX database without .bib extension
 \end{document}

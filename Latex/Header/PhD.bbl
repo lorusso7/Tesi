@@ -324,6 +324,16 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
   simulations}.
 \newblock {\em JHEP}, 07:079, 2014.
 
+\bibitem{CMS-PAS-HIG-16-021}
+{Higgs to WW measurements with $15.2~\mathrm{fb}^{-1}$ of 13 TeV proton-proton
+  collisions}.
+\newblock Technical Report CMS-PAS-HIG-16-021, CERN, Geneva, 2017.
+
+\bibitem{CMS-PAS-HIG-16-042}
+{Measurements of properties of the Higgs boson decaying to a W boson pair in pp
+  collisions at $\sqrt{s}=13~{\rm TeV}$}.
+\newblock Technical Report CMS-PAS-HIG-16-042, CERN, Geneva, 2018.
+
 \bibitem{CMS-PAS-PFT-09-001}
 {Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
   MET}.
@@ -357,6 +367,20 @@ A.~M. Sirunyan et~al.
 \newblock {Particle-flow reconstruction and global event description with the
   CMS detector}.
 \newblock {\em JINST}, 12(10):P10003, 2017.
+
+\bibitem{Cacciari:2007fd}
+Matteo Cacciari and Gavin~P. Salam.
+\newblock {Pileup subtraction using jet areas}.
+\newblock {\em Phys. Lett.}, B659:119--126, 2008.
+
+\bibitem{CMS-PAS-JME-14-001}
+{Pileup Removal Algorithms}.
+\newblock Technical Report CMS-PAS-JME-14-001, CERN, Geneva, 2014.
+
+\bibitem{Chatrchyan:2012jua}
+Serguei Chatrchyan et~al.
+\newblock {Identification of b-quark jets with the CMS experiment}.
+\newblock {\em JINST}, 8:P04013, 2013.
 
 \bibitem{Gori:2130983}
 Stefania Gori, Ian-Woo Kim, Nausheen~R. Shah, and Kathryn~M. Zurek.
