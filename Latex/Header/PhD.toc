@@ -29,25 +29,25 @@
 \contentsline {section}{\numberline {4.8}The Missing Transverse Energy}{72}{section.4.8}
 \contentsline {section}{\numberline {4.9}Fake Lepton Background Estimation}{74}{section.4.9}
 \contentsline {chapter}{\numberline {5}High mass resonances searching}{77}{chapter.5}
-\contentsline {section}{\numberline {5.1}An introduction to the $X$ to $WW$ analysis }{77}{section.5.1}
-\contentsline {section}{\numberline {5.2}Discriminating variable}{78}{section.5.2}
-\contentsline {section}{\numberline {5.3}Signal interpretation: EW singlet, 2HDM and MSSM}{80}{section.5.3}
-\contentsline {section}{\numberline {5.4}Study of the Interference effects}{82}{section.5.4}
-\contentsline {section}{\numberline {5.5}Main Background processes}{84}{section.5.5}
-\contentsline {section}{\numberline {5.6}Data sample and Triggers}{86}{section.5.6}
-\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{89}{section.5.7}
-\contentsline {section}{\numberline {5.8}Same Flavor final state}{102}{section.5.8}
-\contentsline {section}{\numberline {5.9}Systematic uncertainties}{112}{section.5.9}
-\contentsline {chapter}{\numberline {6}Semileptonic final state}{117}{chapter.6}
-\contentsline {section}{\numberline {6.1}General overview}{117}{section.6.1}
-\contentsline {section}{\numberline {6.2}Jets for Boosted and Resolved selection}{118}{section.6.2}
-\contentsline {section}{\numberline {6.3}Event categorisation}{120}{section.6.3}
-\contentsline {section}{\numberline {6.4}Backgrounds}{121}{section.6.4}
-\contentsline {section}{\numberline {6.5}Systematic uncertainties}{121}{section.6.5}
-\contentsline {chapter}{\numberline {7}Results and Interpretation}{125}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical interpretation}{125}{section.7.1}
-\contentsline {section}{\numberline {7.2}Fully leptonic results}{127}{section.7.2}
-\contentsline {section}{\numberline {7.3}Results for the combination of fully- and semi-leptonic analysis}{128}{section.7.3}
-\contentsline {chapter}{\numberline {A}Boost-invariant variables}{133}{appendix.A}
-\contentsline {chapter}{\numberline {B}Parton Distribution Function}{135}{appendix.B}
-\contentsline {chapter}{\numberline {C}Lepton Efficiencies from Tag and Probe Method}{137}{appendix.C}
+\contentsline {section}{\numberline {5.1}Overview of the fully leptonic analysis }{77}{section.5.1}
+\contentsline {section}{\numberline {5.2}Main Background processes}{78}{section.5.2}
+\contentsline {section}{\numberline {5.3}Lepton Efficiencies from Tag and Probe Method}{80}{section.5.3}
+\contentsline {section}{\numberline {5.4}Triggers and Data sample}{81}{section.5.4}
+\contentsline {section}{\numberline {5.5}Study of the Interference effects}{84}{section.5.5}
+\contentsline {section}{\numberline {5.6}Discriminating variable}{84}{section.5.6}
+\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{88}{section.5.7}
+\contentsline {section}{\numberline {5.8}Same Flavor final state}{101}{section.5.8}
+\contentsline {section}{\numberline {5.9}Systematic uncertainties}{111}{section.5.9}
+\contentsline {chapter}{\numberline {6}Semileptonic final state}{115}{chapter.6}
+\contentsline {section}{\numberline {6.1}Overview of the semi leptonic analysis}{115}{section.6.1}
+\contentsline {section}{\numberline {6.2}Jets for Boosted and Resolved selection}{116}{section.6.2}
+\contentsline {section}{\numberline {6.3}Event categorisation}{118}{section.6.3}
+\contentsline {section}{\numberline {6.4}Backgrounds}{118}{section.6.4}
+\contentsline {section}{\numberline {6.5}Systematic uncertainties}{120}{section.6.5}
+\contentsline {chapter}{\numberline {7}Results and Interpretation}{123}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical interpretation}{123}{section.7.1}
+\contentsline {section}{\numberline {7.2}Signal interpretation: EW singlet, 2HDM and MSSM}{125}{section.7.2}
+\contentsline {section}{\numberline {7.3}Fully leptonic results}{128}{section.7.3}
+\contentsline {section}{\numberline {7.4}Results for the combination of fully- and semi-leptonic analysis}{129}{section.7.4}
+\contentsline {chapter}{\numberline {A}Boost-invariant variables}{135}{appendix.A}
+\contentsline {chapter}{\numberline {B}Parton Distribution Function}{137}{appendix.B}

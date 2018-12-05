@@ -382,6 +382,45 @@ Serguei Chatrchyan et~al.
 \newblock {Identification of b-quark jets with the CMS experiment}.
 \newblock {\em JINST}, 8:P04013, 2013.
 
+\bibitem{Ellis:2012wg}
+John Ellis and Dae~Sung Hwang.
+\newblock {Does the `Higgs' have Spin Zero?}
+\newblock {\em JHEP}, 09:071, 2012.
+
+\bibitem{combine}
+
+
+\bibitem{Boughezal:2013oha}
+Radja Boughezal, Xiaohui Liu, Frank Petriello, Frank~J. Tackmann, and
+  Jonathan~R. Walsh.
+\newblock {Combining Resummed Higgs Predictions Across Jet Bins}.
+\newblock {\em Phys. Rev.}, D89(7):074044, 2014.
+
+\bibitem{Thaler:2011gf}
+Jesse Thaler and Ken Van~Tilburg.
+\newblock {Maximizing Boosted Top Identification by Minimizing N-subjettiness}.
+\newblock {\em JHEP}, 02:093, 2012.
+
+\bibitem{Bertolini2014}
+Daniele Bertolini, Philip Harris, Matthew Low, and Nhan Tran.
+\newblock Pileup per particle identification.
+\newblock {\em Journal of High Energy Physics}, 2014(10):59, Oct 2014.
+
+\bibitem{cowan1998statistical}
+G.~Cowan.
+\newblock {Statistical data analysis}.
+\newblock 1998.
+
+\bibitem{CMS-NOTE-2011-005}
+{Procedure for the LHC Higgs boson search combination in Summer 2011}.
+\newblock (CMS-NOTE-2011-005. ATL-PHYS-PUB-2011-11), Aug 2011.
+
+\bibitem{Cowan:2010js}
+Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
+\newblock {Asymptotic formulae for likelihood-based tests of new physics}.
+\newblock {\em Eur. Phys. J.}, C71:1554, 2011.
+\newblock [Erratum: Eur. Phys. J.C73,2501(2013)].
+
 \bibitem{Gori:2130983}
 Stefania Gori, Ian-Woo Kim, Nausheen~R. Shah, and Kathryn~M. Zurek.
 \newblock {Closing the Wedge: Search Strategies for Extended Higgs Sectors with
@@ -450,45 +489,6 @@ Johan Rathsman and Oscar Stal.
 Bsm higgs production cross sections at $\sqrt{s}$ = 13 tev.
 \newblock
   \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBSMAt13TeV}.
-
-\bibitem{Ellis:2012wg}
-John Ellis and Dae~Sung Hwang.
-\newblock {Does the `Higgs' have Spin Zero?}
-\newblock {\em JHEP}, 09:071, 2012.
-
-\bibitem{combine}
-
-
-\bibitem{Boughezal:2013oha}
-Radja Boughezal, Xiaohui Liu, Frank Petriello, Frank~J. Tackmann, and
-  Jonathan~R. Walsh.
-\newblock {Combining Resummed Higgs Predictions Across Jet Bins}.
-\newblock {\em Phys. Rev.}, D89(7):074044, 2014.
-
-\bibitem{Thaler:2011gf}
-Jesse Thaler and Ken Van~Tilburg.
-\newblock {Maximizing Boosted Top Identification by Minimizing N-subjettiness}.
-\newblock {\em JHEP}, 02:093, 2012.
-
-\bibitem{Bertolini2014}
-Daniele Bertolini, Philip Harris, Matthew Low, and Nhan Tran.
-\newblock Pileup per particle identification.
-\newblock {\em Journal of High Energy Physics}, 2014(10):59, Oct 2014.
-
-\bibitem{cowan1998statistical}
-G.~Cowan.
-\newblock {Statistical data analysis}.
-\newblock 1998.
-
-\bibitem{CMS-NOTE-2011-005}
-{Procedure for the LHC Higgs boson search combination in Summer 2011}.
-\newblock (CMS-NOTE-2011-005. ATL-PHYS-PUB-2011-11), Aug 2011.
-
-\bibitem{Cowan:2010js}
-Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
-\newblock {Asymptotic formulae for likelihood-based tests of new physics}.
-\newblock {\em Eur. Phys. J.}, C71:1554, 2011.
-\newblock [Erratum: Eur. Phys. J.C73,2501(2013)].
 
 \bibitem{Sirunyan:2018qlb}
 Albert~M Sirunyan et~al.
