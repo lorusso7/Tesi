@@ -1,53 +1,54 @@
 
-\textit{As described in Sec.~\ref{NSP}, the research of  new resonance $X$ is one of the mail goals of LHC. With a energy achieved of 13 TeV in the center of mass and the data collected in 2016, it is possible to lead searches in a vast range of mass. One of the main final state channel in in a couple of $W^+W^-$ bosons.
- In this chapter  is reported the $X \to \mathrm{W^+W^-}\to2\ell2\nu$ analysis structure using 2016 data collected by the CMS experiment. To increase the sensitivity of this search, the signal must be selected in the most efficient way by reducing the
-presence of the backgrounds with a similar signature: the selection criteria are described in detail. I have participated at all stages of the analysis selection
- (signal simulation, categorization, background estimation, etc.)  and I have been responsible for the whole analysis.} 
+\textit{
+%As described in Sec.~\ref{NSP}, the research of  new resonance $X$ is one of the mail goals of LHC. With a energy achieved of 13 TeV in the center of mass and the data collected in 2016, it is possible to lead searches in a vast range of mass. One of the main final state channel in in a couple of $W^+W^-$ bosons.
+In this chapter the $X \to \mathrm{W^+W^-}\to2\ell2\nu$ analysis using 2016 data is reported. To increase the sensitivity of this search, the signal must be selected in the most efficient way by reducing the
+presence of the backgrounds with a similar signature: the selection criteria are described in detail. I have participated at all stages of the analysis selection (signal simulation, categorization, background estimation, etc.)  and I have been responsible for the whole analysis.} 
 %The ATLAS experiment has been done this kind of searches using the early 2016 statistic, 13.2 fb$^{-1}$ and the results are shown in Fig.~\ref{ATLAS-CONF-2016-074_fig}.
 %With the full 2016 statistic, approximately $\sim 36$ fb$^{-1}$ is possible to investigate a wide range of masses and, if will be no evidence of high mass signal, is possible to set  tight upper limits on the possible cross section.
 
-\section{An introduction to the $X$ to $WW$ analysis }\label{sec:AnalysisStrategy_Intro}
-The main production mode for the high mass Higgs boson like particle over the all mass spectrum is the gluon-gluon fusion process. 
-However the  gluon gluon fusion cross section decreases with $m_\mathrm{H}$ but the VBF/gluon gluon fusion cross section ratio increases with the mass, making the VBF production mechanism more and more important as $m_\mathrm{H}$ approaches to high values.\\
-The signal samples are interpreted in terms of the EWK singlet and MSSM models described in Sec~\ref{NSP}. 
-The Higgs boson width and lineshape is reweighted at generator level according to the parameters defined in the model.
-The interference effects between the signal produced  via gluon gluon fusion, the WW background emerging from two gluons and SM
-Higgs boson, that are expected to change the shape of the signal distribution, have been fully taken into account. 
-A similar treatment is also applied for the interference between VBF high mass signal produced via VBF, the  WW plus two quarks background (emerging with the same initial state)  and the SM Higgs generated with  VBF production mechanism. In general, the interference becomes more and more important as the mass of $X$ increase and it is study in detail, Sec~\ref{sec:signalModel}.
-Finally, the interference between the $\mathrm{W^+W^-}\to2\ell2\nu$ and $\mathrm{ZZ}\to2\ell2\nu$ is negligible due to the different phase space characteristic of these processes. In the SM there are some processes that have the some or similar final state respect to the signal. These processes are called background and affecting the signal signature. To estimate and to control the backgrounds in the analysis, control regions are defined for the most important backgrounds. A fully description of backgrounds events are reported in Sec.~\ref{anbkg}. \\
-\newline
-The analysis strategy for the high mass search in the $X \to \mathrm{W^+W^-}\to2\ell2\nu$ final state is similar to the high
-mass analysis performed with 2015 data (2.3 fb$^{-1}$)~\cite{CMS-PAS-HIG-16-023}, but has several improvements. Study on VBF interference, on discriminating variables and a new categorization of the events have been performed.
-Now indeed, the events are divided according the flavour in the final state: 
+\section{Overview of the $X$ to $WW$ fully leptonic analysis }\label{sec:AnalysisStrategy_Intro}
+
+The analysis strategy for the high mass search in the $X \to \mathrm{W^+W^-}\to2\ell2\nu$ final state must take into account the production modes of the new scalar, the main backgrounds, and the interference among the different processes. 
+
+The main production mode for a Higgs-like particle over the all mass spectrum is the gluon-gluon fusion process. 
+However the ratio of the VBF cross-section to the gluon-gluon fusion cross-section increases with $m_\mathrm{X}$ (see Fig.~\ref{prod}), making the VBF production mechanism more and more important.\\
+
+Among the SM processes that have the same final state of the signal or a similar one the most important are non-resonant WW production, top pairs production, Drell-Yan. The WW production is an irreducible background and needs to be determined together with the signal in the fit. To estimate the other background processes, control regions are defined on data and compared to simulation. \\
+ 
+The events are first divided according the flavour in the final state: 
 \begin{itemize}
 \item opposite-flavour final state, $e^{\pm} \mu^{\mp}$,
 \item same-flavour final state, $e^+ e^-$ and  $\mu^+ \mu^-$. 
 \end{itemize}
-In the opposite-flavour final state four different jets-categories are defined: the 0-jet, the 1-jet, the 2-jet and the VBF, Sec.~\ref{sec:OF}. 
-In the same-flavour final state only the VBF category is considered. Indeed, only the VBF selection cuts are sufficiently tight to reduce the  overwhelming Z plus jets background to a manageable level, Sec.~\ref{sec:SF}.
+In the opposite-flavour final state four different jets categories are defined: the 0-jet, the 1-jet, the 2-jet and the VBF, Sec.~\ref{sec:OF}. 
+In the same-flavour final state only the VBF category is considered. Indeed, only the VBF selection cuts are sufficiently tight to reduce the  overwhelming Z plus jets background to a manageable level, Sec.~\ref{sec:SF}. The jets categories improve the sensitivity of the analysis, because each category has different contributions from signal production modes and backgrounds.
 
-
-
+The signal is interpreted in terms of the EWK singlet and MSSM models as described in Sec~\ref{NSP}. The Higgs boson width and lineshape is reweighted at generator level according to the parameters defined in the model. The interference effects between the signal produced via gluon-gluon fusion, the WW background also from gluon-gluon fusion, and SM Higgs boson, are expected to change the shape of the signal distribution and have been fully taken into account. 
+A similar treatment is also applied for the interference between high mass signal produced via VBF, the WW plus two quarks background (emerging from the same initial state) and the SM Higgs generated with VBF production mechanism. In general, the interference becomes more and more important as the mass of $X$ increase and it is studied in detail in Sec~\ref{sec:signalModel}.
+Finally, the interference between the $\mathrm{W^+W^-}\to2\ell2\nu$ and $\mathrm{ZZ}\to2\ell2\nu$ is negligible due to the different phase space characteristic of these processes.
 
 \section{Discriminating variable}
-This analysis is target as shape analysis, meaning that after applying selection cuts, the events are not simply counted, but rather the data are fitted in a  histogram of a discriminating variable with the sum of signal and background templates, and, at the end,  the signal yield is extracted.
+This analysis is a shape analysis, meaning that after applying selection cuts, the events are not simply counted, but rather an histogram of a discriminating variable is filled from the data and fitted with the sum of signal and background templates, and finally the signal yield is extracted.
 In principle, the variable with the best discriminating power would be the invariant mass of
-the four lepton system, however it is impossible to reconstruct  due to the presence of neutrinos.
-Usually,  in the the Higgs boson to $WW \to 2\ell 2\nu $, the variable used in the analysis is the transverse mass, $m_T^H$, defined as,  
+the four lepton system, however, due to the presence of the neutrinos, it can not be measured.
+Usually, in the the Higgs boson to $WW \to 2\ell 2\nu $, the variables used in the analysis are:
+\begin{itemize}
+\item the transverse mass, $m_T^H$, defined as,  
 \begin{equation}
  m_T^H = \sqrt{2p_{\rm T}^{\ell\ell}\MET(1-\mathrm{cos}\Delta\phi(\ell\ell, \ptvecmiss))}
 \end{equation}
-where $\Delta\phi(\ell\ell, \ptvecmiss)$ is the azimuthal angle between the dilepton momentum and \ptvecmiss.
-However  $m_T^H$ but also and also the di-lepton mass, $m_{\ell \ell}$, are not very sensitive to different
-signal mass hypothesis. For this reason a new variable that allows a better sensitivity to different resonance mass hypotheses has been searched. 
-The visible transverse mass,  $m_T^I$, has been introduced,  defined as the visible mass,
+where $\Delta\phi(\ell\ell, \ptvecmiss)$ is the azimuthal angle between the dilepton momentum and \ptvecmiss;
+\item the di-lepton mass, $m_{\ell \ell}$.
+\end{itemize}
+However, both $m_T^H$ and $m_{\ell \ell}$, are not sensitive to different
+signal mass hypothesis. For this reason a new variable, the visible transverse mass,  $m_T^I$, has been used.
+This variable, studied for this specific analysis, is defined as the invariant mass of the four momentum resulting from the sum of the
+two leptons four-momenta and the missing four-momentum: 
 \begin{equation}
  m_T^I = \sqrt{ (p_\mathrm{\ell\ell} + \MET)^2 - (\vec{p}_\mathrm{\ell\ell} + \ptvecmiss)^2 \; .}
 \end{equation}
- This variable is defined as the invariant mass of the four momentum resulting from the sum of the
-two leptons four-momenta and the missing four-momentum. 
-The distribution of the variables defined above are shown in
-Fig.~\ref{fig:mt_nocuts}, where it is visible the better power of $m_T^I$ in discriminating different mass hypotheses respect the other variable as  $m_T^H$ or $m_{\ell \ell}$. In addition, the usage of this variable also provides a good discriminating power between signal and background.
+The distribution of all the variables defined above can be compared in 
+Fig.~\ref{fig:mt_nocuts}, where it is visible the better power of $m_T^I$ in discriminating different mass hypotheses wth respect to  $m_T^H$ and $m_{\ell \ell}$. The usage of  $m_T^I$ also provides a good discriminating power between signal and background.
 \begin{figure}[htbp]
 \centering
 \subfigure[True generated mass]{
