@@ -41,8 +41,8 @@
 \contentsline {chapter}{\numberline {6}Semileptonic final state}{115}{chapter.6}
 \contentsline {section}{\numberline {6.1}Overview of the semileptonic analysis}{115}{section.6.1}
 \contentsline {section}{\numberline {6.2}Jets for Boosted and Resolved selection}{116}{section.6.2}
-\contentsline {section}{\numberline {6.3}Event categorisation}{118}{section.6.3}
-\contentsline {section}{\numberline {6.4}Backgrounds}{118}{section.6.4}
+\contentsline {section}{\numberline {6.3}Event categorisation}{117}{section.6.3}
+\contentsline {section}{\numberline {6.4}Backgrounds}{120}{section.6.4}
 \contentsline {section}{\numberline {6.5}Systematic uncertainties}{120}{section.6.5}
 \contentsline {chapter}{\numberline {7}Results and Interpretation}{123}{chapter.7}
 \contentsline {section}{\numberline {7.1}Statistical interpretation}{123}{section.7.1}
