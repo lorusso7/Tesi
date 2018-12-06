@@ -28,16 +28,16 @@
 \contentsline {section}{\numberline {4.7}b-jet identification}{69}{section.4.7}
 \contentsline {section}{\numberline {4.8}The Missing Transverse Energy}{72}{section.4.8}
 \contentsline {section}{\numberline {4.9}Fake Lepton Background Estimation}{74}{section.4.9}
-\contentsline {chapter}{\numberline {5}High mass resonances searching}{77}{chapter.5}
+\contentsline {chapter}{\numberline {5}Search for high mass resonances}{77}{chapter.5}
 \contentsline {section}{\numberline {5.1}Overview of the fully leptonic analysis }{77}{section.5.1}
 \contentsline {section}{\numberline {5.2}Main Background processes}{78}{section.5.2}
 \contentsline {section}{\numberline {5.3}Lepton Efficiencies from Tag and Probe Method}{80}{section.5.3}
-\contentsline {section}{\numberline {5.4}Triggers and Data sample}{81}{section.5.4}
-\contentsline {section}{\numberline {5.5}Study of the Interference effects}{84}{section.5.5}
-\contentsline {section}{\numberline {5.6}Discriminating variable}{84}{section.5.6}
-\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{88}{section.5.7}
-\contentsline {section}{\numberline {5.8}Same Flavor final state}{101}{section.5.8}
-\contentsline {section}{\numberline {5.9}Systematic uncertainties}{111}{section.5.9}
+\contentsline {section}{\numberline {5.4}Data sample and Trigger used}{81}{section.5.4}
+\contentsline {section}{\numberline {5.5}Study of the Interference effects}{81}{section.5.5}
+\contentsline {section}{\numberline {5.6}Discriminating variable}{83}{section.5.6}
+\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{87}{section.5.7}
+\contentsline {section}{\numberline {5.8}Same Flavor final state}{100}{section.5.8}
+\contentsline {section}{\numberline {5.9}Systematic uncertainties}{110}{section.5.9}
 \contentsline {chapter}{\numberline {6}Semileptonic final state}{115}{chapter.6}
 \contentsline {section}{\numberline {6.1}Overview of the semileptonic analysis}{115}{section.6.1}
 \contentsline {section}{\numberline {6.2}Jets for Boosted and Resolved selection}{116}{section.6.2}
@@ -47,7 +47,8 @@
 \contentsline {chapter}{\numberline {7}Results and Interpretation}{123}{chapter.7}
 \contentsline {section}{\numberline {7.1}Statistical interpretation}{123}{section.7.1}
 \contentsline {section}{\numberline {7.2}Signal interpretation: EW singlet and 2HDM}{125}{section.7.2}
-\contentsline {section}{\numberline {7.3}Fully leptonic results}{128}{section.7.3}
-\contentsline {section}{\numberline {7.4}Results for the combination of fully- and semi-leptonic analysis}{129}{section.7.4}
-\contentsline {chapter}{\numberline {A}Boost-invariant variables}{135}{appendix.A}
-\contentsline {chapter}{\numberline {B}Parton Distribution Function}{137}{appendix.B}
+\contentsline {section}{\numberline {7.3}Fully and same leptonic results}{127}{section.7.3}
+\contentsline {section}{\numberline {7.4}Combination among the fully and the semi leptonic analysis}{129}{section.7.4}
+\contentsline {chapter}{Conclusion}{137}{chapter*.159}
+\contentsline {chapter}{\numberline {A}Boost-invariant variables}{139}{appendix.A}
+\contentsline {chapter}{\numberline {B}Parton Distribution Function}{141}{appendix.B}

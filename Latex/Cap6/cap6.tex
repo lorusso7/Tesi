@@ -74,19 +74,24 @@ where  $S$ is the signal, $B$ the background and $I$ the interference.
 
 \section{Signal interpretation: EW singlet and  2HDM}
 \label{sec:signalModel}
-The signal is interpreted in terms of the electroweak singlet model and  in  type-2 2HDM model (MSSM). 
+The signal is interpreted in terms of the electroweak singlet model and  in 2HDM model. 
 The model theorist details are described in Sec.~\ref{NSP}. 
 
 \subsection*{Electroweak singlet model}
 The EW singlet represents a scalar mixing among the high mass particle and the Higgs boson. This model relies on two parameters: the scale factor of the couplings of the high mass resonance with respect to the SM, $C'$, and the branching fraction of the electroweak singlet to non-SM decays modes, $BR_\mathrm{new}$. The electroweak singlet signal strength, $\mu'$ and the modified width, $\Gamma'$, are related with the parameters in the model by the following equations:
+\newline
 \begin{equation}
 \mu' = C'^2 \cdot (1 - BR_\mathrm{new})
 \end{equation}
 \begin{equation}
 \Gamma' = \Gamma_\mathrm{SM} \cdot \frac{C'^2}{1 - BR_\mathrm{new}}
 \end{equation}
-The high mass signal samples for different mass hypothesis have been reweighted according to this model. At the moment only the $BR_\mathrm{new} = 0$ hypothesis has been investigated while we tested different $C'$ values.
-In Fig.~\ref{fig:cprime} are shown the \mll and \mt templates corresponding to a high mass boson  of 700\GeV for three different $C'$ values: $C' = 1$, corresponding to the SM Higgs decay width, $C'=0.5$, corresponding to $\Gamma' = 2.5\cdot10^{-2}\,\Gamma_\mathrm{SM}$, and $C'=0.1$, corresponding to $\Gamma' = 10^{-2}\,\Gamma_\mathrm{SM}$. A value of $BR_\mathrm{new} = 0$ is considered in all cases. We note that the signal shape is not very sensitive to different $C'$ values.
+\newline
+The high mass signal samples for different mass hypothesis have been reweighted according to this model.
+To evaluate the sensitivity with respect the $C'$ parameter, different templates ($m_T^I$, \mll and \mt) are
+are studied  for  high mass boson  of 700\GeV, Fig.~\ref{fig:cprime}.  The value of $BR_\mathrm{new} = 0$ is considered in all cases. 
+The signal shape is not very sensitive to different $C'$ values, as evident from the distribution, so in the following only the $C'=1$ 
+hypothesis has been investigated.
 \begin{figure}[htbp]
 \centering
 \subfigure[Simulated LHE signals]{
@@ -103,7 +108,8 @@ In Fig.~\ref{fig:cprime} are shown the \mll and \mt templates corresponding to a
 \includegraphics[width=0.45\textwidth]{../AN/Figs/mTi700_cuts_nocuts.png}
 }
 \caption{ 
-    Distributions of the signals, the $m_T^H$, the $m_{\ell \ell}$ and the  $m_T^I$ variables at generator level for different values of $C'$, without any selection.}
+    Distributions of the MC generator level for signals (no possible reconstruction), for $m_T^H$, for $m_{\ell \ell}$ and for  $m_T^I$ variables using 
+different values of $C'$ (1,0.5,0.1).}
     \label{fig:cprime}
 \end{figure}
 
@@ -117,21 +123,23 @@ two CP-even bosons $h$ and $H$, a CP-odd boson $A$ and two charged bosons $H^\pm
 The quantity $\cos(\beta-\alpha)$ is also of interest, as the coupling of the heavy scalar Higgs boson $H$ to two vector bosons is proportional to this factor. In the decoupling limit, which occurs at $\cos(\beta-\alpha)=0$, all couplings become SM-like.
 A 2HDM of type-2 is considered in this study. Here up-type quarks couple to one doublet, while down-type quarks and leptons couple to the other doublet.\\ 
 \newline
-The MSSM is a type-2 2HDM. On tree level only two parameters are left free. By convention, these parameters are chosen to be $\tan\beta$ and $m_{A}$, the mass of the pseudoscalar Higgs boson. The exclusion limits can be set in a two-dimensional plane as a function of these two parameters. Due to higher order diagrams additional free parameters occur. Benchmark scenarios are then used in order to constrain these parameters. Here two MSSM scenarios are used: the $m_{h}^{mod+}$ scenario and the hMSSM scenario \cite{Gori:2130983}.\\
+The MSSM is a type-2 2HDM. On tree level only two parameters are left free. By convention, these parameters are chosen to be $\tan\beta$ and $m_{A}$, the mass of the pseudoscalar Higgs boson. The exclusion limits can be set in a two-dimensional plane as a function of these two parameters. Due to higher order diagrams additional free parameters occur. Benchmark scenarios are then used in order to constrain these parameters. Here two MSSM scenarios are used: the $m_{h}^{mod+}$ scenario and the hMSSM scenario \cite{Gori:2130983}.
+%The necessary model predictions for these scenarios are provided by the LHC Higgs Cross Section Working Group \cite{bsmhiggsxsecs}. For both MSSM scenarios the ggF cross sections have been computed with SusHi (v.1.4.1)\cite{Harlander:2012pb}. These cross sections include NLO supersymmetric QCD corrections and NNLO QCD corrections for the top quark contribution in the effective theory of a heavy top quark, as well as electroweak effects by light quarks. The masses of the Higgs bosons, their mixing, the branching fractions and the effective Yukawa couplings in the $m_{h}^{mod+}$ scenario are all calculated with FeynHiggs (v.2.10.2)\cite{Heinemeyer:1998yj, Heinemeyer:1998np, Degrassi:2002fi, Frank:2006yh, Hahn:2013ria}. For the hMSSM scenario the branching fractions are obtained from HDECAY (v.6.40)\cite{Djouadi:1997yw, Djouadi:2006bz}. The results for general 2HDM are obtained using the ggF cross sections computed with SusHi (v.1.5.0) and the branching fractions from 2HDMC (v.1.7.0)\cite{Rathsman:2011yv}. The VBF cross sections are calculated using an approximation. The BSM Higgs production cross sections for VBF, which are provided for different masses by the LHC Higgs Cross Section Working Group \cite{bsmhiggsxsecs2}, are taken and multiplied by $\cos^{2}(\beta-\alpha)$, resulting in VBF cross sections for a heavy CP-even Higgs boson.\newline
+The exclusion limits obtained for the MSSM scenarios are displayed in the $m_{A}$ vs $\tan\beta$ plane. A fine grid is chosen in this plane, and for each point of this grid a maximum likelihood fit is performed after the $m_{A}$ and/or $\tan\beta$ dependent values of the model, such as cross sections and masses of the Higgs bosons are calculated. These fits are done using the asymptotic method. Performing a maximum likelihood fit in this manner is equivalent to a hypothesis test, where the signal hypothesis is tested against the SM and background hypothesis. The signal hypothesis for a combination of $m_{A}$ and $\tan\beta$ is excluded at $95\%$ confidence level. In the two-dimensional plane this limit is determined from interpolation between the points of the grid. The limits in the more general 2HDM are obtained in the same way, although a different parameter is chosen in place of $m_{A}$.
+
+
+
+\section{Fully and same leptonic results}
+
+
+\subsection*{Electroweak singlet sector}
+No evidence for an excess of events with respect to the SM predictions  is observed and thus, exclusion
+limits in the product of the cross section production times the BR of the decay to two W bosons is evaluated for the EW singlet model.
+The final binned fit is performed using the $m_T^I$ histogram for all signals and the number of events for the backgrounds for every mass point from
+200\GeV up to 3\TeV and the 95\% CL upper exclusion limits are calculated. The SM fraction among gluon gluon fusion and VBF mechanism production is considered.\\
 \newline
-The necessary model predictions for these scenarios are provided by the LHC Higgs Cross Section Working Group \cite{bsmhiggsxsecs}. For both MSSM scenarios the ggF cross sections have been computed with SusHi (v.1.4.1)\cite{Harlander:2012pb}. These cross sections include NLO supersymmetric QCD corrections and NNLO QCD corrections for the top quark contribution in the effective theory of a heavy top quark, as well as electroweak effects by light quarks. The masses of the Higgs bosons, their mixing, the branching fractions and the effective Yukawa couplings in the $m_{h}^{mod+}$ scenario are all calculated with FeynHiggs (v.2.10.2)\cite{Heinemeyer:1998yj, Heinemeyer:1998np, Degrassi:2002fi, Frank:2006yh, Hahn:2013ria}. For the hMSSM scenario the branching fractions are obtained from HDECAY (v.6.40)\cite{Djouadi:1997yw, Djouadi:2006bz}. The results for general 2HDM are obtained using the ggF cross sections computed with SusHi (v.1.5.0) and the branching fractions from 2HDMC (v.1.7.0)\cite{Rathsman:2011yv}. The VBF cross sections are calculated using an approximation. The BSM Higgs production cross sections for VBF, which are provided for different masses by the LHC Higgs Cross Section Working Group \cite{bsmhiggsxsecs2}, are taken and multiplied by $\cos^{2}(\beta-\alpha)$, resulting in VBF cross sections for a heavy CP-even Higgs boson.\newline
-The exclusion limits obtained for the MSSM scenarios are displayed in the $m_{A}$-$\tan\beta$ plane. A fine grid is chosen in this plane, and for each point of this grid a maximum likelihood fit is performed after the $m_{A}$ and/or $\tan\beta$ dependent values of the model, such as cross sections and masses of the Higgs bosons are calculated. These fits are done using the asymptotic method. Performing a maximum likelihood fit in this manner is equivalent to a hypothesis test, where the signal hypothesis is tested against the SM-and-background hypothesis. The signal hypothesis for a combination of $m_{A}$ and $\tan\beta$ is excluded at $95\,\%$ confidence level. In the two-dimensional plane this limit is determined from interpolation between the points of the grid. The limits in the more general 2HDM are obtained in the same way, although a different parameter is chosen in place of $m_{A}$.
-
-
-
-\section{Fully leptonic results}
-
-\subsection*{Electroweak singlet results}
-The final binned fit is performed using the $m_T^I$ histogram for all signals and the number of events for the backgrounds.
-For the opposite flavour and same flavour analysis, for every categories and for every mass point from
-200\GeV up to 3\TeV the significance  and the 95\% CL upper exclusion limit are calculated.
-The expected final limit from the combination of the opposite and same flavour analysis are shown in Fig.~\ref{fig:lim_OFSF_comb}. 
-The SM fraction among gluon gluon fusion and VBF mechanism production is considered.
+In the fully leptonic analysis, a combination among the opposite flavour and same flavour analysis is performed. 
+The expected and observed limit is shown in Fig.~\ref{fig:lim_OFSF_comb}. 
 This analysis excludes the existence of a resonance in the mass range between 200 GeV and $\sim$2.5 TeV: 
 the predicted high mass cross section (the red line in Fig.~\ref{fig:lim_OFSF_comb} is above the observed data in this masses range.
 This limit evaluated represent a considerable improvement respect to the high mass search done with 2015 data 
@@ -139,13 +147,25 @@ and the expected and observed limits are compatible with the ATLAS results for a
 \begin{figure}[htb]
 \centering
 \includegraphics[width=0.65\textwidth]{../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png}
-\caption{95$\%$ CL exclusion limits,  on the production gluon gluon fusion and VBF cross section times branching fraction as a function of the mass for the  combination of the two analysis opposite and same flavour, in the full mass range.  The red line represent the predicted cross-section for EW high mass bosons.}
+\caption{Fully leptonic  exclusion limits at 95$\%$ CL on the cross section (gluon gluon fusion and VBF) times branching ration in $WW \to 2\ell 2\nu$ 
+as a function of the mass. The red line represent the predicted cross-section for EW high mass bosons.}
 \label{fig:lim_OFSF_comb}
+\end{figure}\\
+\newline
+The same procedure is adopted to evaluated cross section limits  for the same leptonic final state, Fig~\ref{limit_observed_lnuqq_VBF0_log-1}.
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.65\textwidth]{../Cap6/limit_observed_lnuqq_VBF0_log-1}
+\caption{Semi leptonic exclusion limits at 95$\%$ CL  on the production cross section (gluon gluon fusion and VBF) times branching ration in $WW$ as a function of the mass.  The red line represent the predicted cross-section for EW high mass bosons.}
+\label{limit_observed_lnuqq_VBF0_log-1}
 \end{figure}
+The fully and same leptonic analysis are complementary: the former puts a powerful limit at low mass ($<$ 1 TeV), the other instead at very high mass.
+To perform a right comparison among the two limits,  Fig.~\ref{ATLAS-CONF-2016-074_fig} and  Fig~\ref{limit_observed_lnuqq_VBF0_log-1}, the 
+fully leptonic limits should be multiplied by a factor of $\sim$10 to take in account the BR in $ 2\ell 2\nu$.
 
-
-\subsection*{2HDM results}
-The exclusion limits  for the $m_h^{mod+}$ scenario and for the hMSSM scenario are reported in Fig.~\ref{fig:MSSM}. 
+\subsection*{MSSM sector}
+The exclusion limits are also extended to the MSSM model interpretation in terms of $m_A$.
+The exclusion limits  for the $m_h^{mod+}$ scenario and for the hMSSM scenario are reported for the fully leptonic final state in Fig.~\ref{fig:MSSM}. 
 The dashed line marks the expected limit, while the azure area shows  excluded limit obtained with the data. 
 The bands in gray and dark gray surrounding the limit indicate the $\pm 1,2\sigma$ contours, 	respectively. 
 For both scenarios the region at low values of $m_{A}$  (approximately $<150$ GeV) and low $\tan \beta$ value (approximately $<$20) are excluded. 
@@ -162,70 +182,18 @@ and low $\tan\beta$ values~\cite{CMS:2017epy}.
 \caption{(a) 95$\%$ CL exclusion limits for the MSSM $m_h^{mod+}$ scenario (b) for the hMSSM scenario.}
     \label{fig:MSSM}
 \end{figure}
-In Fig.~\ref{fig:2HDM1} and Fig.~\ref{fig:2HDM2} the exclusion limits are shown for a 2HDM model. 
-The 2HDM limits for both the type-1 and the type-2 models are displayed in a $\cos(\beta-\alpha)$-$\tan\beta$ plane,  Fig.~\ref{fig:2HDM1}, 
-in which the masses of neutral heavy Higgs  are $m_{H}=m_{A}=200$, $300$, $500$ GeV and the convention $\sin(\beta-\alpha) > 0$ is used. 
-Instead  the limit in the  $m_{H}$-$\tan\beta$ plane are shown in Fig. ~\ref{fig:2HDM2}. 
-Here it is again assumed that $m_{H}=m_{A}$ and $\sin(\beta-\alpha) > 0$, but here the relationship between $\beta$ and $\alpha$ is $\cos(\beta-\alpha)=0.1$. 
-\begin{figure}[htb]
-\centering
-\subfigure[Type-1, $m_{H}=200\,$GeV]{
-\includegraphics[width=0.45\textwidth]{../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png}
-}
-\subfigure[Type-2, $m_{H}=200\,$GeV]{
-\includegraphics[width=0.45\textwidth]{../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png}
-}
-\\
-\subfigure[Type-1, $m_{H}=300\,$GeV]{
-\includegraphics[width=0.45\textwidth]{../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png}
-}
-\subfigure[Type-2, $m_{H}=300\,$GeV]{
-\includegraphics[width=0.45\textwidth]{../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png}
-}
-\\
-\subfigure[Type-1, $m_{H}=500\,$GeV]{
-\includegraphics[width=0.45\textwidth]{../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png}
-}
-\subfigure[Type-2, $m_{H}=500\,$GeV]{
-\includegraphics[width=0.45\textwidth]{../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png}
-}
-\caption{95$\%$ CL exclusion limits on a 2HDM with $\cos(\beta-\alpha)$ on the x-axis. Limits are shown for a type-1 and type-2 2HDM for different masses $m_{H}=200$, $300$, $500\,$GeV.}
-    \label{fig:2HDM1}
-\end{figure}
 
-\begin{figure}[htb]
-\centering
-\subfigure[Type-1, $\cos(\beta-\alpha)=0.1$]{
-\includegraphics[width=0.45\textwidth]{../AN/Figs/unblinding/2HDM/thdm_mh_t1.png}
-}
-\subfigure[Type-2, $\cos(\beta-\alpha)=0.1$]{
-\includegraphics[width=0.45\textwidth]{../AN/Figs/unblinding/2HDM/thdm_mh_t2.png}
-}
 
-\caption{95$\%$ CL exclusion limits on a 2HDM with $m_{H}$ on the x-axis. Limits are shown for a type-1 and type-2 2HDM for $\cos(\beta-\alpha)=0.1$.}
-    \label{fig:2HDM2}
-\end{figure}
-
-\section{Results for the combination of fully- and semi-leptonic analysis}
-No evidence for an excess of events with respect to the SM predictions is observed and thus, exclusion
-limits in the product of the cross section production of an hypothetical signal times the BR of the decay
-to two W bosons is evaluated.
-For every mass point from 200 GeV up to 3 TeV the 95\% CL upper exclusion limit are calculated in the
-hypothesis that the searched signal has the same width of a SM Higgs boson of corresponding mass.
-The expected and observed exclusion limits on the sum of gluon-gluon fusion and VBF cross sections times branching
-fraction, assuming that the ratio of cross sections between the two production processes is the same as in
-the SM, is shown in Fig.~\ref{lim_superC}, corresponding to the combination of the fully-leptonic and semi-leptonicanalysis.
-This result represents a very big improvements in for the high mass searches. 
-In addition it enhances the upper limits of a factor of $\sim$10 at low mass and $\sim$100 at high mass the ATLAS limits evaluated at $\sqrt{s}=13$ TeV using partially 2016 data, Fig.~\ref{ATLAS-CONF-2016-074_fig}.
+\section{Combination among the fully and the semi leptonic analysis}
+Using the EW model interpretation, the  combination of the fully leptonic and semi leptonic analysis has been performed for cross section limits, Fig.~\ref{lim_superC}. The limit result represents a  improvements for the high mass searches. 
 The value of upper limit are comparable with the results obtained in CMS for $X \to ZZ$ with final state ($4\ell$, $2\ell 2\nu$ and $2\ell 2q$) \cite{Sirunyan:2018qlb}.\\
 \newline
-The production of the $X$ resonance has been considered to be either in gluon gluon fusion and in Vector
-Boson Fusion with the assumption of the SM fraction. 
-However a scan of the fraction of VBF mechanism
-production ( $f_{VBF}$ ) is performed to evaluate the upper limits. 
-So that parameter, is the fraction of the EW production cross section with respect to the total cross section and the gluon-gluon fusion cross
-section is $\sigma_X \times ( 1-  f_{VBF} )$ . Three different values of  $f_{VBF}$ are studied:   $f_{VBF}$ free to floating, $f_{VBF}=$ 0 and $f_{VBF}=$ 1. 
-The upper limits for three cases are shown in Fig.~\ref{wwe}  for the combination of the two different analysis.
+The production of the $X$ resonance has been considered to be either in gluon gluon fusion and in VBF with the assumption of the SM fraction. 
+However a scan of the fraction of VBF mechanism production ($f_{VBF}$) is possible to evaluate various upper limits in different scenarios. 
+The $\sigma_X \times f_{VBF}$ represents the VBF  cross section  fraction respect to the total cross section. 
+The gluon gluon fusion cross section is so  given by $\sigma_X \times ( 1-  f_{VBF} )$. 
+Three different values of  $f_{VBF}$ are studied:   $f_{VBF}$ free to floating, $f_{VBF}=$ 0 and $f_{VBF}=$ 1. 
+The upper limits for three cases are shown in Fig.~\ref{wwe}  for the combination of the fully and same leptonic analysis.
 \begin{figure}[htb]
 \centering
 \includegraphics[width=0.65\textwidth]{../Cap6/all}
@@ -251,4 +219,96 @@ for differents $f_{VBF}$ fraction. The red line represent the predicted cross-se
 mass bosons in the free floating case (a), only the predicted vector boson cross-section in
  $f_{VBF}$ case (b) and only the predicted gluon-gluon fusion cross-section in $f_{VBF}$ case (c).}
     \label{wwe}
+\end{figure}\\
+\newline
+Also the MSSM limits  in function of $m_A$ are computed for the combination among the two analysis, Fig.~\ref{fig:MSSM2}.
+\begin{figure}[htb]
+\centering
+\subfigure[$m_h^{mod+}$]{
+\includegraphics[width=0.45\textwidth]{../Cap6/mhmodp}
+}
+\subfigure[hMSSM]{
+\includegraphics[width=0.45\textwidth]{../Cap6/hmssm}
+}
+\caption{(a) 95$\%$ CL exclusion limits for the MSSM $m_h^{mod+}$ scenario (b) for the hMSSM scenario.}
+    \label{fig:MSSM2}
 \end{figure}
+The exclusion limits for a 2HDM model are also evaluated.
+In particular, the 2HDM limits for both the type-1 and the type-2 models are displayed in a $\cos(\beta-\alpha)$-$\tan\beta$ plane,  Fig.~\ref{fig:2HDM1}, 
+in which the masses of neutral heavy Higgs  are $m_{H}=m_{A}=200$, $300$, $500$ GeV and the convention $\sin(\beta-\alpha) > 0$ is used. 
+Instead  the limit in the  $m_{H}$-$\tan\beta$ plane are shown in Fig. ~\ref{fig:2HDM2}. 
+Here it is again assumed that $m_{H}=m_{A}$ and $\sin(\beta-\alpha) > 0$, but here the relationship between $\beta$ and $\alpha$ is $\cos(\beta-\alpha)=0.1$. 
+\begin{figure}[htb]
+\centering
+\subfigure[Type-1, $m_{H}=200\,$GeV]{
+\includegraphics[width=0.45\textwidth]{../Cap6/thdm_cosba_t1_200.png}
+}
+\subfigure[Type-2, $m_{H}=200\,$GeV]{
+\includegraphics[width=0.45\textwidth]{../Cap6/thdm_cosba_t2_200.png}
+}
+\\
+\subfigure[Type-1, $m_{H}=300\,$GeV]{
+\includegraphics[width=0.45\textwidth]{../Cap6/thdm_cosba_t1_300.png}
+}
+\subfigure[Type-2, $m_{H}=300\,$GeV]{
+\includegraphics[width=0.45\textwidth]{../Cap6/thdm_cosba_t2_300.png}
+}
+\\
+\subfigure[Type-1, $m_{H}=500\,$GeV]{
+\includegraphics[width=0.45\textwidth]{../Cap6/thdm_cosba_t1_500.png}
+}
+\subfigure[Type-2, $m_{H}=500\,$GeV]{
+\includegraphics[width=0.45\textwidth]{../Cap6/thdm_cosba_t2_500.png}
+}
+\caption{95$\%$ CL exclusion limits on a 2HDM with $\cos(\beta-\alpha)$ on the x-axis. Limits are shown for a type-1 and type-2 2HDM for different masses $m_{H}=200$, $300$, $500\,$GeV.}
+    \label{fig:2HDM1}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\subfigure[Type-1, $\cos(\beta-\alpha)=0.1$]{
+\includegraphics[width=0.45\textwidth]{../Cap6/thdm_mhtanb_t1}
+}
+\subfigure[Type-2, $\cos(\beta-\alpha)=0.1$]{
+\includegraphics[width=0.45\textwidth]{../Cap6/thdm_mhtanb_t2}
+}
+
+\caption{95$\%$ CL exclusion limits on a 2HDM with $m_{H}$ on the x-axis. Limits are shown for a type-1 and type-2 2HDM for $\cos(\beta-\alpha)=0.1$.}
+    \label{fig:2HDM2}
+\end{figure}
+
+
+
+\chapter*{Conclusion}
+A search for a Standard Model-like Higgs boson in $X \to \ W^+W^-$ with fully leptonic and same leptonic final state, produced via gluon-gluon fusion and VBF 
+mechanism, has been performed in the mass range between 200 and 3000 GeV.
+Data samples collected by the CMS experiment during 2016 at $\sqrt{s}=13$ TeV for a total luminosity of $35.9$ fb$^{-1}$, have been used.
+This channel has a high branching ratio but the reconstruction of the final state is not possible due to the presence of neutrino(s). 
+The main sources of background in this channel are represented by WW, Drell-Yan, Top, W+jet and multiboson.
+The interference between the high mass signal, the WW background and the SM Higgs boson has been studied for the gluon-gluon fusion and the VBF mechanism production.
+This contribution is not negligible, especially for high mass resonances, so   it is included as part of the signal.
+Different kinematic cuts are applied, in order to tag the fully or semi leptonic final states and to roughly reduce background. 
+To increase to sensitivity to the possible scalar resonance, events are categorized in according to the final states, the number of jets 
+and the jet kinematics. 
+The final statistical analysis is a shape analysis performed on the ``improved transverse mass'', a dedicate variable
+introduced for this specific analysis.\\
+Two models are investigated: the Electroweak singlet and the Two Higgs Doublet Model.
+Since no signal excess was observed in the distribution of the reconstructed invariant 
+mass of the $X$ candidate,  exclusion limits have been set at 95\% CL on the production cross section of a scalar neutral boson
+as function of its mass, in the range 200-3000 GeV for the Electroweak singlet model.
+The results were also interpreted in the context of the MSSM
+and 2HDM type-I and type-II scenarios.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

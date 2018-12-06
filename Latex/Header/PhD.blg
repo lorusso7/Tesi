@@ -15,42 +15,39 @@ White space in argument---line 170 of file PhD.aux
 I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
-Warning--string name "title" is undefined
---line 487 of file AN-17-243.bib
-I was expecting a `,' or a `}'---line 487 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 499 of file AN-17-243.bib
  :       title         
  :                     = "https://cms-hcomb.gitbooks.io/combine/"
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 966 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 978 of file AN-17-243.bib
  : 
  : @techreport{CMS-PAS-HIG-16-023,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 966 of file AN-17-243.bib
+Repeated entry---line 978 of file AN-17-243.bib
  : @techreport{CMS-PAS-HIG-16-023
  :                               ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 983 of file AN-17-243.bib
+Unbalanced braces---line 995 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1186 of file AN-17-243.bib
+Repeated entry---line 1198 of file AN-17-243.bib
  : @article{Heinemeyer:2013tqa
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1906 of file AN-17-243.bib
+Repeated entry---line 1918 of file AN-17-243.bib
  : @article{Cowan:2010js
  :                      ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 2014 of file AN-17-243.bib
+Illegal end of database file---line 2026 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "bib:pdg"
 Warning--I didn't find a database entry for "bib:run2jet"
-Warning--I didn't find a database entry for "CMS:2017epy"
 Warning--empty publisher in Halzen:1984mc
 Warning--empty publisher in doi:10.1142/9789814644150_0006
 Warning--empty year in doi:10.1142/9789814644150_0006
@@ -78,53 +75,50 @@ Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty journal in Adam:2005cg
 Warning--empty year in 726788
 Warning--empty author in CMS-PAS-JME-14-001
-Warning--empty author in combine
-Warning--empty title in combine
-Warning--empty journal in combine
-Warning--empty year in combine
 Warning--empty journal in cowan1998statistical
 Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
-You've used 94 entries,
+Warning--empty journal in CMS:2017epy
+You've used 83 entries,
             1791 wiz_defined-function locations,
-            985 strings with 18173 characters,
-and the built_in function-call counts, 18266 in all, are:
-= -- 1527
-> -- 826
+            922 strings with 16117 characters,
+and the built_in function-call counts, 15977 in all, are:
+= -- 1343
+> -- 710
 < -- 9
-+ -- 316
-- -- 222
-* -- 1255
-:= -- 2994
-add.period$ -- 264
-call.type$ -- 94
-change.case$ -- 91
++ -- 273
+- -- 190
+* -- 1081
+:= -- 2634
+add.period$ -- 235
+call.type$ -- 83
+change.case$ -- 81
 chr.to.int$ -- 0
-cite$ -- 127
-duplicate$ -- 800
-empty$ -- 1838
-format.name$ -- 222
-if$ -- 4000
+cite$ -- 113
+duplicate$ -- 709
+empty$ -- 1605
+format.name$ -- 190
+if$ -- 3492
 int.to.chr$ -- 0
-int.to.str$ -- 94
-missing$ -- 81
-newline$ -- 455
-num.names$ -- 80
-pop$ -- 211
+int.to.str$ -- 83
+missing$ -- 72
+newline$ -- 404
+num.names$ -- 72
+pop$ -- 187
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 338
+skip$ -- 295
 stack$ -- 0
-substring$ -- 1081
-swap$ -- 90
+substring$ -- 925
+swap$ -- 79
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 33
-while$ -- 151
-width$ -- 96
-write$ -- 961
+warning$ -- 30
+while$ -- 134
+width$ -- 85
+write$ -- 853
 (There were 11 error messages)
