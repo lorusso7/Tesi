@@ -1,49 +1,49 @@
 This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: PhD.aux
-White space in argument---line 151 of file PhD.aux
+White space in argument---line 156 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
-White space in argument---line 158 of file PhD.aux
+White space in argument---line 163 of file PhD.aux
  : \citation{Altarelli:
  :                      1977zs}
 I'm skipping whatever remains of this command
-White space in argument---line 165 of file PhD.aux
+White space in argument---line 170 of file PhD.aux
  : \citation{Sjostrand:
  :                      2006su}
 I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: AN-17-243.bib
 Warning--string name "title" is undefined
---line 422 of file AN-17-243.bib
-I was expecting a `,' or a `}'---line 422 of file AN-17-243.bib
+--line 466 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 466 of file AN-17-243.bib
  :       title         
  :                     = "https://cms-hcomb.gitbooks.io/combine/"
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 901 of file AN-17-243.bib
+I was expecting a `,' or a `}'---line 945 of file AN-17-243.bib
  : 
  : @techreport{CMS-PAS-HIG-16-023,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 901 of file AN-17-243.bib
+Repeated entry---line 945 of file AN-17-243.bib
  : @techreport{CMS-PAS-HIG-16-023
  :                               ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 918 of file AN-17-243.bib
+Unbalanced braces---line 962 of file AN-17-243.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1121 of file AN-17-243.bib
+Repeated entry---line 1165 of file AN-17-243.bib
  : @article{Heinemeyer:2013tqa
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1841 of file AN-17-243.bib
+Repeated entry---line 1885 of file AN-17-243.bib
  : @article{Cowan:2010js
  :                      ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 1949 of file AN-17-243.bib
+Illegal end of database file---line 1993 of file AN-17-243.bib
  : 
  : 
 (Error may have been on previous line)
@@ -71,9 +71,12 @@ Warning--empty journal in ckkw2
 Warning--empty year in ckkw2
 Warning--empty journal in Khachatryan:2015pea
 Warning--empty journal in Aaboud:2018jqu
+Warning--empty author in CMS-PAS-HIG-16-021
+Warning--empty author in CMS-PAS-HIG-16-042
 Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty journal in Adam:2005cg
 Warning--empty year in 726788
+Warning--empty author in CMS-PAS-JME-14-001
 Warning--empty author in combine
 Warning--empty title in combine
 Warning--empty journal in combine
@@ -82,45 +85,45 @@ Warning--empty journal in cowan1998statistical
 Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
-You've used 88 entries,
+You've used 93 entries,
             1791 wiz_defined-function locations,
-            958 strings with 17484 characters,
-and the built_in function-call counts, 17277 in all, are:
-= -- 1438
-> -- 793
-< -- 6
-+ -- 302
-- -- 214
-* -- 1182
-:= -- 2837
-add.period$ -- 249
-call.type$ -- 88
-change.case$ -- 85
+            978 strings with 18039 characters,
+and the built_in function-call counts, 18047 in all, are:
+= -- 1511
+> -- 812
+< -- 9
++ -- 311
+- -- 218
+* -- 1234
+:= -- 2956
+add.period$ -- 261
+call.type$ -- 93
+change.case$ -- 90
 chr.to.int$ -- 0
-cite$ -- 118
-duplicate$ -- 752
-empty$ -- 1737
-format.name$ -- 214
-if$ -- 3781
+cite$ -- 126
+duplicate$ -- 791
+empty$ -- 1818
+format.name$ -- 218
+if$ -- 3954
 int.to.chr$ -- 0
-int.to.str$ -- 88
-missing$ -- 78
-newline$ -- 428
-num.names$ -- 77
-pop$ -- 202
+int.to.str$ -- 93
+missing$ -- 80
+newline$ -- 450
+num.names$ -- 79
+pop$ -- 210
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 321
+skip$ -- 335
 stack$ -- 0
-substring$ -- 1033
-swap$ -- 84
-text.length$ -- 6
+substring$ -- 1072
+swap$ -- 89
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 30
-while$ -- 145
-width$ -- 90
-write$ -- 898
+warning$ -- 33
+while$ -- 149
+width$ -- 95
+write$ -- 950
 (There were 11 error messages)
