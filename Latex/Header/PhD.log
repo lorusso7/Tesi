@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.7)  6 DEC 2018 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.7)  6 DEC 2018 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3151,11 +3151,6 @@ ap5/fit_b_ResolvedGG1SR_All_Log.png> <../Cap5/Fit_b_BoostedVBFSR_All_Log.png> <
 ]
 Chapter 7.
 [123] [124]
-Overfull \hbox (12.68036pt too wide) in paragraph at lines 76--76
-[]\T1/lmr/bx/n/14.4 Signal in-ter-pre-ta-tion: EW sin-glet, 2HDM and MSSM 
- []
-
-
 <../AN/Figs/higgsLHEmass700_cuts_nocuts.png, id=1951, 901.3675pt x 676.5275pt>
 File: ../AN/Figs/higgsLHEmass700_cuts_nocuts.png Graphic file (type png)
 
@@ -3189,135 +3184,138 @@ Package pdftex.def Info: ../AN/Figs/mTi700_cuts_nocuts.png used on input line 1
 (pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
  [125] [126 <../AN/Figs/higgsLHEmass700_cuts_nocuts.png> <../AN/Figs/mth700_cut
 s_nocuts.png> <../AN/Figs/mll700_cuts_nocuts.png> <../AN/Figs/mTi700_cuts_nocut
-s.png>]) (../Cap6/Results.tex
-Underfull \hbox (badness 10000) in paragraph at lines 116--1
+s.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--1
+Underfull \hbox (badness 10000) in paragraph at lines 117--124
 
  []
 
 [127]
-<../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png, id=2003, 600.2425pt x 576.1
+<../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png, id=2004, 600.2425pt x 576.1
 525pt>
 File: ../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png Graphic file (type png)
 
  <use ../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png used
- on input line 13.
+ on input line 141.
 (pdftex.def)             Requested size: 257.39758pt x 247.07259pt.
- [128 <../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png>]
-<../AN/Figs/unblinding/2HDM/mhmodp.png, id=2013, 598.235pt x 574.145pt>
+
+
+LaTeX Warning: Citation `CMS:2017epy' on page 128 undefined on input line 153.
+
+<../AN/Figs/unblinding/2HDM/mhmodp.png, id=2006, 598.235pt x 574.145pt>
 File: ../AN/Figs/unblinding/2HDM/mhmodp.png Graphic file (type png)
 
 <use ../AN/Figs/unblinding/2HDM/mhmodp.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/mhmodp.png used on input li
-ne 26.
+ne 158.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../AN/Figs/unblinding/2HDM/hmssm.png, id=2014, 598.235pt x 574.145pt>
+<../AN/Figs/unblinding/2HDM/hmssm.png, id=2007, 598.235pt x 574.145pt>
 File: ../AN/Figs/unblinding/2HDM/hmssm.png Graphic file (type png)
 
 <use ../AN/Figs/unblinding/2HDM/hmssm.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/hmssm.png used on input lin
-e 29.
+e 161.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png, id=2019, 598.235pt x 574.145
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png, id=2012, 598.235pt x 574.145
 pt>
 File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png Graphic file (type png)
  <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png used 
-on input line 41.
+on input line 174.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png, id=2020, 598.235pt x 574.145
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png, id=2013, 598.235pt x 574.145
 pt>
 File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png Graphic file (type png)
  <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png used 
-on input line 44.
+on input line 177.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png, id=2021, 598.235pt x 574.145
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png, id=2014, 598.235pt x 574.145
 pt>
 File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png Graphic file (type png)
  <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png used 
-on input line 48.
+on input line 181.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png, id=2022, 598.235pt x 574.145
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png, id=2015, 598.235pt x 574.145
 pt>
 File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png Graphic file (type png)
  <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png used 
-on input line 51.
+on input line 184.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png, id=2023, 598.235pt x 574.145
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png, id=2016, 598.235pt x 574.145
 pt>
 File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png Graphic file (type png)
  <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png used 
-on input line 55.
+on input line 188.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png, id=2024, 598.235pt x 574.145
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png, id=2017, 598.235pt x 574.145
 pt>
 File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png Graphic file (type png)
  <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png used 
-on input line 58.
+on input line 191.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
-
-<../AN/Figs/unblinding/2HDM/thdm_mh_t1.png, id=2025, 598.235pt x 574.145pt>
+ [128 <../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png>]
+<../AN/Figs/unblinding/2HDM/thdm_mh_t1.png, id=2024, 598.235pt x 574.145pt>
 File: ../AN/Figs/unblinding/2HDM/thdm_mh_t1.png Graphic file (type png)
 
 <use ../AN/Figs/unblinding/2HDM/thdm_mh_t1.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_mh_t1.png used on inpu
-t line 67.
+t line 200.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../AN/Figs/unblinding/2HDM/thdm_mh_t2.png, id=2026, 598.235pt x 574.145pt>
+<../AN/Figs/unblinding/2HDM/thdm_mh_t2.png, id=2025, 598.235pt x 574.145pt>
 File: ../AN/Figs/unblinding/2HDM/thdm_mh_t2.png Graphic file (type png)
 
 <use ../AN/Figs/unblinding/2HDM/thdm_mh_t2.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_mh_t2.png used on inpu
-t line 70.
+t line 203.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-Overfull \hbox (16.13818pt too wide) in paragraph at lines 76--76
+Overfull \hbox (16.13818pt too wide) in paragraph at lines 209--209
 []\T1/lmr/bx/n/14.4 Results for the com-bi-na-tion of fully- and semi-leptonic
  []
 
-<../Cap6/all.png, id=2031, 598.235pt x 574.145pt>
+<../Cap6/all.png, id=2030, 598.235pt x 574.145pt>
 File: ../Cap6/all.png Graphic file (type png)
  <use ../Cap6/all.png>
-Package pdftex.def Info: ../Cap6/all.png used on input line 98.
+Package pdftex.def Info: ../Cap6/all.png used on input line 231.
 (pdftex.def)             Requested size: 257.39758pt x 247.03523pt.
 
-<../Cap6/vbfX.png, id=2032, 598.235pt x 574.145pt>
+<../Cap6/vbfX.png, id=2031, 598.235pt x 574.145pt>
 File: ../Cap6/vbfX.png Graphic file (type png)
  <use ../Cap6/vbfX.png>
-Package pdftex.def Info: ../Cap6/vbfX.png used on input line 109.
+Package pdftex.def Info: ../Cap6/vbfX.png used on input line 242.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/vbf0.png, id=2033, 598.235pt x 574.145pt>
+<../Cap6/vbf0.png, id=2032, 598.235pt x 574.145pt>
 File: ../Cap6/vbf0.png Graphic file (type png)
  <use ../Cap6/vbf0.png>
-Package pdftex.def Info: ../Cap6/vbf0.png used on input line 112.
+Package pdftex.def Info: ../Cap6/vbf0.png used on input line 245.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/vbf1.png, id=2034, 598.235pt x 574.145pt>
+<../Cap6/vbf1.png, id=2033, 598.235pt x 574.145pt>
 File: ../Cap6/vbf1.png Graphic file (type png)
  <use ../Cap6/vbf1.png>
-Package pdftex.def Info: ../Cap6/vbf1.png used on input line 115.
+Package pdftex.def Info: ../Cap6/vbf1.png used on input line 248.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 77--116
+Underfull \hbox (badness 10000) in paragraph at lines 210--116
 
  []
 
@@ -3362,7 +3360,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
 Package rerunfilecheck Info: File `PhD.out' has not changed.
-(rerunfilecheck)             Checksum: CF33D0DA566D66F46F9FBDB58D5D4F2A;3829.
+(rerunfilecheck)             Checksum: C8160D3A6FF882D9ABC68267AA67C7A9;3823.
 
 
 LaTeX Warning: There were undefined references.
@@ -3370,10 +3368,10 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  14257 strings out of 494893
- 239158 string characters out of 6179541
- 441855 words of memory out of 5000000
- 16102 multiletter control sequences out of 15000+600000
- 126717 words of font info for 225 fonts, out of 8000000 for 9000
+ 239146 string characters out of 6179541
+ 442003 words of memory out of 5000000
+ 16103 multiletter control sequences out of 15000+600000
+ 126800 words of font info for 226 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  60i,21n,94p,1417b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -3401,10 +3399,10 @@ xmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
 /usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on PhD.pdf (155 pages, 14515487 bytes).
+Output written on PhD.pdf (155 pages, 14515621 bytes).
 PDF statistics:
- 2391 PDF objects out of 2487 (max. 8388607)
- 1887 compressed objects within 19 object streams
+ 2392 PDF objects out of 2487 (max. 8388607)
+ 1888 compressed objects within 19 object streams
  688 named destinations out of 1000 (max. 500000)
  36216 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -46,7 +46,7 @@
 \contentsline {section}{\numberline {6.5}Systematic uncertainties}{120}{section.6.5}
 \contentsline {chapter}{\numberline {7}Results and Interpretation}{123}{chapter.7}
 \contentsline {section}{\numberline {7.1}Statistical interpretation}{123}{section.7.1}
-\contentsline {section}{\numberline {7.2}Signal interpretation: EW singlet, 2HDM and MSSM}{125}{section.7.2}
+\contentsline {section}{\numberline {7.2}Signal interpretation: EW singlet and 2HDM}{125}{section.7.2}
 \contentsline {section}{\numberline {7.3}Fully leptonic results}{128}{section.7.3}
 \contentsline {section}{\numberline {7.4}Results for the combination of fully- and semi-leptonic analysis}{129}{section.7.4}
 \contentsline {chapter}{\numberline {A}Boost-invariant variables}{135}{appendix.A}

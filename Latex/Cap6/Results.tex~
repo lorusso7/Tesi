@@ -1,5 +1,5 @@
 
-\section{Limits and results}
+\section{Fully leptonic results}
 
 \subsection*{Electroweak singlet}
 The final binned fit is performed using the $m_T^I$ histogram for all signals and the number of events for the backgrounds.
@@ -73,3 +73,49 @@ In Fig. ~\ref{fig:2HDM1} and ~\ref{fig:2HDM2} the exclusion limits are shown for
     \label{fig:2HDM2}
 \end{figure}
 
+\section{Results for the combination of fully- and semi-leptonic analysis}
+No evidence for an excess of events with respect to the SM predictions is observed and thus, exclusion
+limits in the product of the cross section production of an hypothetical signal times the BR of the decay
+to two W bosons is evaluated.
+For every mass point from 200 GeV up to 3 TeV the 95\% CL upper exclusion limit are calculated in the
+hypothesis that the searched signal has the same width of a SM Higgs boson of corresponding mass.
+The expected and observed exclusion limits on the sum of gluon-gluon fusion and VBF cross sections times branching
+fraction, assuming that the ratio of cross sections between the two production processes is the same as in
+the SM, is shown in Fig.~\ref{lim_superC}, corresponding to the combination of the fully-leptonic and semi-leptonicanalysis.
+This result represents a very big improvements in for the high mass searches. 
+In addition it enhances the upper limits of a factor of $\sim$10 at low mass and $\sim$100 at high mass the ATLAS limits evaluated at $\sqrt{s}=13$ TeV using partially 2016 data, Fig.~\ref{ATLAS-CONF-2016-074_fig}.
+The value of upper limit are comparable with the results obtained in CMS for $X \to ZZ$ with final state ($4\ell$, $2\ell 2\nu$ and $2\ell 2q$) \cite{Sirunyan:2018qlb}.\\
+\newline
+The production of the $X$ resonance has been considered to be either in gluon gluon fusion and in Vector
+Boson Fusion with the assumption of the SM fraction. 
+However a scan of the fraction of VBF mechanism
+production ( $f_{VBF}$ ) is performed to evaluate the upper limits. 
+So that parameter, is the fraction of the EW production cross section with respect to the total cross section and the gluon-gluon fusion cross
+section is $\sigma_X \times ( 1-  f_{VBF} )$ . Three different values of  $f_{VBF}$ are studied:   $f_{VBF}$ free to floating, $f_{VBF}=$ 0 and $f_{VBF}=$ 1. 
+The upper limits for three cases are shown in Fig.~\ref{wwe}  for the combination of the two different analysis.
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.65\textwidth]{../Cap6/all}
+\caption{Expected and observed exclusion limits at 95\% CL on the sum of ggH and VBF cross
+sections times branching fraction for the combination of all the analysis categories as a function
+of the resonance mass. The black dotted line corresponds to the central expected value while
+the yellow and green bands represent the $\pm 1 \sigma$ and $\pm 2 \sigma$ uncertainties respectively.}
+\label{lim_superC}
+\end{figure}
+\begin{figure}[htb]
+\centering
+\subfigure[ $f_{VBF}=$ free to float ]{
+\includegraphics[width=0.45\textwidth]{../Cap6/vbfX}
+}
+\subfigure[ $f_{VBF}=$0 ]{
+\includegraphics[width=0.45\textwidth]{../Cap6/vbf0}
+}
+\subfigure[ $f_{VBF}=$ 1]{
+\includegraphics[width=0.45\textwidth]{../Cap6/vbf1}
+}
+\caption{95\ CL exclusion limits, on the production gluon-gluon fusion and VBF cross section times branching 
+for differents $f_{VBF}$ fraction. The red line represent the predicted cross-section for EW high
+mass bosons in the free floating case (a), only the predicted vector boson cross-section in
+ $f_{VBF}$ case (b) and only the predicted gluon-gluon fusion cross-section in $f_{VBF}$ case (c).}
+    \label{wwe}
+\end{figure}
