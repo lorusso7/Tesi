@@ -482,13 +482,28 @@ This analysis selects jets with
 \begin{equation}
  p_T^{Jet} > 30 \, \mathrm{GeV} \: , |\eta| < 5.0 \: .
 \end{equation}
-Kinematic distributions of the jets after applying corrections are shown in Fig.~\ref{jetFig} for a Drell-Yan enriched sample.  As can be seen from the plot there is a reasonable agreement between simulation and data.
-\begin{figure}
-\centering
-\includegraphics[scale= 0.5]{../Cap4/jetFig}
-\caption{The jet kinematic distributions}
-\label{jetFig}
+Kinematic distributions of the jets after applying corrections are shown in Fig.~\ref{jetFig} for a Drell-Yan enriched sample.  As can be seen from the plot there is a reasonable agreement between simulation and data. The residual discrepancies are covered by the uncertainties of the jet energy corrections (Sec.~\ref{jetr}) which are not shown in the plots.
+%\begin{figure}
+%\centering
+%\includegraphics[scale= 0.5]{../Cap4/jetFig}
+%\caption{The jet kinematic distributions}
+%\label{jetFig}
+%\end{figure}
+
+\begin{figure}[htbp]
+ \captionsetup[subfigure]{margin=1pt}
+ \centering
+    \subfigure[$\eta$ jet1 ]{\includegraphics[width=0.45\textwidth]{../Cap4/Figs/Jet/cratio_Zmm_jeteta1.png}}
+    \subfigure[$\eta$ jet2]{\includegraphics[width=0.45\textwidth]{../Cap4/Figs/Jet/cratio_Zmm_jeteta2.png}}
+    \\
+    \subfigure[$p_T$ jet1]{\includegraphics[width=0.45\textwidth]{../Cap4/Figs/Jet/cratio_Jet_13TeV_of_jet1_pt.png}}
+    \subfigure[$p_T$ jet2]{\includegraphics[width=0.45\textwidth]{../Cap4/Figs/Jet/cratio_Jet_13TeV_of_jet2_pt.png}}
+    %\subfigure[jet3_pt]{\includegraphics[width=0.45\textwidth]{Figs/Jet/cratio_Jet_13TeV_of_jet3_pt.png}\label{fig:jet3_pt}}
+    \caption{
+      The jet kinematic distributions ($\eta$ and $p_T$) for the first and for the second jet. }
+%\label{jetFig}
 \end{figure}
+
 
 \section{b-jet identification}
 To identify the b jets, the peculiarities that characterize hadrons
@@ -581,13 +596,13 @@ the significance of the flight distance, given by the ratio of the flight distan
 Similar to the TC algorithm, there are two versions
 of SSV: High Efficiency (SSVHE) which uses vertices to which there are at least
 two associated tracks, and High Purity (SSVHP) that requires at least three associated tracks.
-There are more complicated algorithms that consider the secondary vertices together with the
-information on the lifetime. This makes possible to construct a discriminant
-even when there is no secondary vertex, increasing efficiency with respect to 
-SSV; two of these algorithms are the Combined Secondary Vertex (CSV) and the
-Combined Secondary Vertex Version 2 + Inclusive Vertex Finder (CSVV2IVF).
-The difference between the two is that the CSV algorithm uses information from the jets only to reconstruct the vertices while the CSVV2IVF algorithm uses
-all the tracks present in the event.
+%There are more complicated algorithms that consider the secondary vertices together with the
+%information on the lifetime. This makes possible to construct a discriminant
+%even when there is no secondary vertex, increasing efficiency with respect to 
+%SSV; two of these algorithms are the Combined Secondary Vertex (CSV) and the
+%Combined Secondary Vertex Version 2 + Inclusive Vertex Finder (CSVV2IVF).
+%The difference between the two is that the CSV algorithm uses information from the jets only to reconstruct the vertices while the CSVV2IVF algorithm uses
+%all the tracks present in the event.
 %In addition there are some other variables that
 %can be used to increase the discrimination power
 %\begin{itemize}
@@ -600,6 +615,15 @@ all the tracks present in the event.
 %\item the number of tracks in the jet.
 %\end{itemize}
 
+\subsection*{Combined MVA algorithm}
+Another class of   b-jet  algorithms is obtained combining several discriminating variables using multivariate algorithms.
+One of these  identification algorithms, the  Combined MVA v2 (CMVA), uses the discriminators described previously (JP and SSV) together with 
+ Soft Electron (SET) and Soft Muon (SMT) taggers:
+the SET algorithm looks for a reconstructed electron inside the jet cone $\Delta R<0.4$;
+the SMT algorithm searches for a muon with a transverse momentum of at least 2 GeV among the jet constituents. 
+All these inputs are combined used a Boost Decision Tree (BDT) providing a better discrimination with respect to each variable alone.
+
+
 \subsection*{b-tag performance in $X \to WW$ analysis}
 In order to assess which tagger and working point are performing better, we have calculated
 the signal significance for different taggers and working points in events with 0 or 1 jet with $p_T>$30  GeV, 
@@ -610,14 +634,7 @@ The results show that the usage of CMVA (loose WP) or  CSV (medium WP) leads to 
 comparable signal significance in the combined 0+1 jet category. The CMVA tagger with loose
 WP has been found to be the best option for the analysis, given the good performance and the
 nice agreement that has been observed between data and MC, Fig.~\ref{cmvaT} and  Fig.~\ref{cmvaD}.
-%\begin{figure}
-%\centering
-%\includegraphics[scale= 0.3]{../Cap4/btt}
-%\caption{Signal significance for different taggers and working points in the 0 and 1 jet categories. The significance for the combination of the 0 and 1 jet categories is shown as well. Only
-%the systematic uncertainties associated to the b tagging scale factors are taken into account for
-%the significance evaluation.}
-%\label{btt}
-%\end{figure}
+
 \begin{table}[htb]
 \caption{Signal significance for different taggers and working points in the 0 and 1 jet categories. The significance for the combination of the 0 and 1 jet categories is shown as well. Only the systematic uncertainties associated to the b tagging scale factors are taken into account for the significance evaluation.}
 \centering
