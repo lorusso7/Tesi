@@ -1,10 +1,10 @@
 \chapter{Event Reconstruction}
 \label{cap4}
 
-\textit{In the search of high mass resonances in the $W^+W^-$ channel, leptons (specifically, electrons or muons and neutrinos) and jets are searched for to select signal events.
+\textit{In the search of high mass resonances in the $W^+W^-$ channel, leptons (specifically, electrons or muons), jets and MET are used  to select signal events.
 The reconstruction of such objects follow standard algorithms and procedure which have been
-developed by the experiment. In this chapter the reconstruction of the interested objects are described. 
-I have contributed in the evaluation of the best b-tagging working point for Standard Model Higgs boson analysis with 2015 data~\cite{CMS-PAS-HIG-16-021} and marginally for the same analysis using 2016 data~\cite{CMS-PAS-HIG-16-042}, Tab.~\ref{btt}.}
+developed by the experiment. In this chapter the reconstruction  and the identification algorithms for these objects are described. 
+In particular I have contributed in the evaluation of the best b-tagging working points, Tab.~\ref{btt}.}
 
 \section{The Particle Flow}
 \label{PFt}
@@ -482,7 +482,7 @@ This analysis selects jets with
 \begin{equation}
  p_T^{Jet} > 30 \, \mathrm{GeV} \: , |\eta| < 5.0 \: .
 \end{equation}
-Kinematic distributions of the jets after applying corrections are shown in Fig.~\ref{jetFig} for a Drell-Yan enriched sample.  As can be seen from the plot there is a good agreement between simulation and data.
+Kinematic distributions of the jets after applying corrections are shown in Fig.~\ref{jetFig} for a Drell-Yan enriched sample.  As can be seen from the plot there is a reasonable agreement between simulation and data.
 \begin{figure}
 \centering
 \includegraphics[scale= 0.5]{../Cap4/jetFig}
@@ -606,18 +606,42 @@ the signal significance for different taggers and working points in events with 
 which are the most sensitive to the dominant gluon fusion production mode. In events with 0 jets with $p_T>$30  GeV, the b-tag algorithm is applied to jets with 20$< p_T <$30 GeV, if any. The significance
 has been computed running the full analysis for the Standard Model Higgs at 125 GeV~\cite{CMS-PAS-HIG-16-042},  but including only the systematic uncertainties
 associated to the b-tagging~\cite{Chatrchyan:2012jua}. The results are shown in Tab.~\ref{btt}.
-The results show that the usage of CMVA (loose WP) or Deep CSV (medium WP) leads to a
+The results show that the usage of CMVA (loose WP) or  CSV (medium WP) leads to a
 comparable signal significance in the combined 0+1 jet category. The CMVA tagger with loose
 WP has been found to be the best option for the analysis, given the good performance and the
 nice agreement that has been observed between data and MC, Fig.~\ref{cmvaT} and  Fig.~\ref{cmvaD}.
-\begin{figure}
+%\begin{figure}
+%\centering
+%\includegraphics[scale= 0.3]{../Cap4/btt}
+%\caption{Signal significance for different taggers and working points in the 0 and 1 jet categories. The significance for the combination of the 0 and 1 jet categories is shown as well. Only
+%the systematic uncertainties associated to the b tagging scale factors are taken into account for
+%the significance evaluation.}
+%\label{btt}
+%\end{figure}
+\begin{table}[htb]
+\caption{Signal significance for different taggers and working points in the 0 and 1 jet categories. The significance for the combination of the 0 and 1 jet categories is shown as well. Only the systematic uncertainties associated to the b tagging scale factors are taken into account for the significance evaluation.}
 \centering
-\includegraphics[scale= 0.3]{../Cap4/btt}
-\caption{Signal significance for different taggers and working points in the 0 and 1 jet categories. The significance for the combination of the 0 and 1 jet categories is shown as well. Only
-the systematic uncertainties associated to the b tagging scale factors are taken into account for
-the significance evaluation.}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multirow{2}{*}{Tagger (WP)} & \multicolumn{3}{c|}{Significance} \\
+                        & 0 jet & 1 jet & 0+1 jet \\
+\hline
+CMVA (loose)     & 7.31 & 4.86 & 8.76 \\
+CMVA (medium)    & 7.39 & 4.52 & 8.66 \\
+CMVA (tight)     & 7.35 & 4.16 & 8.44 \\
+\hline
+CSV (loose)      & 7.12 & 4.64 & 8.47 \\
+CSV (medium)     & 7.37 & 4.47 & 8.62 \\
+CSV (tight)      & 7.36 & 4.15 & 8.45 \\
+\hline
 \label{btt}
-\end{figure}
+\end{tabular}
+\end{table}
+
+
+
+
+
 
 \begin{figure}
 \centering

@@ -324,16 +324,6 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
   simulations}.
 \newblock {\em JHEP}, 07:079, 2014.
 
-\bibitem{CMS-PAS-HIG-16-021}
-{Higgs to WW measurements with $15.2~\mathrm{fb}^{-1}$ of 13 TeV proton-proton
-  collisions}.
-\newblock Technical Report CMS-PAS-HIG-16-021, CERN, Geneva, 2017.
-
-\bibitem{CMS-PAS-HIG-16-042}
-{Measurements of properties of the Higgs boson decaying to a W boson pair in pp
-  collisions at $\sqrt{s}=13~{\rm TeV}$}.
-\newblock Technical Report CMS-PAS-HIG-16-042, CERN, Geneva, 2018.
-
 \bibitem{CMS-PAS-PFT-09-001}
 {Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
   MET}.
@@ -381,6 +371,11 @@ Matteo Cacciari and Gavin~P. Salam.
 Serguei Chatrchyan et~al.
 \newblock {Identification of b-quark jets with the CMS experiment}.
 \newblock {\em JINST}, 8:P04013, 2013.
+
+\bibitem{CMS-PAS-HIG-16-042}
+{Measurements of properties of the Higgs boson decaying to a W boson pair in pp
+  collisions at $\sqrt{s}=13~{\rm TeV}$}.
+\newblock Technical Report CMS-PAS-HIG-16-042, CERN, Geneva, 2018.
 
 \bibitem{Ellis:2012wg}
 John Ellis and Dae~Sung Hwang.
