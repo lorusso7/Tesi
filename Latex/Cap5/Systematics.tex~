@@ -1,145 +1,122 @@
-\section{Systematic uncertainties}\label{sec:systematics}
+\newpage
 
+\section{Systematic uncertainties}\label{sec:systematics}
 Systematic uncertainties are introduced as nuisance parameters in the fit and can affect the
 normalization and the shape of the different contributions.
 
-For a detailed description of the systematic uncertainties included in this analysis refer to AN-17-260. Here we report the additional uncertainties and the differences with respect to AN-17-260.
+Statistical uncertainties from MC simulated events are taken into account.
+Systematic uncertainties are represented by individual nuisance parameters with log-normal or
+shape-based distributions. The uncertainties affect the overall normalization of the signal and
+backgrounds as well as the shape of the predictions across the distribution of the observables.
+Correlations between systematic uncertainties in different categories and final states are taken
+into account. Systematic uncertainties play an especially important role in this analysis where
+no strong mass peak is expected due to the presence of undetected neutrinos in the final state.
+Below we describe in detail sources and quantities of systematics in this analysis and their
+effects on the signal and background processes.
+A list of the most important background uncertainties is given below.
 
-%In order to enhance the high mass signal contribution with respect to the background the templates are chosen to extend up to large mass values, where the signal sensitivity becomes important, especially in the VBF phase space. In the tail of the distributions there is however a lack of MC statistics for some samples and it may happen for some bins to contain zero expected events. This could artificially increase the analysis significance. To avoid this an upper uncertainty at 68\% CL is computed and assigned to all bins where the number of expected events for a given bacgkground is zero. This upper limit is computed as $1.64~\mathcal{L}_\mathrm{DATA}/\mathcal{L}_{MC}$ where $\mathcal{L}_\mathrm{DATA}$ is the data luminosity and $\mathcal{L}_{MC}$ is the equivalent luminosity of the MC sample.
 
-About the theoretical uncertainties, in addition to AN-16-300 here we have included the uncertainties related to QCD and PDF scales for the signal samples at different masses. The uncertainties are taken from the Yellow Report 3 and the same values are used both for the large width hypothesis and for different values of $C'$. The effect of QCD and PDF scale uncertainties on the analysis selection has aslo been taken into account.
+\subsection*{Background normalization uncertainties}
+One of the most important sources of systematic uncertainty is the normalization of the backgrounds that are estimated on data control samples whenever is possible. The signal extraction is performed subtracting the estimated backgrounds to the event counts in data. The amount of uncertainty depends on the considered background:
+\begin{itemize}
+\item  jet-induced background: normalization and kinematic shapes are derived from a
+data control region and both normalization and shape systematic uncertainties are
+considered. A conservative 30$\%$ uncertainty on the fake rate is assumed correlated across the different analysis regions. The contribution to the uncertainty in the signal region due to the limited electron statistics in the background enriched control regions is about 10\%, while the contribution due
+to the limited muon statistics 3\%. 
+\item WW background: The normalization of the WW background is performed independently in each jet multiplicity via the rateParam feature of combine. 
+A WW electroweak (VBS) sample is used in addition to the standard WW sample in
+the phase spaces with at least two jets, where its contribution becomes non neglgible.
+The uncertainty in the cross section for this process is evaluated using the variations
+of the renormalization and factorization QCD scales, as well as the PDF variations,
+and amounts to 11\%.
+\item $\bar{t}t$ and tW backgrounds: Top events are estimated with b-tagging in data control regions. The two top background enriched control regions are defined as additional categories in the fit while the kinematic shapes are taken from the simulation corrected for the b-tagging discriminant scale factors. The top normalization is correlated between the top control region and the Higgs signal categories separately in
+the different jet multiplicities, and these normalizations are left unconstrained using the rateParam feature of combine. 
+\item Drell-Yan background: The Drell-Yan background enters the different flavor analysis via the leptonic decays of the $\tau$ leptons from $Z \gamma^* \to \tau \tau$. In the different flavor
+analyses the normalization of these background is controlled via the rateParam
+feature of combine and with a dedicated control region in each jet bin category. 
 
-The categorization of events based on jet multiplicity introduces additional uncertainties related to higher order corrections. These uncertainties are associated to the ggH production mode and are evaluated independently following the recipe described in~\cite{Boughezal:2013oha} and are 5.6\% for the 0-jet and  13\% for the 1-jet and 20\% for the 2-jet and VBF categories.
+\item $W \gamma^*$ background: The kinematic shape of this background is predicted by simulation, normalized to its data-driven estimate, and constrained within the respective
+uncertainty, which is 25\%.
+\item WZ : The kinematic shapes of this backgrounds are predicted by simulation and
+normalized to their theoretical predictions in the different and same flavour analysis.
+
+\item $ Z \gamma^*$  : The kinematic shapes of this backgrounds are predicted by simulation and
+normalized to their theoretical predictions in the different and same flavor analysis.
+
+\item ZZ: The kinematic shapes of this backgrounds are predicted by simulation and nor-
+malized to their theoretical predictions in the different and same flavor analysis.
+
+\end{itemize}
+
+
+
+
+\subsection*{Experimental uncertainties}
+Effects from experimental uncertainties are studied by applying a scaling and/or smearing of
+certain variables of the physics objects, followed by a subsequent recalculation of all the correlated variables. This is done for MC simulation, to account for possible systematic mismeasurements of the data. All experimental sources except luminosity are treated both as normalization and shape uncertainties. For background with a data-driven normalization estimation,
+the shape uncertainty is considered only. The following experimental systematic sources have
+been taken into account.
+
+\begin{itemize}
+\item Luminosity: The uncertainty determined by the CMS luminosity monitoring is 2.3\% for 13 TeV data.
+\item Lepton trigger systematics: Lepton trigger systematics are of the order of less than 1\%. 
+These uncertainties are computed by varying the tag selection
+as well as the Z window in the tag and probe method used to compute the corresponding scale factors.
+\item Lepton reconstruction and identification efficiency:
+The lepton reconstruction and identification efficiencies are measured with the tag
+and probe method in data. To correct for the difference in the lepton identification
+efficiencies between data and MC, data/MC scale factors dependent on \pt and $\eta$ are
+applied to the MC. The resulting uncertainty in the signal region is  1\% for electrons
+and 2\% for muon.
+\item Muon momentum and electron energy scale:  Uncertainties on both the scale and resolution individually amount to  0.6-1\% for electrons 
+and  0.2\% for muons. 
+
+\item MET miss modelling: The MET miss measurement is affected by the possible mismeasurement of individual particles addressed above, 
+as well as the additional contributions from the pile-up interactions. The effect of the missing transverse momentum resolution on the event selection is studied by propagating each component of the MET uncertainty to the absolute value and direction of MET.
+
+\item Jet energy scale (JES) uncertainties: We estimate this uncertainty
+applying the official jet uncertainties on the JES  and compute the variation of the selection efficiency. JES uncertainty affects the
+rates in the signal region at the level of  10\%.
+
+\item b-jet misidentification modelling: The uncertainties on the selection of non-b jets is taken into account by looking at
+the b-jet misidentification efficiency. The uncertainties on these scale factors need to be taken into account, and are of the
+order of a few percent.
+\end{itemize}
+
+
+
+
+
+\subsection*{ Theoretical uncertainties}
+\begin{itemize}
+\item PDF and higher-order corrections (renormalization and factorization scale): PDF
+uncertainties and the missing knowledge on higher-order corrections, evaluated by
+means of scale variation, directly affect the cross section, as well as the acceptance
+of a simulated process. The uncertainties that arise from using different PDF sets
+were obtained by reweighting events with different PDF sets.
+
+\item Underlying event and parton shower modelling: The underlying event (UE) and
+parton shower (PS) modelling uncertainties are estimated by comparing samples
+interfaced with different parton showers (Pythia vs Herwig) and UE tunes
+
+\item Single top tW and tt ratio: The ratio between the single top and top pair cross section
+is varied by the uncertainty on the ratio between their cross sections, calculated con-
+sidering scale variations,
+
+\item A QCD and PDF scales for the signal samples at different masses. The uncertainties are taken from the Yellow Report 3 and the same values are used both for the large width hypothesis and for different values of $C'$. The effect of QCD and PDF scale uncertainties on the analysis selection has aslo been taken into account.
+
+\item The categorization of events based on jet multiplicity introduces additional uncertainties related to higher order corrections. These uncertainties are associated to the ggH production mode and are evaluated independently following the recipe described in~\cite{Boughezal:2013oha} and are 5.6\% for the 0-jet and  13\% for the 1-jet and 20\% for the 2-jet and VBF categories.
+
+
+
+
+\end{itemize}
+
+
 
 The top background shape is estimated from simulation and corrected using a data driven b-tagging scale factor. The normalization is measured in a top quark enriched control region obtained inverting the b-veto requirement of the signal region. Three control regions are defined, one for each jet bin category. 
-A nuisance parameter is added to take into account the effect of the parton shower uncertainty on th top backgorund. 
-
-%This effect has been estimated using two different \ttbar samples generated with \textsc{Powheg} and hadronized using two different parton shower programs: one with \textsc{Pythia8} and the other one with \textsc{Herwig}++ 2.7. The two samples have been compared looking at the generator level \mt variable. 
-%The ratio between the \mt distributions at generator level for the two samples is shown in Fig.~\ref{fig:topPS}. The ratio is fitted with a polynomial function of degree one that is then used to derive the uncertainty associated to the PS effect for the Top backgorund. The uncertainty was found to be of the order of 6\% in the tail of the \mt distribution and less than 1\% for low \mt values.
-
-%\begin{figure}[htbp]
-%\centering
-%\includegraphics[width=0.7\textwidth]{Figs/pythia-herwig_ratio.pdf}
-%\caption{
-%    Ratio between the \mt distributions at generator level for the samples hadronized with Pythia and Herwig.}
-%    \label{fig:topPS}
-%\end{figure}
-
-
-The DY background shape is also estimated from simulation and analogously to the Top background, the DY normalization is measured with a data driven technique in three control regions enriched in DY events.
-
-
+A nuisance parameter is added to take into account the effect of the parton shower uncertainty on th top backgorund. \\
+The DY background shape is also estimated from simulation and analogously to the Top background, the DY normalization is measured with a data driven technique in three control regions enriched in DY events.\\
 A dedicated nuisances for MET reweighting in DY control region is introduced in SF analysis. It is evaluate separately for ee and $\mu \mu$ categories. 
 The uncertainty is quote as maximum and minimum best-fit lines of the linear fit.
-
-
-The impact plots showing the effect of each nuisance parameter on the signal strength have been obtained for two different mass points looking at the MC Asimov data set. The plots showing the effect of the most important nuisances are reported for the OF,the SF categories and their combination in Fig.~\ref{fig:impacts_OF_0}, \ref{fig:impacts_OF_1}, \ref{fig:impacts_OF_2}, \ref{fig:impacts_OF_2}, \ref{fig:impacts_SF_ee}, \ref{fig:impacts_SF_mm}  and Fig.~\ref{fig:impacts_OFSF}.
-
-
-\begin{figure}[htbp]
-\centering
-\subfigure[300\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_300_0jet_expect1.pdf}
-}\\
-\subfigure[2000\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_2000_0jet_expect1.pdf}
-}
-\caption{
-    Impact plots of the most important nuisance parameters on the signal
-    strength for two mass hypothesis, 300 and 2000\GeV, in the 0jet categories. The plots are obtained from a fit of the MC Asimov data set.}
-    \label{fig:impacts_OF_0}
-\end{figure}
-
-\begin{figure}[htbp]
-\centering
-\subfigure[300\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_300_1jet_expect1.pdf}
-}\\
-\subfigure[2000\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_2000_1jet_expect1.pdf}
-}
-\caption{
-    Impact plots of the most important nuisance parameters on the signal
-    strength for two mass hypothesis, 300 and 2000\GeV, in the 1jet categories. The plots are obtained from a fit of the MC Asimov data set.}
-    \label{fig:impacts_OF_1}
-\end{figure}
-
-
-\begin{figure}[htbp]
-\centering
-\subfigure[300\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_300_2jet_expect1.pdf}
-}\\
-\subfigure[2000\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_2000_2jet_expect1.pdf}
-}
-\caption{
-    Impact plots of the most important nuisance parameters on the signal
-    strength for two mass hypothesis, 300 and 2000\GeV, in the 2jet categories. The plots are obtained from a fit of the MC Asimov data set.}
-    \label{fig:impacts_OF_2}
-\end{figure}
-
-\begin{figure}[htbp]
-\centering
-\subfigure[300\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_300_VBF_expect1.pdf}
-}\\
-\subfigure[2000\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_2000_VBF_expect1.pdf}
-}
-\caption{
-    Impact plots of the most important nuisance parameters on the signal
-    strength for two mass hypothesis, 300 and 2000\GeV, in the VBF categories. The plots are obtained from a fit of the MC Asimov data set.}
-    \label{fig:impacts_OF_VBF}
-\end{figure}
-
-
-
-
-\begin{figure}[htbp]
-\centering
-\subfigure[300\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_300_ee_expect1.pdf}
-}\\
-\subfigure[2000\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_2000_ee_expect1.pdf}
-}
-\caption{
-    Impact plots of the most important nuisance parameters on the signal
-    strength for two mass hypothesis, 300 and 2000\GeV, in the SF ee analysis. The plots are obtained from a fit of the MC Asimov data set.}
-    \label{fig:impacts_SF_ee}
-\end{figure}
-
-
-
-\begin{figure}[htbp]
-\centering
-\subfigure[300\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_300_mm_expect1.pdf}
-}\\
-\subfigure[2000\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_2000_mm_expect1.pdf}
-}
-\caption{
-    Impact plots of the most important nuisance parameters on the signal
-    strength for two mass hypothesis, 300 and 2000\GeV, in the SF mm analysis. The plots are obtained from a fit of the MC Asimov data set.}
-    \label{fig:impacts_SF_mm}
-\end{figure}
-
-
-
-
-\begin{figure}[htbp]
-\centering
-\subfigure[300\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_300_fullCombined_expect1.pdf}
-}\\
-\subfigure[2000\GeV]{
-\includegraphics[width=0.6\textwidth]{impact/impacts_2000_fullCombined_expect1.pdf}
-}
-\caption{
-    Impact plots of the most important nuisance parameters on the signal
-    strength for two mass hypothesis, 300 and 2000\GeV, in the combination of OF and SF analysis. The plots are obtained from a fit of the MC Asimov data set.}
-    \label{fig:impacts_OFSF}
-\end{figure}
 

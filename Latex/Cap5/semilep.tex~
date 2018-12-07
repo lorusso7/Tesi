@@ -14,7 +14,7 @@ backgrounds estimation) among the fully- and the semi-leptonic analysis. }
 \section{Overview of the semileptonic analysis}
 The $X \to WW \to \ell \nu q \bar{q}$ final state is one of the
 dominant decay channels of a SM-like Higgs boson for masses above 200
-GeV, as shown Fig.~\ref{BRTotalUncertBands4f2} in green.
+GeV, as shown Fig.~\ref{brqq} in green.
 In the mass regime of interest the hadronically decaying boson may be sufficiently boosted that
 its decay products are contained in a single merged jet. Jet substructure techniques are used
 to identify merged jets with two well defined subjets and to determine the merged jet mass,
@@ -47,14 +47,18 @@ reconstructed in different collections, jets are required to be separated from t
 leptons by $\Delta R(lj)> 0.8 $ for AK8 jets by  $\Delta R(lj)> 0.4$ for AK4 jets.
 For the selection of $W$ candidates, two AK4 jets both with $p_T>30$ GeV or an AK8 jet with  $p_T>200$ are required.
 The final hadronic $W$ candidate requirements for the merged and resolved analyses
-will be discussed in detail in the following.
+will be discussed in detail in the following. To reduce the top background, a veto on the  events that contain an additional jet with $p_T  > 20$
+GeV which is b-tagged is applied.
+
+For AK8 jets the softdrop algorithm~\cite{Larkoski2014} is implemented to suppress the effects of pileup and underlying event radiation. This technique declusters the jet and recursively removes soft wide-angle radiation, pushing QCD jets towards lower values while maintaining the jet mass for V-jets around the boson-mass. Each AK8 jet has two associated subjets corresponding to the protojets obtained by undoing the last iteration of the soft drop jet declustering procedure.
+
 This analysis also makes use of the n-subjettiness variable~\cite{Thaler:2011gf}  to quantify the compatibility
 of AK8 jets with a substructure hypothesis of n-subjets. It is based on the distribution of the
 jet constituents with respect to the subjet axes. The ratio of 2-subjettiness and 1-subjettiness,
  $\tau_2 /\tau_1$, allows the dipole structure of hadronic W decays to be distinguished from the monopole
 structure of QCD jets.
 In order to mitigate the effect of pileup on the jet substructure observables used in this analysis
-(softdrop mass and n-subjettiness) the pileup per particle identification (PUPPI)~\cite{Bertolini2014} method is
+(softdrop mass and n-subjettiness), the pileup per particle identification (PUPPI)~\cite{Bertolini2014} method is
 implemented.
 
 \subsection*{Boosted selection}

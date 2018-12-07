@@ -69,56 +69,55 @@ Warning--empty journal in ckkw2
 Warning--empty year in ckkw2
 Warning--empty journal in Khachatryan:2015pea
 Warning--empty journal in Aaboud:2018jqu
-Warning--empty author in CMS-PAS-HIG-16-021
-Warning--empty author in CMS-PAS-HIG-16-042
 Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty journal in Adam:2005cg
 Warning--empty year in 726788
 Warning--empty author in CMS-PAS-JME-14-001
+Warning--empty author in CMS-PAS-HIG-16-042
 Warning--empty journal in cowan1998statistical
 Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
 Warning--empty journal in CMS:2017epy
-You've used 93 entries,
+You've used 92 entries,
             1791 wiz_defined-function locations,
-            978 strings with 18033 characters,
-and the built_in function-call counts, 17985 in all, are:
-= -- 1507
-> -- 815
-< -- 9
-+ -- 312
+            975 strings with 17907 characters,
+and the built_in function-call counts, 17874 in all, are:
+= -- 1496
+> -- 814
+< -- 8
++ -- 311
 - -- 219
-* -- 1216
-:= -- 2961
-add.period$ -- 262
-call.type$ -- 93
-change.case$ -- 91
+* -- 1208
+:= -- 2945
+add.period$ -- 260
+call.type$ -- 92
+change.case$ -- 90
 chr.to.int$ -- 0
-cite$ -- 123
-duplicate$ -- 791
-empty$ -- 1809
+cite$ -- 121
+duplicate$ -- 784
+empty$ -- 1797
 format.name$ -- 219
-if$ -- 3942
+if$ -- 3917
 int.to.chr$ -- 0
-int.to.str$ -- 93
+int.to.str$ -- 92
 missing$ -- 80
-newline$ -- 451
+newline$ -- 447
 num.names$ -- 80
-pop$ -- 208
+pop$ -- 206
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 332
+skip$ -- 330
 stack$ -- 0
 substring$ -- 1045
-swap$ -- 89
-text.length$ -- 9
+swap$ -- 88
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 30
+warning$ -- 29
 while$ -- 150
-width$ -- 95
-write$ -- 953
+width$ -- 94
+write$ -- 943
 (There were 11 error messages)

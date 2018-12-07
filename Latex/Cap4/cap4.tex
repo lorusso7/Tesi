@@ -1,10 +1,10 @@
 \chapter{Event Reconstruction}
 \label{cap4}
 
-\textit{In the search of high mass resonances in the $W^+W^-$ channel, leptons (specifically, electrons or muons and neutrinos) and jets are searched for to select signal events.
+\textit{In the search of high mass resonances in the $W^+W^-$ channel, leptons (specifically, electrons or muons), jets and MET are used  to select signal events.
 The reconstruction of such objects follow standard algorithms and procedure which have been
-developed by the experiment. In this chapter the reconstruction of the interested objects are described. 
-I have contributed in the evaluation of the best b-tagging working point for Standard Model Higgs boson analysis with 2015 data~\cite{CMS-PAS-HIG-16-021} and marginally for the same analysis using 2016 data~\cite{CMS-PAS-HIG-16-042}, Tab.~\ref{btt}.}
+developed by the experiment. In this chapter the reconstruction  and the identification algorithms for these objects are described. 
+In particular I have contributed in the evaluation of the best b-tagging working points, Tab.~\ref{btt}.}
 
 \section{The Particle Flow}
 \label{PFt}
@@ -61,7 +61,7 @@ The Combinatorial Track Finder (CTF) is the main standard algorithm and proceeds
 \begin{itemize} 
 \item Seeding:  pairs or triplets of hits, that are compatible with a charged particle, originated from the interaction region and with $p_T$ above a lower
 threshold, are considered as possible candidates of
-charged tracks (GSF tracks).  Pixel hits provide the best track
+charged tracks.  Pixel hits provide the best track
 seeding, given their three-dimensional position information and lower occupancy.  
 \item Finding: is based on a standard Kalman  Filter  pattern  recognition  approach.
 The  track trajectory  is  extrapolated  to  the  neighboring tracker  layers, starting from the seeded parameters.
@@ -78,7 +78,8 @@ At higher $p_T$, the resolution gets worse  as $\Delta (1/p_T) \sim 0.2$ TeV$^{-
 The  reconstruction  of  single  muons  with  the
 CTF  algorithm  is  almost  fully  efficient  over  the whole acceptance range.
 Electrons, being charged particles, can be reconstructed through the standard track reconstruction.  However,  as electrons lose energy primarily through bremsstrahlung,  rather than ionization,  large energy losses are common.  
- The energy loss distribution is highly non-Gaussian, and therefore the standard Kalman filter is not appropriate.
+The energy loss distribution is highly non-Gaussian, and therefore the standard Kalman filter is not appropriate:
+a modified version of the Kalman filter, called the Gaussian Sum Filter (GSF) is used. 
 Electron candidates are reconstructed using the  information from the tracker but also from
 the ECAL, Sec~\ref{ler}. 
 For charged hadrons, finally, there are inefficiencies in the reconstruction due to their nuclear
@@ -115,7 +116,7 @@ The selected tracks are then clustered on the basis of their z-coordinates at th
 %This procedure tracks the global minimum of $F$ from high to low temperature.
 %The number of vertices increases as the temperature falls, and rises each time the minimum of $F$ turns into a saddle point at lower temperatures. 
 The DA process finds not only positions and assignments of tracks to vertices but also the  number of vertices.
-In Fig.~\ref{Fig:pu} is shown the distribution of the number of vertices in a Drell-Yan sample. This distribution is related to the number of PU events. Therefore MC events are reweighted according to the ratio between data and simulation in the number of primary vertices in order to correct for the different pileup. 
+In Fig.~\ref{Fig:pu} is shown the distribution of the number of vertices in a Drell-Yan sample. This distribution is related to the number of PU events. Therefore MC events are re-weighted according to the ratio between data and simulation in the number of primary vertices in order to correct for the different pileup. 
 \begin{figure*}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{../AN/Figs/nvertices.png}
@@ -139,7 +140,7 @@ The purposes of the clustering algorithm in the calorimeters are~\cite{Sirunyan:
 which is the case for low-quality and very high $p_T$ tracks.
 \end{itemize}
 For the PF event reconstruction, a  specific clustering algorithm was developed. 
-The clustering is performed separately in each subdetector: ECAL (barrel and endcaps) and HCAL (barrel and endcaps)
+The clustering is performed separately in each sub-detector: ECAL (barrel and endcaps) and HCAL (barrel and endcaps)
 In the algorithm, first, \textit{cluster seeds} are identified   as cells with an energy larger than a given seed threshold, and
 larger than the energy of the neighbouring cells. Second, \textit{topological clusters} are grown from the seeds by aggregating cells with at least a corner in common with a cell already in the cluster.
 %After an expectation-maximization algorithm based on a Gaussian-mixture mode to
@@ -154,8 +155,8 @@ larger than the energy of the neighbouring cells. Second, \textit{topological cl
 
 \section{Link algorithm}
 A given particle is, in general, expected to give rise to several PF elements in the various CMS
-subdetectors. The reconstruction of a particle therefore proceeds first with a
-link algorithm that connects the PF elements from different subdetectors.
+sub-detectors. The reconstruction of a particle therefore proceeds first with a
+link algorithm that connects the PF elements from different sub-detectors.
 The link between a track in the central tracker and a calorimeter cluster is established as follows:
 the track is first extrapolated from its last measured hit in the tracker to
 the ECAL at a depth corresponding to the expected maximum of a typical longitudinal electron shower
@@ -371,8 +372,7 @@ The purpose of the jet energy calibration is to relate, on average, the energy m
 detector jet to the energy of the corresponding true particle jet.  A true particle jet results from
 the clustering (with the same clustering algorithm applied to detector jets, Sec.~\ref{jetr}) of all stable particles
 originating from the fragmenting parton, as well as of the particles from the underlying event
-(UE) activity. 
-
+(UE) activity. \\
 The jet energy calibration is related,  on average, on the energy measured in
 the detector to the true energy of the corresponding final state particle jet or parton jet.
 From the clustering  of all stable particles, a true particle jet results. The correction is applied as
@@ -482,13 +482,28 @@ This analysis selects jets with
 \begin{equation}
  p_T^{Jet} > 30 \, \mathrm{GeV} \: , |\eta| < 5.0 \: .
 \end{equation}
-Kinematic distributions of the jets after applying corrections are shown in Fig.~\ref{jetFig} for a Drell-Yan enriched sample.  As can be seen from the plot there is a good agreement between simulation and data.
-\begin{figure}
-\centering
-\includegraphics[scale= 0.5]{../Cap4/jetFig}
-\caption{The jet kinematic distributions}
-\label{jetFig}
+Kinematic distributions of the jets after applying corrections are shown in Fig.~\ref{jetFig} for a Drell-Yan enriched sample.  As can be seen from the plot there is a reasonable agreement between simulation and data. The residual discrepancies are covered by the uncertainties of the jet energy corrections (Sec.~\ref{jetr}) which are not shown in the plots.
+%\begin{figure}
+%\centering
+%\includegraphics[scale= 0.5]{../Cap4/jetFig}
+%\caption{The jet kinematic distributions}
+%\label{jetFig}
+%\end{figure}
+
+\begin{figure}[htbp]
+ \captionsetup[subfigure]{margin=1pt}
+ \centering
+    \subfigure[$\eta$ jet1 ]{\includegraphics[width=0.45\textwidth]{../Cap4/Figs/Jet/cratio_Zmm_jeteta1.png}}
+    \subfigure[$\eta$ jet2]{\includegraphics[width=0.45\textwidth]{../Cap4/Figs/Jet/cratio_Zmm_jeteta2.png}}
+    \\
+    \subfigure[$p_T$ jet1]{\includegraphics[width=0.45\textwidth]{../Cap4/Figs/Jet/cratio_Jet_13TeV_of_jet1_pt.png}}
+    \subfigure[$p_T$ jet2]{\includegraphics[width=0.45\textwidth]{../Cap4/Figs/Jet/cratio_Jet_13TeV_of_jet2_pt.png}}
+    %\subfigure[jet3_pt]{\includegraphics[width=0.45\textwidth]{Figs/Jet/cratio_Jet_13TeV_of_jet3_pt.png}\label{fig:jet3_pt}}
+    \caption{
+      The jet kinematic distributions ($\eta$ and $p_T$) for the first and for the second jet. }
+%\label{jetFig}
 \end{figure}
+
 
 \section{b-jet identification}
 To identify the b jets, the peculiarities that characterize hadrons
@@ -581,13 +596,13 @@ the significance of the flight distance, given by the ratio of the flight distan
 Similar to the TC algorithm, there are two versions
 of SSV: High Efficiency (SSVHE) which uses vertices to which there are at least
 two associated tracks, and High Purity (SSVHP) that requires at least three associated tracks.
-There are more complicated algorithms that consider the secondary vertices together with the
-information on the lifetime. This makes possible to construct a discriminant
-even when there is no secondary vertex, increasing efficiency with respect to 
-SSV; two of these algorithms are the Combined Secondary Vertex (CSV) and the
-Combined Secondary Vertex Version 2 + Inclusive Vertex Finder (CSVV2IVF).
-The difference between the two is that the CSV algorithm uses information from the jets only to reconstruct the vertices while the CSVV2IVF algorithm uses
-all the tracks present in the event.
+%There are more complicated algorithms that consider the secondary vertices together with the
+%information on the lifetime. This makes possible to construct a discriminant
+%even when there is no secondary vertex, increasing efficiency with respect to 
+%SSV; two of these algorithms are the Combined Secondary Vertex (CSV) and the
+%Combined Secondary Vertex Version 2 + Inclusive Vertex Finder (CSVV2IVF).
+%The difference between the two is that the CSV algorithm uses information from the jets only to reconstruct the vertices while the CSVV2IVF algorithm uses
+%all the tracks present in the event.
 %In addition there are some other variables that
 %can be used to increase the discrimination power
 %\begin{itemize}
@@ -600,24 +615,50 @@ all the tracks present in the event.
 %\item the number of tracks in the jet.
 %\end{itemize}
 
+\subsection*{Combined MVA algorithm}
+Another class of   b-jet  algorithms is obtained combining several discriminating variables using multivariate algorithms.
+One of these  identification algorithms, the  Combined MVA v2 (CMVA), uses the discriminators described previously (JP and SSV) together with 
+ Soft Electron (SET) and Soft Muon (SMT) taggers:
+the SET algorithm looks for a reconstructed electron inside the jet cone $\Delta R<0.4$;
+the SMT algorithm searches for a muon with a transverse momentum of at least 2 GeV among the jet constituents. 
+All these inputs are combined used a Boost Decision Tree (BDT) providing a better discrimination with respect to each variable alone.
+
+
 \subsection*{b-tag performance in $X \to WW$ analysis}
 In order to assess which tagger and working point are performing better, we have calculated
 the signal significance for different taggers and working points in events with 0 or 1 jet with $p_T>$30  GeV, 
 which are the most sensitive to the dominant gluon fusion production mode. In events with 0 jets with $p_T>$30  GeV, the b-tag algorithm is applied to jets with 20$< p_T <$30 GeV, if any. The significance
 has been computed running the full analysis for the Standard Model Higgs at 125 GeV~\cite{CMS-PAS-HIG-16-042},  but including only the systematic uncertainties
 associated to the b-tagging~\cite{Chatrchyan:2012jua}. The results are shown in Tab.~\ref{btt}.
-The results show that the usage of CMVA (loose WP) or Deep CSV (medium WP) leads to a
+The results show that the usage of CMVA (loose WP) or  CSV (medium WP) leads to a
 comparable signal significance in the combined 0+1 jet category. The CMVA tagger with loose
 WP has been found to be the best option for the analysis, given the good performance and the
 nice agreement that has been observed between data and MC, Fig.~\ref{cmvaT} and  Fig.~\ref{cmvaD}.
-\begin{figure}
+
+\begin{table}[htb]
+\caption{Signal significance for different taggers and working points in the 0 and 1 jet categories. The significance for the combination of the 0 and 1 jet categories is shown as well. Only the systematic uncertainties associated to the b tagging scale factors are taken into account for the significance evaluation.}
 \centering
-\includegraphics[scale= 0.3]{../Cap4/btt}
-\caption{Signal significance for different taggers and working points in the 0 and 1 jet categories. The significance for the combination of the 0 and 1 jet categories is shown as well. Only
-the systematic uncertainties associated to the b tagging scale factors are taken into account for
-the significance evaluation.}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multirow{2}{*}{Tagger (WP)} & \multicolumn{3}{c|}{Significance} \\
+                        & 0 jet & 1 jet & 0+1 jet \\
+\hline
+CMVA (loose)     & 7.31 & 4.86 & 8.76 \\
+CMVA (medium)    & 7.39 & 4.52 & 8.66 \\
+CMVA (tight)     & 7.35 & 4.16 & 8.44 \\
+\hline
+CSV (loose)      & 7.12 & 4.64 & 8.47 \\
+CSV (medium)     & 7.37 & 4.47 & 8.62 \\
+CSV (tight)      & 7.36 & 4.15 & 8.45 \\
+\hline
+\end{tabular}
 \label{btt}
-\end{figure}
+\end{table}
+
+
+
+
+
 
 \begin{figure}
 \centering
@@ -642,16 +683,16 @@ The longitudinal momentum (along the beam axis) in the collision is not known, s
 energy is impossible.
 However the initial transverse momentum, carried by the incoming partons, is zero, so in the final state of the collision, for the conservation of the momentum
 components, the sum of momenta of all the particles must be zero.
-If a missing transverse momentum, $\vec{p_T^{miss}}$, in the transverse plane is present, it is the evidence of invisible particles, such as neutrinos or other weakly interacting particles predicted by some BSM models.
+If a missing transverse momentum, $\vec{p}_T^{miss}$, in the transverse plane is present, it is the evidence of invisible particles, such as neutrinos or other weakly interacting particles predicted by some BSM models.
 The $\vec{p_T}^{\: miss}$ is defined as,
 \begin{equation}
 \vec{p}_T^{\: miss}= -\sum_{PF\: Objs} \vec{p}_T^{\:PF \: Obj} \: ,
 \end{equation}
-where the sum extends over all the PF objects. The module of $\vec{p_T}^{\: miss}$ is usually referred to as missing transverse energy, $E_T^{miss}=|\vec{p_T^{miss}}|$.
+where the sum extends over all the PF objects. The module of $\vec{p}_T^{\: miss}$ is usually referred to as missing transverse energy, $E_T^{miss}=|\vec{p}_T^{miss}|$.
 Inefficiencies of the tracking algorithm, minimal thresholds in the calorimeter energy
-estimation, and nonlinearities of the energy response of the calorimeters for hadronic parti-
-cles can introduce a bias in the $\vec{p_T}^{\: miss}$. A correction is applied by propagating
-the jet energy corrections to the $\vec{p_T}^{\: miss}$ formula:
+estimation, and nonlinearities of the energy response of the calorimeters for hadronic particles 
+can introduce a bias in the $\vec{p}_T^{\: miss}$. A correction is applied by propagating
+the jet energy corrections to the $\vec{p}_T^{\: miss}$ formula:
 \begin{equation}
 \vec{p}_T^{\:miss \: corr}= \vec{p}_T^{\:miss} -\sum_{Jets}( \vec{p}_T^{\:JEC} -\vec{p}_T) \: ,
 \end{equation}
@@ -664,7 +705,7 @@ To estimate the $E_T^{miss}$  systematic uncertainty, the following sources have
 \item electron $p_T$;
 \item unclustered energy.
 \end{itemize}
-The $E_T^{miss}$ systematic uncertainty has been computed varying each of these uncertainties and addeding in quadrature the
+The $E_T^{miss}$ systematic uncertainty has been computed varying each of these uncertainties and adding in quadrature the
 difference with respect to the nominal value. For the $\phi$ uncertainty, the largest
 $\phi$ variation has been used.
 The distributions of various  $E_T^{miss}$ variables, in a Drell-Yan enriched sample, are shown in Fig.~\ref{met}

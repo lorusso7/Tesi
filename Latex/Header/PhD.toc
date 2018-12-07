@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {4.5}Lepton reconstruction and identification}{67}{section.4.5}
 \contentsline {section}{\numberline {4.6}Jet reconstruction and identification}{71}{section.4.6}
 \contentsline {section}{\numberline {4.7}b-jet identification}{73}{section.4.7}
-\contentsline {section}{\numberline {4.8}The Missing Transverse Energy}{76}{section.4.8}
+\contentsline {section}{\numberline {4.8}The Missing Transverse Energy}{77}{section.4.8}
 \contentsline {chapter}{\numberline {5}Search for high mass resonances}{81}{chapter.5}
 \contentsline {section}{\numberline {5.1}Overview of the fully leptonic analysis }{81}{section.5.1}
 \contentsline {section}{\numberline {5.2}Main Background processes}{82}{section.5.2}
@@ -48,7 +48,7 @@
 \contentsline {section}{\numberline {7.1}Statistical interpretation}{125}{section.7.1}
 \contentsline {section}{\numberline {7.2}Signal interpretation: EW singlet and 2HDM}{127}{section.7.2}
 \contentsline {section}{\numberline {7.3}Fully leptonic results}{129}{section.7.3}
-\contentsline {section}{\numberline {7.4}Combination among the fully and the semi leptonic analysis}{132}{section.7.4}
-\contentsline {chapter}{Conclusion}{139}{chapter*.162}
+\contentsline {section}{\numberline {7.4}Combination among the fully and the semileptonic analysis}{132}{section.7.4}
+\contentsline {chapter}{Conclusion}{139}{chapter*.163}
 \contentsline {chapter}{\numberline {A}Boost-invariant variables}{141}{appendix.A}
 \contentsline {chapter}{\numberline {B}Parton Distribution Function}{143}{appendix.B}
