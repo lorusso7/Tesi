@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.7)  7 DEC 2018 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.7)  7 DEC 2018 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1159,12 +1159,17 @@ Overfull \hbox (7.53772pt too wide) in paragraph at lines 40--40
 \openout4 = `PhD.toc'.
 
  [8]
-Underfull \hbox (badness 10000) in paragraph at lines 65--101
+Underfull \hbox (badness 10000) in paragraph at lines 65--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--101
+Underfull \hbox (badness 10000) in paragraph at lines 65--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--107
 
  []
 
@@ -3408,7 +3413,7 @@ Cap6/mhmodp.png> <../Cap6/hmssm.png>] [137 <../Cap6/thdm_cosba_t1_200.png> <../
 Cap6/thdm_cosba_t2_200.png> <../Cap6/thdm_cosba_t1_300.png> <../Cap6/thdm_cosba
 _t2_300.png> <../Cap6/thdm_cosba_t1_500.png> <../Cap6/thdm_cosba_t2_500.png>] [
 138 <../Cap6/thdm_mhtanb_t1.png> <../Cap6/thdm_mhtanb_t2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 324--351
+Underfull \hbox (badness 10000) in paragraph at lines 330--352
 
  []
 
@@ -3441,25 +3446,25 @@ Underfull \hbox (badness 1997) in paragraph at lines 232--235
  []
 
 [147] [148] [149] [150])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
  [151]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./PhD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `PhD.out' has not changed.
-(rerunfilecheck)             Checksum: 250A8489489C002BF4805680EB79E17F;3872.
+(rerunfilecheck)             Checksum: 0B98D6DDD1061C8949F6CDAD4E7D9719;3871.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 14366 strings out of 494893
- 241059 string characters out of 6179541
- 438979 words of memory out of 5000000
+ 14364 strings out of 494893
+ 241039 string characters out of 6179541
+ 438964 words of memory out of 5000000
  16190 multiletter control sequences out of 15000+600000
- 126930 words of font info for 227 fonts, out of 8000000 for 9000
+ 126847 words of font info for 226 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  60i,21n,94p,1424b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -3487,7 +3492,7 @@ xmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
 /usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on PhD.pdf (161 pages, 14656543 bytes).
+Output written on PhD.pdf (161 pages, 14656913 bytes).
 PDF statistics:
  2446 PDF objects out of 2487 (max. 8388607)
  1926 compressed objects within 20 object streams

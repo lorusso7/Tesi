@@ -115,7 +115,7 @@ The selected tracks are then clustered on the basis of their z-coordinates at th
 %This procedure tracks the global minimum of $F$ from high to low temperature.
 %The number of vertices increases as the temperature falls, and rises each time the minimum of $F$ turns into a saddle point at lower temperatures. 
 The DA process finds not only positions and assignments of tracks to vertices but also the  number of vertices.
-In Fig.~\ref{Fig:pu} is shown the distribution of the number of vertices in a Drell-Yan sample. This distribution is related to the number of PU events. Therefore MC events are reweighted according to the ratio between data and simulation in the number of primary vertices in order to correct for the different pileup. 
+In Fig.~\ref{Fig:pu} is shown the distribution of the number of vertices in a Drell-Yan sample. This distribution is related to the number of PU events. Therefore MC events are re-weighted according to the ratio between data and simulation in the number of primary vertices in order to correct for the different pileup. 
 \begin{figure*}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{../AN/Figs/nvertices.png}
@@ -139,7 +139,7 @@ The purposes of the clustering algorithm in the calorimeters are~\cite{Sirunyan:
 which is the case for low-quality and very high $p_T$ tracks.
 \end{itemize}
 For the PF event reconstruction, a  specific clustering algorithm was developed. 
-The clustering is performed separately in each subdetector: ECAL (barrel and endcaps) and HCAL (barrel and endcaps)
+The clustering is performed separately in each sub-detector: ECAL (barrel and endcaps) and HCAL (barrel and endcaps)
 In the algorithm, first, \textit{cluster seeds} are identified   as cells with an energy larger than a given seed threshold, and
 larger than the energy of the neighbouring cells. Second, \textit{topological clusters} are grown from the seeds by aggregating cells with at least a corner in common with a cell already in the cluster.
 %After an expectation-maximization algorithm based on a Gaussian-mixture mode to
@@ -154,8 +154,8 @@ larger than the energy of the neighbouring cells. Second, \textit{topological cl
 
 \section{Link algorithm}
 A given particle is, in general, expected to give rise to several PF elements in the various CMS
-subdetectors. The reconstruction of a particle therefore proceeds first with a
-link algorithm that connects the PF elements from different subdetectors.
+sub-detectors. The reconstruction of a particle therefore proceeds first with a
+link algorithm that connects the PF elements from different sub-detectors.
 The link between a track in the central tracker and a calorimeter cluster is established as follows:
 the track is first extrapolated from its last measured hit in the tracker to
 the ECAL at a depth corresponding to the expected maximum of a typical longitudinal electron shower
@@ -648,8 +648,8 @@ The $\vec{p_T}^{\: miss}$ is defined as,
 \end{equation}
 where the sum extends over all the PF objects. The module of $\vec{p_T}^{\: miss}$ is usually referred to as missing transverse energy, $E_T^{miss}=|\vec{p_T^{miss}}|$.
 Inefficiencies of the tracking algorithm, minimal thresholds in the calorimeter energy
-estimation, and nonlinearities of the energy response of the calorimeters for hadronic parti-
-cles can introduce a bias in the $\vec{p_T}^{\: miss}$. A correction is applied by propagating
+estimation, and nonlinearities of the energy response of the calorimeters for hadronic particles 
+can introduce a bias in the $\vec{p_T}^{\: miss}$. A correction is applied by propagating
 the jet energy corrections to the $\vec{p_T}^{\: miss}$ formula:
 \begin{equation}
 \vec{p}_T^{\:miss \: corr}= \vec{p}_T^{\:miss} -\sum_{Jets}( \vec{p}_T^{\:JEC} -\vec{p}_T) \: ,
@@ -663,7 +663,7 @@ To estimate the $E_T^{miss}$  systematic uncertainty, the following sources have
 \item electron $p_T$;
 \item unclustered energy.
 \end{itemize}
-The $E_T^{miss}$ systematic uncertainty has been computed varying each of these uncertainties and addeding in quadrature the
+The $E_T^{miss}$ systematic uncertainty has been computed varying each of these uncertainties and adding in quadrature the
 difference with respect to the nominal value. For the $\phi$ uncertainty, the largest
 $\phi$ variation has been used.
 The distributions of various  $E_T^{miss}$ variables, in a Drell-Yan enriched sample, are shown in Fig.~\ref{met}
