@@ -1,7 +1,6 @@
-
 \textit{%As described in Sec.~\ref{NSP}, the research of  new resonance $X$ is one of the mail goals of LHC. With a energy achieved of 13 TeV in the center of mass and the data collected in 2016, it is possible to lead searches in a vast range of mass. One of the main final state channel in in a couple of $W^+W^-$ bosons.
-In this chapter the $X \to \mathrm{W^+W^-}\to2\ell2\nu$ analysis using 2016 data is reported. To increase the sensitivity of this search, the signal must be selected in the most efficient way by reducing the
-presence of the backgrounds with a similar signature: the selection criteria are described in detail. I have participated at all stages of the analysis selection (signal simulation, categorization, background estimation, etc.)  and I have been responsible for the whole analysis.} 
+In this chapter the $X \to \mathrm{W^+W^-}\to2\ell2\nu$ analysis using 2016 data is reported. To increase the sensitivity of this search, the signal must be selected in the most efficient way, reducing as much as possible the
+presence of the backgrounds with a similar signature. The selection criteria are described here in detail for the fully leptonic final state. I have been responsible for the whole analysis in this channel and, therefore, I participated to all the stages of the selection optimization (signal simulation, categorization, background estimation).} 
 %The ATLAS experiment has been done this kind of searches using the early 2016 statistic, 13.2 fb$^{-1}$ and the results are shown in Fig.~\ref{ATLAS-CONF-2016-074_fig}.
 %With the full 2016 statistic, approximately $\sim 36$ fb$^{-1}$ is possible to investigate a wide range of masses and, if will be no evidence of high mass signal, is possible to set  tight upper limits on the possible cross section.
 
@@ -78,110 +77,6 @@ contribution of other sub-dominant backgrounds is obtained directly from simulat
 %More precisely top and  Drell-Yan backgrounds normalizations have been extracted
 %directly from data-simulation comparison in specific control regions enriched in either one
 %or the other background separately for the different events categories, using the rateParam feature of the combine package~\cite{combine}.
-
-
-\section{Fake Lepton Background Estimation}
-\label{fk}
-Lepton fake rates are measured as a
-function of the lepton $p_T$ and $\eta$, in a single lepton triggered sample. The test of the method and
-systematic errors are described below.
-In the analysis
-the primary source of background from misidentification is W+Jets. QCD multi-jet and hadronic top backgrounds
-are also present at much smaller level. Events in which W bosons are produced in association
-with jets give rise to background to WW events when a jet is misidentified as a lepton. These
-events contain a real lepton and real missing energy from the W decay. With the jet misidentified 
-as a lepton, the W+Jets events have two identified leptons, missing energy, and no other
-significant event characteristics. As a result, the W+Jets events cannot be easily suppressed
-by event selection. This background is particularly important at low $p_T$.
-The estimation of the fake lepton contribution is based on the ``fakeable object'' data-driven
-method and provides a measurement of the yield and the kinematic distributions of fake background. 
-It is a general technique, applicable to any physics analysis in which particle level
-selection criteria are used to suppress background. The method can be used with any number
-of final state particles and is independent of the event selection.
-The fundamental idea of the fakeable objet method is simple: select a control sample of events
-enriched in the background being estimated, and then use an extrapolation factor to relate these
-events to the background in the signal region. The method is data-driven provided the control
-sample is selected in data, and the extrapolation factor is measured with data. For background
-arising from particle misidentification, the extrapolation is done in particle identification space
-($p_T$ and $\eta$ ) of the lepton. The control sample is defined using a looser particle selection criteria
-that are chosen such that the rate of misidentification is increased. The extrapolation factor
-relates background misidentified with this criteria, to background misidentified as passing the
-full particle selection of the signal region.
-
-
-
-\section{Lepton Efficiencies from Tag and Probe Method}
-\label{TP}
-One of the well established data-driven approach for measuring the particle efficiencies is the
-so called Tag and Probe method. The Tag and Probe method uses a known mass resonance (e.g. $J/\Psi$, $Z$) to select particles of the desired type, and probe the efficiency of a particular
-selection criterion on these particles. In general the “tag” is an object that passes a set of very
-tight selection criteria designed to isolate the required particle type. Tags are often referred
-to as a “golden” electrons or muons and the fake rate for passing tag selection criteria should
-be very small. A generic set of the desired particle type (i.e. with potentially very loose selection 
-criteria) known as “probes” is selected by pairing these objects with tags such that the
-invariant mass of the combination is consistent with the mass of the resonance. Combinatoric
-backgrounds may be eliminated through any of a variety of background subtraction methods
-such as fitting, or sideband subtraction. The definition of the probe objects depend on the specifics of the selection criterion being examined. The simple expression to get the efficiency %as a function of $p_T$ and $\eta$ 
-is given below:
-\begin{equation}
-\epsilon=\frac{N_{Pass}^{Probes}}{N_{Pass}^{Probes}+N_{Fail}^{Probes}}
-\end{equation}
-
-\subsection*{Electrons} 
-The   Tag and Probe is used here to get the identification and isolation efficiency of electrons. In this case, the Tag is a
-well identified and isolated electron which also passes an electron trigger. 
-Once the Tag electron is selected then another object that pass the kinematic electron selection, Tab.~\ref{IDe}, is searched for. 
-The invariant  mass of the Tag and the Probe electron pair is reconstructed and must be in window around the Z boson mass. 
-After that, to compute the efficiency, the Probe electron is required  to pass the identification tight working point. 
-This procedure is performed for the data and the MC samples. 
-Once data and MC efficiencies have been calculated, the electron scale factors are estimated as the ratio among the data and MC efficiencies.  
-These scale factors are calculated as a function of $p_T$ and $\eta$ and used to correct the difference in efficiencies between data and MC in the analysis. 
-%The Pile-Up reweighting is also applied on MC during the computation of efficiencies. 
-%A MC truth matching has also been applied in case of the computation using simulation. 
-%In principle, there are two methods to estimate the efficiencies.
-%The first one is the \textit{counting method} and the other one is the \textit{fitting method}. 
-%The counting method is used when there  are small backgrounds, instead  the fitting method instead when the backgrounds are 
-%In order to take into account the effect of DY background in the efficiency estimation,  a fitting method has been used. 
-%Tag and Probe pairs are  selected in Z mass window of 60 to 120 GeV.
-%If there exist more than one pair then the one whose invariant mass closer to Z pole mass has been selected.
-%The efficiencies have been computed as a function of $p_T$ and $\eta$ of electron.
-%For signal fitting, MC templates are derived from the simulated sample in the Z mass range 60 to 120 GeV in  $p_T$ and $\eta$ bins.
-%The MC Templates are then smeared using Gaussian function. For the background fitting a function, that is combination of
-%an exponential function and an error function, has been used.
-%The exponential decay distribution becomes
-%active at high mass beyond the Z peak and the error function takes over at low masses due to
-%threshold effect.
-%A fit examples for all $p_T$ bins is shown in Fig.~\ref{ac}
-%\begin{figure}
-%\centering
-%\includegraphics[scale= 0.5]{tpe}
-%\caption{Fits for $p_T$ bin (35-50) GeV and $\eta$ in (-2.5,-2.0) bin.}
-%\label{ac}
-%\end{figure}
-
-The electron efficiency is about 95\%, on the trigger plateau. 
-
-
-\subsection*{Muons} 
-The muon identification and isolation efficiency is also studied and compared to the prediction of MC in order
-to understand if a correction is needed. The muon efficiency is obtained as
-\begin{equation}
-\epsilon_{\mu} = \epsilon_{TRK} \times \epsilon_{Tight} \times \epsilon_{ISO \; Tight} \; ,
-\end{equation}
-\newline
-where $ \epsilon_{TRK}$ is the tracker  muon efficiency.  
-The $ \epsilon_{Tight} $ is muon efficiency
-under the assumption that the muon passes the kinematic selections summarized in  Tab.~\ref{IDm}.
-The $\epsilon_{ISO \; Tight}$ is the efficiency of the isolation criteria under the assumption that the muon passes the same selection.
-The $\epsilon_{Tight}$ and $ \epsilon_{ISO \; Tight}$ are determined  using the Tag and Probe method. 
-The Tag muon is obtained by applying  the kinematic selections  and   the isolated muon trigger  with $p_T^{\mu}>20$ GeV.
-The Probe muon  is requested to pass the kinematic selection and the isolation criteria.
-%After that it is checked if the Probe muon is matched to the muon trigger. 
-%In general the efficiencies are relatively high due to the lower cut on $p_T$ and the looser cut on
-%isolation %in the double lepton trigger compared to single muon trigger. 
-The efficiency value on the plateau is around 93\%-99\%.
-
-
 
 \section{Data sample and Trigger used}
 
