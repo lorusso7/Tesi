@@ -47,8 +47,8 @@
 \contentsline {chapter}{\numberline {7}Results and Interpretation}{123}{chapter.7}
 \contentsline {section}{\numberline {7.1}Statistical interpretation}{123}{section.7.1}
 \contentsline {section}{\numberline {7.2}Signal interpretation: EW singlet and 2HDM}{125}{section.7.2}
-\contentsline {section}{\numberline {7.3}Fully and same leptonic results}{127}{section.7.3}
-\contentsline {section}{\numberline {7.4}Combination among the fully and the semi leptonic analysis}{129}{section.7.4}
-\contentsline {chapter}{Conclusion}{137}{chapter*.159}
+\contentsline {section}{\numberline {7.3}Fully leptonic results}{127}{section.7.3}
+\contentsline {section}{\numberline {7.4}Combination among the fully and the semi leptonic analysis}{130}{section.7.4}
+\contentsline {chapter}{Conclusion}{137}{chapter*.161}
 \contentsline {chapter}{\numberline {A}Boost-invariant variables}{139}{appendix.A}
 \contentsline {chapter}{\numberline {B}Parton Distribution Function}{141}{appendix.B}

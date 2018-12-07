@@ -80,45 +80,45 @@ Warning--empty author in CMS-NOTE-2011-005
 Warning--empty journal in CMS-NOTE-2011-005
 Warning--there's a number but no volume in CMS-NOTE-2011-005
 Warning--empty journal in CMS:2017epy
-You've used 83 entries,
+You've used 93 entries,
             1791 wiz_defined-function locations,
-            922 strings with 16117 characters,
-and the built_in function-call counts, 15977 in all, are:
-= -- 1343
-> -- 710
+            978 strings with 18033 characters,
+and the built_in function-call counts, 17985 in all, are:
+= -- 1507
+> -- 815
 < -- 9
-+ -- 273
-- -- 190
-* -- 1081
-:= -- 2634
-add.period$ -- 235
-call.type$ -- 83
-change.case$ -- 81
++ -- 312
+- -- 219
+* -- 1216
+:= -- 2961
+add.period$ -- 262
+call.type$ -- 93
+change.case$ -- 91
 chr.to.int$ -- 0
-cite$ -- 113
-duplicate$ -- 709
-empty$ -- 1605
-format.name$ -- 190
-if$ -- 3492
+cite$ -- 123
+duplicate$ -- 791
+empty$ -- 1809
+format.name$ -- 219
+if$ -- 3942
 int.to.chr$ -- 0
-int.to.str$ -- 83
-missing$ -- 72
-newline$ -- 404
-num.names$ -- 72
-pop$ -- 187
+int.to.str$ -- 93
+missing$ -- 80
+newline$ -- 451
+num.names$ -- 80
+pop$ -- 208
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 295
+skip$ -- 332
 stack$ -- 0
-substring$ -- 925
-swap$ -- 79
+substring$ -- 1045
+swap$ -- 89
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 30
-while$ -- 134
-width$ -- 85
-write$ -- 853
+while$ -- 150
+width$ -- 95
+write$ -- 953
 (There were 11 error messages)

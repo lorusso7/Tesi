@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.7)  6 DEC 2018 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.10.7)  7 DEC 2018 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,31 +952,39 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@cntb=\count135
 \multirow@dima=\skip65
 \bigstrutjot=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count136
+\float@exts=\toks33
+\float@box=\box28
+\@float@everytoks=\toks34
+\@floatcapt=\box29
 ) (./PhD.aux)
 \openout1 = `PhD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 30.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 31.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1019,22 +1027,23 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count136
+\scratchcounter=\count137
 \scratchdimen=\dimen160
-\scratchbox=\box28
-\nofMPsegments=\count137
-\nofMParguments=\count138
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count139
+\scratchbox=\box30
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count140
 \MPscratchDim=\dimen161
-\MPnumerator=\count140
-\makeMPintoPDFobject=\count141
-\everyMPtoPDFconversion=\toks34
+\MPnumerator=\count141
+\makeMPintoPDFobject=\count142
+\everyMPtoPDFconversion=\toks36
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1052,8 +1061,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \textsubscript on input line 30.
-LaTeX Info: Redefining \microtypecontext on input line 30.
+LaTeX Info: Redefining \textsubscript on input line 31.
+LaTeX Info: Redefining \microtypecontext on input line 31.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1068,8 +1077,8 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 30.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1077,11 +1086,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count142
+\c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (./PhD.out) (./PhD.out)
 \@outlinefile=\write3
@@ -1091,43 +1100,43 @@ LaTeX Info: Redefining \nameref on input line 30.
 File: LOGO_UNISI.pdf Graphic file (type pdf)
 
 <use LOGO_UNISI.pdf>
-Package pdftex.def Info: LOGO_UNISI.pdf used on input line 39.
+Package pdftex.def Info: LOGO_UNISI.pdf used on input line 40.
 (pdftex.def)             Requested size: 174.65114pt x 178.93712pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 39.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 40.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 39.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 40.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 40.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 39.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 40.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 39.
+(Font)              <20.74> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 39.
+(Font)              <14.4> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 39.
+(Font)              <12> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 39.
+(Font)              <10.95> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 39.
+(Font)              <8> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 39.
+(Font)              <6> on input line 40.
 
-Overfull \hbox (7.53772pt too wide) in paragraph at lines 39--39
+Overfull \hbox (7.53772pt too wide) in paragraph at lines 40--40
  [][] 
  []
 
@@ -1150,12 +1159,12 @@ Overfull \hbox (7.53772pt too wide) in paragraph at lines 39--39
 \openout4 = `PhD.toc'.
 
  [8]
-Underfull \hbox (badness 10000) in paragraph at lines 64--100
+Underfull \hbox (badness 10000) in paragraph at lines 65--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--100
+Underfull \hbox (badness 10000) in paragraph at lines 65--101
 
  []
 
@@ -3149,193 +3158,253 @@ Package pdftex.def Info: ../AN/Figs/higgsLHEmass700_cuts_nocuts.png used on inp
 ut line 99.
 (pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
 
-<../AN/Figs/mth700_cuts_nocuts.png, id=1948, 901.3675pt x 676.5275pt>
-File: ../AN/Figs/mth700_cuts_nocuts.png Graphic file (type png)
-
-<use ../AN/Figs/mth700_cuts_nocuts.png>
-Package pdftex.def Info: ../AN/Figs/mth700_cuts_nocuts.png used on input line 1
-02.
-(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
-
-<../AN/Figs/mll700_cuts_nocuts.png, id=1949, 901.3675pt x 676.5275pt>
-File: ../AN/Figs/mll700_cuts_nocuts.png Graphic file (type png)
-
-<use ../AN/Figs/mll700_cuts_nocuts.png>
-Package pdftex.def Info: ../AN/Figs/mll700_cuts_nocuts.png used on input line 1
-06.
-(pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
-
-<../AN/Figs/mTi700_cuts_nocuts.png, id=1950, 901.3675pt x 676.5275pt>
+<../AN/Figs/mTi700_cuts_nocuts.png, id=1948, 901.3675pt x 676.5275pt>
 File: ../AN/Figs/mTi700_cuts_nocuts.png Graphic file (type png)
 
 <use ../AN/Figs/mTi700_cuts_nocuts.png>
 Package pdftex.def Info: ../AN/Figs/mTi700_cuts_nocuts.png used on input line 1
-09.
+02.
 (pdftex.def)             Requested size: 178.19879pt x 133.74432pt.
- [125] [126 <../AN/Figs/higgsLHEmass700_cuts_nocuts.png> <../AN/Figs/mth700_cut
-s_nocuts.png> <../AN/Figs/mll700_cuts_nocuts.png> <../AN/Figs/mTi700_cuts_nocut
-s.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--129
+ [125]
+Underfull \hbox (badness 10000) in paragraph at lines 114--120
 
  []
 
-
-<../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png, id=1973, 600.2425pt x 576.1
+[126 <../AN/Figs/higgsLHEmass700_cuts_nocuts.png> <../AN/Figs/mTi700_cuts_nocut
+s.png>]
+<../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png, id=1991, 600.2425pt x 576.1
 525pt>
 File: ../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png Graphic file (type png)
 
  <use ../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png used
- on input line 149.
-(pdftex.def)             Requested size: 257.39758pt x 247.07259pt.
+ on input line 138.
+(pdftex.def)             Requested size: 297.0pt x 285.08647pt.
 
-<../Cap6/limit_observed_lnuqq_VBF0_log-1.pdf, id=1975, 569.12625pt x 546.04pt>
-File: ../Cap6/limit_observed_lnuqq_VBF0_log-1.pdf Graphic file (type pdf)
-
-<use ../Cap6/limit_observed_lnuqq_VBF0_log-1.pdf>
-Package pdftex.def Info: ../Cap6/limit_observed_lnuqq_VBF0_log-1.pdf used on in
-put line 158.
-(pdftex.def)             Requested size: 257.39758pt x 246.96552pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--165
+Underfull \hbox (badness 10000) in paragraph at lines 125--143
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--165
-
- []
-
-[127] <../AN/Figs/unblinding/2HDM/mhmodp.png, id=1987, 598.235pt x 574.145pt>
+<../AN/Figs/unblinding/2HDM/mhmodp.png, id=1996, 598.235pt x 574.145pt>
 File: ../AN/Figs/unblinding/2HDM/mhmodp.png Graphic file (type png)
 
 <use ../AN/Figs/unblinding/2HDM/mhmodp.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/mhmodp.png used on input li
-ne 178.
+ne 164.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../AN/Figs/unblinding/2HDM/hmssm.png, id=1988, 598.235pt x 574.145pt>
+<../AN/Figs/unblinding/2HDM/hmssm.png, id=1997, 598.235pt x 574.145pt>
 File: ../AN/Figs/unblinding/2HDM/hmssm.png Graphic file (type png)
 
 <use ../AN/Figs/unblinding/2HDM/hmssm.png>
 Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/hmssm.png used on input lin
-e 181.
+e 167.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/all.png, id=1992, 598.235pt x 574.145pt>
-File: ../Cap6/all.png Graphic file (type png)
- <use ../Cap6/all.png>
-Package pdftex.def Info: ../Cap6/all.png used on input line 199.
+Underfull \hbox (badness 10000) in paragraph at lines 147--170
+
+ []
+
+[127]
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png, id=2008, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png used 
+on input line 178.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png, id=2009, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_200.png used 
+on input line 181.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png, id=2010, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png used 
+on input line 185.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png, id=2011, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png used 
+on input line 188.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png, id=2012, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t1_500.png used 
+on input line 192.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png, id=2013, 598.235pt x 574.145
+pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png Graphic file (type png)
+ <use ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png used 
+on input line 195.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+Underfull \vbox (badness 3547) has occurred while \output is active []
+
+ [128 <../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png> <../AN/Figs/unblindin
+g/2HDM/mhmodp.png> <../AN/Figs/unblinding/2HDM/hmssm.png>]
+<../AN/Figs/unblinding/2HDM/thdm_mh_t1.png, id=2021, 598.235pt x 574.145pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_mh_t1.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/2HDM/thdm_mh_t1.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_mh_t1.png used on inpu
+t line 205.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+<../AN/Figs/unblinding/2HDM/thdm_mh_t2.png, id=2022, 598.235pt x 574.145pt>
+File: ../AN/Figs/unblinding/2HDM/thdm_mh_t2.png Graphic file (type png)
+
+<use ../AN/Figs/unblinding/2HDM/thdm_mh_t2.png>
+Package pdftex.def Info: ../AN/Figs/unblinding/2HDM/thdm_mh_t2.png used on inpu
+t line 208.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129 <../AN/Figs/unblinding/2HDM/thdm_cosba_t1_200.png> <../AN/Figs/unblinding
+/2HDM/thdm_cosba_t2_200.png> <../AN/Figs/unblinding/2HDM/thdm_cosba_t1_300.png>
+ <../AN/Figs/unblinding/2HDM/thdm_cosba_t2_300.png> <../AN/Figs/unblinding/2HDM
+/thdm_cosba_t1_500.png> <../AN/Figs/unblinding/2HDM/thdm_cosba_t2_500.png>]
+<../Cap6/lnuqq.png, id=2035, 598.235pt x 574.145pt>
+File: ../Cap6/lnuqq.png Graphic file (type png)
+ <use ../Cap6/lnuqq.png>
+Package pdftex.def Info: ../Cap6/lnuqq.png used on input line 220.
 (pdftex.def)             Requested size: 257.39758pt x 247.03523pt.
 
-<../Cap6/vbfX.png, id=1993, 598.235pt x 574.145pt>
+<../Cap6/all.png, id=2041, 598.235pt x 574.145pt>
+File: ../Cap6/all.png Graphic file (type png)
+ <use ../Cap6/all.png>
+Package pdftex.def Info: ../Cap6/all.png used on input line 241.
+(pdftex.def)             Requested size: 257.39758pt x 247.03523pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--247
+
+ []
+
+<../Cap6/vbfX.png, id=2042, 598.235pt x 574.145pt>
 File: ../Cap6/vbfX.png Graphic file (type png)
  <use ../Cap6/vbfX.png>
-Package pdftex.def Info: ../Cap6/vbfX.png used on input line 210.
+Package pdftex.def Info: ../Cap6/vbfX.png used on input line 252.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/vbf0.png, id=1994, 598.235pt x 574.145pt>
+<../Cap6/vbf0.png, id=2043, 598.235pt x 574.145pt>
 File: ../Cap6/vbf0.png Graphic file (type png)
  <use ../Cap6/vbf0.png>
-Package pdftex.def Info: ../Cap6/vbf0.png used on input line 213.
+Package pdftex.def Info: ../Cap6/vbf0.png used on input line 255.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/vbf1.png, id=1995, 598.235pt x 574.145pt>
+<../Cap6/vbf1.png, id=2044, 598.235pt x 574.145pt>
 File: ../Cap6/vbf1.png Graphic file (type png)
  <use ../Cap6/vbf1.png>
-Package pdftex.def Info: ../Cap6/vbf1.png used on input line 216.
+Package pdftex.def Info: ../Cap6/vbf1.png used on input line 258.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/mhmodp.png, id=1997, 598.235pt x 574.145pt>
+Underfull \vbox (badness 5756) has occurred while \output is active []
+
+ [130 <../AN/Figs/unblinding/2HDM/thdm_mh_t1.png> <../AN/Figs/unblinding/2HDM/t
+hdm_mh_t2.png>] <../Cap6/mhmodp.png, id=2058, 598.235pt x 574.145pt>
 File: ../Cap6/mhmodp.png Graphic file (type png)
- <use ../Cap6/mhmodp.png>
-Package pdftex.def Info: ../Cap6/mhmodp.png used on input line 229.
-(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/hmssm.png, id=1998, 598.235pt x 574.145pt>
+<use ../Cap6/mhmodp.png>
+Package pdftex.def Info: ../Cap6/mhmodp.png used on input line 273.
+(pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
+ <../Cap6/hmssm.png, id=2059, 598.235pt x 574.145pt>
 File: ../Cap6/hmssm.png Graphic file (type png)
- <use ../Cap6/hmssm.png>
-Package pdftex.def Info: ../Cap6/hmssm.png used on input line 232.
+
+<use ../Cap6/hmssm.png>
+Package pdftex.def Info: ../Cap6/hmssm.png used on input line 276.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/thdm_cosba_t1_200.png, id=2001, 598.235pt x 574.145pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [131 <../Cap6/lnuqq.png> <../Cap6/all.png>]
+<../Cap6/thdm_cosba_t1_200.png, id=2064, 598.235pt x 574.145pt>
 File: ../Cap6/thdm_cosba_t1_200.png Graphic file (type png)
 
 <use ../Cap6/thdm_cosba_t1_200.png>
-Package pdftex.def Info: ../Cap6/thdm_cosba_t1_200.png used on input line 245.
+Package pdftex.def Info: ../Cap6/thdm_cosba_t1_200.png used on input line 286.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/thdm_cosba_t2_200.png, id=2002, 598.235pt x 574.145pt>
+<../Cap6/thdm_cosba_t2_200.png, id=2065, 598.235pt x 574.145pt>
 File: ../Cap6/thdm_cosba_t2_200.png Graphic file (type png)
 
 <use ../Cap6/thdm_cosba_t2_200.png>
-Package pdftex.def Info: ../Cap6/thdm_cosba_t2_200.png used on input line 248.
+Package pdftex.def Info: ../Cap6/thdm_cosba_t2_200.png used on input line 289.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/thdm_cosba_t1_300.png, id=2003, 598.235pt x 574.145pt>
+<../Cap6/thdm_cosba_t1_300.png, id=2066, 598.235pt x 574.145pt>
 File: ../Cap6/thdm_cosba_t1_300.png Graphic file (type png)
 
 <use ../Cap6/thdm_cosba_t1_300.png>
-Package pdftex.def Info: ../Cap6/thdm_cosba_t1_300.png used on input line 252.
+Package pdftex.def Info: ../Cap6/thdm_cosba_t1_300.png used on input line 293.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/thdm_cosba_t2_300.png, id=2004, 598.235pt x 574.145pt>
+<../Cap6/thdm_cosba_t2_300.png, id=2067, 598.235pt x 574.145pt>
 File: ../Cap6/thdm_cosba_t2_300.png Graphic file (type png)
 
 <use ../Cap6/thdm_cosba_t2_300.png>
-Package pdftex.def Info: ../Cap6/thdm_cosba_t2_300.png used on input line 255.
+Package pdftex.def Info: ../Cap6/thdm_cosba_t2_300.png used on input line 296.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/thdm_cosba_t1_500.png, id=2005, 598.235pt x 574.145pt>
+<../Cap6/thdm_cosba_t1_500.png, id=2068, 598.235pt x 574.145pt>
 File: ../Cap6/thdm_cosba_t1_500.png Graphic file (type png)
 
 <use ../Cap6/thdm_cosba_t1_500.png>
-Package pdftex.def Info: ../Cap6/thdm_cosba_t1_500.png used on input line 259.
+Package pdftex.def Info: ../Cap6/thdm_cosba_t1_500.png used on input line 300.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/thdm_cosba_t2_500.png, id=2006, 598.235pt x 574.145pt>
+<../Cap6/thdm_cosba_t2_500.png, id=2069, 598.235pt x 574.145pt>
 File: ../Cap6/thdm_cosba_t2_500.png Graphic file (type png)
 
 <use ../Cap6/thdm_cosba_t2_500.png>
-Package pdftex.def Info: ../Cap6/thdm_cosba_t2_500.png used on input line 262.
+Package pdftex.def Info: ../Cap6/thdm_cosba_t2_500.png used on input line 303.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--266
-
- []
-
-[128 <../AN/Figs/unblinding/Limits/c2_FullComb_unbl.png>]
-Underfull \vbox (badness 2671) has occurred while \output is active []
-
- [129 <../Cap6/limit_observed_lnuqq_VBF0_log-1.pdf, page is rotated 90 degrees>
-]
-<../Cap6/thdm_mhtanb_t1.png, id=2068, 598.235pt x 574.145pt>
+<../Cap6/thdm_mhtanb_t1.png, id=2070, 598.235pt x 574.145pt>
 File: ../Cap6/thdm_mhtanb_t1.png Graphic file (type png)
 
 <use ../Cap6/thdm_mhtanb_t1.png>
-Package pdftex.def Info: ../Cap6/thdm_mhtanb_t1.png used on input line 271.
+Package pdftex.def Info: ../Cap6/thdm_mhtanb_t1.png used on input line 312.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
 
-<../Cap6/thdm_mhtanb_t2.png, id=2069, 598.235pt x 574.145pt>
+<../Cap6/thdm_mhtanb_t2.png, id=2071, 598.235pt x 574.145pt>
 File: ../Cap6/thdm_mhtanb_t2.png Graphic file (type png)
 
 <use ../Cap6/thdm_mhtanb_t2.png>
-Package pdftex.def Info: ../Cap6/thdm_mhtanb_t2.png used on input line 274.
+Package pdftex.def Info: ../Cap6/thdm_mhtanb_t2.png used on input line 315.
 (pdftex.def)             Requested size: 178.19879pt x 171.02708pt.
- [130 <../AN/Figs/unblinding/2HDM/mhmodp.png> <../AN/Figs/unblinding/2HDM/hmssm
-.png>] [131 <../Cap6/all.png>] [132 <../Cap6/vbfX.png> <../Cap6/vbf0.png> <../C
-ap6/vbf1.png>] [133 <../Cap6/mhmodp.png> <../Cap6/hmssm.png>] [134 <../Cap6/thd
-m_cosba_t1_200.png> <../Cap6/thdm_cosba_t2_200.png> <../Cap6/thdm_cosba_t1_300.
-png> <../Cap6/thdm_cosba_t2_300.png> <../Cap6/thdm_cosba_t1_500.png> <../Cap6/t
-hdm_cosba_t2_500.png>] [135 <../Cap6/thdm_mhtanb_t1.png> <../Cap6/thdm_mhtanb_t
-2.png>] [136
+ [132] [133 <../Cap6/vbfX.png> <../Cap6/vbf0.png> <../Cap6/vbf1.png>] [134 <../
+Cap6/mhmodp.png> <../Cap6/hmssm.png>] [135 <../Cap6/thdm_cosba_t1_200.png> <../
+Cap6/thdm_cosba_t2_200.png> <../Cap6/thdm_cosba_t1_300.png> <../Cap6/thdm_cosba
+_t2_300.png> <../Cap6/thdm_cosba_t1_500.png> <../Cap6/thdm_cosba_t2_500.png>] [
+136 <../Cap6/thdm_mhtanb_t1.png> <../Cap6/thdm_mhtanb_t2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 324--345
 
-]) [137] [138
+ []
+
+) [137
+
+] [138
 
 ]
 Appendix A.
@@ -3361,28 +3430,28 @@ Underfull \hbox (badness 1997) in paragraph at lines 232--235
 : / / twiki . cern . ch / twiki / bin / view / CMS /
  []
 
-[145] [146] [147])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
- [148]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+[145] [146] [147] [148])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
+ [149]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
  (./PhD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
 Package rerunfilecheck Info: File `PhD.out' has not changed.
-(rerunfilecheck)             Checksum: 7BEE0C17914D8266A8B92F06093F53CD;3880.
+(rerunfilecheck)             Checksum: EE5D41089B0BF84BBF9910E102677344;3871.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 14242 strings out of 494893
- 238341 string characters out of 6179541
- 438637 words of memory out of 5000000
- 16101 multiletter control sequences out of 15000+600000
- 126598 words of font info for 223 fonts, out of 8000000 for 9000
+ 14352 strings out of 494893
+ 240797 string characters out of 6179541
+ 438482 words of memory out of 5000000
+ 16184 multiletter control sequences out of 15000+600000
+ 126764 words of font info for 225 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 60i,21n,94p,1398b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,21n,94p,1424b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -3408,10 +3477,10 @@ xmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
 /usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on PhD.pdf (158 pages, 14537396 bytes).
+Output written on PhD.pdf (159 pages, 14641061 bytes).
 PDF statistics:
- 2425 PDF objects out of 2487 (max. 8388607)
- 1891 compressed objects within 19 object streams
- 681 named destinations out of 1000 (max. 500000)
- 36234 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2432 PDF objects out of 2487 (max. 8388607)
+ 1915 compressed objects within 20 object streams
+ 700 named destinations out of 1000 (max. 500000)
+ 36264 words of extra memory for PDF output out of 42996 (max. 10000000)
 
