@@ -66,7 +66,7 @@ This kind of background is particularly important for the same flavour final sta
 \includegraphics[scale= 0.7]{../Cap5/dy}
 \end{figure}
 
-\item \textit{W+jet}: this background is charaterized by a $W$ boson, decaying in $\ell \nu$, produced in association with a jet. If a fake lepton arise from the misidentified jet, these events have  the same final state of the signal (two leptons and missing-transverse-energy). 
+\item \textit{W+jet}: this background is charaterized by a $W$ boson, decaying in $\ell \nu$, produced in association with a jet. If a fake lepton arise from the misidentified jet, these events have  the same final state of the signal (two leptons and missing-transverse-energy), Sec~\ref{fk}. 
 
 \item \textit{Other}: other background processes involve multibosons production, such as $WZ/W\gamma^*$, $ZZ^*$ and $Z\gamma$ with $\gamma$ conversion.
 
@@ -78,6 +78,36 @@ contribution of other sub-dominant backgrounds is obtained directly from simulat
 %More precisely top and  Drell-Yan backgrounds normalizations have been extracted
 %directly from data-simulation comparison in specific control regions enriched in either one
 %or the other background separately for the different events categories, using the rateParam feature of the combine package~\cite{combine}.
+
+
+\section{Fake Lepton Background Estimation}
+\label{fk}
+Lepton fake rates are measured as a
+function of the lepton $p_T$ and $\eta$, in a single lepton triggered sample. The test of the method and
+systematic errors are described below.
+In the analysis
+the primary source of background from misidentification is W+Jets. QCD multi-jet and hadronic top backgrounds
+are also present at much smaller level. Events in which W bosons are produced in association
+with jets give rise to background to WW events when a jet is misidentified as a lepton. These
+events contain a real lepton and real missing energy from the W decay. With the jet misidentified 
+as a lepton, the W+Jets events have two identified leptons, missing energy, and no other
+significant event characteristics. As a result, the W+Jets events cannot be easily suppressed
+by event selection. This background is particularly important at low $p_T$.
+The estimation of the fake lepton contribution is based on the ``fakeable object'' data-driven
+method and provides a measurement of the yield and the kinematic distributions of fake background. 
+It is a general technique, applicable to any physics analysis in which particle level
+selection criteria are used to suppress background. The method can be used with any number
+of final state particles and is independent of the event selection.
+The fundamental idea of the fakeable objet method is simple: select a control sample of events
+enriched in the background being estimated, and then use an extrapolation factor to relate these
+events to the background in the signal region. The method is data-driven provided the control
+sample is selected in data, and the extrapolation factor is measured with data. For background
+arising from particle misidentification, the extrapolation is done in particle identification space
+($p_T$ and $\eta$ ) of the lepton. The control sample is defined using a looser particle selection criteria
+that are chosen such that the rate of misidentification is increased. The extrapolation factor
+relates background misidentified with this criteria, to background misidentified as passing the
+full particle selection of the signal region.
+
 
 
 \section{Lepton Efficiencies from Tag and Probe Method}
@@ -292,45 +322,6 @@ An average trigger efficiency greater than 99\% is found, as shown in Figure~\re
     \label{Fig:triggerIntegral}
 \end{figure*}
 
-\section{Study of the Interference effects}
-\label{sec:interference}
-When a resonance $X$, with a non negligible width is considered, it is important to take into account also the interference effects both with the \WW background, in case of same initial and final state, and with the Higgs boson off-shell tail. 
-The interference is taken into account both when the new signal X is produced via gluon-gluon fusion and when it is produced via vector-boson-fusion:
-the effects are shown in ~\ref{fig:X300} and  \ref{fig:Int_VBF_GEN} for the two different production mechanisms.  The contribution of the interference of the high mass resonance $X$ with the \WW background and with the Higgs boson have opposite sign and partially cancel out. This cancellation effect is different for different values of the resonance mass.
-The interference contribution is in general non negligible and it is included in the fit, Sec~\ref{StatIn}. \\
-\begin{figure}[htbp]
-\centering
-\subfigure[Mass 300 \GeV.]{
-\includegraphics[width=0.55\textwidth]{../AN/Figs/Interference_higgsLHEmass300_cuts_nocuts.png}
-}
-%\subfigure[Mass 400 \GeV.]{
-%\includegraphics[width=0.48\textwidth]{../AN/Figs/Interference_higgsLHEmass400_cuts_nocuts.png}
-%}
-%\\
-\subfigure[Mass 700 \GeV.]{
-\includegraphics[width=0.55\textwidth]{../AN/Figs/Interference_higgsLHEmass700_cuts_nocuts.png}
-}
-\subfigure[Mass 1500 \GeV.]{
-\includegraphics[width=0.55\textwidth]{../AN/Figs/Interference_higgsLHEmass1500_cuts_nocuts.png}
-}
-\caption{Distribution of for the $X$ mass resonance, produced via gluon-gluon fusion for different masses. In black the high mass signal. In red the interference between the high mass signal and the Higgs boson. In blue the interference between the high mass signal and the background. In green the total interference i.e. high 
-mass signal, Higgs bison and background. }
-    \label{fig:X300}
-\end{figure}
-
-
-\begin{figure}[htbp]
-\centering
-\subfigure[Mass 300 \GeV]{
-\includegraphics[width=0.55\textwidth]{../AN/Figs/Inter_VFB/Interference_higgsLHEmass300_cuts_nocuts.png}
-}
-\subfigure[Mass 1500 \GeV]{
-\includegraphics[width=0.55\textwidth]{../AN/Figs/Inter_VFB/Interference_higgsLHEmass1500_cuts_nocuts.png}
-}
-\caption{Distribution of for the $X$ mass resonance, produced via vector-boson-fusion fusion for different masses. In black the high mass signal. In red the interference between the high mass signal and the Higgs boson. In blue the interference between the high mass signal and the background. In green the total interference i.e. high 
-mass signal, Higgs bison and background.}
-    \label{fig:Int_VBF_GEN}
-\end{figure}
 
 
 \section{Discriminating variable}
@@ -355,6 +346,8 @@ two leptons four-momenta and the missing four-momentum:
 \end{equation}
 The distribution of all the variables defined above can be compared in 
 Fig.~\ref{fig:mt_nocuts}, where it is visible the better power of $m_T^I$ in discriminating different mass hypotheses wth respect to  $m_T^H$ and $m_{\ell \ell}$. The usage of  $m_T^I$ also provides a good discriminating power between signal and background.
+The effects of the interference (Sec~\ref{sec:interference}) for the discriminating variable  $m_T^I$  used in the analysis is shown in Fig~\ref{nocut_mti_700_sign}
+The interference is not negligible and it will take in account as part of the signal during the fit.
 \begin{figure}[htbp]
 \centering
 \subfigure[True generated mass]{
@@ -376,3 +369,12 @@ Fig.~\ref{fig:mt_nocuts}, where it is visible the better power of $m_T^I$ in dis
     \label{fig:mt_nocuts}
 \end{figure}
 
+\begin{figure*}[htbp]
+\centering
+ \includegraphics[width=0.6\textwidth]{../Cap5/nocut_mti_700_sign}
+\caption{ The $m_T^I$ distribution at generator level for a $X$ resonances at 700 GeV produced via gluon-gluon fusion. In red the interference between the high
+mass signal and the Higgs boson. In blue the interference between the high mass signal
+and the background. In green the total interference i.e. high mass signal, Higgs bison and
+background.       }
+    \label{nocut_mti_700_sign}
+\end{figure*}

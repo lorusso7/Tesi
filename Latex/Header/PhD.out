@@ -18,22 +18,22 @@
 \BOOKMARK [1][-]{section.3.7}{Jets}{chapter.3}% 18
 \BOOKMARK [1][-]{section.3.8}{Main Monte Carlo generators }{chapter.3}% 19
 \BOOKMARK [1][-]{section.3.9}{Monte Carlo samples in High Mass Analysis}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{Event Reconstruction}{}% 21
-\BOOKMARK [1][-]{section.4.1}{The Particle Flow}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.2}{Tracking}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.3}{Calorimeter clusters}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.4}{Link algorithm}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.5}{Lepton reconstruction and identification}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.6}{Jet reconstruction and identification}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.7}{b-jet identification}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.8}{The Missing Transverse Energy}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.9}{Fake Lepton Background Estimation}{chapter.4}% 30
+\BOOKMARK [1][-]{section.3.10}{Study of the Interference effects}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{Event Reconstruction}{}% 22
+\BOOKMARK [1][-]{section.4.1}{The Particle Flow}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Tracking}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.3}{Calorimeter clusters}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.4}{Link algorithm}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.5}{Lepton reconstruction and identification}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.6}{Jet reconstruction and identification}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.7}{b-jet identification}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.8}{The Missing Transverse Energy}{chapter.4}% 30
 \BOOKMARK [0][-]{chapter.5}{Search for high mass resonances}{}% 31
 \BOOKMARK [1][-]{section.5.1}{Overview of the fully leptonic analysis }{chapter.5}% 32
 \BOOKMARK [1][-]{section.5.2}{Main Background processes}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.3}{Lepton Efficiencies from Tag and Probe Method}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.4}{Data sample and Trigger used}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.5}{Study of the Interference effects}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{Fake Lepton Background Estimation}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.4}{Lepton Efficiencies from Tag and Probe Method}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.5}{Data sample and Trigger used}{chapter.5}% 36
 \BOOKMARK [1][-]{section.5.6}{Discriminating variable}{chapter.5}% 37
 \BOOKMARK [1][-]{section.5.7}{Opposite Flavor final state}{chapter.5}% 38
 \BOOKMARK [1][-]{section.5.8}{Same Flavor final state}{chapter.5}% 39
@@ -49,6 +49,6 @@
 \BOOKMARK [1][-]{section.7.2}{Signal interpretation: EW singlet and 2HDM}{chapter.7}% 49
 \BOOKMARK [1][-]{section.7.3}{Fully leptonic results}{chapter.7}% 50
 \BOOKMARK [1][-]{section.7.4}{Combination among the fully and the semi leptonic analysis}{chapter.7}% 51
-\BOOKMARK [0][-]{chapter*.161}{Conclusion}{}% 52
+\BOOKMARK [0][-]{chapter*.162}{Conclusion}{}% 52
 \BOOKMARK [0][-]{appendix.A}{Boost-invariant variables}{}% 53
 \BOOKMARK [0][-]{appendix.B}{Parton Distribution Function}{}% 54

@@ -3,29 +3,32 @@
 
 \textit{In the search of high mass resonances in the $W^+W^-$ channel, leptons (specifically, electrons or muons and neutrinos) and jets are searched for to select signal events.
 The reconstruction of such objects follow standard algorithms and procedure which have been
-developed by the experiment. In this chapter the reconstruction of the interested objects are described. I have contributed in the evaluation of the best working point for Standard Model Higgs boson analysis with 2015 data~\cite{CMS-PAS-HIG-16-021} and marginally for the same analysis using 2016 data~\cite{CMS-PAS-HIG-16-042}, Tab.~\ref{btt}.}
+developed by the experiment. In this chapter the reconstruction of the interested objects are described. 
+I have contributed in the evaluation of the best b-tagging working point for Standard Model Higgs boson analysis with 2015 data~\cite{CMS-PAS-HIG-16-021} and marginally for the same analysis using 2016 data~\cite{CMS-PAS-HIG-16-042}, Tab.~\ref{btt}.}
 
 \section{The Particle Flow}
 \label{PFt}
-The algorithm for the event reconstruction is called Particle Flow (PF)~\cite{CMS-PAS-PFT-09-001}. Its goal is to reconstruct all stable particles that emerge from a hadron-hadron collision, such as muons, electrons, photons, charged hadrons, and neutral hadrons. The PF technique uses all the informations coming from the 
+The algorithm for the event reconstruction is called Particle Flow (PF)~\cite{CMS-PAS-PFT-09-001}. Its goal is to reconstruct all stable particles that emerge from a hadron-hadron collision, such as muons, electrons, photons, charged hadrons, and neutral hadrons. The PF technique uses all the information coming from the 
 CMS sub-detectors and combines them to obtain: type of particle, direction, momentum, and energy.
-The reconstruction of charged particles is done from the hits in the silicon tracker that is immersed in a uniform magnetic field of 3.8 T. 
+The reconstruction of charged particles is done from the hits in the silicon tracker. 
+%that is immersed in a uniform magnetic field of 3.8 T. 
 Transverse momentum is precisely measured down to about 150 MeV.
-The photon and electron reconstruction is performed using the high resolution and high granularity of ECAL together with the excellent tracking system. This combination provides a very good energy resolution for such particles. Muons are reconstructed in the muon chambers together with the tracking system.
+The photon and electron reconstruction is performed using the high resolution and high granularity of ECAL together with the excellent tracking system. 
+This combination provides a very good energy resolution for electrons. Muons are reconstructed in the muon chambers together with the tracking system.
 The reconstruction of charged-particles in the tracker, energy clusters in the calorimeters and muons in the muon chambers are the first steps of the PF. The informations are then connected to each others, making blocks of elements which are topologically compatible.
 Starting by blocks, the candidate particles (PF Candidates) are fully reconstructed and identified as:
 \begin{itemize}
 \item Muons: the combination of a track in the tracker and a track in the muon system gives rise to a PF muon. The corresponding track is removed from the block after the identification.
-\item Electrons: a charged-particle track is linked and one or more ECAL clusters (if presents)
+\item Electrons: a charged-particle track is linked to one or more ECAL clusters (if presents)
 \item Charged hadrons: PF charged hadrons are obtained from the remaining tracks. Tracks 
 are linked to ECAL and HCAL clusters, and the deposited energy is determined taking into
 account the momentum of the track.
 \item Photons and Neutral hadrons: PF photons are given by ECAL clusters not compatible with charged-tracks; PF
 neutral hadrons instead are given by unaccounted HCAL deposits.
 \end{itemize}
-After that, once the list of PF Candidates is defined, the PF jets are clustered. At the LHC,  at each bunch crossing there are of the order of 20 minimum bias proton-proton interactions, which pollute any interesting hard events with many soft particle. The kinematic measurements for jets will be adversely affected by pileup (PU), with resolution and absolute energy measurements
-suffering significantly. Therefore effects of PU needs to be taken into account and corrected for. At the end the PF MET is evaluated as the opposite of the transverse momentum-vector sum over all reconstructed PF Candidates.
-
+After that, once the list of PF Candidates is defined, the PF jets are reconstructed using a clustering algorithm. At the LHC,  at each bunch crossing there are of the order of 20 minimum bias proton-proton interactions, which pollute any interesting hard events with many soft particles. 
+The identification and energy measurements for jets will be adversely affected by pileup (PU), with resolution and absolute energy measurements suffering significantly. 
+Therefore effects of PU needs to be taken into account and corrected for. At the end the PF MET is evaluated as the opposite of the transverse momentum-vector sum over all reconstructed PF Candidates.\\
 In the following, each step of the reconstruction is described in details. 
 
 \section{Tracking}
@@ -56,9 +59,9 @@ particles inside the CMS silicon detectors to determine the
 trajectories of the charged tracks and therefore measure their directions and momenta.  
 The Combinatorial Track Finder (CTF) is the main standard algorithm and proceeds in three steps:
 \begin{itemize} 
-\item Seeding:  pairs of hits, that are compatible with a charged particle, originated from the interaction region and with $p_T$ above a lower
+\item Seeding:  pairs or triplets of hits, that are compatible with a charged particle, originated from the interaction region and with $p_T$ above a lower
 threshold, are considered as possible candidates of
-charged tracks.  Pixel hits provide the best track
+charged tracks (GSF tracks).  Pixel hits provide the best track
 seeding, given their three-dimensional position information and lower occupancy.  
 \item Finding: is based on a standard Kalman  Filter  pattern  recognition  approach.
 The  track trajectory  is  extrapolated  to  the  neighboring tracker  layers, starting from the seeded parameters.
@@ -69,7 +72,8 @@ updates the track parameters at each steps with new hits.
 \item Fitting: the  final  estimate  of  the   parameters  of
 each  track  helix  is  completed  in  the  last  steps
 applying again the Kalman Filter for the trajectory fitting.  Each trajectory is refitted using a
-least-squares fit. In the central region, $|\eta|<1$, the $p_T$ resolution is better than 1\%  for tracks with $p_T<10\%$. At higher $p_T$ resolution worsens approximately as $\Delta (1/p_T) \sim 0.2$ TeV$^{-1}$.
+least-squares fit. In the central region, $|\eta|<1$, the $p_T$ resolution is better than 1\%  for tracks with $p_T<10\%$. 
+At higher $p_T$, the resolution gets worse  as $\Delta (1/p_T) \sim 0.2$ TeV$^{-1}$  approximately.
 \end{itemize}
 The  reconstruction  of  single  muons  with  the
 CTF  algorithm  is  almost  fully  efficient  over  the whole acceptance range.
@@ -110,13 +114,13 @@ The selected tracks are then clustered on the basis of their z-coordinates at th
 %The DA algorithm is initiated at a very high temperature with a single vertex and $T$ is gradually decreased.
 %This procedure tracks the global minimum of $F$ from high to low temperature.
 %The number of vertices increases as the temperature falls, and rises each time the minimum of $F$ turns into a saddle point at lower temperatures. 
-The DA process finds not only positions and assignments of tracks to vertices but also thex number of vertices.
+The DA process finds not only positions and assignments of tracks to vertices but also the  number of vertices.
 In Fig.~\ref{Fig:pu} is shown the distribution of the number of vertices in a Drell-Yan sample. This distribution is related to the number of PU events. Therefore MC events are reweighted according to the ratio between data and simulation in the number of primary vertices in order to correct for the different pileup. 
 \begin{figure*}[htbp]
 \centering
 \includegraphics[width=0.6\textwidth]{../AN/Figs/nvertices.png}
 \caption{
-    Distributions of the number of vertices in a Drell-Yan enriched sample
+    Distribution of the number of vertices in a Drell-Yan enriched sample
     (Z$\rightarrow{}ee$) in
     data}
     \label{Fig:pu}
@@ -126,7 +130,7 @@ In Fig.~\ref{Fig:pu} is shown the distribution of the number of vertices in a Dr
 
 
 \section{Calorimeter clusters}
-The purpose of the clustering algorithm in the calorimeters are~\cite{Sirunyan:2017ulk}:
+The purposes of the clustering algorithm in the calorimeters are~\cite{Sirunyan:2017ulk}:
 \begin{itemize} 
 \item detect and measure the energy and direction of stable neutral particles such as photons and neutral hadrons;
 \item separate these neutral particles from charged hadron energy deposits;
@@ -181,7 +185,7 @@ established to form global and tracker muons, Sec~\ref{ler}.\\
 \label{ler}
 \subsection*{Electron reconstruction and identification}
 The combination of tracker and ECAL information is used for electrons reconstruction.
-The electrons, emerging from a collision, when interact with the silicon tracker, radiate bremsstrahlung photons that reaches the ECAL with a significant spread in the azimuthal direction $\phi$. These energy deposites measured in ECAL are the starting point of the electrons reconstruction algorithm. They are associated in clusters and in superclusters (clusters of clusters) that take into account the spread in the $\phi$ direction of the bremsstrahlung energy, Fig.~\ref{clustering}.
+The electrons, emerging from a collision, when interact with the silicon tracker, radiate bremsstrahlung photons that reaches the ECAL with a significant spread in the azimuthal direction $\phi$. These energy deposit measured in ECAL are the starting point of the electrons reconstruction algorithm. They are associated in clusters and in superclusters (clusters of clusters) that take into account the spread in the $\phi$ direction of the bremsstrahlung energy, Fig.~\ref{clustering}.
 When   superclusters are identified, the reconstruction algorithm tries to match them to track seeds. The  track seeds are identified as pairs or triplets of hits in the inner tracker layers. The electrons trajectories are reconstructed using a dedicated modeling that take in account  energy
 loss in the tracker layers via  bremsstrahlung radiation: non-Gaussian contributions to the event-by-event fluctuations 
 of the calorimetry and tracking measurements are introduced due to the bremsstrahlung radiation.   
@@ -193,11 +197,11 @@ of the calorimetry and tracking measurements are introduced due to the bremsstra
 \end{figure}
 A preselection is applied to solve ambiguous cases where several tracks are reconstructed. It is based on matching
 between the GSF track and the supercluster in $\eta$ and $\phi$. To achieve a good resolution the electron supercluster must
-be inside the ECAL acceptance volume, that meaning  $\eta<$ 2.5, and outside the ECAL barrel-endcap
-overlap region, 1.4442 $<\eta<$ 1.566.
+be inside the ECAL acceptance volume, meaning that  $|\eta|<$ 2.5, and outside the ECAL barrel-endcap
+overlap region, 1.4442 $<|\eta|<$ 1.566.
 Several identification variables are used to achieve a good discrimination. These variables are:
 \begin{itemize}
-\item $\Delta \eta_{trk,SC}$ and $\Delta \phi_{trk,SC}$, that measure the spacial matching between the track
+\item $\Delta \eta_{trk,SC}$ and $\Delta \phi_{trk,SC}$, that measure the spatial matching between the track
 and the supercluster.
 \item $\sigma_{in,in}$ that measures the width of the ECAL supercluster in the $\eta$ direction. It is the calorimeter shower shape.
 \item H/E: is the ratio among the energy deposit in the HCAL tower and the energy of the seed supercluster.
@@ -227,7 +231,6 @@ ISO^{Rel}_{EA\; corrected}=[\sum_{ChH}(p_T) + max(0, \sum_{Ph}(p_T)) +\sum_{NH}(
 where $ChH$ is an index which runs on the charged hadrons, $Ph$ on the photons, $NH$ on the neutral hadrons, $\rho$ is the pile up energy
 density and $A$ is an effective area. The sum is done in a isolated cone of $\Delta R<$ 0.4 around the electron direction.
 The identification and isolation criteria used for the $X \to WW$ analysis are summarised in Tab.~\ref{IDe}.
-
 \begin{table}
 \centering
 \begin{tabular}{|lll|}
@@ -246,7 +249,6 @@ conversion veto& true&true\\
 \hline
 $ISO^{Rel}_{EA\; corrected}$&0.0588 & 0.0571\\
 \hline
-
 \end{tabular}
 \caption{Electron identification criteria for the Tight working point and isolation requirements.}
 \label{IDe}
@@ -284,8 +286,7 @@ Quality requirements are applied to ensure a good quality of the reconstruction:
 vertex smaller than 2 mm in the transverse plane and smaller than 5 mm in
 the longitudinal direction.
 \end{itemize}
-The requirements are summarized in Tab.\ref{IDm}
-
+The requirements are summarized in Tab.\ref{IDm}.
 \begin{table}
 \centering
 \begin{tabular}{|ll|}
@@ -302,12 +303,15 @@ $\chi^2$ /ndof                        & $<10$             \\
 $d_{xy}$ (PV)                         & < 0.2 cm          \\ 
 $d_z$ (PV)                            & < 0.5 cm          \\ 
 \hline
+$ISO^{Rel}_{\Delta \beta}$              & $<$0.15\\
+\hline
 \end{tabular}
 \caption{Muon identification and isolation requirements.}
 \label{IDm}
 \end{table}
-For the analysis goals, the muon are expected to be isolated, as the they are generated by W boson decay. Indeed, prompt muons are expected to be isolated in the event, contrary to non-prompt muons that are generally produced within jets and characterized by many
-nearby particles. Muon coming from $W$ are therefore requested to pass an isolation
+For the analysis goals, the muons are expected to be isolated, as the they are generated by W boson decay. 
+Indeed, muons produced by W or Z boson decay, or prompt muons, are expected to be isolated in the event, contrary to non-prompt muons, muons from in flight decays, that are generally produced within jets and characterized by many
+nearby particles. Muons coming from $W$s are therefore requested to pass an isolation
 criterion, which includes a PU mitigation, called ``$\Delta \beta$ correction'',
 %Indeed the isolation variable is sensitive to the
 %pileup and a correction is applied 
@@ -317,8 +321,8 @@ the number of simultaneous interactions. The isolation variable used is,
 ISO^{Rel}_{\Delta \beta}=[\sum_{ChH}(p_T) + max(0, \sum_{Ph}(p_T) -0.5 \times \sum_{ChHUP}(p_T)) ]/p_T^{electron} \, ,
 \end{equation}
 where $ChH$ is the charged hadrons, $Ph$ is photons and $ChHPU$ is charged
-hadrons not coming from the primary vertex.  The sum is performed in a cone of 0.4 units in $\Delta R$ around the muon.
-
+hadrons not coming from the primary vertex.  The sum is performed in a cone of 0.4 units in $\Delta R$ around the muon
+and the $ISO^{Rel}_{\Delta \beta}$ cut is 0.15
 A bias in the muon $p_T$ is introduced by the imperfect knowledge
 of the magnetic field and the effect of the material distribution. In addition the $p_T$ measurement is sensitive to the alignment of the tracker and
 muon chambers. To estimate the muon $p_T$ scale and resolution 
@@ -329,19 +333,18 @@ resonance decay are used.
 
 \section{Jet reconstruction and identification}
 \label{jetr}
-Jets are the experimental signature of quarks and gluons produced in the hadron collision. They result from the parton  hadronization and they play a major role in a hadronic collider where final state with jets have very large cross-section. %The technique used for jet reconstruction is the Particle Flow.
+Jets are the experimental signature of quarks and gluons produced in the hadron collision. They result from the parton  hadronization and they play a major role in a hadronic collider where processes with jets in the final state have very large cross-section. %The technique used for jet reconstruction is the Particle Flow.
 Using the particle-flow algorithm described in Sec.~\ref{PFt}, the  jets are reconstructed by clustering of the  four-momentum vectors of PF candidates.%: the information from relevant CMS sub-detectors are used to identify and to reconstruct all visible particles in the event, as
 % muons, electrons, photons, charged hadrons, and neutral hadrons. 
-The momentum and spatial resolutions of these jets reconstructed with the PF technique are greatly improved respect to jets obtained using the calorimeters information only, because the tracking detector allows a better resolution of $p_T$ for the charged particles.
+The momentum and spatial resolutions of these jets reconstructed with the PF technique are greatly improved with respect to jets obtained using the calorimeters information only, because the tracking detector allows a better resolution of $p_T$ for the charged particles.
 The four-vectors of input particles are combined with a sequential and iterative jet clustering algorithm, that should have ideally the following features:
 \begin{itemize}
-\item infrared safety: no infrared singularity appears in perturbative calculations for the results of this algortihm;
+\item infrared safety: no infrared singularity appears in perturbative calculations for the results of this algorithm;
 \item collinear safety: same as before for collinear singularities;
 \item invariance under boosts: the algorithm should find the same solutions independently
 by boosts in the longitudinal direction.
 \item order independence: the algorithm should find the same jets at parton, particle, and detector level;
-\item straightforward implementation: the algorithm should be straightforward to imple-
-ment in perturbative calculations.
+\item straightforward implementation: the algorithm should be straightforward to implement in perturbative calculations.
 \end{itemize}
 The jet algorithm should also follow these  experimental criteria:
 \begin{itemize}
@@ -349,13 +352,16 @@ The jet algorithm should also follow these  experimental criteria:
 \item minimization of resolution smearing and angle biases: the algorithm should not
 amplify the inevitable effects of resolution smearing and angle biases;
 \item stability with luminosity: jet finding should not be strongly affected by pileup;
-\item efficient use of computing resources: minimum of computer time consumption;
+\item efficient use of computing resources: minimum  computer time consumption;
 \item maximal reconstruction efficiency: the algorithm should efficiently identify all jets;
 \item ease of calibration and use: algorithm should not obstruct a reliable calibration and be straightforward to implement.
 \end{itemize}
-Jet definition is not unique, being the parton not a well-defined object, from the experimental point of view, so several
-approaches for jet clustering are available. Two main algorithms have been developed: the ``conical recombination''
-where jets are defined from the dominant directions of energy flow; the ``sequential recombination'' that works by defining a distance
+Jet definition is not unique, being the parton not a well-defined objects, from the experimental point of view, so several
+approaches for jet clustering are available. Two main algorithms have been developed: the ``conical recombination'' algorithm
+that puts together particles within specific conical angular regions, notably such that
+the momentum sum of the particles contained in a given cone coincides
+with the cone axis (a ``stable cone'') and
+the ``sequential recombination'' algorithm   that works by defining a distance
 between pairs of particles, then performing subsequent recombinations of pairs of closest
 particles, and stopping when all resulting objects are too far apart. The standard algorithms adopted by
 CMS are the SISCone in the conical recombination class, and the $k_t$, Cambridge-Aachen (CA) and anti-$k_T$ algorithms for the sequential, Sec~\ref{rico_jet}.\\
@@ -669,29 +675,3 @@ The distributions of various  $E_T^{miss}$ variables, in a Drell-Yan enriched sa
 \label{met}
 \end{figure}
 
-\section{Fake Lepton Background Estimation}
-Lepton fake rates are measured as a
-function of the lepton $p_T$ and $\eta$, in a single lepton triggered sample. The test of the method and
-systematic errors are described below.
-In the analysis
-the primary source of background from misidentification is W+Jets. QCD multi-jet and hadronic top backgrounds
-are also present at much smaller level. Events in which W bosons are produced in association
-with jets give rise to background to WW events when a jet is misidentified as a lepton. These
-events contain a real lepton and real missing energy from the W decay. With the jet misidentified 
-as a lepton, the W+Jets events have two identified leptons, missing energy, and no other
-significant event characteristics. As a result, the W+Jets events cannot be easily suppressed
-by event selection. This background is particularly important at low $p_T$.
-The estimation of the fake lepton contribution is based on the ``fakeable object'' data-driven
-method and provides a measurement of the yield and the kinematic distributions of fake background. 
-It is a general technique, applicable to any physics analysis in which particle level
-selection criteria are used to suppress background. The method can be used with any number
-of final state particles and is independent of the event selection.
-The fundamental idea of the fakeable objet method is simple: select a control sample of events
-enriched in the background being estimated, and then use an extrapolation factor to relate these
-events to the background in the signal region. The method is data-driven provided the control
-sample is selected in data, and the extrapolation factor is measured with data. For background
-arising from particle misidentification, the extrapolation is done in particle identification space
-($p_T$ and $\eta$ ) of the lepton. The control sample is defined using a looser particle selection criteria
-that are chosen such that the rate of misidentification is increased. The extrapolation factor
-relates background misidentified with this criteria, to background misidentified as passing the
-full particle selection of the signal region.

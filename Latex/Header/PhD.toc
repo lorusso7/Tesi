@@ -18,37 +18,37 @@
 \contentsline {section}{\numberline {3.7}Jets}{51}{section.3.7}
 \contentsline {section}{\numberline {3.8}Main Monte Carlo generators }{51}{section.3.8}
 \contentsline {section}{\numberline {3.9}Monte Carlo samples in High Mass Analysis}{53}{section.3.9}
-\contentsline {chapter}{\numberline {4}Event Reconstruction}{59}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Particle Flow}{59}{section.4.1}
-\contentsline {section}{\numberline {4.2}Tracking}{60}{section.4.2}
-\contentsline {section}{\numberline {4.3}Calorimeter clusters}{62}{section.4.3}
-\contentsline {section}{\numberline {4.4}Link algorithm}{63}{section.4.4}
-\contentsline {section}{\numberline {4.5}Lepton reconstruction and identification}{63}{section.4.5}
-\contentsline {section}{\numberline {4.6}Jet reconstruction and identification}{67}{section.4.6}
-\contentsline {section}{\numberline {4.7}b-jet identification}{69}{section.4.7}
-\contentsline {section}{\numberline {4.8}The Missing Transverse Energy}{72}{section.4.8}
-\contentsline {section}{\numberline {4.9}Fake Lepton Background Estimation}{74}{section.4.9}
-\contentsline {chapter}{\numberline {5}Search for high mass resonances}{77}{chapter.5}
-\contentsline {section}{\numberline {5.1}Overview of the fully leptonic analysis }{77}{section.5.1}
-\contentsline {section}{\numberline {5.2}Main Background processes}{78}{section.5.2}
-\contentsline {section}{\numberline {5.3}Lepton Efficiencies from Tag and Probe Method}{80}{section.5.3}
-\contentsline {section}{\numberline {5.4}Data sample and Trigger used}{81}{section.5.4}
-\contentsline {section}{\numberline {5.5}Study of the Interference effects}{81}{section.5.5}
-\contentsline {section}{\numberline {5.6}Discriminating variable}{83}{section.5.6}
-\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{87}{section.5.7}
-\contentsline {section}{\numberline {5.8}Same Flavor final state}{100}{section.5.8}
-\contentsline {section}{\numberline {5.9}Systematic uncertainties}{110}{section.5.9}
-\contentsline {chapter}{\numberline {6}Semileptonic final state}{115}{chapter.6}
-\contentsline {section}{\numberline {6.1}Overview of the semileptonic analysis}{115}{section.6.1}
-\contentsline {section}{\numberline {6.2}Jets for Boosted and Resolved selection}{116}{section.6.2}
-\contentsline {section}{\numberline {6.3}Event categorisation}{117}{section.6.3}
-\contentsline {section}{\numberline {6.4}Backgrounds}{120}{section.6.4}
-\contentsline {section}{\numberline {6.5}Systematic uncertainties}{120}{section.6.5}
-\contentsline {chapter}{\numberline {7}Results and Interpretation}{123}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical interpretation}{123}{section.7.1}
-\contentsline {section}{\numberline {7.2}Signal interpretation: EW singlet and 2HDM}{125}{section.7.2}
-\contentsline {section}{\numberline {7.3}Fully leptonic results}{127}{section.7.3}
-\contentsline {section}{\numberline {7.4}Combination among the fully and the semi leptonic analysis}{130}{section.7.4}
-\contentsline {chapter}{Conclusion}{137}{chapter*.161}
-\contentsline {chapter}{\numberline {A}Boost-invariant variables}{139}{appendix.A}
-\contentsline {chapter}{\numberline {B}Parton Distribution Function}{141}{appendix.B}
+\contentsline {section}{\numberline {3.10}Study of the Interference effects}{59}{section.3.10}
+\contentsline {chapter}{\numberline {4}Event Reconstruction}{63}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Particle Flow}{63}{section.4.1}
+\contentsline {section}{\numberline {4.2}Tracking}{64}{section.4.2}
+\contentsline {section}{\numberline {4.3}Calorimeter clusters}{66}{section.4.3}
+\contentsline {section}{\numberline {4.4}Link algorithm}{67}{section.4.4}
+\contentsline {section}{\numberline {4.5}Lepton reconstruction and identification}{67}{section.4.5}
+\contentsline {section}{\numberline {4.6}Jet reconstruction and identification}{71}{section.4.6}
+\contentsline {section}{\numberline {4.7}b-jet identification}{73}{section.4.7}
+\contentsline {section}{\numberline {4.8}The Missing Transverse Energy}{76}{section.4.8}
+\contentsline {chapter}{\numberline {5}Search for high mass resonances}{81}{chapter.5}
+\contentsline {section}{\numberline {5.1}Overview of the fully leptonic analysis }{81}{section.5.1}
+\contentsline {section}{\numberline {5.2}Main Background processes}{82}{section.5.2}
+\contentsline {section}{\numberline {5.3}Fake Lepton Background Estimation}{84}{section.5.3}
+\contentsline {section}{\numberline {5.4}Lepton Efficiencies from Tag and Probe Method}{84}{section.5.4}
+\contentsline {section}{\numberline {5.5}Data sample and Trigger used}{85}{section.5.5}
+\contentsline {section}{\numberline {5.6}Discriminating variable}{86}{section.5.6}
+\contentsline {section}{\numberline {5.7}Opposite Flavor final state}{90}{section.5.7}
+\contentsline {section}{\numberline {5.8}Same Flavor final state}{103}{section.5.8}
+\contentsline {section}{\numberline {5.9}Systematic uncertainties}{113}{section.5.9}
+\contentsline {chapter}{\numberline {6}Semileptonic final state}{117}{chapter.6}
+\contentsline {section}{\numberline {6.1}Overview of the semileptonic analysis}{117}{section.6.1}
+\contentsline {section}{\numberline {6.2}Jets for Boosted and Resolved selection}{118}{section.6.2}
+\contentsline {section}{\numberline {6.3}Event categorisation}{119}{section.6.3}
+\contentsline {section}{\numberline {6.4}Backgrounds}{122}{section.6.4}
+\contentsline {section}{\numberline {6.5}Systematic uncertainties}{122}{section.6.5}
+\contentsline {chapter}{\numberline {7}Results and Interpretation}{125}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical interpretation}{125}{section.7.1}
+\contentsline {section}{\numberline {7.2}Signal interpretation: EW singlet and 2HDM}{127}{section.7.2}
+\contentsline {section}{\numberline {7.3}Fully leptonic results}{129}{section.7.3}
+\contentsline {section}{\numberline {7.4}Combination among the fully and the semi leptonic analysis}{132}{section.7.4}
+\contentsline {chapter}{Conclusion}{139}{chapter*.162}
+\contentsline {chapter}{\numberline {A}Boost-invariant variables}{141}{appendix.A}
+\contentsline {chapter}{\numberline {B}Parton Distribution Function}{143}{appendix.B}

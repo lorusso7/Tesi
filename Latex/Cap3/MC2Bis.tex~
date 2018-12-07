@@ -340,46 +340,54 @@ All simulated sample are summarized in Tab.~\ref{tab:wwl}.
 
 %\hspace{-2cm}
 \begin{table*}[htb]
-\hspace{-1cm}
+\centering
+%\hspace{-1cm}
 %\begin{center}
 \footnotesize{
-\begin{tabular}{@{}|l|c|c|c|@{}}
+\begin{tabular}{|l|l|c|}
 \hline
-Process & Dataset Name & $\sigma\times$BR [pb] \\
+Process & MC generator used & $\sigma\times$BR [pb] \\
 \hline
-Signal ggH &GluGluHToWWTo2L2NuM200-3000&Various \\
+Signal gluon-gluon fusion &Powheg V2+JHUGen  &   Various \\
 \hline
-Signal VBF &VBFHToWWTo2L2NuM200-3000&Various \\
+Signal VBF & Powheg V2+JHUGen &Various \\
 
 \hline
-\ttbar$\rightarrow$\WW$b\bar{b}\rightarrow2l2\nu b\bar{b}$ & TTTo2L2Nu 13TeV-powheg  & 87.31 \\
+\ttbar$\rightarrow$\WW$b\bar{b}\rightarrow2l2\nu b\bar{b}$ & Powheg V2  & 87.31 \\
 \hline
-\qqbar$\rightarrow$\WW$\rightarrow2l2\nu$ & WWTo2L2Nu 13TeV-powheg & 12.178 \\
-\qqbar$\rightarrow$\WW$qq \rightarrow l\nu qq$  & WpWmJJ-QCD-noTop 13TeV-powheg & 0.59 \\
-$gg\rightarrow$\WW$\rightarrow2l2\nu$ &  GluGluWWTo2L2Nu MCFM 13TeV & 0.5905 \\
+\qqbar$\rightarrow$\WW$\rightarrow2l2\nu$ & Powheg V2 & 12.178 \\
+\qqbar$\rightarrow$\WW$ \rightarrow l\nu qq$  & Powheg V2 & 0.59 \\
+$gg\rightarrow$\WW$\rightarrow2l2\nu$ &  MCFM 13TeV & 0.5905 \\
 \hline
-Single top & ST tW top 5f inclusiveDecays &   35.85  \\
-	&ST tW antitop 5f inclusiveDecays	&   35.85  \\
+Single top & Powheg+pythia8 &   71.70  \\
+	  
 \hline
-Drell-Yan	& DYJetsToTauTau\_13TeV-amcatnloFXFX-pythia8\_ext1 & 1867 \\
-		& DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8 &  6025.26	\\
-		& DYJetsToLL\_M-50\_HT100to200\_madgraphMLM-pythia8 &  147.4  \\
-		& DYJetsToLL\_M-50\_HT200to400\_madgraphMLM-pythia8 &  40.99  \\
-		& DYJetsToLL\_M-50\_HT400to600\_madgraphMLM-pythia8 &  5.678  \\
-		& DYJetsToLL\_M-50\_HT600toInf\_madgraphMLM-pythia8 &  2.198  \\
+Drell-Yan	& amcatnloFXFX+pythia8& 1867 \\
+		& Madgraph+pythia: Inclusive    &  6025.26	\\
+		& Madgraph+pythia: HT 100-200  &  147.4  \\
+		& Madgraph+pythia: HT 200-400  &  40.99  \\
+		& Madgraph+pythia: HT 400-600   &  5.678  \\
+		& Madgraph+pythia: HT 600-Inf.   &  2.198  \\
 \hline
-Multibosons	& WZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  5.5950 \\
-		& ZZTo2L2Q\_13TeV\_amcatnloFXFX\_madspin\_pythia8 &  3.2210 \\
-		& WWZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8  &	0.1651 \\
-		& WZZ\_TuneCUETP8M1\_13TeV-amcatnlo-pythia8 &  0.05565 \\
+Multibosons	& $WZ \to 2\ell 2q$: amcatnloFXFX+ pythia8 &  5.5950 \\
+		& $ZZ \to 2\ell 2q$: amcatnloFXFX+pythia8 &  3.2210 \\
+		& WWZ: amcatnlo+pythia8  &	0.1651 \\
+		& WZZ:     amcatnlo+pythia8 &  0.05565 \\
 \hline
 
+W+jets          &Inclusive:      amcatnloFXFX+pythia8                  &61526.7\\
+               
+                &W $p_T$ 0-50: amcatnloFXFX+pythia8&57280.0\\		 
+		&W $p_T$ 50-100: amcatnloFXFX+pythia8&3258.0\\	    
+		&W $p_T$ 100-200: amcatnloFXFX+pythia8&676.3\\	     
+		&W $p_T$ 250-400: amcatnloFXFX+pythia8&23.94\\	     
+		&W $p_T$ 400-600: amcatnloFXFX+pythia8&3.031\\	     
+		&W $p_T$ 600-Inf: amcatnloFXFX+pythia8&0.4524\\ 
 
-
-
+\hline
 \end{tabular}
 }
-\caption{Simulated samples for \ttbar and \WW production.}
+\caption{Simulated samples for the signal, \ttbar, \WW, DY, Multiboson and $W$+jet production.}
 \label{tab:wwl}
 %\end{center}
 \end{table*}
