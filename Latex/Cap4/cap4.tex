@@ -61,7 +61,7 @@ The Combinatorial Track Finder (CTF) is the main standard algorithm and proceeds
 \begin{itemize} 
 \item Seeding:  pairs or triplets of hits, that are compatible with a charged particle, originated from the interaction region and with $p_T$ above a lower
 threshold, are considered as possible candidates of
-charged tracks (GSF tracks).  Pixel hits provide the best track
+charged tracks.  Pixel hits provide the best track
 seeding, given their three-dimensional position information and lower occupancy.  
 \item Finding: is based on a standard Kalman  Filter  pattern  recognition  approach.
 The  track trajectory  is  extrapolated  to  the  neighboring tracker  layers, starting from the seeded parameters.
@@ -78,7 +78,8 @@ At higher $p_T$, the resolution gets worse  as $\Delta (1/p_T) \sim 0.2$ TeV$^{-
 The  reconstruction  of  single  muons  with  the
 CTF  algorithm  is  almost  fully  efficient  over  the whole acceptance range.
 Electrons, being charged particles, can be reconstructed through the standard track reconstruction.  However,  as electrons lose energy primarily through bremsstrahlung,  rather than ionization,  large energy losses are common.  
- The energy loss distribution is highly non-Gaussian, and therefore the standard Kalman filter is not appropriate.
+The energy loss distribution is highly non-Gaussian, and therefore the standard Kalman filter is not appropriate:
+a modified version of the Kalman filter, called the Gaussian Sum Filter (GSF) is used. 
 Electron candidates are reconstructed using the  information from the tracker but also from
 the ECAL, Sec~\ref{ler}. 
 For charged hadrons, finally, there are inefficiencies in the reconstruction due to their nuclear
