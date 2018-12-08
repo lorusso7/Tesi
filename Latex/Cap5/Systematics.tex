@@ -3,32 +3,71 @@
 
 \section{Fake Lepton Background Estimation}
 \label{fk}
-For both the opposite flavor and same flavor analysis, the lepton fake rates are measured as a
-function of the lepton $p_T$ and $\eta$, in a single lepton triggered sample. The test of the method and
-systematic errors are described below.
-\newline
-In the analysis
-the primary source of background from misidentification is W+Jets. QCD multi-jet and hadronic top backgrounds
-are also present at much smaller level. Events in which W bosons are produced in association
-with jets give rise to background to WW events when a jet is misidentified as a lepton. These
-events contain a real lepton and real missing energy from the W decay. With the jet misidentified 
-as a lepton, the W+Jets events have two identified leptons, missing energy, and no other
-significant event characteristics. As a result, the W+Jets events cannot be easily suppressed
-by event selection. This background is particularly important at low $p_T$.
-The estimation of the fake lepton contribution is based on the ``fakeable object'' data-driven
-method and provides a measurement of the yield and the kinematic distributions of fake background. 
-It is a general technique, applicable to any physics analysis in which particle level
-selection criteria are used to suppress background. The method can be used with any number
-of final state particles and is independent of the event selection.
-The fundamental idea of the fakeable objet method is simple: select a control sample of events
-enriched in the background being estimated, and then use an extrapolation factor to relate these
-events to the background in the signal region. The method is data-driven provided the control
-sample is selected in data, and the extrapolation factor is measured with data. For background
-arising from particle misidentification, the extrapolation is done in particle identification space
-($p_T$ and $\eta$ ) of the lepton. The control sample is defined using a looser particle selection criteria
-that are chosen such that the rate of misidentification is increased. The extrapolation factor
-relates background misidentified with this criteria, to background misidentified as passing the
-full particle selection of the signal region.
+%For both the opposite flavor and same flavor analysis, the lepton fake rates are measured as a
+%function of the lepton $p_T$ and $\eta$, in a single lepton triggered sample. The test of the method and
+%systematic errors are described below.
+%\newline
+%In the analysis
+%the primary source of background from misidentification is W+Jets. QCD multi-jet and hadronic top backgrounds
+%are also present at much smaller level. Events in which W bosons are produced in association
+%with jets give rise to background to WW events when a jet is misidentified as a lepton. These
+%events contain a real lepton and real missing energy from the W decay. With the jet misidentified 
+%as a lepton, the W+Jets events have two identified leptons, missing energy, and no other
+%significant event characteristics. As a result, the W+Jets events cannot be easily suppressed
+%by event selection. This background is particularly important at low $p_T$.
+%The estimation of the fake lepton contribution is based on the ``fakeable object'' data-driven
+%method and provides a measurement of the yield and the kinematic distributions of fake background. 
+%It is a general technique, applicable to any physics analysis in which particle level
+%selection criteria are used to suppress background. The method can be used with any number
+%of final state particles and is independent of the event selection.
+%The fundamental idea of the fakeable objet method is simple: select a control sample of events
+%enriched in the background being estimated, and then use an extrapolation factor to relate these
+%events to the background in the signal region. The method is data-driven provided the control
+%sample is selected in data, and the extrapolation factor is measured with data. For background
+%arising from particle misidentification, the extrapolation is done in particle identification space
+%($p_T$ and $\eta$ ) of the lepton. The control sample is defined using a looser particle selection criteria
+%that are chosen such that the rate of misidentification is increased. The extrapolation factor
+%relates background misidentified with this criteria, to background misidentified as passing the
+%full particle selection of the signal region.
+
+Events in which a single W boson is produced in association with jets may populate the signal
+region when a jet is misidentified as a lepton. 
+These events contain a genuine lepton and $p_T^{miss}$ from the W boson decay as well as a second nonprompt lepton from a misidentified jet, likely
+rising from a B hadron decay. A similar background arises from semileptonic decays of top
+quark pairs, especially in the 1- and 2-jets categories. At a lower rate, multijet production
+and fully hadronic top quark pair decays also contribute. These backgrounds are particularly
+important for events with low  $p_T$ leptons and low $m_{\ell \ell}$.
+The nonprompt lepton background (or fake lepton) is suppressed by the identification and isolation requirements 
+imposed on the electrons and muons, while the remaining contribution is estimated
+directly from data. A control sample is defined using events in which one lepton passes the
+standard lepton identification and isolation criteria and another lepton candidate fails these
+criteria but passes a looser selection, resulting in a sample of ``pass-fail'' lepton pairs. 
+The pass-fail sample is dominated by nonprompt leptons. The efficiency ($\epsilon_{misID}$) for a jet that satisfies this
+looser selection to pass the standard selection is estimated directly from data in an independent
+sample dominated by events with nonprompt leptons from multijet processes. 
+The contamination of prompt leptons from electroweak processes in such a sample is removed using the
+simulation. The uncertainty from this subtraction is propagated to  $\epsilon_{misID}$ . 
+The efficiency  $\epsilon_{misID}$  is parameterized as a function of the $p_T$ and $\eta$ of the leptons, 
+and is used to weight the events in the pass-fail sample by,  
+\begin{equation}
+\epsilon_{misID}/(1-\epsilon_{misID}) \; , 
+\end{equation}
+to obtain the estimated contribution from this background in the signal region. 
+The contamination of prompt leptons in the ``pass-fail'' 
+sample is corrected for using their probability to pass the standard selection given that they pass
+the looser selection, as measured in a Drell-Yan data control sample. 
+%The systematic  uncertainty associated with the determination of  $\epsilon_{misID}$  is dominant and arises from the dependence
+%of  $\epsilon_{misID}$  on the composition of the jet that is misidentified as a lepton. 
+%Its impact is estimated in two independent ways, which are combined to yield a conservative result. 
+%First, a closure test performed on simulated W+jets events with  $\epsilon_{misID}$  estimated from simulated QCD multijet
+%events provides an overall normalization uncertainty. Second, a shape uncertainty is derived
+%by varying the jet $p_T$ threshold in the differential measurement of  $\epsilon_{misID}$  
+%in bins of the $\eta$ and $p_T$ of the lepton. 
+%The threshold is varied by a quantity that reflects the difference in the fake
+%lepton $p_T$ spectrum between W+jets and $t \bar{t}$ events. 
+The total uncertainty in  $\epsilon_{misID}$, 
+including the statistical precision of the control sample, is about 40\%~\cite{Sirunyan:2018egh}. 
+This uncertainty fully covers any data/simulation differences in control regions in which two same-sign leptons are requested.
 
 
 
