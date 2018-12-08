@@ -109,8 +109,7 @@ The efficiency value on the plateau is around 93\%-99\%.
 
 \section{Systematic uncertainties}\label{sec:systematics}
 Systematic uncertainties are introduced as nuisance parameters in the fit and can affect the
-normalization and the shape of the different contributions.
-
+normalization and the shape of the different contributions.\\
 Systematic uncertainties are represented by individual nuisance parameters with log-normal or
 modified shape distributions. These uncertainties affectt the overall normalization of the signal and
 backgrounds as well as the shape of the predictions across the distribution of the observables.
@@ -118,9 +117,8 @@ Correlations between systematic uncertainties in different categories and final 
 into account. Statistical uncertainties from MC simulated events are also considered.
 Systematic uncertainties play an especially important role in this analysis where
 no strong mass peak is expected due to the presence of undetected neutrinos in the final state.
-Below we describe in detail sources and quantities of systematics in this analysis and their
-effects on the signal and background processes.
-A list of the most important background uncertainties is given below.
+Below, it is describe in detail the sources and the quantities of systematics for this analysis and their
+effects on the signal and background processes. A list of the most important background uncertainties is given is also introduced.
 
 
 \subsection*{Background normalization uncertainties}
@@ -136,10 +134,17 @@ the phase spaces with at least two jets, where its contribution becomes non negl
 The uncertainty in the cross section for this process is evaluated using the variations
 of the renormalization and factorization QCD scales, as well as the PDF variations,
 and amounts to 11\%.
-\item $\bar{t}t$ and tW backgrounds: Top events are estimated with b-tagging in data control regions. The two top background enriched control regions are defined as additional categories in the fit while the kinematic shapes are taken from the simulation corrected for the b-tagging scale factors. The top normalization is correlated between the top control region and the Higgs signal categories separately in
-the different jet multiplicities, and these normalizations are left unconstrained. 
+\item $\bar{t}t$ and tW backgrounds: top events are estimated with b-tagging in data control regions. 
+The top background enriched control regions are defined as additional categories in the fit while the kinematic shapes are taken 
+from the simulation corrected for the b-tagging scale factors. 
+The top normalization is correlated between the top control region and the high mass signal categories 
+separately in  different jet multiplicities, and these normalizations are left unconstrained. 
+A nuisance parameter is added to take into account the effect of the parton shower uncertainty on the top background.
+
 \item Drell-Yan background: The Drell-Yan background enters the different flavor analysis via the leptonic decays of the $\tau$ leptons from $Z \gamma^* \to \tau \tau$. In the different flavor
 analyses the normalization of these background is constrained using a dedicated control region in each jet bin category. 
+A dedicated nuisances for MET reweighting in DY control region is introduced in same flavour analysis. It is evaluate separately for ee and $\mu \mu$ categories. 
+The uncertainty is quoted as the envelope of the the maximum and minimum result of the linear fit.
 
 \item $W \gamma^*$ background: The kinematic shape of this background is predicted by simulation, normalized to its data-driven estimate, and constrained within the respective
 uncertainty, which is 25\%.
@@ -154,16 +159,14 @@ normalized to their theoretical predictions in the different and same flavor ana
 \end{itemize}
 
 
-
-
 \subsection*{Experimental uncertainties}
 Effects from experimental uncertainties are studied by applying a scaling and/or smearing of
 certain variables of the physics objects, followed by a subsequent recalculation of all the correlated variables. This is done for MC simulation, to account for possible systematic mismeasurements of the data. All experimental sources except luminosity are treated both as normalization and shape uncertainties. For background with a data-driven normalization estimation,
-the shape uncertainty is considered only. The following experimental systematic sources have
-been taken into account.
+the shape uncertainty is considered only. 
+The following experimental systematic sources have been taken into account.
 
 \begin{itemize}
-\item Luminosity: The uncertainty determined by the CMS luminosity monitoring is 2.3\% for 13 TeV data.
+\item Luminosity: The uncertainty determined by the CMS luminosity monitoring is 2.3\% for 13 TeV data~\cite{CMS-PAS-LUM-17-001}.
 \item Lepton trigger systematics: Lepton trigger systematics are of the order of less than 1\%. 
 These uncertainties are computed by varying the tag selection
 as well as the Z window in the tag and probe method used to compute the corresponding scale factors.
@@ -189,13 +192,8 @@ order of a few percent.
 \end{itemize}
 
 
-
-
-
 \subsection*{ Theoretical uncertainties}
-
 The uncertainties due to the precision of theoretical calculation are listed below: 
-
 \begin{itemize}
 \item PDF and higher-order corrections (renormalization and factorization scale): PDF
 uncertainties and the missing knowledge on higher-order corrections are evaluated by
@@ -210,20 +208,12 @@ obtained with different parton showers (Pythia vs Herwig) and UE tunes
 \item Single top tW and tt ratio: The ratio between the single top and top pair cross section
 is varied by the uncertainty on the ratio between their cross sections, estimated considering scale variations,
 
-\item QCD and PDF scales for the signal samples at different masses. The uncertainties are taken from the Yellow Report 3 and the same values are used both for the large width hypothesis and for different values of $C'$. The effect of QCD and PDF scale uncertainties on the analysis selection has also been taken into account.
+\item QCD and PDF scales for the signal samples at different masses have been included. These uncertainties are taken from the Yellow Report 3~\cite{Heinemeyer:2013tqa}.  The effect of QCD and PDF scale uncertainties on the analysis selection has aslo been taken into account.
+
 
 \item The categorization of events based on jet multiplicity introduces additional uncertainties related to higher order corrections. These uncertainties are associated to the gluon-gluon fusion production mode and are evaluated independently following the recipe described in~\cite{Boughezal:2013oha} and are 5.6\% for the 0-jet and  13\% for the 1-jet and 20\% for the 2-jet and VBF categories.
-
-
-
 
 \end{itemize}
 
 
-
-The top background shape is estimated from simulation and corrected using a data driven b-tagging scale factor. The normalization is measured in a top quark enriched control region obtained inverting the b-veto requirement of the signal region. Three control regions are defined, one for each jet bin category. 
-A nuisance parameter is added to take into account the effect of the parton shower uncertainty on the top background. \\
-The DY background shape is also estimated from simulation and analogously to the Top background, the DY normalization is measured with a data driven technique in three control regions enriched in DY events.\\
-A dedicated nuisances for MET reweighting in DY control region is introduced in SF analysis. It is evaluate separately for ee and $\mu \mu$ categories. 
-The uncertainty is quoted as the envelope of the the maximum and minimum result of the linear fit.
 
