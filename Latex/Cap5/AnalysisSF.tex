@@ -1,7 +1,9 @@
 \newpage
 \section{Same Flavor final state}\label{sec:SF}
-The analysis if the same-flavour final state $\mathrm{W^+W^-}\to \mu^{\pm}
-\mu^{\mp}  2\nu$ and  $\mathrm{W^+W^-}\to e^{\pm} e^{\mp}  2\nu$ is described.
+The analysis for the same-flavor final state $\mathrm{W^+W^-}\to \mu^{\pm}
+\mu^{\mp}  2\nu$ and  $\mathrm{W^+W^-}\to e^{\pm} e^{\mp}  2\nu$ is
+described here. Also in this case signal and control regions are
+defined, but only for the VBF topology is considered. 
 \subsection*{Signal region}
 Events are requested to pass single or double lepton triggers and all the
 physics objects definitions are the same as in the OF analysis.
@@ -9,7 +11,8 @@ The final state consists of two well identified electrons or two muons with
 $p_T >$ 20 GeV, opposite charge, and large missing transverse energy from the undetected neutrinos.\\
 In addition to the backgrounds described for the OF final state, the
 background from $\mathrm{DY}\to \mu^{+} \mu^{-}$ and
-$\mathrm{DY}\to e^{+} e^{-}$ is very large in this final state.
+$\mathrm{DY}\to e^{+} e^{-}$ is very large in this final state,
+actually the most important. 
 Indeed, due to this very large background, the SF analysis only targets the
 VBF topology, where the DY background is suppressed by the tight 
 jet requirements. In addition, an invariant mass of the two leptons larger
@@ -18,12 +21,12 @@ The full selection, defined as the ``WW same flavour selection'', is :
 \begin{itemize}
 \item Two isolated leptons with same flavor and opposite charge ($\mu ^{\pm} \mu^{\mp}$ and $e^{\pm} e^{\mp}$);
 \item $p_T$ of the leading and trailing lepton $>$ 20 GeV;
-\item Third lepton veto: veto events if a third lepton with $p_T  >$ 10 GeV;
+\item Third lepton veto: events are rejected if there is a third lepton with $p_T  >$ 10 GeV;
 \item  $m_{\ell \ell} >$ 120 GeV 
 \item $p_T^{\ell \ell} >$30 GeV;
 \item MET $>$ 50 GeV;
 \item $m_T^I >$ 100 GeV;
-\item At lest 2 jets non b-tagged (according to cMVAv2 loose WP) with $p_T >$ 30 GeV.
+\item At lest 2 jets non b-tagged (according to CMVA loose WP) with $p_T >$ 30 GeV.
 \item $\Delta \eta_{jj} > 3.5$;
 \item $m_{jj} >$ 500 GeV;;
 \end{itemize}
@@ -34,8 +37,8 @@ The $m_T^I$ distributions has the following binning:
 \item {\bf VBF}, [100,150,200,250,300,350,400,450,500,600,700,1000];
 \end{itemize}
 where the first number represents the lower edge of the first bin while the other numbers represent the upper edges. The last bin is an overflow bin. 
-The binning has been chosen in order to have at least 10 expected Top-backgrounds event and at least 10  expected  Drell-Yan events in each bin of the template.\\
-The distributions for the signal region of $m_T^I$ variable is shown in  Fig.~\ref{fig:mti_sigOF_Un_log} 
+The binning has been chosen in order to have at least 10 expected Top-backgrounds events and at least 10  expected  Drell-Yan events in each bin of the template.\\
+The distributions in the signal region of the $m_T^I$ variable is shown in  Fig.~\ref{fig:mti_sigOF_Un_log} 
 \begin{figure}[htbp]
 \centering
 \subfigure[ee]{
@@ -51,7 +54,7 @@ The distributions for the signal region of $m_T^I$ variable is shown in  Fig.~\r
 \subfigure[mm]{
 \includegraphics[width=0.45\textwidth]{../AN/Figs/unblinding/plot_SR/plotHWWhighMass_SF_mm_postfit_300/log_cratio_hwwhm_13TeV_sfVBF_mm_mTi.png}
 }
-\caption{Unblinding distributions  $m_T^I$ in the signal region for $ee$ and $\mu \mu$ categories in linear and log scale. The signal hypothesis corresponding to $m_X $ of 300 GeV.}
+\caption{Unblinded distributions  $m_T^I$ in the signal region for $ee$ and $\mu \mu$ categories in linear and log scale. The signal hypothesis corresponds to $m_X $ of 300 GeV.}
     \label{fig:mti_sigOF_Un}
 \end{figure}
 
@@ -64,15 +67,16 @@ The distributions for the signal region of $m_T^I$ variable is shown in  Fig.~\r
 The main background for the SF analysis is the DY. 
 A control region has been defined, as close as possible to the signal one to
 be used for the normalization of the DY background, separately for electrons
-an muons.
+and muons.
 The control region is defined by the ``WW same flavour selection'', except for the
 $m_{\ell \ell}$ requirement which is changed to 70 GeV $ <m_{\ell \ell} <$ 120
 GeV to include the Z boson.
-The missing transverse energy distribution in the data shows discrepancies respect to Monte Carlo simulation  in ee and $\mu \mu$ Drell-Yan control regions. A correction is applied re-weighting all the simulated samples with a weight per event which depends on the MET value. 
-The weight is evaluated as the ratio between data, one subtracted all backgrounds except the DY, and the Drell-Yan itself, in each bins of the distribution, separately for ee and $\mu \mu$ categories. The weight is assumed to be linear as function of the MET value.\\
-This kind of re-weighting allows to correct for shape differences between data and MC, , Fig. \ref{fig:dy_met}.
-The control plots for several variables in a Drell-Yan enriched phase space
-for the ee and $\mu \mu$ are shown in Figs.~\ref{fig:mll_sigSF_CR_DY_ee} for
+The missing transverse energy distribution in the data shows discrepancies with respect to Monte Carlo simulation in ee and $\mu \mu$ DY control regions. A correction is therefore applied by reweighting all the simulated samples with a weight per event which depends on the MET value. 
+The weight is evaluated as the ratio between data, once all backgrounds, except the DY, have been subtracted, and the DY itself. This procedure is applied in each bin of the distribution, separately for ee and $\mu \mu$ categories. The weight is assumed to be linear as a function of the MET value.\\
+This kind of reweighting allows to correct for shape differences between data and MC, Fig. \ref{fig:dy_met}.
+The control plots for several variables in a DY enriched phase space
+%for the ee and $\mu \mu$
+are shown in Figs.~\ref{fig:mll_sigSF_CR_DY_ee} for
 the dielectron case and Figs.~\ref{fig:mll_sigSF_CR_DY_mm} for the dimuon
 case. In general there is a good agreement between data and MC.
 
@@ -94,7 +98,7 @@ case. In general there is a good agreement between data and MC.
 \includegraphics[width=0.45\textwidth]{../AN/Figs/SF_CR_Blind/cratio_hww2l2v_13TeV_dy_mu_mu_2j_VBF_metPfType1.png}
 }                   
 
-\caption{MET control plots for Drell-Yan for ee categories in \textit{a} and for $\mu \mu$ in \textit{b} before the re-weight. In \textit{c} and  \textit{d} the same 
+\caption{MET control plots for Drell-Yan in the ee categories \textit{a} and $\mu \mu$ \textit{b} categories before the reweighting. In \textit{c} and  \textit{d} the same 
 distribution after the correction.}
     \label{fig:dy_met}                                             
 
@@ -198,7 +202,7 @@ A top-enriched control region is defined to normalize the top backgrounds,
 separately for electrons and muons.
 The ``WW SF selection'' is required with the inversion of the b-tagging
 requirement, i.e. the two jets are both requested to be b-tagged according to
-cMVAv2 loose WP.
+CMVA loose WP.
 The control plots for several variables in a top enriched phase space for events are shown in
 the Figs.~\ref{fig:mll_sigSF_CR_top_ee} for the dielectron case and
 \ref{fig:mll_sigSF_CR_top_mm} for the dimuon case. Good agreement is observed

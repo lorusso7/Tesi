@@ -2,20 +2,18 @@
 \section{Opposite Flavor final state}\label{sec:OF}
 \subsection*{General overview}
 
-The events are subdivided in signal and control regions. The signal events are expected to fill  mainly to first one. Instead the second one are expected to be fill 
-up by backgrounds events and they are used to normalized the backgrounds shape.\\
+The events are subdivided in signal and control regions. The signal events are expected to fill to first one. Instead the second ones are expected to contain mainly 
+backgrounds events and are used to normalized the backgrounds shape.\\
 \newline
 To avoid a possible bias of the experimenter in the process of developing the analysis
 strategy and optimizing the selection requirements, firstly a blind analysis has been performed
-by defining a background-only sideband control region and only looking at data events
-falling in such a region. Precisely, the control region is defined according to  selection
+by defining a background-only control region and only looking at data events
+falling in such a region. The control region is precisely defined according to selection
 criteria that exclude the signal events. 
-Data in the signal region, i.e.  were not examined until the event selection
-criteria were settled, only relying on Monte Carlo simulations for what concerns signal. 
-In this way, the analysis strategy has been decided looking at the simulated events. 
+Data in the signal region were not examined until the event selection
+criteria were decided only relying on Monte Carlo simulations. 
 Only when data distributions in signal-depleted regions confirmed the robustness of the analysis, data in
-signal region were inspected. For these reasons, the agreement between data and Monte Carlo was
-checked on a sideband region.
+signal region were inspected. 
 
 
 
@@ -23,21 +21,22 @@ checked on a sideband region.
 \subsection*{Signal region}
 The events are requested to pass single or double lepton triggers, and exactly one electron and
 one muon are requested to be reconstructed in the event. 
-One of the two leptons is requested to have a $p_T$ greater than 25 GeV , the other is
+One of the two leptons is requested to have a $p_T$ greater than 25 GeV, the other is
 requested to have  $p_T$ greater than 20 GeV and both leptons are requested to be well identified
-and isolated, to reject non-prompt leptons and leptons coming from QCD sources. To suppress
+and isolated, to reject non-prompt leptons and misidentified (``fake'') leptons. To suppress
 background processes with three or more leptons in the final state, such as ZZ, WZ, Z$\gamma$, W$\gamma$
 or triboson production, no additional identified and isolated lepton with $p_T >$  10 GeV should
-be reconstructed. The low dilepton invariant mass region dominated by QCD production of
-leptons is not considered in the analysis and $m_{\ell \ell}$  is requested to
+be present. The low dilepton invariant mass region 
+%dominated by QCD production of leptons 
+is not considered in the analysis and $m_{\ell \ell}$  is requested to
 be higher than 50 GeV to reduce the SM Higgs boson ($m_H$=125 GeV)
 contamination. A moderate cut on the missing-transverse-energy is applied (MET $>$ 20 GeV) due to the
 presence of neutrinos in the final state. Since a high mass
-signal is searched a cut on $m_T^I >$ 100 GeV is applied.
+signal is searched for a cut on $m_T^I >$ 100 GeV is applied.
 A cut on the transverse momentum ($p_T^{\ell \ell} >$30 GeV) and on the $m_T^H
 >$ 60 GeV are applied against $DY\rightarrow{}\tau\tau$ background. 
 Finally, against the top background, all jets above 20 GeV are requested not
-to be identified as b-jets according to the cMVAv2 tagger, loose WP.
+to be identified as b-jets according to the CMVA tagger, loose WP.
 The full selection, defined as the ``WW opposite-flavour selection'', is summarized:
 
 \begin{itemize}
@@ -45,13 +44,13 @@ The full selection, defined as the ``WW opposite-flavour selection'', is summari
 e^{\mp}$);
 \item $p_T$ of the leading lepton $>$ 25 GeV;
 \item $p_T$ of the trailing lepton $>$ 20 GeV;
-\item Third lepton veto: veto events if a third lepton with $p_T  >$ 10 GeV;
+\item Third lepton veto: events are rejected if there is a third lepton with $p_T  >$ 10 GeV;
 \item  $m_{\ell \ell} >$ 50 GeV, to reduce H(125) contamination;
 \item MET $>$ 20 GeV;
 \item $m_T^I >$ 100 GeV;
 \item $p_T^{\ell \ell} >$30 GeV;
 \item  $m_T^H >$ 60 GeV;
-\item  no b-tagged (cMVAv2 loose WP) jets with $p_T >$  20 GeV;
+\item  no b-tagged (CMVA loose WP) jets with $p_T >$  20 GeV;
 \end{itemize}
 Events passing the ``WW opposite-flavour selection'' are categorized according to the jet
 multiplicity, counting jets above 30 GeV, to enhance the sensitivity,
@@ -59,15 +58,16 @@ especially against the top background.
 
 \begin{itemize}
 \item {\bf 0 jet}, no jets are required in the event;
-\item {\bf 1 jet}, exactly 1 jet is required in the event;
-\item {\bf 2 jet}, exactly 2 jets are required in the event and in addition the condition $\Delta \eta_{jj} < 3.5$ {\bf or} $m_{jj} <$ 500 GeV;
-\item {\bf VBF}, exactly 2 jets are required in the event and in addition the condition $\Delta \eta_{jj} > 3.5$ {\bf and} $m_{jj} >$ 500 GeV;
+\item {\bf 1 jet}, exacly 1 jet is required in the event;
+\item {\bf 2 jet}, exacly 2 jets are required in the event and in addition the condition $\Delta \eta_{jj} < 3.5$ {\bf or} $m_{jj} <$ 500 GeV must hold;
+\item {\bf VBF}, exacly 2 jets are required in the event and in addition the condition $\Delta \eta_{jj} > 3.5$ {\bf and} $m_{jj} >$ 500 GeV must hold;
 \end{itemize}
-where the 2 jet and VBF regions are mutually exclusive by construction.
-To extract high mass boson signals in these four categories, the  strategy  is followed: the $m_T^I$ distribution is fitted as the sum of
+All categories, including the 2 jet and the VBF ones, are mutually exclusive by construction.
+To extract the high mass boson signals in these four categories, the  strategy  is the following: the $m_T^I$ distribution is fitted by the sum of
 signal and background templates. Different binnings have been chosen for the  $m_T^I$ distributions in the
 different categories. The binning was chosen to have  at least 10
-top Monte Carlo events in each bin of the template. The chosen bins are: 
+top Monte Carlo events in each bin of the template, since this simulated sample has the lower statistics with respect to collected luminosity.
+The chosen bins are: 
 \begin{itemize}
 \item  {\bf 0/1/2 jet}, [100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,900,1000,2000]
 \item {\bf VBF}, [100,150,200,250,300,350,400,500,700,1000,2000]
@@ -90,7 +90,7 @@ The  $m_T^I$ distributions for the signal regions are presented in the four cate
 \subfigure[VBF]{
 \includegraphics[width=0.45\textwidth]{../Cap5/log_cratio_hwwhm_13TeV_ofVBF_mTi_VBF}
 }
-\caption{Unblinding distributions  $m_T^I$ in the signal region for 0, 1, 2 and VBF categories. The signal hypothesis corresponding to $m_X $ of 2 and 3 TeV.}
+\caption{Unblinded distributions of $m_T^I$ in the signal region for 0, 1, 2 and VBF categories. The signal hypotheses correspond to $m_X $ of 2 and 3 TeV.}
     \label{fig:mti_sigOF_Un_log}
 \end{figure}
 
@@ -101,8 +101,7 @@ have been defined, as close as possible to the signal region, but enriched in
 Z $\rightarrow \tau^+ \tau^-$. In particular, the ``WW OF selection'' is used with
 inverted $m_T^H$ cut, i.e. $m_T^H<60$. In addition a cut on the invariant mass
 of the two leptons 50 GeV $< m_{\ell \ell} <$ 80 GeV is requested to exclude
-possible contribution from non-prompt leptons (low limit) and from  $t \bar{t}$ (high
-limit).
+possible contribution from non-prompt leptons (lower edge) and from  $t \bar{t}$ (higher edge).
 For each signal category, a corresponding Drell-Yan $\tau\tau$ control
 regions is defined. We thus have 4 total  Drell-Yan $\tau\tau$ control
 regions, for 0 jets, 1 jets, 2 jets and VBF.
@@ -218,7 +217,7 @@ In general there is a good agreement between data and MC.\\
 \includegraphics[width=0.45\textwidth]{../AN/Figs/OF_CR_Blind/cratio_hww2l2v_13TeV_dytt_of2j_vbf_ptll.png}
 }\\
 
-\caption{Control plots for several variables in a Drell-Yan enriched phase space for events for VBF.}
+\caption{Control plots for several variables in a Drell-Yan enriched phase space for VBF events.}
     \label{fig:CR_DY_OF_VBF}
 \end{figure}
 
@@ -234,11 +233,10 @@ control region for each of the 4 signal regions:
 \begin{itemize}
 \item {\bf 0 jet}, at least one b-tagged jet with 20 $< p_T <$ 30 GeV is required;
 \item {\bf 1 jet}, exactly one b-tagged jet with $p_T$ above 30 GeV is required;
-\item {\bf 2 jet}, exacly 2 jets with at least one of them b-tagged and in addition the condition $\Delta \eta_{jj} < 3.5$ {\bf or} $m_{jj} <$ 500 GeV;
-\item {\bf VBF}, exacly 2 jets with at least one of them b-tagged and in addition the condition $\Delta \eta_{jj} > 3.5$ {\bf and} $m_{jj} >$ 500 GeV.
+\item {\bf 2 jet}, exacly 2 jets with at least one of them b-tagged and in addition the condition $\Delta \eta_{jj} < 3.5$ {\bf or} $m_{jj} <$ 500 GeV must hold;
+\item {\bf VBF}, exacly 2 jets with at least one of them b-tagged and in addition the condition $\Delta \eta_{jj} > 3.5$ {\bf and} $m_{jj} >$ 500 GeV must hold.
 \end{itemize}
-A jet is considered b-tagged if its cMVAv2 score is above the threshold
-defining the loose working point.
+A jet is considered b-tagged if its CMVA score is above the threshold fot the loose working point.
 The control plots for several variables in a top enriched phase space for events are shown in the Fig.~ Figs.~\ref{fig:Top_0j},~\ref{fig:Top_1j},~\ref{fig:Top_2j},~\ref{fig:Top_VBF}. The last bin in the distribution is the overflow.
 \begin{figure}[htbp]
 \centering
