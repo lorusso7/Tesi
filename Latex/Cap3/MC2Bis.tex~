@@ -2,8 +2,8 @@
 \label{cap3}
 
 
-\textit{As we have seen in the collisions between high energy protons hundreds of particles are generally present in the final state.
-Given the complexity of the events it is necessary to use Monte Carlo generators, i.e. programs that allow to simulate the realistic result of the collisions assuming a certain model for the processes involved. In this chapter are described the various stages beyond the Monte Carlo events simulation. In particular I have participated personally to the Monte Carlo production and validation for the CMS collaboration.  }
+\textit{Hundreds of particles are produced In the collisions between high energy protons.
+Given the complexity of the events, it is necessary to use Monte Carlo generators, i.e. programs that allow to simulate realistically the result of the collisions, assuming a certain model for the processes involved. In this chapter the various steps of Monte Carlo events simulation are described. During my work, contributing to the Monte Carlo production and validation of simulated eventshas been one of my main tasks.}
 
 \section{General Overview}
 The use of Monte Carlo generators is necessary because it is impossible to predict what happens event-by-event: in fact,  in quantum mechanics we can only calculate the probability of having a certain result.
@@ -330,9 +330,9 @@ description of the CMS detector, based on the \GEANT{}4 package~\cite{Agostinell
 The simulated samples are generated with distributions for the number of pileup interactions that are meant to roughly cover,
 though not exactly match, the conditions expected for the different data-taking periods. In order to factorize these effects, 
 the number of true pileup interactions from the simulation truth (as stored in the Monte Carlo)
-is reweighted to match the data.
+is re-weighted to match the data.
 The re-weighting is propagated automatically to both the in-time pile up and the out-of-time one.
-The pileup histogram for reweighting is calculated using the \emph{pileupCalc} tool as described in~\cite{puJSON}. 
+The pileup histogram for re-weighting is calculated using the \emph{pileupCalc} tool as described in~\cite{puJSON}. 
 Different calculations are used to obtain the cross sections for the all processes at 13\TeV. 
 All simulated sample are summarized in Tab.~\ref{tab:wwl}.
 
@@ -437,7 +437,7 @@ performed in jet bins as described in Cap.~\ref{cap5}. The jet binning enhances 
 fixed-order calculations of the qq$\rightarrow$WW process and requiring the use of dedicated resummation techniques for an
 accurate prediction of differential distributions~\cite{Meade:2014fca,Jaiswal:2014yba}.  
 Since the \pt of the jets produced in association with the WW system is strongly correlated with its transverse momentum, 
-\pt$^{WW}$,  the simulated qq$\rightarrow$WW events are reweighted  
+\pt$^{WW}$,  the simulated qq$\rightarrow$WW events are re-weighted  
 to reproduce the \pt$^{WW}$ distribution from the \pt-resummed calculation.
 A \ttbar  dilepton sample was also generated using \POWHEG v2. 
 The cross sections of the different single top processes are estimated by the LHC Top Working group~\cite{singletop} at NLO.
@@ -446,7 +446,7 @@ The \ttbar cross section is also provided by the LHC Top Working group~\cite{top
 
 \subsection*{The DY sample}\label{sec:DY}
 For the Drell-Yan backgrounds we use two different sets of samples. 
-For the opposite flavore analysis (Sec~\ref{sec:OF}), selecting events with an
+For the opposite flavor analysis (Sec~\ref{sec:OF}), selecting events with an
 electron and a muon, a dedicated sample in which only the
 $Z/\gamma^{*}\rightarrow{}\tau\tau\rightarrow{e\mu\nu\nu}$ decay is simulated.
 For the same flavor analysis (Sec.~\ref{sec:SF}), in which pairs of electrons
@@ -507,10 +507,10 @@ To check the differences between the LO inclusive sample and the NLO sample simu
 The simulated samples are generated with distributions for the number of pileup interactions
 that are meant to roughly cover, though not exactly match, the conditions expected for the
 different data-taking periods. 
-In order to factorize these effects, the number of true pileup interactions from the simulation truth is reweighted to match the data. 
+In order to factorize these effects, the number of true pileup interactions from the simulation truth is re-weighted to match the data. 
 The re-weighting is propagated automatically to both the in-
 time pile up and the out-of-time one.
-In Fig.~\ref{Fig:pu}, the effect of this reweighting on a sample enriched in Drell-Yan events is shown.
+In Fig.~\ref{Fig:pu}, the effect of this re-weighting on a sample enriched in Drell-Yan events is shown.
 In order to select this sample, 
 events with two electrons with \pt$> 25$~\GeV for the leading one and  \pt$>
 13$~\GeV for the trailing one, are selected only if  $|\mll - m_Z| < 10$~\GeV. 
