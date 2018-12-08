@@ -154,6 +154,11 @@ A.~Buckley et~al.
 \newblock {General-purpose event generators for LHC physics}.
 \newblock {\em Phys. Rept.}, 504:145--233, 2011.
 
+\bibitem{Altarelli:1977zs}
+G.~Altarelli and G.~Parisi.
+\newblock {Asymptotic Freedom in Parton Language}.
+\newblock {\em Nucl. Phys.}, B126:298, 1977.
+
 \bibitem{bib:madgraph}
 T.~Stelzer and W.~F. Long.
 \newblock {Automatic generation of tree level helicity amplitudes}.
@@ -500,10 +505,5 @@ Albert~M Sirunyan et~al.
 \newblock {Search for a new scalar resonance decaying to a pair of Z bosons in
   proton-proton collisions at $\sqrt{s}=13 $ TeV}.
 \newblock {\em JHEP}, 06:127, 2018.
-
-\bibitem{Altarelli:1977zs}
-G.~Altarelli and G.~Parisi.
-\newblock {Asymptotic Freedom in Parton Language}.
-\newblock {\em Nucl. Phys.}, B126:298, 1977.
 
 \end{thebibliography}
