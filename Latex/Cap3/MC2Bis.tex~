@@ -59,7 +59,7 @@ The cross section for a scattering $ ab \rightarrow n $ process is given \cite{B
 where
 \begin{itemize}
 \item $f_{a}^{h} (x , \mu)$ are the parton density functions (PDF) that depend on the $x$ fraction of the parton $a$'s energy (Bjorken variable) respect to the 
-hadron $h_i$ ($i=1,2$), and on the $\mu_F $ factorization scale, App~\ref{pdfa}.
+hadron $h_i$ ($i=1,2$), and on the $\mu_F $ factorization scale. The PDF are obtained via experiments, and their evolution is evaluated with perturbative method, following the Altarelli-Parisi equations (DGLAP)~\cite{Altarelli:1977zs}.
 \item $\hat {\sigma}_ {ab\rightarrow n} $ is the partonic cross section of the process $ ab \rightarrow n $.
 The total differential cross section is given by the product of the corresponding square matrix element, $ | \mathcal {M}_{ab \rightarrow n} |^2 $, 
 with  the incident particle flow $ 1 / (2 \hat{s}) = 1 / (2 x_a x_b s) $, where $ \sqrt{s} $ is the energy of the system's center of mass.
