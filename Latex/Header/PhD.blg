@@ -86,7 +86,7 @@ Warning--there's a number but no volume in CMS-NOTE-2011-005
 Warning--empty journal in CMS:2017epy
 You've used 94 entries,
             1791 wiz_defined-function locations,
-            983 strings with 18204 characters,
+            983 strings with 18203 characters,
 and the built_in function-call counts, 18131 in all, are:
 = -- 1519
 > -- 823
