@@ -96,7 +96,7 @@ It should be noted that the cross-section for processes of the type $ 2 \rightar
 \label{ps}
 In a collision between partons a charge of color is accelerated, so there will be bremsstrahlung emission. When studying a process of the type $ 2 \rightarrow n $, where $ n $ represents the number of partons in the final state, the LO matrix elements (called tree-level) will have divergences in the collinear  and 
 soft case. In particular, the processes that suffer from this type of divergence are $ q \rightarrow qg $, $ \bar{q} \rightarrow \ bar{q} g $, $ g \rightarrow gg $: the first are similar processes to $ e \rightarrow e \gamma $ in QED, while the third is due to the fact that QCD is not an Abelian theory. The process $ g \rightarrow q \bar {q} $ does not have this type of divergence.
-The divergences of the tree-level matrix element can be removed by introducing the virtual corrections into the calculation, but they will be in the next order; these calculations are therefore particularly complex and they are only possible for a limited number of processes. The parton shower \cite{Sjostrand: 2006su} algorithms offer an alternative and simple way to eliminate the collinear and soft divergences through:
+The divergences of the tree-level matrix element can be removed by introducing the virtual corrections into the calculation, but they will be in the next order; these calculations are therefore particularly complex and they are only possible for a limited number of processes. The parton shower \cite{Sjostrand:2006su} algorithms offer an alternative and simple way to eliminate the collinear and soft divergences through:
 \begin{itemize}
 \item an iterative structure that combines the three states suffering from divergences in a single multi-partonic state,
 \item the introduction of the form factor of Sudakov.
@@ -149,7 +149,7 @@ However, this approach is very inefficient because the  interesting  process  is
 In the event generators a different approach is  used: first the hard process is produced and then  we try to rebuild back what may have happened. 
 This procedure is called backward evolution, Fig. \ref{isr}.
 It is necessary to evaluate the  probability for the process of type $ a \rightarrow bc $,  that a parton $ b $ has  been produced by the parton $ a $.
-For this reason the  partonic density function is introduced.  This evolves according to the DGLAP \cite{Altarelli: 1977zs} equation,
+For this reason the  partonic density function is introduced.  This evolves according to the DGLAP \cite{Altarelli:1977zs} equation,
 \begin{figure}
 \centering
 \includegraphics[scale= 0.8]{../Cap3/Fig_MC/isr}
@@ -218,7 +218,7 @@ The most used approaches to merge the  ME and PS are:
 
 \section{Multiple Interaction}
 Incident protons participating in the interaction are composed by  large number of partons (quark and gluons) that can interact independently with each other in addition to the hard process.
-The total cross section for the QCD process $ 2 \rightarrow2 $ is dominated by the $t$-channel, so the cross section diverges as $ d p _ {\ perp} ^ 2 / p _ {\ perp} ^ 4 $ for $ p _ {\perp} \rightarrow 0 $ \cite{Sjostrand: 2006su}.
+The total cross section for the QCD process $ 2 \rightarrow2 $ is dominated by the $t$-channel, so the cross section diverges as $ d p _ {\ perp} ^ 2 / p _ {\ perp} ^ 4 $ for $ p _ {\perp} \rightarrow 0 $ \cite{Sjostrand:2006su}.
 So when simulating a real event, in addition to the hard event, characterized by having large transverse transverse momentum, we must also take into account the additional collisions at small $ p _{\perp} $. If these occur independently then a Poisson distribution is expected, $ P_n = \langle n \rangle ^ n \mbox {exp} (- \langle n \rangle) / n! $. However, conservation of energy and momenta means that interactions are not effectively independent, thus suppressing the possibility, for $ p_{\ perp} \rightarrow 0 $, of having a high number of interactions.
 It should also be noted that in order to eliminate the divergence it is necessary to introduce a cut-off value of the transverse pulse, below which no collisions are generated.
 
@@ -267,7 +267,7 @@ In the model, the gluons from parton shower are represented by pairs of color-an
 This mechanism is represented in Fig.~\ref{tubo2} (b).
 
 \section{Hadronic Decays and  Electromagnetic   Radiation.}
-In the hadronization step, unstable hadrons which decay into other particles can be produced. So the final state  is the result of the convolution between the  hadronization  and the decay. The information necessary for the decay of unstable particles  is generally taken from the  ``Particle Data Book'' (PDG)~\cite{bib:pdg} which provides the properties (e.g. average life) of a large number of particles.
+In the hadronization step, unstable hadrons which decay into other particles can be produced. So the final state  is the result of the convolution between the  hadronization  and the decay. The information necessary for the decay of unstable particles  is generally taken from the  ``Particle Data Book'' (PDG)~\cite{Beringer:1900zz} which provides the properties (e.g. average life) of a large number of particles.
 In general, in an event generator, it is necessary to choose which hadrons to include in the simulation and then select the possible decay channels. In addition to hadronic decays, it is also necessary to simulate the emission of electromagnetic radiation. The most common approach adopted is to use algorithms similar to those used to simulate the emission of QCD in parton shower.
 
 \section{Jets} 
@@ -301,7 +301,7 @@ Finally, the parton shower is applied, which includes the Sudakov factor and thu
  \begin{figure}
 \centering
 \includegraphics[scale= 0.7]{../Cap3/Fig_MC/weight}
-\caption{Weight distribution, for different Monte Carlo generators, with cross section normalization of 1 fb$^{-1}$.}
+\caption{Weight distribution, for WW production using different Monte Carlo generators. The cross section is normalized at 1 fb$^{-1}$.}
 \label{weight}
 \end{figure}
  
@@ -433,7 +433,7 @@ The  distribution for the reco di-jet mass is shown in Fig.\ref{fig:WW}. In part
 
 \subsection*{The Top sample}
 In order to control the top quark background processes, the analysis is
-performed in jet bins as described in Cap.~\ref{cap5}. The jet binning enhances the importance of logarithms of the jet \pt, spoiling the convergence of 
+performed in jet bins as described in Chap.~\ref{cap5}. The jet binning enhances the importance of logarithms of the jet \pt, spoiling the convergence of 
 fixed-order calculations of the qq$\rightarrow$WW process and requiring the use of dedicated resummation techniques for an
 accurate prediction of differential distributions~\cite{Meade:2014fca,Jaiswal:2014yba}.  
 Since the \pt of the jets produced in association with the WW system is strongly correlated with its transverse momentum, 
